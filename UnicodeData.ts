@@ -91,7 +91,7 @@ export function parse(UnicodeData_txt: string): Character[] {
       }
       // skip decomp if it is empty, which it is in 79% of cases (21,547 / 27,268)
       if (decomp !== '') {
-        var [decompType, decompMapping] = decomp.match(/^(?:<(\w+)> )?([0-9A-F ]+)$/)
+        var [_, decompType, decompMapping] = decomp.match(/^(?:<(\w+)> )?([0-9A-F ]+)$/)
         // decompMapping will be a string of hexadecimal character codes,
         // e.g., '0041 0301' for U+00C1 LATIN CAPITAL LETTER A ACUTE
         character.decomp = decompMapping.split(' ').map(code => parseInt(code, 16));
