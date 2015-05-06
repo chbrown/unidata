@@ -7,4 +7,5 @@ declare module "unidata" {
 
   function getCharacters(): UnicodeData.Character[];
   function getBlocks(): Blocks.Block[];
+  function evaluateNum(num: string): number;
 }
