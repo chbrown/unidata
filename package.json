@@ -7,7 +7,7 @@
     "character",
     "data"
   ],
-  "version": "0.2.1",
+  "version": "0.2.2",
   "homepage": "https://github.com/chbrown/unidata",
   "repository": "git://github.com/chbrown/unidata.git",
   "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
@@ -15,5 +15,6 @@
   "dependencies": {},
   "devDependencies": {
     "typescript": "*"
-  }
+  },
+  "scripts": {}
 }
