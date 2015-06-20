@@ -139,6 +139,7 @@
 ,{"blockName":"Meetei Mayek Extensions","startCode":43744,"endCode":43775}
 ,{"blockName":"Ethiopic Extended-A","startCode":43776,"endCode":43823}
 ,{"blockName":"Latin Extended-E","startCode":43824,"endCode":43887}
+,{"blockName":"Cherokee Supplement","startCode":43888,"endCode":43967}
 ,{"blockName":"Meetei Mayek","startCode":43968,"endCode":44031}
 ,{"blockName":"Hangul Syllables","startCode":44032,"endCode":55215}
 ,{"blockName":"Hangul Jamo Extended-B","startCode":55216,"endCode":55295}
@@ -181,6 +182,7 @@
 ,{"blockName":"Imperial Aramaic","startCode":67648,"endCode":67679}
 ,{"blockName":"Palmyrene","startCode":67680,"endCode":67711}
 ,{"blockName":"Nabataean","startCode":67712,"endCode":67759}
+,{"blockName":"Hatran","startCode":67808,"endCode":67839}
 ,{"blockName":"Phoenician","startCode":67840,"endCode":67871}
 ,{"blockName":"Lydian","startCode":67872,"endCode":67903}
 ,{"blockName":"Meroitic Hieroglyphs","startCode":67968,"endCode":67999}
@@ -194,6 +196,7 @@
 ,{"blockName":"Inscriptional Pahlavi","startCode":68448,"endCode":68479}
 ,{"blockName":"Psalter Pahlavi","startCode":68480,"endCode":68527}
 ,{"blockName":"Old Turkic","startCode":68608,"endCode":68687}
+,{"blockName":"Old Hungarian","startCode":68736,"endCode":68863}
 ,{"blockName":"Rumi Numeral Symbols","startCode":69216,"endCode":69247}
 ,{"blockName":"Brahmi","startCode":69632,"endCode":69759}
 ,{"blockName":"Kaithi","startCode":69760,"endCode":69839}
@@ -203,17 +206,21 @@
 ,{"blockName":"Sharada","startCode":70016,"endCode":70111}
 ,{"blockName":"Sinhala Archaic Numbers","startCode":70112,"endCode":70143}
 ,{"blockName":"Khojki","startCode":70144,"endCode":70223}
+,{"blockName":"Multani","startCode":70272,"endCode":70319}
 ,{"blockName":"Khudawadi","startCode":70320,"endCode":70399}
 ,{"blockName":"Grantha","startCode":70400,"endCode":70527}
 ,{"blockName":"Tirhuta","startCode":70784,"endCode":70879}
 ,{"blockName":"Siddham","startCode":71040,"endCode":71167}
 ,{"blockName":"Modi","startCode":71168,"endCode":71263}
 ,{"blockName":"Takri","startCode":71296,"endCode":71375}
+,{"blockName":"Ahom","startCode":71424,"endCode":71487}
 ,{"blockName":"Warang Citi","startCode":71840,"endCode":71935}
 ,{"blockName":"Pau Cin Hau","startCode":72384,"endCode":72447}
 ,{"blockName":"Cuneiform","startCode":73728,"endCode":74751}
 ,{"blockName":"Cuneiform Numbers and Punctuation","startCode":74752,"endCode":74879}
+,{"blockName":"Early Dynastic Cuneiform","startCode":74880,"endCode":75087}
 ,{"blockName":"Egyptian Hieroglyphs","startCode":77824,"endCode":78895}
+,{"blockName":"Anatolian Hieroglyphs","startCode":82944,"endCode":83583}
 ,{"blockName":"Bamum Supplement","startCode":92160,"endCode":92735}
 ,{"blockName":"Mro","startCode":92736,"endCode":92783}
 ,{"blockName":"Bassa Vah","startCode":92880,"endCode":92927}
@@ -228,6 +235,7 @@
 ,{"blockName":"Tai Xuan Jing Symbols","startCode":119552,"endCode":119647}
 ,{"blockName":"Counting Rod Numerals","startCode":119648,"endCode":119679}
 ,{"blockName":"Mathematical Alphanumeric Symbols","startCode":119808,"endCode":120831}
+,{"blockName":"Sutton SignWriting","startCode":120832,"endCode":121519}
 ,{"blockName":"Mende Kikakui","startCode":124928,"endCode":125151}
 ,{"blockName":"Arabic Mathematical Alphabetic Symbols","startCode":126464,"endCode":126719}
 ,{"blockName":"Mahjong Tiles","startCode":126976,"endCode":127023}
@@ -242,9 +250,11 @@
 ,{"blockName":"Alchemical Symbols","startCode":128768,"endCode":128895}
 ,{"blockName":"Geometric Shapes Extended","startCode":128896,"endCode":129023}
 ,{"blockName":"Supplemental Arrows-C","startCode":129024,"endCode":129279}
+,{"blockName":"Supplemental Symbols and Pictographs","startCode":129280,"endCode":129535}
 ,{"blockName":"CJK Unified Ideographs Extension B","startCode":131072,"endCode":173791}
 ,{"blockName":"CJK Unified Ideographs Extension C","startCode":173824,"endCode":177983}
 ,{"blockName":"CJK Unified Ideographs Extension D","startCode":177984,"endCode":178207}
+,{"blockName":"CJK Unified Ideographs Extension E","startCode":178208,"endCode":183983}
 ,{"blockName":"CJK Compatibility Ideographs Supplement","startCode":194560,"endCode":195103}
 ,{"blockName":"Tags","startCode":917504,"endCode":917631}
 ,{"blockName":"Variation Selectors Supplement","startCode":917760,"endCode":917999}

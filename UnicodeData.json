@@ -667,7 +667,7 @@
 ,{"code":666,"name":"LATIN SMALL LETTER CLOSED OPEN E","cat":"Ll","oldName":"LATIN SMALL LETTER CLOSED EPSILON"}
 ,{"code":667,"name":"LATIN LETTER SMALL CAPITAL G WITH HOOK","cat":"Ll","oldName":"LATIN LETTER SMALL CAPITAL G HOOK"}
 ,{"code":668,"name":"LATIN LETTER SMALL CAPITAL H","cat":"Ll"}
-,{"code":669,"name":"LATIN SMALL LETTER J WITH CROSSED-TAIL","cat":"Ll","oldName":"LATIN SMALL LETTER CROSSED-TAIL J"}
+,{"code":669,"name":"LATIN SMALL LETTER J WITH CROSSED-TAIL","cat":"Ll","oldName":"LATIN SMALL LETTER CROSSED-TAIL J","upper":42930,"title":42930}
 ,{"code":670,"name":"LATIN SMALL LETTER TURNED K","cat":"Ll","upper":42928,"title":42928}
 ,{"code":671,"name":"LATIN LETTER SMALL CAPITAL L","cat":"Ll"}
 ,{"code":672,"name":"LATIN SMALL LETTER Q WITH HOOK","cat":"Ll","oldName":"LATIN SMALL LETTER Q HOOK"}
@@ -2091,6 +2091,9 @@
 ,{"code":2224,"name":"ARABIC LETTER GAF WITH INVERTED STROKE","cat":"Lo","bidi":"AL"}
 ,{"code":2225,"name":"ARABIC LETTER STRAIGHT WAW","cat":"Lo","bidi":"AL"}
 ,{"code":2226,"name":"ARABIC LETTER ZAIN WITH INVERTED V ABOVE","cat":"Lo","bidi":"AL"}
+,{"code":2227,"name":"ARABIC LETTER AIN WITH THREE DOTS BELOW","cat":"Lo","bidi":"AL"}
+,{"code":2228,"name":"ARABIC LETTER KAF WITH DOT BELOW","cat":"Lo","bidi":"AL"}
+,{"code":2275,"name":"ARABIC TURNED DAMMA BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":2276,"name":"ARABIC CURLY FATHA","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":2277,"name":"ARABIC CURLY DAMMA","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":2278,"name":"ARABIC CURLY KASRA","cat":"Mn","comb":220,"bidi":"NSM"}
@@ -2503,6 +2506,7 @@
 ,{"code":2799,"name":"GUJARATI DIGIT NINE","cat":"Nd","num":"9"}
 ,{"code":2800,"name":"GUJARATI ABBREVIATION SIGN","cat":"Po"}
 ,{"code":2801,"name":"GUJARATI RUPEE SIGN","cat":"Sc","bidi":"ET"}
+,{"code":2809,"name":"GUJARATI LETTER ZHA","cat":"Lo"}
 ,{"code":2817,"name":"ORIYA SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":2818,"name":"ORIYA SIGN ANUSVARA","cat":"Mc"}
 ,{"code":2819,"name":"ORIYA SIGN VISARGA","cat":"Mc"}
@@ -2738,6 +2742,7 @@
 ,{"code":3158,"name":"TELUGU AI LENGTH MARK","cat":"Mn","comb":91,"bidi":"NSM"}
 ,{"code":3160,"name":"TELUGU LETTER TSA","cat":"Lo"}
 ,{"code":3161,"name":"TELUGU LETTER DZA","cat":"Lo"}
+,{"code":3162,"name":"TELUGU LETTER RRRA","cat":"Lo"}
 ,{"code":3168,"name":"TELUGU LETTER VOCALIC RR","cat":"Lo"}
 ,{"code":3169,"name":"TELUGU LETTER VOCALIC LL","cat":"Lo"}
 ,{"code":3170,"name":"TELUGU VOWEL SIGN VOCALIC L","cat":"Mn","bidi":"NSM"}
@@ -2919,6 +2924,7 @@
 ,{"code":3405,"name":"MALAYALAM SIGN VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
 ,{"code":3406,"name":"MALAYALAM LETTER DOT REPH","cat":"Lo"}
 ,{"code":3415,"name":"MALAYALAM AU LENGTH MARK","cat":"Mc"}
+,{"code":3423,"name":"MALAYALAM LETTER ARCHAIC II","cat":"Lo"}
 ,{"code":3424,"name":"MALAYALAM LETTER VOCALIC RR","cat":"Lo"}
 ,{"code":3425,"name":"MALAYALAM LETTER VOCALIC LL","cat":"Lo"}
 ,{"code":3426,"name":"MALAYALAM VOWEL SIGN VOCALIC L","cat":"Mn","bidi":"NSM"}
@@ -4289,91 +4295,98 @@
 ,{"code":5015,"name":"ETHIOPIC TONAL MARK HIDET","cat":"So","bidi":"ON"}
 ,{"code":5016,"name":"ETHIOPIC TONAL MARK DERET-HIDET","cat":"So","bidi":"ON"}
 ,{"code":5017,"name":"ETHIOPIC TONAL MARK KURT","cat":"So","bidi":"ON"}
-,{"code":5024,"name":"CHEROKEE LETTER A","cat":"Lo"}
-,{"code":5025,"name":"CHEROKEE LETTER E","cat":"Lo"}
-,{"code":5026,"name":"CHEROKEE LETTER I","cat":"Lo"}
-,{"code":5027,"name":"CHEROKEE LETTER O","cat":"Lo"}
-,{"code":5028,"name":"CHEROKEE LETTER U","cat":"Lo"}
-,{"code":5029,"name":"CHEROKEE LETTER V","cat":"Lo"}
-,{"code":5030,"name":"CHEROKEE LETTER GA","cat":"Lo"}
-,{"code":5031,"name":"CHEROKEE LETTER KA","cat":"Lo"}
-,{"code":5032,"name":"CHEROKEE LETTER GE","cat":"Lo"}
-,{"code":5033,"name":"CHEROKEE LETTER GI","cat":"Lo"}
-,{"code":5034,"name":"CHEROKEE LETTER GO","cat":"Lo"}
-,{"code":5035,"name":"CHEROKEE LETTER GU","cat":"Lo"}
-,{"code":5036,"name":"CHEROKEE LETTER GV","cat":"Lo"}
-,{"code":5037,"name":"CHEROKEE LETTER HA","cat":"Lo"}
-,{"code":5038,"name":"CHEROKEE LETTER HE","cat":"Lo"}
-,{"code":5039,"name":"CHEROKEE LETTER HI","cat":"Lo"}
-,{"code":5040,"name":"CHEROKEE LETTER HO","cat":"Lo"}
-,{"code":5041,"name":"CHEROKEE LETTER HU","cat":"Lo"}
-,{"code":5042,"name":"CHEROKEE LETTER HV","cat":"Lo"}
-,{"code":5043,"name":"CHEROKEE LETTER LA","cat":"Lo"}
-,{"code":5044,"name":"CHEROKEE LETTER LE","cat":"Lo"}
-,{"code":5045,"name":"CHEROKEE LETTER LI","cat":"Lo"}
-,{"code":5046,"name":"CHEROKEE LETTER LO","cat":"Lo"}
-,{"code":5047,"name":"CHEROKEE LETTER LU","cat":"Lo"}
-,{"code":5048,"name":"CHEROKEE LETTER LV","cat":"Lo"}
-,{"code":5049,"name":"CHEROKEE LETTER MA","cat":"Lo"}
-,{"code":5050,"name":"CHEROKEE LETTER ME","cat":"Lo"}
-,{"code":5051,"name":"CHEROKEE LETTER MI","cat":"Lo"}
-,{"code":5052,"name":"CHEROKEE LETTER MO","cat":"Lo"}
-,{"code":5053,"name":"CHEROKEE LETTER MU","cat":"Lo"}
-,{"code":5054,"name":"CHEROKEE LETTER NA","cat":"Lo"}
-,{"code":5055,"name":"CHEROKEE LETTER HNA","cat":"Lo"}
-,{"code":5056,"name":"CHEROKEE LETTER NAH","cat":"Lo"}
-,{"code":5057,"name":"CHEROKEE LETTER NE","cat":"Lo"}
-,{"code":5058,"name":"CHEROKEE LETTER NI","cat":"Lo"}
-,{"code":5059,"name":"CHEROKEE LETTER NO","cat":"Lo"}
-,{"code":5060,"name":"CHEROKEE LETTER NU","cat":"Lo"}
-,{"code":5061,"name":"CHEROKEE LETTER NV","cat":"Lo"}
-,{"code":5062,"name":"CHEROKEE LETTER QUA","cat":"Lo"}
-,{"code":5063,"name":"CHEROKEE LETTER QUE","cat":"Lo"}
-,{"code":5064,"name":"CHEROKEE LETTER QUI","cat":"Lo"}
-,{"code":5065,"name":"CHEROKEE LETTER QUO","cat":"Lo"}
-,{"code":5066,"name":"CHEROKEE LETTER QUU","cat":"Lo"}
-,{"code":5067,"name":"CHEROKEE LETTER QUV","cat":"Lo"}
-,{"code":5068,"name":"CHEROKEE LETTER SA","cat":"Lo"}
-,{"code":5069,"name":"CHEROKEE LETTER S","cat":"Lo"}
-,{"code":5070,"name":"CHEROKEE LETTER SE","cat":"Lo"}
-,{"code":5071,"name":"CHEROKEE LETTER SI","cat":"Lo"}
-,{"code":5072,"name":"CHEROKEE LETTER SO","cat":"Lo"}
-,{"code":5073,"name":"CHEROKEE LETTER SU","cat":"Lo"}
-,{"code":5074,"name":"CHEROKEE LETTER SV","cat":"Lo"}
-,{"code":5075,"name":"CHEROKEE LETTER DA","cat":"Lo"}
-,{"code":5076,"name":"CHEROKEE LETTER TA","cat":"Lo"}
-,{"code":5077,"name":"CHEROKEE LETTER DE","cat":"Lo"}
-,{"code":5078,"name":"CHEROKEE LETTER TE","cat":"Lo"}
-,{"code":5079,"name":"CHEROKEE LETTER DI","cat":"Lo"}
-,{"code":5080,"name":"CHEROKEE LETTER TI","cat":"Lo"}
-,{"code":5081,"name":"CHEROKEE LETTER DO","cat":"Lo"}
-,{"code":5082,"name":"CHEROKEE LETTER DU","cat":"Lo"}
-,{"code":5083,"name":"CHEROKEE LETTER DV","cat":"Lo"}
-,{"code":5084,"name":"CHEROKEE LETTER DLA","cat":"Lo"}
-,{"code":5085,"name":"CHEROKEE LETTER TLA","cat":"Lo"}
-,{"code":5086,"name":"CHEROKEE LETTER TLE","cat":"Lo"}
-,{"code":5087,"name":"CHEROKEE LETTER TLI","cat":"Lo"}
-,{"code":5088,"name":"CHEROKEE LETTER TLO","cat":"Lo"}
-,{"code":5089,"name":"CHEROKEE LETTER TLU","cat":"Lo"}
-,{"code":5090,"name":"CHEROKEE LETTER TLV","cat":"Lo"}
-,{"code":5091,"name":"CHEROKEE LETTER TSA","cat":"Lo"}
-,{"code":5092,"name":"CHEROKEE LETTER TSE","cat":"Lo"}
-,{"code":5093,"name":"CHEROKEE LETTER TSI","cat":"Lo"}
-,{"code":5094,"name":"CHEROKEE LETTER TSO","cat":"Lo"}
-,{"code":5095,"name":"CHEROKEE LETTER TSU","cat":"Lo"}
-,{"code":5096,"name":"CHEROKEE LETTER TSV","cat":"Lo"}
-,{"code":5097,"name":"CHEROKEE LETTER WA","cat":"Lo"}
-,{"code":5098,"name":"CHEROKEE LETTER WE","cat":"Lo"}
-,{"code":5099,"name":"CHEROKEE LETTER WI","cat":"Lo"}
-,{"code":5100,"name":"CHEROKEE LETTER WO","cat":"Lo"}
-,{"code":5101,"name":"CHEROKEE LETTER WU","cat":"Lo"}
-,{"code":5102,"name":"CHEROKEE LETTER WV","cat":"Lo"}
-,{"code":5103,"name":"CHEROKEE LETTER YA","cat":"Lo"}
-,{"code":5104,"name":"CHEROKEE LETTER YE","cat":"Lo"}
-,{"code":5105,"name":"CHEROKEE LETTER YI","cat":"Lo"}
-,{"code":5106,"name":"CHEROKEE LETTER YO","cat":"Lo"}
-,{"code":5107,"name":"CHEROKEE LETTER YU","cat":"Lo"}
-,{"code":5108,"name":"CHEROKEE LETTER YV","cat":"Lo"}
+,{"code":5024,"name":"CHEROKEE LETTER A","cat":"Lu","lower":43888}
+,{"code":5025,"name":"CHEROKEE LETTER E","cat":"Lu","lower":43889}
+,{"code":5026,"name":"CHEROKEE LETTER I","cat":"Lu","lower":43890}
+,{"code":5027,"name":"CHEROKEE LETTER O","cat":"Lu","lower":43891}
+,{"code":5028,"name":"CHEROKEE LETTER U","cat":"Lu","lower":43892}
+,{"code":5029,"name":"CHEROKEE LETTER V","cat":"Lu","lower":43893}
+,{"code":5030,"name":"CHEROKEE LETTER GA","cat":"Lu","lower":43894}
+,{"code":5031,"name":"CHEROKEE LETTER KA","cat":"Lu","lower":43895}
+,{"code":5032,"name":"CHEROKEE LETTER GE","cat":"Lu","lower":43896}
+,{"code":5033,"name":"CHEROKEE LETTER GI","cat":"Lu","lower":43897}
+,{"code":5034,"name":"CHEROKEE LETTER GO","cat":"Lu","lower":43898}
+,{"code":5035,"name":"CHEROKEE LETTER GU","cat":"Lu","lower":43899}
+,{"code":5036,"name":"CHEROKEE LETTER GV","cat":"Lu","lower":43900}
+,{"code":5037,"name":"CHEROKEE LETTER HA","cat":"Lu","lower":43901}
+,{"code":5038,"name":"CHEROKEE LETTER HE","cat":"Lu","lower":43902}
+,{"code":5039,"name":"CHEROKEE LETTER HI","cat":"Lu","lower":43903}
+,{"code":5040,"name":"CHEROKEE LETTER HO","cat":"Lu","lower":43904}
+,{"code":5041,"name":"CHEROKEE LETTER HU","cat":"Lu","lower":43905}
+,{"code":5042,"name":"CHEROKEE LETTER HV","cat":"Lu","lower":43906}
+,{"code":5043,"name":"CHEROKEE LETTER LA","cat":"Lu","lower":43907}
+,{"code":5044,"name":"CHEROKEE LETTER LE","cat":"Lu","lower":43908}
+,{"code":5045,"name":"CHEROKEE LETTER LI","cat":"Lu","lower":43909}
+,{"code":5046,"name":"CHEROKEE LETTER LO","cat":"Lu","lower":43910}
+,{"code":5047,"name":"CHEROKEE LETTER LU","cat":"Lu","lower":43911}
+,{"code":5048,"name":"CHEROKEE LETTER LV","cat":"Lu","lower":43912}
+,{"code":5049,"name":"CHEROKEE LETTER MA","cat":"Lu","lower":43913}
+,{"code":5050,"name":"CHEROKEE LETTER ME","cat":"Lu","lower":43914}
+,{"code":5051,"name":"CHEROKEE LETTER MI","cat":"Lu","lower":43915}
+,{"code":5052,"name":"CHEROKEE LETTER MO","cat":"Lu","lower":43916}
+,{"code":5053,"name":"CHEROKEE LETTER MU","cat":"Lu","lower":43917}
+,{"code":5054,"name":"CHEROKEE LETTER NA","cat":"Lu","lower":43918}
+,{"code":5055,"name":"CHEROKEE LETTER HNA","cat":"Lu","lower":43919}
+,{"code":5056,"name":"CHEROKEE LETTER NAH","cat":"Lu","lower":43920}
+,{"code":5057,"name":"CHEROKEE LETTER NE","cat":"Lu","lower":43921}
+,{"code":5058,"name":"CHEROKEE LETTER NI","cat":"Lu","lower":43922}
+,{"code":5059,"name":"CHEROKEE LETTER NO","cat":"Lu","lower":43923}
+,{"code":5060,"name":"CHEROKEE LETTER NU","cat":"Lu","lower":43924}
+,{"code":5061,"name":"CHEROKEE LETTER NV","cat":"Lu","lower":43925}
+,{"code":5062,"name":"CHEROKEE LETTER QUA","cat":"Lu","lower":43926}
+,{"code":5063,"name":"CHEROKEE LETTER QUE","cat":"Lu","lower":43927}
+,{"code":5064,"name":"CHEROKEE LETTER QUI","cat":"Lu","lower":43928}
+,{"code":5065,"name":"CHEROKEE LETTER QUO","cat":"Lu","lower":43929}
+,{"code":5066,"name":"CHEROKEE LETTER QUU","cat":"Lu","lower":43930}
+,{"code":5067,"name":"CHEROKEE LETTER QUV","cat":"Lu","lower":43931}
+,{"code":5068,"name":"CHEROKEE LETTER SA","cat":"Lu","lower":43932}
+,{"code":5069,"name":"CHEROKEE LETTER S","cat":"Lu","lower":43933}
+,{"code":5070,"name":"CHEROKEE LETTER SE","cat":"Lu","lower":43934}
+,{"code":5071,"name":"CHEROKEE LETTER SI","cat":"Lu","lower":43935}
+,{"code":5072,"name":"CHEROKEE LETTER SO","cat":"Lu","lower":43936}
+,{"code":5073,"name":"CHEROKEE LETTER SU","cat":"Lu","lower":43937}
+,{"code":5074,"name":"CHEROKEE LETTER SV","cat":"Lu","lower":43938}
+,{"code":5075,"name":"CHEROKEE LETTER DA","cat":"Lu","lower":43939}
+,{"code":5076,"name":"CHEROKEE LETTER TA","cat":"Lu","lower":43940}
+,{"code":5077,"name":"CHEROKEE LETTER DE","cat":"Lu","lower":43941}
+,{"code":5078,"name":"CHEROKEE LETTER TE","cat":"Lu","lower":43942}
+,{"code":5079,"name":"CHEROKEE LETTER DI","cat":"Lu","lower":43943}
+,{"code":5080,"name":"CHEROKEE LETTER TI","cat":"Lu","lower":43944}
+,{"code":5081,"name":"CHEROKEE LETTER DO","cat":"Lu","lower":43945}
+,{"code":5082,"name":"CHEROKEE LETTER DU","cat":"Lu","lower":43946}
+,{"code":5083,"name":"CHEROKEE LETTER DV","cat":"Lu","lower":43947}
+,{"code":5084,"name":"CHEROKEE LETTER DLA","cat":"Lu","lower":43948}
+,{"code":5085,"name":"CHEROKEE LETTER TLA","cat":"Lu","lower":43949}
+,{"code":5086,"name":"CHEROKEE LETTER TLE","cat":"Lu","lower":43950}
+,{"code":5087,"name":"CHEROKEE LETTER TLI","cat":"Lu","lower":43951}
+,{"code":5088,"name":"CHEROKEE LETTER TLO","cat":"Lu","lower":43952}
+,{"code":5089,"name":"CHEROKEE LETTER TLU","cat":"Lu","lower":43953}
+,{"code":5090,"name":"CHEROKEE LETTER TLV","cat":"Lu","lower":43954}
+,{"code":5091,"name":"CHEROKEE LETTER TSA","cat":"Lu","lower":43955}
+,{"code":5092,"name":"CHEROKEE LETTER TSE","cat":"Lu","lower":43956}
+,{"code":5093,"name":"CHEROKEE LETTER TSI","cat":"Lu","lower":43957}
+,{"code":5094,"name":"CHEROKEE LETTER TSO","cat":"Lu","lower":43958}
+,{"code":5095,"name":"CHEROKEE LETTER TSU","cat":"Lu","lower":43959}
+,{"code":5096,"name":"CHEROKEE LETTER TSV","cat":"Lu","lower":43960}
+,{"code":5097,"name":"CHEROKEE LETTER WA","cat":"Lu","lower":43961}
+,{"code":5098,"name":"CHEROKEE LETTER WE","cat":"Lu","lower":43962}
+,{"code":5099,"name":"CHEROKEE LETTER WI","cat":"Lu","lower":43963}
+,{"code":5100,"name":"CHEROKEE LETTER WO","cat":"Lu","lower":43964}
+,{"code":5101,"name":"CHEROKEE LETTER WU","cat":"Lu","lower":43965}
+,{"code":5102,"name":"CHEROKEE LETTER WV","cat":"Lu","lower":43966}
+,{"code":5103,"name":"CHEROKEE LETTER YA","cat":"Lu","lower":43967}
+,{"code":5104,"name":"CHEROKEE LETTER YE","cat":"Lu","lower":5112}
+,{"code":5105,"name":"CHEROKEE LETTER YI","cat":"Lu","lower":5113}
+,{"code":5106,"name":"CHEROKEE LETTER YO","cat":"Lu","lower":5114}
+,{"code":5107,"name":"CHEROKEE LETTER YU","cat":"Lu","lower":5115}
+,{"code":5108,"name":"CHEROKEE LETTER YV","cat":"Lu","lower":5116}
+,{"code":5109,"name":"CHEROKEE LETTER MV","cat":"Lu","lower":5117}
+,{"code":5112,"name":"CHEROKEE SMALL LETTER YE","cat":"Ll","upper":5104,"title":5104}
+,{"code":5113,"name":"CHEROKEE SMALL LETTER YI","cat":"Ll","upper":5105,"title":5105}
+,{"code":5114,"name":"CHEROKEE SMALL LETTER YO","cat":"Ll","upper":5106,"title":5106}
+,{"code":5115,"name":"CHEROKEE SMALL LETTER YU","cat":"Ll","upper":5107,"title":5107}
+,{"code":5116,"name":"CHEROKEE SMALL LETTER YV","cat":"Ll","upper":5108,"title":5108}
+,{"code":5117,"name":"CHEROKEE SMALL LETTER MV","cat":"Ll","upper":5109,"title":5109}
 ,{"code":5120,"name":"CANADIAN SYLLABICS HYPHEN","cat":"Pd","bidi":"ON"}
 ,{"code":5121,"name":"CANADIAN SYLLABICS E","cat":"Lo"}
 ,{"code":5122,"name":"CANADIAN SYLLABICS AAI","cat":"Lo"}
@@ -5700,23 +5713,23 @@
 ,{"code":6569,"name":"NEW TAI LUE LETTER LOW XVA","cat":"Lo"}
 ,{"code":6570,"name":"NEW TAI LUE LETTER HIGH SUA","cat":"Lo"}
 ,{"code":6571,"name":"NEW TAI LUE LETTER LOW SUA","cat":"Lo"}
-,{"code":6576,"name":"NEW TAI LUE VOWEL SIGN VOWEL SHORTENER","cat":"Mc"}
-,{"code":6577,"name":"NEW TAI LUE VOWEL SIGN AA","cat":"Mc"}
-,{"code":6578,"name":"NEW TAI LUE VOWEL SIGN II","cat":"Mc"}
-,{"code":6579,"name":"NEW TAI LUE VOWEL SIGN U","cat":"Mc"}
-,{"code":6580,"name":"NEW TAI LUE VOWEL SIGN UU","cat":"Mc"}
-,{"code":6581,"name":"NEW TAI LUE VOWEL SIGN E","cat":"Mc"}
-,{"code":6582,"name":"NEW TAI LUE VOWEL SIGN AE","cat":"Mc"}
-,{"code":6583,"name":"NEW TAI LUE VOWEL SIGN O","cat":"Mc"}
-,{"code":6584,"name":"NEW TAI LUE VOWEL SIGN OA","cat":"Mc"}
-,{"code":6585,"name":"NEW TAI LUE VOWEL SIGN UE","cat":"Mc"}
-,{"code":6586,"name":"NEW TAI LUE VOWEL SIGN AY","cat":"Mc"}
-,{"code":6587,"name":"NEW TAI LUE VOWEL SIGN AAY","cat":"Mc"}
-,{"code":6588,"name":"NEW TAI LUE VOWEL SIGN UY","cat":"Mc"}
-,{"code":6589,"name":"NEW TAI LUE VOWEL SIGN OY","cat":"Mc"}
-,{"code":6590,"name":"NEW TAI LUE VOWEL SIGN OAY","cat":"Mc"}
-,{"code":6591,"name":"NEW TAI LUE VOWEL SIGN UEY","cat":"Mc"}
-,{"code":6592,"name":"NEW TAI LUE VOWEL SIGN IY","cat":"Mc"}
+,{"code":6576,"name":"NEW TAI LUE VOWEL SIGN VOWEL SHORTENER","cat":"Lo"}
+,{"code":6577,"name":"NEW TAI LUE VOWEL SIGN AA","cat":"Lo"}
+,{"code":6578,"name":"NEW TAI LUE VOWEL SIGN II","cat":"Lo"}
+,{"code":6579,"name":"NEW TAI LUE VOWEL SIGN U","cat":"Lo"}
+,{"code":6580,"name":"NEW TAI LUE VOWEL SIGN UU","cat":"Lo"}
+,{"code":6581,"name":"NEW TAI LUE VOWEL SIGN E","cat":"Lo"}
+,{"code":6582,"name":"NEW TAI LUE VOWEL SIGN AE","cat":"Lo"}
+,{"code":6583,"name":"NEW TAI LUE VOWEL SIGN O","cat":"Lo"}
+,{"code":6584,"name":"NEW TAI LUE VOWEL SIGN OA","cat":"Lo"}
+,{"code":6585,"name":"NEW TAI LUE VOWEL SIGN UE","cat":"Lo"}
+,{"code":6586,"name":"NEW TAI LUE VOWEL SIGN AY","cat":"Lo"}
+,{"code":6587,"name":"NEW TAI LUE VOWEL SIGN AAY","cat":"Lo"}
+,{"code":6588,"name":"NEW TAI LUE VOWEL SIGN UY","cat":"Lo"}
+,{"code":6589,"name":"NEW TAI LUE VOWEL SIGN OY","cat":"Lo"}
+,{"code":6590,"name":"NEW TAI LUE VOWEL SIGN OAY","cat":"Lo"}
+,{"code":6591,"name":"NEW TAI LUE VOWEL SIGN UEY","cat":"Lo"}
+,{"code":6592,"name":"NEW TAI LUE VOWEL SIGN IY","cat":"Lo"}
 ,{"code":6593,"name":"NEW TAI LUE LETTER FINAL V","cat":"Lo"}
 ,{"code":6594,"name":"NEW TAI LUE LETTER FINAL NG","cat":"Lo"}
 ,{"code":6595,"name":"NEW TAI LUE LETTER FINAL N","cat":"Lo"}
@@ -5724,8 +5737,8 @@
 ,{"code":6597,"name":"NEW TAI LUE LETTER FINAL K","cat":"Lo"}
 ,{"code":6598,"name":"NEW TAI LUE LETTER FINAL D","cat":"Lo"}
 ,{"code":6599,"name":"NEW TAI LUE LETTER FINAL B","cat":"Lo"}
-,{"code":6600,"name":"NEW TAI LUE TONE MARK-1","cat":"Mc"}
-,{"code":6601,"name":"NEW TAI LUE TONE MARK-2","cat":"Mc"}
+,{"code":6600,"name":"NEW TAI LUE TONE MARK-1","cat":"Lo"}
+,{"code":6601,"name":"NEW TAI LUE TONE MARK-2","cat":"Lo"}
 ,{"code":6608,"name":"NEW TAI LUE DIGIT ZERO","cat":"Nd","num":"0"}
 ,{"code":6609,"name":"NEW TAI LUE DIGIT ONE","cat":"Nd","num":"1"}
 ,{"code":6610,"name":"NEW TAI LUE DIGIT TWO","cat":"Nd","num":"2"}
@@ -7277,6 +7290,7 @@
 ,{"code":8379,"name":"NORDIC MARK SIGN","cat":"Sc","bidi":"ET"}
 ,{"code":8380,"name":"MANAT SIGN","cat":"Sc","bidi":"ET"}
 ,{"code":8381,"name":"RUBLE SIGN","cat":"Sc","bidi":"ET"}
+,{"code":8382,"name":"LARI SIGN","cat":"Sc","bidi":"ET"}
 ,{"code":8400,"name":"COMBINING LEFT HARPOON ABOVE","cat":"Mn","comb":230,"bidi":"NSM","oldName":"NON-SPACING LEFT HARPOON ABOVE"}
 ,{"code":8401,"name":"COMBINING RIGHT HARPOON ABOVE","cat":"Mn","comb":230,"bidi":"NSM","oldName":"NON-SPACING RIGHT HARPOON ABOVE"}
 ,{"code":8402,"name":"COMBINING LONG VERTICAL LINE OVERLAY","cat":"Mn","comb":1,"bidi":"NSM","oldName":"NON-SPACING LONG VERTICAL BAR OVERLAY"}
@@ -7448,6 +7462,8 @@
 ,{"code":8583,"name":"ROMAN NUMERAL FIFTY THOUSAND","cat":"Nl","num":"50000"}
 ,{"code":8584,"name":"ROMAN NUMERAL ONE HUNDRED THOUSAND","cat":"Nl","num":"100000"}
 ,{"code":8585,"name":"VULGAR FRACTION ZERO THIRDS","cat":"No","bidi":"ON","decomp":[48,8260,51],"decompType":"fraction","num":"0"}
+,{"code":8586,"name":"TURNED DIGIT TWO","cat":"So","bidi":"ON"}
+,{"code":8587,"name":"TURNED DIGIT THREE","cat":"So","bidi":"ON"}
 ,{"code":8592,"name":"LEFTWARDS ARROW","cat":"Sm","bidi":"ON","oldName":"LEFT ARROW"}
 ,{"code":8593,"name":"UPWARDS ARROW","cat":"Sm","bidi":"ON","oldName":"UP ARROW"}
 ,{"code":8594,"name":"RIGHTWARDS ARROW","cat":"Sm","bidi":"ON","oldName":"RIGHT ARROW"}
@@ -10015,6 +10031,10 @@
 ,{"code":11215,"name":"ROTATED WHITE FOUR POINTED CUSP","cat":"So","bidi":"ON"}
 ,{"code":11216,"name":"SQUARE POSITION INDICATOR","cat":"So","bidi":"ON"}
 ,{"code":11217,"name":"UNCERTAINTY SIGN","cat":"So","bidi":"ON"}
+,{"code":11244,"name":"LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
+,{"code":11245,"name":"UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
+,{"code":11246,"name":"RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
+,{"code":11247,"name":"DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
 ,{"code":11264,"name":"GLAGOLITIC CAPITAL LETTER AZU","cat":"Lu","lower":11312}
 ,{"code":11265,"name":"GLAGOLITIC CAPITAL LETTER BUKY","cat":"Lu","lower":11313}
 ,{"code":11266,"name":"GLAGOLITIC CAPITAL LETTER VEDE","cat":"Lu","lower":11314}
@@ -11942,7 +11962,7 @@
 ,{"code":19966,"name":"HEXAGRAM FOR AFTER COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19967,"name":"HEXAGRAM FOR BEFORE COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19968,"name":"<CJK Ideograph, First>","cat":"Lo"}
-,{"code":40908,"name":"<CJK Ideograph, Last>","cat":"Lo"}
+,{"code":40917,"name":"<CJK Ideograph, Last>","cat":"Lo"}
 ,{"code":40960,"name":"YI SYLLABLE IT","cat":"Lo"}
 ,{"code":40961,"name":"YI SYLLABLE IX","cat":"Lo"}
 ,{"code":40962,"name":"YI SYLLABLE I","cat":"Lo"}
@@ -13605,6 +13625,7 @@
 ,{"code":42651,"name":"CYRILLIC SMALL LETTER CROSSED O","cat":"Ll","upper":42650,"title":42650}
 ,{"code":42652,"name":"MODIFIER LETTER CYRILLIC HARD SIGN","cat":"Lm","decomp":[1098],"decompType":"super"}
 ,{"code":42653,"name":"MODIFIER LETTER CYRILLIC SOFT SIGN","cat":"Lm","decomp":[1100],"decompType":"super"}
+,{"code":42654,"name":"COMBINING CYRILLIC LETTER EF","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":42655,"name":"COMBINING CYRILLIC LETTER IOTIFIED E","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":42656,"name":"BAMUM LETTER A","cat":"Lo"}
 ,{"code":42657,"name":"BAMUM LETTER KA","cat":"Lo"}
@@ -13837,6 +13858,7 @@
 ,{"code":42892,"name":"LATIN SMALL LETTER SALTILLO","cat":"Ll","upper":42891,"title":42891}
 ,{"code":42893,"name":"LATIN CAPITAL LETTER TURNED H","cat":"Lu","lower":613}
 ,{"code":42894,"name":"LATIN SMALL LETTER L WITH RETROFLEX HOOK AND BELT","cat":"Ll"}
+,{"code":42895,"name":"LATIN LETTER SINOLOGICAL DOT","cat":"Lo"}
 ,{"code":42896,"name":"LATIN CAPITAL LETTER N WITH DESCENDER","cat":"Lu","lower":42897}
 ,{"code":42897,"name":"LATIN SMALL LETTER N WITH DESCENDER","cat":"Ll","upper":42896,"title":42896}
 ,{"code":42898,"name":"LATIN CAPITAL LETTER C WITH BAR","cat":"Lu","lower":42899}
@@ -13869,6 +13891,12 @@
 ,{"code":42925,"name":"LATIN CAPITAL LETTER L WITH BELT","cat":"Lu","lower":620}
 ,{"code":42928,"name":"LATIN CAPITAL LETTER TURNED K","cat":"Lu","lower":670}
 ,{"code":42929,"name":"LATIN CAPITAL LETTER TURNED T","cat":"Lu","lower":647}
+,{"code":42930,"name":"LATIN CAPITAL LETTER J WITH CROSSED-TAIL","cat":"Lu","lower":669}
+,{"code":42931,"name":"LATIN CAPITAL LETTER CHI","cat":"Lu","lower":43859}
+,{"code":42932,"name":"LATIN CAPITAL LETTER BETA","cat":"Lu","lower":42933}
+,{"code":42933,"name":"LATIN SMALL LETTER BETA","cat":"Ll","upper":42932,"title":42932}
+,{"code":42934,"name":"LATIN CAPITAL LETTER OMEGA","cat":"Lu","lower":42935}
+,{"code":42935,"name":"LATIN SMALL LETTER OMEGA","cat":"Ll","upper":42934,"title":42934}
 ,{"code":42999,"name":"LATIN EPIGRAPHIC LETTER SIDEWAYS I","cat":"Lo"}
 ,{"code":43000,"name":"MODIFIER LETTER CAPITAL H WITH STROKE","cat":"Lm","decomp":[294],"decompType":"super"}
 ,{"code":43001,"name":"MODIFIER LETTER SMALL LIGATURE OE","cat":"Lm","decomp":[339],"decompType":"super"}
@@ -14097,6 +14125,8 @@
 ,{"code":43257,"name":"DEVANAGARI GAP FILLER","cat":"Po"}
 ,{"code":43258,"name":"DEVANAGARI CARET","cat":"Po"}
 ,{"code":43259,"name":"DEVANAGARI HEADSTROKE","cat":"Lo"}
+,{"code":43260,"name":"DEVANAGARI SIGN SIDDHAM","cat":"Po"}
+,{"code":43261,"name":"DEVANAGARI JAIN OM","cat":"Lo"}
 ,{"code":43264,"name":"KAYAH LI DIGIT ZERO","cat":"Nd","num":"0"}
 ,{"code":43265,"name":"KAYAH LI DIGIT ONE","cat":"Nd","num":"1"}
 ,{"code":43266,"name":"KAYAH LI DIGIT TWO","cat":"Nd","num":"2"}
@@ -14610,7 +14640,7 @@
 ,{"code":43856,"name":"LATIN SMALL LETTER UI","cat":"Ll"}
 ,{"code":43857,"name":"LATIN SMALL LETTER TURNED UI","cat":"Ll"}
 ,{"code":43858,"name":"LATIN SMALL LETTER U WITH LEFT HOOK","cat":"Ll"}
-,{"code":43859,"name":"LATIN SMALL LETTER CHI","cat":"Ll"}
+,{"code":43859,"name":"LATIN SMALL LETTER CHI","cat":"Ll","upper":42931,"title":42931}
 ,{"code":43860,"name":"LATIN SMALL LETTER CHI WITH LOW RIGHT RING","cat":"Ll"}
 ,{"code":43861,"name":"LATIN SMALL LETTER CHI WITH LOW LEFT SERIF","cat":"Ll"}
 ,{"code":43862,"name":"LATIN SMALL LETTER X WITH LOW RIGHT RING","cat":"Ll"}
@@ -14623,8 +14653,92 @@
 ,{"code":43869,"name":"MODIFIER LETTER SMALL L WITH INVERTED LAZY S","cat":"Lm","decomp":[43831],"decompType":"super"}
 ,{"code":43870,"name":"MODIFIER LETTER SMALL L WITH MIDDLE TILDE","cat":"Lm","decomp":[619],"decompType":"super"}
 ,{"code":43871,"name":"MODIFIER LETTER SMALL U WITH LEFT HOOK","cat":"Lm","decomp":[43858],"decompType":"super"}
+,{"code":43872,"name":"LATIN SMALL LETTER SAKHA YAT","cat":"Ll"}
+,{"code":43873,"name":"LATIN SMALL LETTER IOTIFIED E","cat":"Ll"}
+,{"code":43874,"name":"LATIN SMALL LETTER OPEN OE","cat":"Ll"}
+,{"code":43875,"name":"LATIN SMALL LETTER UO","cat":"Ll"}
 ,{"code":43876,"name":"LATIN SMALL LETTER INVERTED ALPHA","cat":"Ll"}
 ,{"code":43877,"name":"GREEK LETTER SMALL CAPITAL OMEGA","cat":"Ll"}
+,{"code":43888,"name":"CHEROKEE SMALL LETTER A","cat":"Ll","upper":5024,"title":5024}
+,{"code":43889,"name":"CHEROKEE SMALL LETTER E","cat":"Ll","upper":5025,"title":5025}
+,{"code":43890,"name":"CHEROKEE SMALL LETTER I","cat":"Ll","upper":5026,"title":5026}
+,{"code":43891,"name":"CHEROKEE SMALL LETTER O","cat":"Ll","upper":5027,"title":5027}
+,{"code":43892,"name":"CHEROKEE SMALL LETTER U","cat":"Ll","upper":5028,"title":5028}
+,{"code":43893,"name":"CHEROKEE SMALL LETTER V","cat":"Ll","upper":5029,"title":5029}
+,{"code":43894,"name":"CHEROKEE SMALL LETTER GA","cat":"Ll","upper":5030,"title":5030}
+,{"code":43895,"name":"CHEROKEE SMALL LETTER KA","cat":"Ll","upper":5031,"title":5031}
+,{"code":43896,"name":"CHEROKEE SMALL LETTER GE","cat":"Ll","upper":5032,"title":5032}
+,{"code":43897,"name":"CHEROKEE SMALL LETTER GI","cat":"Ll","upper":5033,"title":5033}
+,{"code":43898,"name":"CHEROKEE SMALL LETTER GO","cat":"Ll","upper":5034,"title":5034}
+,{"code":43899,"name":"CHEROKEE SMALL LETTER GU","cat":"Ll","upper":5035,"title":5035}
+,{"code":43900,"name":"CHEROKEE SMALL LETTER GV","cat":"Ll","upper":5036,"title":5036}
+,{"code":43901,"name":"CHEROKEE SMALL LETTER HA","cat":"Ll","upper":5037,"title":5037}
+,{"code":43902,"name":"CHEROKEE SMALL LETTER HE","cat":"Ll","upper":5038,"title":5038}
+,{"code":43903,"name":"CHEROKEE SMALL LETTER HI","cat":"Ll","upper":5039,"title":5039}
+,{"code":43904,"name":"CHEROKEE SMALL LETTER HO","cat":"Ll","upper":5040,"title":5040}
+,{"code":43905,"name":"CHEROKEE SMALL LETTER HU","cat":"Ll","upper":5041,"title":5041}
+,{"code":43906,"name":"CHEROKEE SMALL LETTER HV","cat":"Ll","upper":5042,"title":5042}
+,{"code":43907,"name":"CHEROKEE SMALL LETTER LA","cat":"Ll","upper":5043,"title":5043}
+,{"code":43908,"name":"CHEROKEE SMALL LETTER LE","cat":"Ll","upper":5044,"title":5044}
+,{"code":43909,"name":"CHEROKEE SMALL LETTER LI","cat":"Ll","upper":5045,"title":5045}
+,{"code":43910,"name":"CHEROKEE SMALL LETTER LO","cat":"Ll","upper":5046,"title":5046}
+,{"code":43911,"name":"CHEROKEE SMALL LETTER LU","cat":"Ll","upper":5047,"title":5047}
+,{"code":43912,"name":"CHEROKEE SMALL LETTER LV","cat":"Ll","upper":5048,"title":5048}
+,{"code":43913,"name":"CHEROKEE SMALL LETTER MA","cat":"Ll","upper":5049,"title":5049}
+,{"code":43914,"name":"CHEROKEE SMALL LETTER ME","cat":"Ll","upper":5050,"title":5050}
+,{"code":43915,"name":"CHEROKEE SMALL LETTER MI","cat":"Ll","upper":5051,"title":5051}
+,{"code":43916,"name":"CHEROKEE SMALL LETTER MO","cat":"Ll","upper":5052,"title":5052}
+,{"code":43917,"name":"CHEROKEE SMALL LETTER MU","cat":"Ll","upper":5053,"title":5053}
+,{"code":43918,"name":"CHEROKEE SMALL LETTER NA","cat":"Ll","upper":5054,"title":5054}
+,{"code":43919,"name":"CHEROKEE SMALL LETTER HNA","cat":"Ll","upper":5055,"title":5055}
+,{"code":43920,"name":"CHEROKEE SMALL LETTER NAH","cat":"Ll","upper":5056,"title":5056}
+,{"code":43921,"name":"CHEROKEE SMALL LETTER NE","cat":"Ll","upper":5057,"title":5057}
+,{"code":43922,"name":"CHEROKEE SMALL LETTER NI","cat":"Ll","upper":5058,"title":5058}
+,{"code":43923,"name":"CHEROKEE SMALL LETTER NO","cat":"Ll","upper":5059,"title":5059}
+,{"code":43924,"name":"CHEROKEE SMALL LETTER NU","cat":"Ll","upper":5060,"title":5060}
+,{"code":43925,"name":"CHEROKEE SMALL LETTER NV","cat":"Ll","upper":5061,"title":5061}
+,{"code":43926,"name":"CHEROKEE SMALL LETTER QUA","cat":"Ll","upper":5062,"title":5062}
+,{"code":43927,"name":"CHEROKEE SMALL LETTER QUE","cat":"Ll","upper":5063,"title":5063}
+,{"code":43928,"name":"CHEROKEE SMALL LETTER QUI","cat":"Ll","upper":5064,"title":5064}
+,{"code":43929,"name":"CHEROKEE SMALL LETTER QUO","cat":"Ll","upper":5065,"title":5065}
+,{"code":43930,"name":"CHEROKEE SMALL LETTER QUU","cat":"Ll","upper":5066,"title":5066}
+,{"code":43931,"name":"CHEROKEE SMALL LETTER QUV","cat":"Ll","upper":5067,"title":5067}
+,{"code":43932,"name":"CHEROKEE SMALL LETTER SA","cat":"Ll","upper":5068,"title":5068}
+,{"code":43933,"name":"CHEROKEE SMALL LETTER S","cat":"Ll","upper":5069,"title":5069}
+,{"code":43934,"name":"CHEROKEE SMALL LETTER SE","cat":"Ll","upper":5070,"title":5070}
+,{"code":43935,"name":"CHEROKEE SMALL LETTER SI","cat":"Ll","upper":5071,"title":5071}
+,{"code":43936,"name":"CHEROKEE SMALL LETTER SO","cat":"Ll","upper":5072,"title":5072}
+,{"code":43937,"name":"CHEROKEE SMALL LETTER SU","cat":"Ll","upper":5073,"title":5073}
+,{"code":43938,"name":"CHEROKEE SMALL LETTER SV","cat":"Ll","upper":5074,"title":5074}
+,{"code":43939,"name":"CHEROKEE SMALL LETTER DA","cat":"Ll","upper":5075,"title":5075}
+,{"code":43940,"name":"CHEROKEE SMALL LETTER TA","cat":"Ll","upper":5076,"title":5076}
+,{"code":43941,"name":"CHEROKEE SMALL LETTER DE","cat":"Ll","upper":5077,"title":5077}
+,{"code":43942,"name":"CHEROKEE SMALL LETTER TE","cat":"Ll","upper":5078,"title":5078}
+,{"code":43943,"name":"CHEROKEE SMALL LETTER DI","cat":"Ll","upper":5079,"title":5079}
+,{"code":43944,"name":"CHEROKEE SMALL LETTER TI","cat":"Ll","upper":5080,"title":5080}
+,{"code":43945,"name":"CHEROKEE SMALL LETTER DO","cat":"Ll","upper":5081,"title":5081}
+,{"code":43946,"name":"CHEROKEE SMALL LETTER DU","cat":"Ll","upper":5082,"title":5082}
+,{"code":43947,"name":"CHEROKEE SMALL LETTER DV","cat":"Ll","upper":5083,"title":5083}
+,{"code":43948,"name":"CHEROKEE SMALL LETTER DLA","cat":"Ll","upper":5084,"title":5084}
+,{"code":43949,"name":"CHEROKEE SMALL LETTER TLA","cat":"Ll","upper":5085,"title":5085}
+,{"code":43950,"name":"CHEROKEE SMALL LETTER TLE","cat":"Ll","upper":5086,"title":5086}
+,{"code":43951,"name":"CHEROKEE SMALL LETTER TLI","cat":"Ll","upper":5087,"title":5087}
+,{"code":43952,"name":"CHEROKEE SMALL LETTER TLO","cat":"Ll","upper":5088,"title":5088}
+,{"code":43953,"name":"CHEROKEE SMALL LETTER TLU","cat":"Ll","upper":5089,"title":5089}
+,{"code":43954,"name":"CHEROKEE SMALL LETTER TLV","cat":"Ll","upper":5090,"title":5090}
+,{"code":43955,"name":"CHEROKEE SMALL LETTER TSA","cat":"Ll","upper":5091,"title":5091}
+,{"code":43956,"name":"CHEROKEE SMALL LETTER TSE","cat":"Ll","upper":5092,"title":5092}
+,{"code":43957,"name":"CHEROKEE SMALL LETTER TSI","cat":"Ll","upper":5093,"title":5093}
+,{"code":43958,"name":"CHEROKEE SMALL LETTER TSO","cat":"Ll","upper":5094,"title":5094}
+,{"code":43959,"name":"CHEROKEE SMALL LETTER TSU","cat":"Ll","upper":5095,"title":5095}
+,{"code":43960,"name":"CHEROKEE SMALL LETTER TSV","cat":"Ll","upper":5096,"title":5096}
+,{"code":43961,"name":"CHEROKEE SMALL LETTER WA","cat":"Ll","upper":5097,"title":5097}
+,{"code":43962,"name":"CHEROKEE SMALL LETTER WE","cat":"Ll","upper":5098,"title":5098}
+,{"code":43963,"name":"CHEROKEE SMALL LETTER WI","cat":"Ll","upper":5099,"title":5099}
+,{"code":43964,"name":"CHEROKEE SMALL LETTER WO","cat":"Ll","upper":5100,"title":5100}
+,{"code":43965,"name":"CHEROKEE SMALL LETTER WU","cat":"Ll","upper":5101,"title":5101}
+,{"code":43966,"name":"CHEROKEE SMALL LETTER WV","cat":"Ll","upper":5102,"title":5102}
+,{"code":43967,"name":"CHEROKEE SMALL LETTER YA","cat":"Ll","upper":5103,"title":5103}
 ,{"code":43968,"name":"MEETEI MAYEK LETTER KOK","cat":"Lo"}
 ,{"code":43969,"name":"MEETEI MAYEK LETTER SAM","cat":"Lo"}
 ,{"code":43970,"name":"MEETEI MAYEK LETTER LAI","cat":"Lo"}
@@ -15944,6 +16058,8 @@
 ,{"code":65067,"name":"COMBINING MACRON LEFT HALF BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":65068,"name":"COMBINING MACRON RIGHT HALF BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":65069,"name":"COMBINING CONJOINING MACRON BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":65070,"name":"COMBINING CYRILLIC TITLO LEFT HALF","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":65071,"name":"COMBINING CYRILLIC TITLO RIGHT HALF","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":65072,"name":"PRESENTATION FORM FOR VERTICAL TWO DOT LEADER","cat":"Po","bidi":"ON","decomp":[8229],"decompType":"vertical","oldName":"GLYPH FOR VERTICAL TWO DOT LEADER"}
 ,{"code":65073,"name":"PRESENTATION FORM FOR VERTICAL EM DASH","cat":"Pd","bidi":"ON","decomp":[8212],"decompType":"vertical","oldName":"GLYPH FOR VERTICAL EM DASH"}
 ,{"code":65074,"name":"PRESENTATION FORM FOR VERTICAL EN DASH","cat":"Pd","bidi":"ON","decomp":[8211],"decompType":"vertical","oldName":"GLYPH FOR VERTICAL EN DASH"}
@@ -17830,6 +17946,32 @@
 ,{"code":67757,"name":"NABATAEAN NUMBER TEN","cat":"No","bidi":"R","num":"10"}
 ,{"code":67758,"name":"NABATAEAN NUMBER TWENTY","cat":"No","bidi":"R","num":"20"}
 ,{"code":67759,"name":"NABATAEAN NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
+,{"code":67808,"name":"HATRAN LETTER ALEPH","cat":"Lo","bidi":"R"}
+,{"code":67809,"name":"HATRAN LETTER BETH","cat":"Lo","bidi":"R"}
+,{"code":67810,"name":"HATRAN LETTER GIMEL","cat":"Lo","bidi":"R"}
+,{"code":67811,"name":"HATRAN LETTER DALETH-RESH","cat":"Lo","bidi":"R"}
+,{"code":67812,"name":"HATRAN LETTER HE","cat":"Lo","bidi":"R"}
+,{"code":67813,"name":"HATRAN LETTER WAW","cat":"Lo","bidi":"R"}
+,{"code":67814,"name":"HATRAN LETTER ZAYN","cat":"Lo","bidi":"R"}
+,{"code":67815,"name":"HATRAN LETTER HETH","cat":"Lo","bidi":"R"}
+,{"code":67816,"name":"HATRAN LETTER TETH","cat":"Lo","bidi":"R"}
+,{"code":67817,"name":"HATRAN LETTER YODH","cat":"Lo","bidi":"R"}
+,{"code":67818,"name":"HATRAN LETTER KAPH","cat":"Lo","bidi":"R"}
+,{"code":67819,"name":"HATRAN LETTER LAMEDH","cat":"Lo","bidi":"R"}
+,{"code":67820,"name":"HATRAN LETTER MEM","cat":"Lo","bidi":"R"}
+,{"code":67821,"name":"HATRAN LETTER NUN","cat":"Lo","bidi":"R"}
+,{"code":67822,"name":"HATRAN LETTER SAMEKH","cat":"Lo","bidi":"R"}
+,{"code":67823,"name":"HATRAN LETTER AYN","cat":"Lo","bidi":"R"}
+,{"code":67824,"name":"HATRAN LETTER PE","cat":"Lo","bidi":"R"}
+,{"code":67825,"name":"HATRAN LETTER SADHE","cat":"Lo","bidi":"R"}
+,{"code":67826,"name":"HATRAN LETTER QOPH","cat":"Lo","bidi":"R"}
+,{"code":67828,"name":"HATRAN LETTER SHIN","cat":"Lo","bidi":"R"}
+,{"code":67829,"name":"HATRAN LETTER TAW","cat":"Lo","bidi":"R"}
+,{"code":67835,"name":"HATRAN NUMBER ONE","cat":"No","bidi":"R","num":"1"}
+,{"code":67836,"name":"HATRAN NUMBER FIVE","cat":"No","bidi":"R","num":"5"}
+,{"code":67837,"name":"HATRAN NUMBER TEN","cat":"No","bidi":"R","num":"10"}
+,{"code":67838,"name":"HATRAN NUMBER TWENTY","cat":"No","bidi":"R","num":"20"}
+,{"code":67839,"name":"HATRAN NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
 ,{"code":67840,"name":"PHOENICIAN LETTER ALF","cat":"Lo","bidi":"R"}
 ,{"code":67841,"name":"PHOENICIAN LETTER BET","cat":"Lo","bidi":"R"}
 ,{"code":67842,"name":"PHOENICIAN LETTER GAML","cat":"Lo","bidi":"R"}
@@ -17942,8 +18084,72 @@
 ,{"code":68021,"name":"MEROITIC CURSIVE LETTER TE","cat":"Lo","bidi":"R"}
 ,{"code":68022,"name":"MEROITIC CURSIVE LETTER TO","cat":"Lo","bidi":"R"}
 ,{"code":68023,"name":"MEROITIC CURSIVE LETTER DA","cat":"Lo","bidi":"R"}
+,{"code":68028,"name":"MEROITIC CURSIVE FRACTION ELEVEN TWELFTHS","cat":"No","bidi":"R","num":"11/12"}
+,{"code":68029,"name":"MEROITIC CURSIVE FRACTION ONE HALF","cat":"No","bidi":"R","num":"1/2"}
 ,{"code":68030,"name":"MEROITIC CURSIVE LOGOGRAM RMT","cat":"Lo","bidi":"R"}
 ,{"code":68031,"name":"MEROITIC CURSIVE LOGOGRAM IMN","cat":"Lo","bidi":"R"}
+,{"code":68032,"name":"MEROITIC CURSIVE NUMBER ONE","cat":"No","bidi":"R","num":"1"}
+,{"code":68033,"name":"MEROITIC CURSIVE NUMBER TWO","cat":"No","bidi":"R","num":"2"}
+,{"code":68034,"name":"MEROITIC CURSIVE NUMBER THREE","cat":"No","bidi":"R","num":"3"}
+,{"code":68035,"name":"MEROITIC CURSIVE NUMBER FOUR","cat":"No","bidi":"R","num":"4"}
+,{"code":68036,"name":"MEROITIC CURSIVE NUMBER FIVE","cat":"No","bidi":"R","num":"5"}
+,{"code":68037,"name":"MEROITIC CURSIVE NUMBER SIX","cat":"No","bidi":"R","num":"6"}
+,{"code":68038,"name":"MEROITIC CURSIVE NUMBER SEVEN","cat":"No","bidi":"R","num":"7"}
+,{"code":68039,"name":"MEROITIC CURSIVE NUMBER EIGHT","cat":"No","bidi":"R","num":"8"}
+,{"code":68040,"name":"MEROITIC CURSIVE NUMBER NINE","cat":"No","bidi":"R","num":"9"}
+,{"code":68041,"name":"MEROITIC CURSIVE NUMBER TEN","cat":"No","bidi":"R","num":"10"}
+,{"code":68042,"name":"MEROITIC CURSIVE NUMBER TWENTY","cat":"No","bidi":"R","num":"20"}
+,{"code":68043,"name":"MEROITIC CURSIVE NUMBER THIRTY","cat":"No","bidi":"R","num":"30"}
+,{"code":68044,"name":"MEROITIC CURSIVE NUMBER FORTY","cat":"No","bidi":"R","num":"40"}
+,{"code":68045,"name":"MEROITIC CURSIVE NUMBER FIFTY","cat":"No","bidi":"R","num":"50"}
+,{"code":68046,"name":"MEROITIC CURSIVE NUMBER SIXTY","cat":"No","bidi":"R","num":"60"}
+,{"code":68047,"name":"MEROITIC CURSIVE NUMBER SEVENTY","cat":"No","bidi":"R","num":"70"}
+,{"code":68050,"name":"MEROITIC CURSIVE NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
+,{"code":68051,"name":"MEROITIC CURSIVE NUMBER TWO HUNDRED","cat":"No","bidi":"R","num":"200"}
+,{"code":68052,"name":"MEROITIC CURSIVE NUMBER THREE HUNDRED","cat":"No","bidi":"R","num":"300"}
+,{"code":68053,"name":"MEROITIC CURSIVE NUMBER FOUR HUNDRED","cat":"No","bidi":"R","num":"400"}
+,{"code":68054,"name":"MEROITIC CURSIVE NUMBER FIVE HUNDRED","cat":"No","bidi":"R","num":"500"}
+,{"code":68055,"name":"MEROITIC CURSIVE NUMBER SIX HUNDRED","cat":"No","bidi":"R","num":"600"}
+,{"code":68056,"name":"MEROITIC CURSIVE NUMBER SEVEN HUNDRED","cat":"No","bidi":"R","num":"700"}
+,{"code":68057,"name":"MEROITIC CURSIVE NUMBER EIGHT HUNDRED","cat":"No","bidi":"R","num":"800"}
+,{"code":68058,"name":"MEROITIC CURSIVE NUMBER NINE HUNDRED","cat":"No","bidi":"R","num":"900"}
+,{"code":68059,"name":"MEROITIC CURSIVE NUMBER ONE THOUSAND","cat":"No","bidi":"R","num":"1000"}
+,{"code":68060,"name":"MEROITIC CURSIVE NUMBER TWO THOUSAND","cat":"No","bidi":"R","num":"2000"}
+,{"code":68061,"name":"MEROITIC CURSIVE NUMBER THREE THOUSAND","cat":"No","bidi":"R","num":"3000"}
+,{"code":68062,"name":"MEROITIC CURSIVE NUMBER FOUR THOUSAND","cat":"No","bidi":"R","num":"4000"}
+,{"code":68063,"name":"MEROITIC CURSIVE NUMBER FIVE THOUSAND","cat":"No","bidi":"R","num":"5000"}
+,{"code":68064,"name":"MEROITIC CURSIVE NUMBER SIX THOUSAND","cat":"No","bidi":"R","num":"6000"}
+,{"code":68065,"name":"MEROITIC CURSIVE NUMBER SEVEN THOUSAND","cat":"No","bidi":"R","num":"7000"}
+,{"code":68066,"name":"MEROITIC CURSIVE NUMBER EIGHT THOUSAND","cat":"No","bidi":"R","num":"8000"}
+,{"code":68067,"name":"MEROITIC CURSIVE NUMBER NINE THOUSAND","cat":"No","bidi":"R","num":"9000"}
+,{"code":68068,"name":"MEROITIC CURSIVE NUMBER TEN THOUSAND","cat":"No","bidi":"R","num":"10000"}
+,{"code":68069,"name":"MEROITIC CURSIVE NUMBER TWENTY THOUSAND","cat":"No","bidi":"R","num":"20000"}
+,{"code":68070,"name":"MEROITIC CURSIVE NUMBER THIRTY THOUSAND","cat":"No","bidi":"R","num":"30000"}
+,{"code":68071,"name":"MEROITIC CURSIVE NUMBER FORTY THOUSAND","cat":"No","bidi":"R","num":"40000"}
+,{"code":68072,"name":"MEROITIC CURSIVE NUMBER FIFTY THOUSAND","cat":"No","bidi":"R","num":"50000"}
+,{"code":68073,"name":"MEROITIC CURSIVE NUMBER SIXTY THOUSAND","cat":"No","bidi":"R","num":"60000"}
+,{"code":68074,"name":"MEROITIC CURSIVE NUMBER SEVENTY THOUSAND","cat":"No","bidi":"R","num":"70000"}
+,{"code":68075,"name":"MEROITIC CURSIVE NUMBER EIGHTY THOUSAND","cat":"No","bidi":"R","num":"80000"}
+,{"code":68076,"name":"MEROITIC CURSIVE NUMBER NINETY THOUSAND","cat":"No","bidi":"R","num":"90000"}
+,{"code":68077,"name":"MEROITIC CURSIVE NUMBER ONE HUNDRED THOUSAND","cat":"No","bidi":"R","num":"100000"}
+,{"code":68078,"name":"MEROITIC CURSIVE NUMBER TWO HUNDRED THOUSAND","cat":"No","bidi":"R","num":"200000"}
+,{"code":68079,"name":"MEROITIC CURSIVE NUMBER THREE HUNDRED THOUSAND","cat":"No","bidi":"R","num":"300000"}
+,{"code":68080,"name":"MEROITIC CURSIVE NUMBER FOUR HUNDRED THOUSAND","cat":"No","bidi":"R","num":"400000"}
+,{"code":68081,"name":"MEROITIC CURSIVE NUMBER FIVE HUNDRED THOUSAND","cat":"No","bidi":"R","num":"500000"}
+,{"code":68082,"name":"MEROITIC CURSIVE NUMBER SIX HUNDRED THOUSAND","cat":"No","bidi":"R","num":"600000"}
+,{"code":68083,"name":"MEROITIC CURSIVE NUMBER SEVEN HUNDRED THOUSAND","cat":"No","bidi":"R","num":"700000"}
+,{"code":68084,"name":"MEROITIC CURSIVE NUMBER EIGHT HUNDRED THOUSAND","cat":"No","bidi":"R","num":"800000"}
+,{"code":68085,"name":"MEROITIC CURSIVE NUMBER NINE HUNDRED THOUSAND","cat":"No","bidi":"R","num":"900000"}
+,{"code":68086,"name":"MEROITIC CURSIVE FRACTION ONE TWELFTH","cat":"No","bidi":"R","num":"1/12"}
+,{"code":68087,"name":"MEROITIC CURSIVE FRACTION TWO TWELFTHS","cat":"No","bidi":"R","num":"2/12"}
+,{"code":68088,"name":"MEROITIC CURSIVE FRACTION THREE TWELFTHS","cat":"No","bidi":"R","num":"3/12"}
+,{"code":68089,"name":"MEROITIC CURSIVE FRACTION FOUR TWELFTHS","cat":"No","bidi":"R","num":"4/12"}
+,{"code":68090,"name":"MEROITIC CURSIVE FRACTION FIVE TWELFTHS","cat":"No","bidi":"R","num":"5/12"}
+,{"code":68091,"name":"MEROITIC CURSIVE FRACTION SIX TWELFTHS","cat":"No","bidi":"R","num":"6/12"}
+,{"code":68092,"name":"MEROITIC CURSIVE FRACTION SEVEN TWELFTHS","cat":"No","bidi":"R","num":"7/12"}
+,{"code":68093,"name":"MEROITIC CURSIVE FRACTION EIGHT TWELFTHS","cat":"No","bidi":"R","num":"8/12"}
+,{"code":68094,"name":"MEROITIC CURSIVE FRACTION NINE TWELFTHS","cat":"No","bidi":"R","num":"9/12"}
+,{"code":68095,"name":"MEROITIC CURSIVE FRACTION TEN TWELFTHS","cat":"No","bidi":"R","num":"10/12"}
 ,{"code":68096,"name":"KHAROSHTHI LETTER A","cat":"Lo","bidi":"R"}
 ,{"code":68097,"name":"KHAROSHTHI VOWEL SIGN I","cat":"Mn","bidi":"NSM"}
 ,{"code":68098,"name":"KHAROSHTHI VOWEL SIGN U","cat":"Mn","bidi":"NSM"}
@@ -18344,6 +18550,114 @@
 ,{"code":68678,"name":"OLD TURKIC LETTER YENISEI AET","cat":"Lo","bidi":"R"}
 ,{"code":68679,"name":"OLD TURKIC LETTER ORKHON OT","cat":"Lo","bidi":"R"}
 ,{"code":68680,"name":"OLD TURKIC LETTER ORKHON BASH","cat":"Lo","bidi":"R"}
+,{"code":68736,"name":"OLD HUNGARIAN CAPITAL LETTER A","cat":"Lu","bidi":"R","lower":68800}
+,{"code":68737,"name":"OLD HUNGARIAN CAPITAL LETTER AA","cat":"Lu","bidi":"R","lower":68801}
+,{"code":68738,"name":"OLD HUNGARIAN CAPITAL LETTER EB","cat":"Lu","bidi":"R","lower":68802}
+,{"code":68739,"name":"OLD HUNGARIAN CAPITAL LETTER AMB","cat":"Lu","bidi":"R","lower":68803}
+,{"code":68740,"name":"OLD HUNGARIAN CAPITAL LETTER EC","cat":"Lu","bidi":"R","lower":68804}
+,{"code":68741,"name":"OLD HUNGARIAN CAPITAL LETTER ENC","cat":"Lu","bidi":"R","lower":68805}
+,{"code":68742,"name":"OLD HUNGARIAN CAPITAL LETTER ECS","cat":"Lu","bidi":"R","lower":68806}
+,{"code":68743,"name":"OLD HUNGARIAN CAPITAL LETTER ED","cat":"Lu","bidi":"R","lower":68807}
+,{"code":68744,"name":"OLD HUNGARIAN CAPITAL LETTER AND","cat":"Lu","bidi":"R","lower":68808}
+,{"code":68745,"name":"OLD HUNGARIAN CAPITAL LETTER E","cat":"Lu","bidi":"R","lower":68809}
+,{"code":68746,"name":"OLD HUNGARIAN CAPITAL LETTER CLOSE E","cat":"Lu","bidi":"R","lower":68810}
+,{"code":68747,"name":"OLD HUNGARIAN CAPITAL LETTER EE","cat":"Lu","bidi":"R","lower":68811}
+,{"code":68748,"name":"OLD HUNGARIAN CAPITAL LETTER EF","cat":"Lu","bidi":"R","lower":68812}
+,{"code":68749,"name":"OLD HUNGARIAN CAPITAL LETTER EG","cat":"Lu","bidi":"R","lower":68813}
+,{"code":68750,"name":"OLD HUNGARIAN CAPITAL LETTER EGY","cat":"Lu","bidi":"R","lower":68814}
+,{"code":68751,"name":"OLD HUNGARIAN CAPITAL LETTER EH","cat":"Lu","bidi":"R","lower":68815}
+,{"code":68752,"name":"OLD HUNGARIAN CAPITAL LETTER I","cat":"Lu","bidi":"R","lower":68816}
+,{"code":68753,"name":"OLD HUNGARIAN CAPITAL LETTER II","cat":"Lu","bidi":"R","lower":68817}
+,{"code":68754,"name":"OLD HUNGARIAN CAPITAL LETTER EJ","cat":"Lu","bidi":"R","lower":68818}
+,{"code":68755,"name":"OLD HUNGARIAN CAPITAL LETTER EK","cat":"Lu","bidi":"R","lower":68819}
+,{"code":68756,"name":"OLD HUNGARIAN CAPITAL LETTER AK","cat":"Lu","bidi":"R","lower":68820}
+,{"code":68757,"name":"OLD HUNGARIAN CAPITAL LETTER UNK","cat":"Lu","bidi":"R","lower":68821}
+,{"code":68758,"name":"OLD HUNGARIAN CAPITAL LETTER EL","cat":"Lu","bidi":"R","lower":68822}
+,{"code":68759,"name":"OLD HUNGARIAN CAPITAL LETTER ELY","cat":"Lu","bidi":"R","lower":68823}
+,{"code":68760,"name":"OLD HUNGARIAN CAPITAL LETTER EM","cat":"Lu","bidi":"R","lower":68824}
+,{"code":68761,"name":"OLD HUNGARIAN CAPITAL LETTER EN","cat":"Lu","bidi":"R","lower":68825}
+,{"code":68762,"name":"OLD HUNGARIAN CAPITAL LETTER ENY","cat":"Lu","bidi":"R","lower":68826}
+,{"code":68763,"name":"OLD HUNGARIAN CAPITAL LETTER O","cat":"Lu","bidi":"R","lower":68827}
+,{"code":68764,"name":"OLD HUNGARIAN CAPITAL LETTER OO","cat":"Lu","bidi":"R","lower":68828}
+,{"code":68765,"name":"OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG OE","cat":"Lu","bidi":"R","lower":68829}
+,{"code":68766,"name":"OLD HUNGARIAN CAPITAL LETTER RUDIMENTA OE","cat":"Lu","bidi":"R","lower":68830}
+,{"code":68767,"name":"OLD HUNGARIAN CAPITAL LETTER OEE","cat":"Lu","bidi":"R","lower":68831}
+,{"code":68768,"name":"OLD HUNGARIAN CAPITAL LETTER EP","cat":"Lu","bidi":"R","lower":68832}
+,{"code":68769,"name":"OLD HUNGARIAN CAPITAL LETTER EMP","cat":"Lu","bidi":"R","lower":68833}
+,{"code":68770,"name":"OLD HUNGARIAN CAPITAL LETTER ER","cat":"Lu","bidi":"R","lower":68834}
+,{"code":68771,"name":"OLD HUNGARIAN CAPITAL LETTER SHORT ER","cat":"Lu","bidi":"R","lower":68835}
+,{"code":68772,"name":"OLD HUNGARIAN CAPITAL LETTER ES","cat":"Lu","bidi":"R","lower":68836}
+,{"code":68773,"name":"OLD HUNGARIAN CAPITAL LETTER ESZ","cat":"Lu","bidi":"R","lower":68837}
+,{"code":68774,"name":"OLD HUNGARIAN CAPITAL LETTER ET","cat":"Lu","bidi":"R","lower":68838}
+,{"code":68775,"name":"OLD HUNGARIAN CAPITAL LETTER ENT","cat":"Lu","bidi":"R","lower":68839}
+,{"code":68776,"name":"OLD HUNGARIAN CAPITAL LETTER ETY","cat":"Lu","bidi":"R","lower":68840}
+,{"code":68777,"name":"OLD HUNGARIAN CAPITAL LETTER ECH","cat":"Lu","bidi":"R","lower":68841}
+,{"code":68778,"name":"OLD HUNGARIAN CAPITAL LETTER U","cat":"Lu","bidi":"R","lower":68842}
+,{"code":68779,"name":"OLD HUNGARIAN CAPITAL LETTER UU","cat":"Lu","bidi":"R","lower":68843}
+,{"code":68780,"name":"OLD HUNGARIAN CAPITAL LETTER NIKOLSBURG UE","cat":"Lu","bidi":"R","lower":68844}
+,{"code":68781,"name":"OLD HUNGARIAN CAPITAL LETTER RUDIMENTA UE","cat":"Lu","bidi":"R","lower":68845}
+,{"code":68782,"name":"OLD HUNGARIAN CAPITAL LETTER EV","cat":"Lu","bidi":"R","lower":68846}
+,{"code":68783,"name":"OLD HUNGARIAN CAPITAL LETTER EZ","cat":"Lu","bidi":"R","lower":68847}
+,{"code":68784,"name":"OLD HUNGARIAN CAPITAL LETTER EZS","cat":"Lu","bidi":"R","lower":68848}
+,{"code":68785,"name":"OLD HUNGARIAN CAPITAL LETTER ENT-SHAPED SIGN","cat":"Lu","bidi":"R","lower":68849}
+,{"code":68786,"name":"OLD HUNGARIAN CAPITAL LETTER US","cat":"Lu","bidi":"R","lower":68850}
+,{"code":68800,"name":"OLD HUNGARIAN SMALL LETTER A","cat":"Ll","bidi":"R","upper":68736,"title":68736}
+,{"code":68801,"name":"OLD HUNGARIAN SMALL LETTER AA","cat":"Ll","bidi":"R","upper":68737,"title":68737}
+,{"code":68802,"name":"OLD HUNGARIAN SMALL LETTER EB","cat":"Ll","bidi":"R","upper":68738,"title":68738}
+,{"code":68803,"name":"OLD HUNGARIAN SMALL LETTER AMB","cat":"Ll","bidi":"R","upper":68739,"title":68739}
+,{"code":68804,"name":"OLD HUNGARIAN SMALL LETTER EC","cat":"Ll","bidi":"R","upper":68740,"title":68740}
+,{"code":68805,"name":"OLD HUNGARIAN SMALL LETTER ENC","cat":"Ll","bidi":"R","upper":68741,"title":68741}
+,{"code":68806,"name":"OLD HUNGARIAN SMALL LETTER ECS","cat":"Ll","bidi":"R","upper":68742,"title":68742}
+,{"code":68807,"name":"OLD HUNGARIAN SMALL LETTER ED","cat":"Ll","bidi":"R","upper":68743,"title":68743}
+,{"code":68808,"name":"OLD HUNGARIAN SMALL LETTER AND","cat":"Ll","bidi":"R","upper":68744,"title":68744}
+,{"code":68809,"name":"OLD HUNGARIAN SMALL LETTER E","cat":"Ll","bidi":"R","upper":68745,"title":68745}
+,{"code":68810,"name":"OLD HUNGARIAN SMALL LETTER CLOSE E","cat":"Ll","bidi":"R","upper":68746,"title":68746}
+,{"code":68811,"name":"OLD HUNGARIAN SMALL LETTER EE","cat":"Ll","bidi":"R","upper":68747,"title":68747}
+,{"code":68812,"name":"OLD HUNGARIAN SMALL LETTER EF","cat":"Ll","bidi":"R","upper":68748,"title":68748}
+,{"code":68813,"name":"OLD HUNGARIAN SMALL LETTER EG","cat":"Ll","bidi":"R","upper":68749,"title":68749}
+,{"code":68814,"name":"OLD HUNGARIAN SMALL LETTER EGY","cat":"Ll","bidi":"R","upper":68750,"title":68750}
+,{"code":68815,"name":"OLD HUNGARIAN SMALL LETTER EH","cat":"Ll","bidi":"R","upper":68751,"title":68751}
+,{"code":68816,"name":"OLD HUNGARIAN SMALL LETTER I","cat":"Ll","bidi":"R","upper":68752,"title":68752}
+,{"code":68817,"name":"OLD HUNGARIAN SMALL LETTER II","cat":"Ll","bidi":"R","upper":68753,"title":68753}
+,{"code":68818,"name":"OLD HUNGARIAN SMALL LETTER EJ","cat":"Ll","bidi":"R","upper":68754,"title":68754}
+,{"code":68819,"name":"OLD HUNGARIAN SMALL LETTER EK","cat":"Ll","bidi":"R","upper":68755,"title":68755}
+,{"code":68820,"name":"OLD HUNGARIAN SMALL LETTER AK","cat":"Ll","bidi":"R","upper":68756,"title":68756}
+,{"code":68821,"name":"OLD HUNGARIAN SMALL LETTER UNK","cat":"Ll","bidi":"R","upper":68757,"title":68757}
+,{"code":68822,"name":"OLD HUNGARIAN SMALL LETTER EL","cat":"Ll","bidi":"R","upper":68758,"title":68758}
+,{"code":68823,"name":"OLD HUNGARIAN SMALL LETTER ELY","cat":"Ll","bidi":"R","upper":68759,"title":68759}
+,{"code":68824,"name":"OLD HUNGARIAN SMALL LETTER EM","cat":"Ll","bidi":"R","upper":68760,"title":68760}
+,{"code":68825,"name":"OLD HUNGARIAN SMALL LETTER EN","cat":"Ll","bidi":"R","upper":68761,"title":68761}
+,{"code":68826,"name":"OLD HUNGARIAN SMALL LETTER ENY","cat":"Ll","bidi":"R","upper":68762,"title":68762}
+,{"code":68827,"name":"OLD HUNGARIAN SMALL LETTER O","cat":"Ll","bidi":"R","upper":68763,"title":68763}
+,{"code":68828,"name":"OLD HUNGARIAN SMALL LETTER OO","cat":"Ll","bidi":"R","upper":68764,"title":68764}
+,{"code":68829,"name":"OLD HUNGARIAN SMALL LETTER NIKOLSBURG OE","cat":"Ll","bidi":"R","upper":68765,"title":68765}
+,{"code":68830,"name":"OLD HUNGARIAN SMALL LETTER RUDIMENTA OE","cat":"Ll","bidi":"R","upper":68766,"title":68766}
+,{"code":68831,"name":"OLD HUNGARIAN SMALL LETTER OEE","cat":"Ll","bidi":"R","upper":68767,"title":68767}
+,{"code":68832,"name":"OLD HUNGARIAN SMALL LETTER EP","cat":"Ll","bidi":"R","upper":68768,"title":68768}
+,{"code":68833,"name":"OLD HUNGARIAN SMALL LETTER EMP","cat":"Ll","bidi":"R","upper":68769,"title":68769}
+,{"code":68834,"name":"OLD HUNGARIAN SMALL LETTER ER","cat":"Ll","bidi":"R","upper":68770,"title":68770}
+,{"code":68835,"name":"OLD HUNGARIAN SMALL LETTER SHORT ER","cat":"Ll","bidi":"R","upper":68771,"title":68771}
+,{"code":68836,"name":"OLD HUNGARIAN SMALL LETTER ES","cat":"Ll","bidi":"R","upper":68772,"title":68772}
+,{"code":68837,"name":"OLD HUNGARIAN SMALL LETTER ESZ","cat":"Ll","bidi":"R","upper":68773,"title":68773}
+,{"code":68838,"name":"OLD HUNGARIAN SMALL LETTER ET","cat":"Ll","bidi":"R","upper":68774,"title":68774}
+,{"code":68839,"name":"OLD HUNGARIAN SMALL LETTER ENT","cat":"Ll","bidi":"R","upper":68775,"title":68775}
+,{"code":68840,"name":"OLD HUNGARIAN SMALL LETTER ETY","cat":"Ll","bidi":"R","upper":68776,"title":68776}
+,{"code":68841,"name":"OLD HUNGARIAN SMALL LETTER ECH","cat":"Ll","bidi":"R","upper":68777,"title":68777}
+,{"code":68842,"name":"OLD HUNGARIAN SMALL LETTER U","cat":"Ll","bidi":"R","upper":68778,"title":68778}
+,{"code":68843,"name":"OLD HUNGARIAN SMALL LETTER UU","cat":"Ll","bidi":"R","upper":68779,"title":68779}
+,{"code":68844,"name":"OLD HUNGARIAN SMALL LETTER NIKOLSBURG UE","cat":"Ll","bidi":"R","upper":68780,"title":68780}
+,{"code":68845,"name":"OLD HUNGARIAN SMALL LETTER RUDIMENTA UE","cat":"Ll","bidi":"R","upper":68781,"title":68781}
+,{"code":68846,"name":"OLD HUNGARIAN SMALL LETTER EV","cat":"Ll","bidi":"R","upper":68782,"title":68782}
+,{"code":68847,"name":"OLD HUNGARIAN SMALL LETTER EZ","cat":"Ll","bidi":"R","upper":68783,"title":68783}
+,{"code":68848,"name":"OLD HUNGARIAN SMALL LETTER EZS","cat":"Ll","bidi":"R","upper":68784,"title":68784}
+,{"code":68849,"name":"OLD HUNGARIAN SMALL LETTER ENT-SHAPED SIGN","cat":"Ll","bidi":"R","upper":68785,"title":68785}
+,{"code":68850,"name":"OLD HUNGARIAN SMALL LETTER US","cat":"Ll","bidi":"R","upper":68786,"title":68786}
+,{"code":68858,"name":"OLD HUNGARIAN NUMBER ONE","cat":"No","bidi":"R","num":"1"}
+,{"code":68859,"name":"OLD HUNGARIAN NUMBER FIVE","cat":"No","bidi":"R","num":"5"}
+,{"code":68860,"name":"OLD HUNGARIAN NUMBER TEN","cat":"No","bidi":"R","num":"10"}
+,{"code":68861,"name":"OLD HUNGARIAN NUMBER FIFTY","cat":"No","bidi":"R","num":"50"}
+,{"code":68862,"name":"OLD HUNGARIAN NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
+,{"code":68863,"name":"OLD HUNGARIAN NUMBER ONE THOUSAND","cat":"No","bidi":"R","num":"1000"}
 ,{"code":69216,"name":"RUMI DIGIT ONE","cat":"No","bidi":"AN","num":"1"}
 ,{"code":69217,"name":"RUMI DIGIT TWO","cat":"No","bidi":"AN","num":"2"}
 ,{"code":69218,"name":"RUMI DIGIT THREE","cat":"No","bidi":"AN","num":"3"}
@@ -18764,6 +19078,10 @@
 ,{"code":70086,"name":"SHARADA DOUBLE DANDA","cat":"Po"}
 ,{"code":70087,"name":"SHARADA ABBREVIATION SIGN","cat":"Po"}
 ,{"code":70088,"name":"SHARADA SEPARATOR","cat":"Po"}
+,{"code":70089,"name":"SHARADA SANDHI MARK","cat":"Po"}
+,{"code":70090,"name":"SHARADA SIGN NUKTA","cat":"Mn","comb":7,"bidi":"NSM"}
+,{"code":70091,"name":"SHARADA VOWEL MODIFIER MARK","cat":"Mn","bidi":"NSM"}
+,{"code":70092,"name":"SHARADA EXTRA SHORT VOWEL MARK","cat":"Mn","bidi":"NSM"}
 ,{"code":70093,"name":"SHARADA SUTRA MARK","cat":"Po"}
 ,{"code":70096,"name":"SHARADA DIGIT ZERO","cat":"Nd","num":"0"}
 ,{"code":70097,"name":"SHARADA DIGIT ONE","cat":"Nd","num":"1"}
@@ -18776,6 +19094,11 @@
 ,{"code":70104,"name":"SHARADA DIGIT EIGHT","cat":"Nd","num":"8"}
 ,{"code":70105,"name":"SHARADA DIGIT NINE","cat":"Nd","num":"9"}
 ,{"code":70106,"name":"SHARADA EKAM","cat":"Lo"}
+,{"code":70107,"name":"SHARADA SIGN SIDDHAM","cat":"Po"}
+,{"code":70108,"name":"SHARADA HEADSTROKE","cat":"Lo"}
+,{"code":70109,"name":"SHARADA CONTINUATION SIGN","cat":"Po"}
+,{"code":70110,"name":"SHARADA SECTION MARK-1","cat":"Po"}
+,{"code":70111,"name":"SHARADA SECTION MARK-2","cat":"Po"}
 ,{"code":70113,"name":"SINHALA ARCHAIC DIGIT ONE","cat":"No","num":"1"}
 ,{"code":70114,"name":"SINHALA ARCHAIC DIGIT TWO","cat":"No","num":"2"}
 ,{"code":70115,"name":"SINHALA ARCHAIC DIGIT THREE","cat":"No","num":"3"}
@@ -18857,6 +19180,44 @@
 ,{"code":70203,"name":"KHOJKI SECTION MARK","cat":"Po"}
 ,{"code":70204,"name":"KHOJKI DOUBLE SECTION MARK","cat":"Po"}
 ,{"code":70205,"name":"KHOJKI ABBREVIATION SIGN","cat":"Po"}
+,{"code":70272,"name":"MULTANI LETTER A","cat":"Lo"}
+,{"code":70273,"name":"MULTANI LETTER I","cat":"Lo"}
+,{"code":70274,"name":"MULTANI LETTER U","cat":"Lo"}
+,{"code":70275,"name":"MULTANI LETTER E","cat":"Lo"}
+,{"code":70276,"name":"MULTANI LETTER KA","cat":"Lo"}
+,{"code":70277,"name":"MULTANI LETTER KHA","cat":"Lo"}
+,{"code":70278,"name":"MULTANI LETTER GA","cat":"Lo"}
+,{"code":70280,"name":"MULTANI LETTER GHA","cat":"Lo"}
+,{"code":70282,"name":"MULTANI LETTER CA","cat":"Lo"}
+,{"code":70283,"name":"MULTANI LETTER CHA","cat":"Lo"}
+,{"code":70284,"name":"MULTANI LETTER JA","cat":"Lo"}
+,{"code":70285,"name":"MULTANI LETTER JJA","cat":"Lo"}
+,{"code":70287,"name":"MULTANI LETTER NYA","cat":"Lo"}
+,{"code":70288,"name":"MULTANI LETTER TTA","cat":"Lo"}
+,{"code":70289,"name":"MULTANI LETTER TTHA","cat":"Lo"}
+,{"code":70290,"name":"MULTANI LETTER DDA","cat":"Lo"}
+,{"code":70291,"name":"MULTANI LETTER DDDA","cat":"Lo"}
+,{"code":70292,"name":"MULTANI LETTER DDHA","cat":"Lo"}
+,{"code":70293,"name":"MULTANI LETTER NNA","cat":"Lo"}
+,{"code":70294,"name":"MULTANI LETTER TA","cat":"Lo"}
+,{"code":70295,"name":"MULTANI LETTER THA","cat":"Lo"}
+,{"code":70296,"name":"MULTANI LETTER DA","cat":"Lo"}
+,{"code":70297,"name":"MULTANI LETTER DHA","cat":"Lo"}
+,{"code":70298,"name":"MULTANI LETTER NA","cat":"Lo"}
+,{"code":70299,"name":"MULTANI LETTER PA","cat":"Lo"}
+,{"code":70300,"name":"MULTANI LETTER PHA","cat":"Lo"}
+,{"code":70301,"name":"MULTANI LETTER BA","cat":"Lo"}
+,{"code":70303,"name":"MULTANI LETTER BHA","cat":"Lo"}
+,{"code":70304,"name":"MULTANI LETTER MA","cat":"Lo"}
+,{"code":70305,"name":"MULTANI LETTER YA","cat":"Lo"}
+,{"code":70306,"name":"MULTANI LETTER RA","cat":"Lo"}
+,{"code":70307,"name":"MULTANI LETTER LA","cat":"Lo"}
+,{"code":70308,"name":"MULTANI LETTER VA","cat":"Lo"}
+,{"code":70309,"name":"MULTANI LETTER SA","cat":"Lo"}
+,{"code":70310,"name":"MULTANI LETTER HA","cat":"Lo"}
+,{"code":70311,"name":"MULTANI LETTER RRA","cat":"Lo"}
+,{"code":70312,"name":"MULTANI LETTER RHA","cat":"Lo"}
+,{"code":70313,"name":"MULTANI SECTION MARK","cat":"Po"}
 ,{"code":70320,"name":"KHUDAWADI LETTER A","cat":"Lo"}
 ,{"code":70321,"name":"KHUDAWADI LETTER AA","cat":"Lo"}
 ,{"code":70322,"name":"KHUDAWADI LETTER I","cat":"Lo"}
@@ -18926,6 +19287,7 @@
 ,{"code":70391,"name":"KHUDAWADI DIGIT SEVEN","cat":"Nd","num":"7"}
 ,{"code":70392,"name":"KHUDAWADI DIGIT EIGHT","cat":"Nd","num":"8"}
 ,{"code":70393,"name":"KHUDAWADI DIGIT NINE","cat":"Nd","num":"9"}
+,{"code":70400,"name":"GRANTHA SIGN COMBINING ANUSVARA ABOVE","cat":"Mn","bidi":"NSM"}
 ,{"code":70401,"name":"GRANTHA SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":70402,"name":"GRANTHA SIGN ANUSVARA","cat":"Mc"}
 ,{"code":70403,"name":"GRANTHA SIGN VISARGA","cat":"Mc"}
@@ -18989,6 +19351,7 @@
 ,{"code":70475,"name":"GRANTHA VOWEL SIGN OO","cat":"Mc","decomp":[70471,70462]}
 ,{"code":70476,"name":"GRANTHA VOWEL SIGN AU","cat":"Mc","decomp":[70471,70487]}
 ,{"code":70477,"name":"GRANTHA SIGN VIRAMA","cat":"Mc","comb":9}
+,{"code":70480,"name":"GRANTHA OM","cat":"Lo"}
 ,{"code":70487,"name":"GRANTHA AU LENGTH MARK","cat":"Mc"}
 ,{"code":70493,"name":"GRANTHA SIGN PLUTA","cat":"Lo"}
 ,{"code":70494,"name":"GRANTHA LETTER VEDIC ANUSVARA","cat":"Lo"}
@@ -19163,6 +19526,26 @@
 ,{"code":71111,"name":"SIDDHAM REPETITION MARK-2","cat":"Po"}
 ,{"code":71112,"name":"SIDDHAM REPETITION MARK-3","cat":"Po"}
 ,{"code":71113,"name":"SIDDHAM END OF TEXT MARK","cat":"Po"}
+,{"code":71114,"name":"SIDDHAM SECTION MARK WITH TRIDENT AND U-SHAPED ORNAMENTS","cat":"Po"}
+,{"code":71115,"name":"SIDDHAM SECTION MARK WITH TRIDENT AND DOTTED CRESCENTS","cat":"Po"}
+,{"code":71116,"name":"SIDDHAM SECTION MARK WITH RAYS AND DOTTED CRESCENTS","cat":"Po"}
+,{"code":71117,"name":"SIDDHAM SECTION MARK WITH RAYS AND DOTTED DOUBLE CRESCENTS","cat":"Po"}
+,{"code":71118,"name":"SIDDHAM SECTION MARK WITH RAYS AND DOTTED TRIPLE CRESCENTS","cat":"Po"}
+,{"code":71119,"name":"SIDDHAM SECTION MARK DOUBLE RING","cat":"Po"}
+,{"code":71120,"name":"SIDDHAM SECTION MARK DOUBLE RING WITH RAYS","cat":"Po"}
+,{"code":71121,"name":"SIDDHAM SECTION MARK WITH DOUBLE CRESCENTS","cat":"Po"}
+,{"code":71122,"name":"SIDDHAM SECTION MARK WITH TRIPLE CRESCENTS","cat":"Po"}
+,{"code":71123,"name":"SIDDHAM SECTION MARK WITH QUADRUPLE CRESCENTS","cat":"Po"}
+,{"code":71124,"name":"SIDDHAM SECTION MARK WITH SEPTUPLE CRESCENTS","cat":"Po"}
+,{"code":71125,"name":"SIDDHAM SECTION MARK WITH CIRCLES AND RAYS","cat":"Po"}
+,{"code":71126,"name":"SIDDHAM SECTION MARK WITH CIRCLES AND TWO ENCLOSURES","cat":"Po"}
+,{"code":71127,"name":"SIDDHAM SECTION MARK WITH CIRCLES AND FOUR ENCLOSURES","cat":"Po"}
+,{"code":71128,"name":"SIDDHAM LETTER THREE-CIRCLE ALTERNATE I","cat":"Lo"}
+,{"code":71129,"name":"SIDDHAM LETTER TWO-CIRCLE ALTERNATE I","cat":"Lo"}
+,{"code":71130,"name":"SIDDHAM LETTER TWO-CIRCLE ALTERNATE II","cat":"Lo"}
+,{"code":71131,"name":"SIDDHAM LETTER ALTERNATE U","cat":"Lo"}
+,{"code":71132,"name":"SIDDHAM VOWEL SIGN ALTERNATE U","cat":"Mn","bidi":"NSM"}
+,{"code":71133,"name":"SIDDHAM VOWEL SIGN ALTERNATE UU","cat":"Mn","bidi":"NSM"}
 ,{"code":71168,"name":"MODI LETTER A","cat":"Lo"}
 ,{"code":71169,"name":"MODI LETTER AA","cat":"Lo"}
 ,{"code":71170,"name":"MODI LETTER I","cat":"Lo"}
@@ -19308,6 +19691,63 @@
 ,{"code":71367,"name":"TAKRI DIGIT SEVEN","cat":"Nd","num":"7"}
 ,{"code":71368,"name":"TAKRI DIGIT EIGHT","cat":"Nd","num":"8"}
 ,{"code":71369,"name":"TAKRI DIGIT NINE","cat":"Nd","num":"9"}
+,{"code":71424,"name":"AHOM LETTER KA","cat":"Lo"}
+,{"code":71425,"name":"AHOM LETTER KHA","cat":"Lo"}
+,{"code":71426,"name":"AHOM LETTER NGA","cat":"Lo"}
+,{"code":71427,"name":"AHOM LETTER NA","cat":"Lo"}
+,{"code":71428,"name":"AHOM LETTER TA","cat":"Lo"}
+,{"code":71429,"name":"AHOM LETTER ALTERNATE TA","cat":"Lo"}
+,{"code":71430,"name":"AHOM LETTER PA","cat":"Lo"}
+,{"code":71431,"name":"AHOM LETTER PHA","cat":"Lo"}
+,{"code":71432,"name":"AHOM LETTER BA","cat":"Lo"}
+,{"code":71433,"name":"AHOM LETTER MA","cat":"Lo"}
+,{"code":71434,"name":"AHOM LETTER JA","cat":"Lo"}
+,{"code":71435,"name":"AHOM LETTER CHA","cat":"Lo"}
+,{"code":71436,"name":"AHOM LETTER THA","cat":"Lo"}
+,{"code":71437,"name":"AHOM LETTER RA","cat":"Lo"}
+,{"code":71438,"name":"AHOM LETTER LA","cat":"Lo"}
+,{"code":71439,"name":"AHOM LETTER SA","cat":"Lo"}
+,{"code":71440,"name":"AHOM LETTER NYA","cat":"Lo"}
+,{"code":71441,"name":"AHOM LETTER HA","cat":"Lo"}
+,{"code":71442,"name":"AHOM LETTER A","cat":"Lo"}
+,{"code":71443,"name":"AHOM LETTER DA","cat":"Lo"}
+,{"code":71444,"name":"AHOM LETTER DHA","cat":"Lo"}
+,{"code":71445,"name":"AHOM LETTER GA","cat":"Lo"}
+,{"code":71446,"name":"AHOM LETTER ALTERNATE GA","cat":"Lo"}
+,{"code":71447,"name":"AHOM LETTER GHA","cat":"Lo"}
+,{"code":71448,"name":"AHOM LETTER BHA","cat":"Lo"}
+,{"code":71449,"name":"AHOM LETTER JHA","cat":"Lo"}
+,{"code":71453,"name":"AHOM CONSONANT SIGN MEDIAL LA","cat":"Mn","bidi":"NSM"}
+,{"code":71454,"name":"AHOM CONSONANT SIGN MEDIAL RA","cat":"Mn","bidi":"NSM"}
+,{"code":71455,"name":"AHOM CONSONANT SIGN MEDIAL LIGATING RA","cat":"Mn","bidi":"NSM"}
+,{"code":71456,"name":"AHOM VOWEL SIGN A","cat":"Mc"}
+,{"code":71457,"name":"AHOM VOWEL SIGN AA","cat":"Mc"}
+,{"code":71458,"name":"AHOM VOWEL SIGN I","cat":"Mn","bidi":"NSM"}
+,{"code":71459,"name":"AHOM VOWEL SIGN II","cat":"Mn","bidi":"NSM"}
+,{"code":71460,"name":"AHOM VOWEL SIGN U","cat":"Mn","bidi":"NSM"}
+,{"code":71461,"name":"AHOM VOWEL SIGN UU","cat":"Mn","bidi":"NSM"}
+,{"code":71462,"name":"AHOM VOWEL SIGN E","cat":"Mc"}
+,{"code":71463,"name":"AHOM VOWEL SIGN AW","cat":"Mn","bidi":"NSM"}
+,{"code":71464,"name":"AHOM VOWEL SIGN O","cat":"Mn","bidi":"NSM"}
+,{"code":71465,"name":"AHOM VOWEL SIGN AI","cat":"Mn","bidi":"NSM"}
+,{"code":71466,"name":"AHOM VOWEL SIGN AM","cat":"Mn","bidi":"NSM"}
+,{"code":71467,"name":"AHOM SIGN KILLER","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":71472,"name":"AHOM DIGIT ZERO","cat":"Nd","num":"0"}
+,{"code":71473,"name":"AHOM DIGIT ONE","cat":"Nd","num":"1"}
+,{"code":71474,"name":"AHOM DIGIT TWO","cat":"Nd","num":"2"}
+,{"code":71475,"name":"AHOM DIGIT THREE","cat":"Nd","num":"3"}
+,{"code":71476,"name":"AHOM DIGIT FOUR","cat":"Nd","num":"4"}
+,{"code":71477,"name":"AHOM DIGIT FIVE","cat":"Nd","num":"5"}
+,{"code":71478,"name":"AHOM DIGIT SIX","cat":"Nd","num":"6"}
+,{"code":71479,"name":"AHOM DIGIT SEVEN","cat":"Nd","num":"7"}
+,{"code":71480,"name":"AHOM DIGIT EIGHT","cat":"Nd","num":"8"}
+,{"code":71481,"name":"AHOM DIGIT NINE","cat":"Nd","num":"9"}
+,{"code":71482,"name":"AHOM NUMBER TEN","cat":"No","num":"10"}
+,{"code":71483,"name":"AHOM NUMBER TWENTY","cat":"No","num":"20"}
+,{"code":71484,"name":"AHOM SIGN SMALL SECTION","cat":"Po"}
+,{"code":71485,"name":"AHOM SIGN SECTION","cat":"Po"}
+,{"code":71486,"name":"AHOM SIGN RULAI","cat":"Po"}
+,{"code":71487,"name":"AHOM SYMBOL VI","cat":"So"}
 ,{"code":71840,"name":"WARANG CITI CAPITAL LETTER NGAA","cat":"Lu","lower":71872}
 ,{"code":71841,"name":"WARANG CITI CAPITAL LETTER A","cat":"Lu","lower":71873}
 ,{"code":71842,"name":"WARANG CITI CAPITAL LETTER WI","cat":"Lu","lower":71874}
@@ -20370,6 +20810,7 @@
 ,{"code":74646,"name":"CUNEIFORM SIGN SAG TIMES IGI GUNU","cat":"Lo"}
 ,{"code":74647,"name":"CUNEIFORM SIGN TI2","cat":"Lo"}
 ,{"code":74648,"name":"CUNEIFORM SIGN UM TIMES ME","cat":"Lo"}
+,{"code":74649,"name":"CUNEIFORM SIGN U U","cat":"Lo"}
 ,{"code":74752,"name":"CUNEIFORM NUMERIC SIGN TWO ASH","cat":"Nl","num":"2"}
 ,{"code":74753,"name":"CUNEIFORM NUMERIC SIGN THREE ASH","cat":"Nl","num":"3"}
 ,{"code":74754,"name":"CUNEIFORM NUMERIC SIGN FOUR ASH","cat":"Nl","num":"4"}
@@ -20486,6 +20927,202 @@
 ,{"code":74866,"name":"CUNEIFORM PUNCTUATION SIGN DIAGONAL COLON","cat":"Po"}
 ,{"code":74867,"name":"CUNEIFORM PUNCTUATION SIGN DIAGONAL TRICOLON","cat":"Po"}
 ,{"code":74868,"name":"CUNEIFORM PUNCTUATION SIGN DIAGONAL QUADCOLON","cat":"Po"}
+,{"code":74880,"name":"CUNEIFORM SIGN AB TIMES NUN TENU","cat":"Lo"}
+,{"code":74881,"name":"CUNEIFORM SIGN AB TIMES SHU2","cat":"Lo"}
+,{"code":74882,"name":"CUNEIFORM SIGN AD TIMES ESH2","cat":"Lo"}
+,{"code":74883,"name":"CUNEIFORM SIGN BAD TIMES DISH TENU","cat":"Lo"}
+,{"code":74884,"name":"CUNEIFORM SIGN BAHAR2 TIMES AB2","cat":"Lo"}
+,{"code":74885,"name":"CUNEIFORM SIGN BAHAR2 TIMES NI","cat":"Lo"}
+,{"code":74886,"name":"CUNEIFORM SIGN BAHAR2 TIMES ZA","cat":"Lo"}
+,{"code":74887,"name":"CUNEIFORM SIGN BU OVER BU TIMES NA2","cat":"Lo"}
+,{"code":74888,"name":"CUNEIFORM SIGN DA TIMES TAK4","cat":"Lo"}
+,{"code":74889,"name":"CUNEIFORM SIGN DAG TIMES KUR","cat":"Lo"}
+,{"code":74890,"name":"CUNEIFORM SIGN DIM TIMES IGI","cat":"Lo"}
+,{"code":74891,"name":"CUNEIFORM SIGN DIM TIMES U U U","cat":"Lo"}
+,{"code":74892,"name":"CUNEIFORM SIGN DIM2 TIMES UD","cat":"Lo"}
+,{"code":74893,"name":"CUNEIFORM SIGN DUG TIMES ANSHE","cat":"Lo"}
+,{"code":74894,"name":"CUNEIFORM SIGN DUG TIMES ASH","cat":"Lo"}
+,{"code":74895,"name":"CUNEIFORM SIGN DUG TIMES ASH AT LEFT","cat":"Lo"}
+,{"code":74896,"name":"CUNEIFORM SIGN DUG TIMES DIN","cat":"Lo"}
+,{"code":74897,"name":"CUNEIFORM SIGN DUG TIMES DUN","cat":"Lo"}
+,{"code":74898,"name":"CUNEIFORM SIGN DUG TIMES ERIN2","cat":"Lo"}
+,{"code":74899,"name":"CUNEIFORM SIGN DUG TIMES GA","cat":"Lo"}
+,{"code":74900,"name":"CUNEIFORM SIGN DUG TIMES GI","cat":"Lo"}
+,{"code":74901,"name":"CUNEIFORM SIGN DUG TIMES GIR2 GUNU","cat":"Lo"}
+,{"code":74902,"name":"CUNEIFORM SIGN DUG TIMES GISH","cat":"Lo"}
+,{"code":74903,"name":"CUNEIFORM SIGN DUG TIMES HA","cat":"Lo"}
+,{"code":74904,"name":"CUNEIFORM SIGN DUG TIMES HI","cat":"Lo"}
+,{"code":74905,"name":"CUNEIFORM SIGN DUG TIMES IGI GUNU","cat":"Lo"}
+,{"code":74906,"name":"CUNEIFORM SIGN DUG TIMES KASKAL","cat":"Lo"}
+,{"code":74907,"name":"CUNEIFORM SIGN DUG TIMES KUR","cat":"Lo"}
+,{"code":74908,"name":"CUNEIFORM SIGN DUG TIMES KUSHU2","cat":"Lo"}
+,{"code":74909,"name":"CUNEIFORM SIGN DUG TIMES KUSHU2 PLUS KASKAL","cat":"Lo"}
+,{"code":74910,"name":"CUNEIFORM SIGN DUG TIMES LAK-020","cat":"Lo"}
+,{"code":74911,"name":"CUNEIFORM SIGN DUG TIMES LAM","cat":"Lo"}
+,{"code":74912,"name":"CUNEIFORM SIGN DUG TIMES LAM TIMES KUR","cat":"Lo"}
+,{"code":74913,"name":"CUNEIFORM SIGN DUG TIMES LUH PLUS GISH","cat":"Lo"}
+,{"code":74914,"name":"CUNEIFORM SIGN DUG TIMES MASH","cat":"Lo"}
+,{"code":74915,"name":"CUNEIFORM SIGN DUG TIMES MES","cat":"Lo"}
+,{"code":74916,"name":"CUNEIFORM SIGN DUG TIMES MI","cat":"Lo"}
+,{"code":74917,"name":"CUNEIFORM SIGN DUG TIMES NI","cat":"Lo"}
+,{"code":74918,"name":"CUNEIFORM SIGN DUG TIMES PI","cat":"Lo"}
+,{"code":74919,"name":"CUNEIFORM SIGN DUG TIMES SHE","cat":"Lo"}
+,{"code":74920,"name":"CUNEIFORM SIGN DUG TIMES SI GUNU","cat":"Lo"}
+,{"code":74921,"name":"CUNEIFORM SIGN E2 TIMES KUR","cat":"Lo"}
+,{"code":74922,"name":"CUNEIFORM SIGN E2 TIMES PAP","cat":"Lo"}
+,{"code":74923,"name":"CUNEIFORM SIGN ERIN2 X","cat":"Lo"}
+,{"code":74924,"name":"CUNEIFORM SIGN ESH2 CROSSING ESH2","cat":"Lo"}
+,{"code":74925,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES ASH","cat":"Lo"}
+,{"code":74926,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES HI","cat":"Lo"}
+,{"code":74927,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES IGI GUNU","cat":"Lo"}
+,{"code":74928,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES LA","cat":"Lo"}
+,{"code":74929,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES LAL","cat":"Lo"}
+,{"code":74930,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES ME","cat":"Lo"}
+,{"code":74931,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES MES","cat":"Lo"}
+,{"code":74932,"name":"CUNEIFORM SIGN EZEN SHESHIG TIMES SU","cat":"Lo"}
+,{"code":74933,"name":"CUNEIFORM SIGN EZEN TIMES SU","cat":"Lo"}
+,{"code":74934,"name":"CUNEIFORM SIGN GA2 TIMES BAHAR2","cat":"Lo"}
+,{"code":74935,"name":"CUNEIFORM SIGN GA2 TIMES DIM GUNU","cat":"Lo"}
+,{"code":74936,"name":"CUNEIFORM SIGN GA2 TIMES DUG TIMES IGI GUNU","cat":"Lo"}
+,{"code":74937,"name":"CUNEIFORM SIGN GA2 TIMES DUG TIMES KASKAL","cat":"Lo"}
+,{"code":74938,"name":"CUNEIFORM SIGN GA2 TIMES EREN","cat":"Lo"}
+,{"code":74939,"name":"CUNEIFORM SIGN GA2 TIMES GA","cat":"Lo"}
+,{"code":74940,"name":"CUNEIFORM SIGN GA2 TIMES GAR PLUS DI","cat":"Lo"}
+,{"code":74941,"name":"CUNEIFORM SIGN GA2 TIMES GAR PLUS NE","cat":"Lo"}
+,{"code":74942,"name":"CUNEIFORM SIGN GA2 TIMES HA PLUS A","cat":"Lo"}
+,{"code":74943,"name":"CUNEIFORM SIGN GA2 TIMES KUSHU2 PLUS KASKAL","cat":"Lo"}
+,{"code":74944,"name":"CUNEIFORM SIGN GA2 TIMES LAM","cat":"Lo"}
+,{"code":74945,"name":"CUNEIFORM SIGN GA2 TIMES LAM TIMES KUR","cat":"Lo"}
+,{"code":74946,"name":"CUNEIFORM SIGN GA2 TIMES LUH","cat":"Lo"}
+,{"code":74947,"name":"CUNEIFORM SIGN GA2 TIMES MUSH","cat":"Lo"}
+,{"code":74948,"name":"CUNEIFORM SIGN GA2 TIMES NE","cat":"Lo"}
+,{"code":74949,"name":"CUNEIFORM SIGN GA2 TIMES NE PLUS E2","cat":"Lo"}
+,{"code":74950,"name":"CUNEIFORM SIGN GA2 TIMES NE PLUS GI","cat":"Lo"}
+,{"code":74951,"name":"CUNEIFORM SIGN GA2 TIMES SHIM","cat":"Lo"}
+,{"code":74952,"name":"CUNEIFORM SIGN GA2 TIMES ZIZ2","cat":"Lo"}
+,{"code":74953,"name":"CUNEIFORM SIGN GABA ROTATED NINETY DEGREES","cat":"Lo"}
+,{"code":74954,"name":"CUNEIFORM SIGN GESHTIN TIMES U","cat":"Lo"}
+,{"code":74955,"name":"CUNEIFORM SIGN GISH TIMES GISH CROSSING GISH","cat":"Lo"}
+,{"code":74956,"name":"CUNEIFORM SIGN GU2 TIMES IGI GUNU","cat":"Lo"}
+,{"code":74957,"name":"CUNEIFORM SIGN GUD PLUS GISH TIMES TAK4","cat":"Lo"}
+,{"code":74958,"name":"CUNEIFORM SIGN HA TENU GUNU","cat":"Lo"}
+,{"code":74959,"name":"CUNEIFORM SIGN HI TIMES ASH OVER HI TIMES ASH","cat":"Lo"}
+,{"code":74960,"name":"CUNEIFORM SIGN KA TIMES BU","cat":"Lo"}
+,{"code":74961,"name":"CUNEIFORM SIGN KA TIMES KA","cat":"Lo"}
+,{"code":74962,"name":"CUNEIFORM SIGN KA TIMES U U U","cat":"Lo"}
+,{"code":74963,"name":"CUNEIFORM SIGN KA TIMES UR","cat":"Lo"}
+,{"code":74964,"name":"CUNEIFORM SIGN LAGAB TIMES ZU OVER ZU","cat":"Lo"}
+,{"code":74965,"name":"CUNEIFORM SIGN LAK-003","cat":"Lo"}
+,{"code":74966,"name":"CUNEIFORM SIGN LAK-021","cat":"Lo"}
+,{"code":74967,"name":"CUNEIFORM SIGN LAK-025","cat":"Lo"}
+,{"code":74968,"name":"CUNEIFORM SIGN LAK-030","cat":"Lo"}
+,{"code":74969,"name":"CUNEIFORM SIGN LAK-050","cat":"Lo"}
+,{"code":74970,"name":"CUNEIFORM SIGN LAK-051","cat":"Lo"}
+,{"code":74971,"name":"CUNEIFORM SIGN LAK-062","cat":"Lo"}
+,{"code":74972,"name":"CUNEIFORM SIGN LAK-079 OVER LAK-079 GUNU","cat":"Lo"}
+,{"code":74973,"name":"CUNEIFORM SIGN LAK-080","cat":"Lo"}
+,{"code":74974,"name":"CUNEIFORM SIGN LAK-081 OVER LAK-081","cat":"Lo"}
+,{"code":74975,"name":"CUNEIFORM SIGN LAK-092","cat":"Lo"}
+,{"code":74976,"name":"CUNEIFORM SIGN LAK-130","cat":"Lo"}
+,{"code":74977,"name":"CUNEIFORM SIGN LAK-142","cat":"Lo"}
+,{"code":74978,"name":"CUNEIFORM SIGN LAK-210","cat":"Lo"}
+,{"code":74979,"name":"CUNEIFORM SIGN LAK-219","cat":"Lo"}
+,{"code":74980,"name":"CUNEIFORM SIGN LAK-220","cat":"Lo"}
+,{"code":74981,"name":"CUNEIFORM SIGN LAK-225","cat":"Lo"}
+,{"code":74982,"name":"CUNEIFORM SIGN LAK-228","cat":"Lo"}
+,{"code":74983,"name":"CUNEIFORM SIGN LAK-238","cat":"Lo"}
+,{"code":74984,"name":"CUNEIFORM SIGN LAK-265","cat":"Lo"}
+,{"code":74985,"name":"CUNEIFORM SIGN LAK-266","cat":"Lo"}
+,{"code":74986,"name":"CUNEIFORM SIGN LAK-343","cat":"Lo"}
+,{"code":74987,"name":"CUNEIFORM SIGN LAK-347","cat":"Lo"}
+,{"code":74988,"name":"CUNEIFORM SIGN LAK-348","cat":"Lo"}
+,{"code":74989,"name":"CUNEIFORM SIGN LAK-383","cat":"Lo"}
+,{"code":74990,"name":"CUNEIFORM SIGN LAK-384","cat":"Lo"}
+,{"code":74991,"name":"CUNEIFORM SIGN LAK-390","cat":"Lo"}
+,{"code":74992,"name":"CUNEIFORM SIGN LAK-441","cat":"Lo"}
+,{"code":74993,"name":"CUNEIFORM SIGN LAK-449","cat":"Lo"}
+,{"code":74994,"name":"CUNEIFORM SIGN LAK-449 TIMES GU","cat":"Lo"}
+,{"code":74995,"name":"CUNEIFORM SIGN LAK-449 TIMES IGI","cat":"Lo"}
+,{"code":74996,"name":"CUNEIFORM SIGN LAK-449 TIMES PAP PLUS LU3","cat":"Lo"}
+,{"code":74997,"name":"CUNEIFORM SIGN LAK-449 TIMES PAP PLUS PAP PLUS LU3","cat":"Lo"}
+,{"code":74998,"name":"CUNEIFORM SIGN LAK-449 TIMES U2 PLUS BA","cat":"Lo"}
+,{"code":74999,"name":"CUNEIFORM SIGN LAK-450","cat":"Lo"}
+,{"code":75000,"name":"CUNEIFORM SIGN LAK-457","cat":"Lo"}
+,{"code":75001,"name":"CUNEIFORM SIGN LAK-470","cat":"Lo"}
+,{"code":75002,"name":"CUNEIFORM SIGN LAK-483","cat":"Lo"}
+,{"code":75003,"name":"CUNEIFORM SIGN LAK-490","cat":"Lo"}
+,{"code":75004,"name":"CUNEIFORM SIGN LAK-492","cat":"Lo"}
+,{"code":75005,"name":"CUNEIFORM SIGN LAK-493","cat":"Lo"}
+,{"code":75006,"name":"CUNEIFORM SIGN LAK-495","cat":"Lo"}
+,{"code":75007,"name":"CUNEIFORM SIGN LAK-550","cat":"Lo"}
+,{"code":75008,"name":"CUNEIFORM SIGN LAK-608","cat":"Lo"}
+,{"code":75009,"name":"CUNEIFORM SIGN LAK-617","cat":"Lo"}
+,{"code":75010,"name":"CUNEIFORM SIGN LAK-617 TIMES ASH","cat":"Lo"}
+,{"code":75011,"name":"CUNEIFORM SIGN LAK-617 TIMES BAD","cat":"Lo"}
+,{"code":75012,"name":"CUNEIFORM SIGN LAK-617 TIMES DUN3 GUNU GUNU","cat":"Lo"}
+,{"code":75013,"name":"CUNEIFORM SIGN LAK-617 TIMES KU3","cat":"Lo"}
+,{"code":75014,"name":"CUNEIFORM SIGN LAK-617 TIMES LA","cat":"Lo"}
+,{"code":75015,"name":"CUNEIFORM SIGN LAK-617 TIMES TAR","cat":"Lo"}
+,{"code":75016,"name":"CUNEIFORM SIGN LAK-617 TIMES TE","cat":"Lo"}
+,{"code":75017,"name":"CUNEIFORM SIGN LAK-617 TIMES U2","cat":"Lo"}
+,{"code":75018,"name":"CUNEIFORM SIGN LAK-617 TIMES UD","cat":"Lo"}
+,{"code":75019,"name":"CUNEIFORM SIGN LAK-617 TIMES URUDA","cat":"Lo"}
+,{"code":75020,"name":"CUNEIFORM SIGN LAK-636","cat":"Lo"}
+,{"code":75021,"name":"CUNEIFORM SIGN LAK-648","cat":"Lo"}
+,{"code":75022,"name":"CUNEIFORM SIGN LAK-648 TIMES DUB","cat":"Lo"}
+,{"code":75023,"name":"CUNEIFORM SIGN LAK-648 TIMES GA","cat":"Lo"}
+,{"code":75024,"name":"CUNEIFORM SIGN LAK-648 TIMES IGI","cat":"Lo"}
+,{"code":75025,"name":"CUNEIFORM SIGN LAK-648 TIMES IGI GUNU","cat":"Lo"}
+,{"code":75026,"name":"CUNEIFORM SIGN LAK-648 TIMES NI","cat":"Lo"}
+,{"code":75027,"name":"CUNEIFORM SIGN LAK-648 TIMES PAP PLUS PAP PLUS LU3","cat":"Lo"}
+,{"code":75028,"name":"CUNEIFORM SIGN LAK-648 TIMES SHESH PLUS KI","cat":"Lo"}
+,{"code":75029,"name":"CUNEIFORM SIGN LAK-648 TIMES UD","cat":"Lo"}
+,{"code":75030,"name":"CUNEIFORM SIGN LAK-648 TIMES URUDA","cat":"Lo"}
+,{"code":75031,"name":"CUNEIFORM SIGN LAK-724","cat":"Lo"}
+,{"code":75032,"name":"CUNEIFORM SIGN LAK-749","cat":"Lo"}
+,{"code":75033,"name":"CUNEIFORM SIGN LU2 GUNU TIMES ASH","cat":"Lo"}
+,{"code":75034,"name":"CUNEIFORM SIGN LU2 TIMES DISH","cat":"Lo"}
+,{"code":75035,"name":"CUNEIFORM SIGN LU2 TIMES HAL","cat":"Lo"}
+,{"code":75036,"name":"CUNEIFORM SIGN LU2 TIMES PAP","cat":"Lo"}
+,{"code":75037,"name":"CUNEIFORM SIGN LU2 TIMES PAP PLUS PAP PLUS LU3","cat":"Lo"}
+,{"code":75038,"name":"CUNEIFORM SIGN LU2 TIMES TAK4","cat":"Lo"}
+,{"code":75039,"name":"CUNEIFORM SIGN MI PLUS ZA7","cat":"Lo"}
+,{"code":75040,"name":"CUNEIFORM SIGN MUSH OVER MUSH TIMES GA","cat":"Lo"}
+,{"code":75041,"name":"CUNEIFORM SIGN MUSH OVER MUSH TIMES KAK","cat":"Lo"}
+,{"code":75042,"name":"CUNEIFORM SIGN NINDA2 TIMES DIM GUNU","cat":"Lo"}
+,{"code":75043,"name":"CUNEIFORM SIGN NINDA2 TIMES GISH","cat":"Lo"}
+,{"code":75044,"name":"CUNEIFORM SIGN NINDA2 TIMES GUL","cat":"Lo"}
+,{"code":75045,"name":"CUNEIFORM SIGN NINDA2 TIMES HI","cat":"Lo"}
+,{"code":75046,"name":"CUNEIFORM SIGN NINDA2 TIMES KESH2","cat":"Lo"}
+,{"code":75047,"name":"CUNEIFORM SIGN NINDA2 TIMES LAK-050","cat":"Lo"}
+,{"code":75048,"name":"CUNEIFORM SIGN NINDA2 TIMES MASH","cat":"Lo"}
+,{"code":75049,"name":"CUNEIFORM SIGN NINDA2 TIMES PAP PLUS PAP","cat":"Lo"}
+,{"code":75050,"name":"CUNEIFORM SIGN NINDA2 TIMES U","cat":"Lo"}
+,{"code":75051,"name":"CUNEIFORM SIGN NINDA2 TIMES U PLUS U","cat":"Lo"}
+,{"code":75052,"name":"CUNEIFORM SIGN NINDA2 TIMES URUDA","cat":"Lo"}
+,{"code":75053,"name":"CUNEIFORM SIGN SAG GUNU TIMES HA","cat":"Lo"}
+,{"code":75054,"name":"CUNEIFORM SIGN SAG TIMES EN","cat":"Lo"}
+,{"code":75055,"name":"CUNEIFORM SIGN SAG TIMES SHE AT LEFT","cat":"Lo"}
+,{"code":75056,"name":"CUNEIFORM SIGN SAG TIMES TAK4","cat":"Lo"}
+,{"code":75057,"name":"CUNEIFORM SIGN SHA6 TENU","cat":"Lo"}
+,{"code":75058,"name":"CUNEIFORM SIGN SHE OVER SHE","cat":"Lo"}
+,{"code":75059,"name":"CUNEIFORM SIGN SHE PLUS HUB2","cat":"Lo"}
+,{"code":75060,"name":"CUNEIFORM SIGN SHE PLUS NAM2","cat":"Lo"}
+,{"code":75061,"name":"CUNEIFORM SIGN SHE PLUS SAR","cat":"Lo"}
+,{"code":75062,"name":"CUNEIFORM SIGN SHU2 PLUS DUG TIMES NI","cat":"Lo"}
+,{"code":75063,"name":"CUNEIFORM SIGN SHU2 PLUS E2 TIMES AN","cat":"Lo"}
+,{"code":75064,"name":"CUNEIFORM SIGN SI TIMES TAK4","cat":"Lo"}
+,{"code":75065,"name":"CUNEIFORM SIGN TAK4 PLUS SAG","cat":"Lo"}
+,{"code":75066,"name":"CUNEIFORM SIGN TUM TIMES GAN2 TENU","cat":"Lo"}
+,{"code":75067,"name":"CUNEIFORM SIGN TUM TIMES THREE DISH","cat":"Lo"}
+,{"code":75068,"name":"CUNEIFORM SIGN UR2 INVERTED","cat":"Lo"}
+,{"code":75069,"name":"CUNEIFORM SIGN UR2 TIMES UD","cat":"Lo"}
+,{"code":75070,"name":"CUNEIFORM SIGN URU TIMES DARA3","cat":"Lo"}
+,{"code":75071,"name":"CUNEIFORM SIGN URU TIMES LAK-668","cat":"Lo"}
+,{"code":75072,"name":"CUNEIFORM SIGN URU TIMES LU3","cat":"Lo"}
+,{"code":75073,"name":"CUNEIFORM SIGN ZA7","cat":"Lo"}
+,{"code":75074,"name":"CUNEIFORM SIGN ZU OVER ZU PLUS SAR","cat":"Lo"}
+,{"code":75075,"name":"CUNEIFORM SIGN ZU5 TIMES THREE DISH TENU","cat":"Lo"}
 ,{"code":77824,"name":"EGYPTIAN HIEROGLYPH A001","cat":"Lo"}
 ,{"code":77825,"name":"EGYPTIAN HIEROGLYPH A002","cat":"Lo"}
 ,{"code":77826,"name":"EGYPTIAN HIEROGLYPH A003","cat":"Lo"}
@@ -21557,6 +22194,589 @@
 ,{"code":78892,"name":"EGYPTIAN HIEROGLYPH AA030","cat":"Lo"}
 ,{"code":78893,"name":"EGYPTIAN HIEROGLYPH AA031","cat":"Lo"}
 ,{"code":78894,"name":"EGYPTIAN HIEROGLYPH AA032","cat":"Lo"}
+,{"code":82944,"name":"ANATOLIAN HIEROGLYPH A001","cat":"Lo"}
+,{"code":82945,"name":"ANATOLIAN HIEROGLYPH A002","cat":"Lo"}
+,{"code":82946,"name":"ANATOLIAN HIEROGLYPH A003","cat":"Lo"}
+,{"code":82947,"name":"ANATOLIAN HIEROGLYPH A004","cat":"Lo"}
+,{"code":82948,"name":"ANATOLIAN HIEROGLYPH A005","cat":"Lo"}
+,{"code":82949,"name":"ANATOLIAN HIEROGLYPH A006","cat":"Lo"}
+,{"code":82950,"name":"ANATOLIAN HIEROGLYPH A007","cat":"Lo"}
+,{"code":82951,"name":"ANATOLIAN HIEROGLYPH A008","cat":"Lo"}
+,{"code":82952,"name":"ANATOLIAN HIEROGLYPH A009","cat":"Lo"}
+,{"code":82953,"name":"ANATOLIAN HIEROGLYPH A010","cat":"Lo"}
+,{"code":82954,"name":"ANATOLIAN HIEROGLYPH A010A","cat":"Lo"}
+,{"code":82955,"name":"ANATOLIAN HIEROGLYPH A011","cat":"Lo"}
+,{"code":82956,"name":"ANATOLIAN HIEROGLYPH A012","cat":"Lo"}
+,{"code":82957,"name":"ANATOLIAN HIEROGLYPH A013","cat":"Lo"}
+,{"code":82958,"name":"ANATOLIAN HIEROGLYPH A014","cat":"Lo"}
+,{"code":82959,"name":"ANATOLIAN HIEROGLYPH A015","cat":"Lo"}
+,{"code":82960,"name":"ANATOLIAN HIEROGLYPH A016","cat":"Lo"}
+,{"code":82961,"name":"ANATOLIAN HIEROGLYPH A017","cat":"Lo"}
+,{"code":82962,"name":"ANATOLIAN HIEROGLYPH A018","cat":"Lo"}
+,{"code":82963,"name":"ANATOLIAN HIEROGLYPH A019","cat":"Lo"}
+,{"code":82964,"name":"ANATOLIAN HIEROGLYPH A020","cat":"Lo"}
+,{"code":82965,"name":"ANATOLIAN HIEROGLYPH A021","cat":"Lo"}
+,{"code":82966,"name":"ANATOLIAN HIEROGLYPH A022","cat":"Lo"}
+,{"code":82967,"name":"ANATOLIAN HIEROGLYPH A023","cat":"Lo"}
+,{"code":82968,"name":"ANATOLIAN HIEROGLYPH A024","cat":"Lo"}
+,{"code":82969,"name":"ANATOLIAN HIEROGLYPH A025","cat":"Lo"}
+,{"code":82970,"name":"ANATOLIAN HIEROGLYPH A026","cat":"Lo"}
+,{"code":82971,"name":"ANATOLIAN HIEROGLYPH A026A","cat":"Lo"}
+,{"code":82972,"name":"ANATOLIAN HIEROGLYPH A027","cat":"Lo"}
+,{"code":82973,"name":"ANATOLIAN HIEROGLYPH A028","cat":"Lo"}
+,{"code":82974,"name":"ANATOLIAN HIEROGLYPH A029","cat":"Lo"}
+,{"code":82975,"name":"ANATOLIAN HIEROGLYPH A030","cat":"Lo"}
+,{"code":82976,"name":"ANATOLIAN HIEROGLYPH A031","cat":"Lo"}
+,{"code":82977,"name":"ANATOLIAN HIEROGLYPH A032","cat":"Lo"}
+,{"code":82978,"name":"ANATOLIAN HIEROGLYPH A033","cat":"Lo"}
+,{"code":82979,"name":"ANATOLIAN HIEROGLYPH A034","cat":"Lo"}
+,{"code":82980,"name":"ANATOLIAN HIEROGLYPH A035","cat":"Lo"}
+,{"code":82981,"name":"ANATOLIAN HIEROGLYPH A036","cat":"Lo"}
+,{"code":82982,"name":"ANATOLIAN HIEROGLYPH A037","cat":"Lo"}
+,{"code":82983,"name":"ANATOLIAN HIEROGLYPH A038","cat":"Lo"}
+,{"code":82984,"name":"ANATOLIAN HIEROGLYPH A039","cat":"Lo"}
+,{"code":82985,"name":"ANATOLIAN HIEROGLYPH A039A","cat":"Lo"}
+,{"code":82986,"name":"ANATOLIAN HIEROGLYPH A040","cat":"Lo"}
+,{"code":82987,"name":"ANATOLIAN HIEROGLYPH A041","cat":"Lo"}
+,{"code":82988,"name":"ANATOLIAN HIEROGLYPH A041A","cat":"Lo"}
+,{"code":82989,"name":"ANATOLIAN HIEROGLYPH A042","cat":"Lo"}
+,{"code":82990,"name":"ANATOLIAN HIEROGLYPH A043","cat":"Lo"}
+,{"code":82991,"name":"ANATOLIAN HIEROGLYPH A044","cat":"Lo"}
+,{"code":82992,"name":"ANATOLIAN HIEROGLYPH A045","cat":"Lo"}
+,{"code":82993,"name":"ANATOLIAN HIEROGLYPH A045A","cat":"Lo"}
+,{"code":82994,"name":"ANATOLIAN HIEROGLYPH A046","cat":"Lo"}
+,{"code":82995,"name":"ANATOLIAN HIEROGLYPH A046A","cat":"Lo"}
+,{"code":82996,"name":"ANATOLIAN HIEROGLYPH A046B","cat":"Lo"}
+,{"code":82997,"name":"ANATOLIAN HIEROGLYPH A047","cat":"Lo"}
+,{"code":82998,"name":"ANATOLIAN HIEROGLYPH A048","cat":"Lo"}
+,{"code":82999,"name":"ANATOLIAN HIEROGLYPH A049","cat":"Lo"}
+,{"code":83000,"name":"ANATOLIAN HIEROGLYPH A050","cat":"Lo"}
+,{"code":83001,"name":"ANATOLIAN HIEROGLYPH A051","cat":"Lo"}
+,{"code":83002,"name":"ANATOLIAN HIEROGLYPH A052","cat":"Lo"}
+,{"code":83003,"name":"ANATOLIAN HIEROGLYPH A053","cat":"Lo"}
+,{"code":83004,"name":"ANATOLIAN HIEROGLYPH A054","cat":"Lo"}
+,{"code":83005,"name":"ANATOLIAN HIEROGLYPH A055","cat":"Lo"}
+,{"code":83006,"name":"ANATOLIAN HIEROGLYPH A056","cat":"Lo"}
+,{"code":83007,"name":"ANATOLIAN HIEROGLYPH A057","cat":"Lo"}
+,{"code":83008,"name":"ANATOLIAN HIEROGLYPH A058","cat":"Lo"}
+,{"code":83009,"name":"ANATOLIAN HIEROGLYPH A059","cat":"Lo"}
+,{"code":83010,"name":"ANATOLIAN HIEROGLYPH A060","cat":"Lo"}
+,{"code":83011,"name":"ANATOLIAN HIEROGLYPH A061","cat":"Lo"}
+,{"code":83012,"name":"ANATOLIAN HIEROGLYPH A062","cat":"Lo"}
+,{"code":83013,"name":"ANATOLIAN HIEROGLYPH A063","cat":"Lo"}
+,{"code":83014,"name":"ANATOLIAN HIEROGLYPH A064","cat":"Lo"}
+,{"code":83015,"name":"ANATOLIAN HIEROGLYPH A065","cat":"Lo"}
+,{"code":83016,"name":"ANATOLIAN HIEROGLYPH A066","cat":"Lo"}
+,{"code":83017,"name":"ANATOLIAN HIEROGLYPH A066A","cat":"Lo"}
+,{"code":83018,"name":"ANATOLIAN HIEROGLYPH A066B","cat":"Lo"}
+,{"code":83019,"name":"ANATOLIAN HIEROGLYPH A066C","cat":"Lo"}
+,{"code":83020,"name":"ANATOLIAN HIEROGLYPH A067","cat":"Lo"}
+,{"code":83021,"name":"ANATOLIAN HIEROGLYPH A068","cat":"Lo"}
+,{"code":83022,"name":"ANATOLIAN HIEROGLYPH A069","cat":"Lo"}
+,{"code":83023,"name":"ANATOLIAN HIEROGLYPH A070","cat":"Lo"}
+,{"code":83024,"name":"ANATOLIAN HIEROGLYPH A071","cat":"Lo"}
+,{"code":83025,"name":"ANATOLIAN HIEROGLYPH A072","cat":"Lo"}
+,{"code":83026,"name":"ANATOLIAN HIEROGLYPH A073","cat":"Lo"}
+,{"code":83027,"name":"ANATOLIAN HIEROGLYPH A074","cat":"Lo"}
+,{"code":83028,"name":"ANATOLIAN HIEROGLYPH A075","cat":"Lo"}
+,{"code":83029,"name":"ANATOLIAN HIEROGLYPH A076","cat":"Lo"}
+,{"code":83030,"name":"ANATOLIAN HIEROGLYPH A077","cat":"Lo"}
+,{"code":83031,"name":"ANATOLIAN HIEROGLYPH A078","cat":"Lo"}
+,{"code":83032,"name":"ANATOLIAN HIEROGLYPH A079","cat":"Lo"}
+,{"code":83033,"name":"ANATOLIAN HIEROGLYPH A080","cat":"Lo"}
+,{"code":83034,"name":"ANATOLIAN HIEROGLYPH A081","cat":"Lo"}
+,{"code":83035,"name":"ANATOLIAN HIEROGLYPH A082","cat":"Lo"}
+,{"code":83036,"name":"ANATOLIAN HIEROGLYPH A083","cat":"Lo"}
+,{"code":83037,"name":"ANATOLIAN HIEROGLYPH A084","cat":"Lo"}
+,{"code":83038,"name":"ANATOLIAN HIEROGLYPH A085","cat":"Lo"}
+,{"code":83039,"name":"ANATOLIAN HIEROGLYPH A086","cat":"Lo"}
+,{"code":83040,"name":"ANATOLIAN HIEROGLYPH A087","cat":"Lo"}
+,{"code":83041,"name":"ANATOLIAN HIEROGLYPH A088","cat":"Lo"}
+,{"code":83042,"name":"ANATOLIAN HIEROGLYPH A089","cat":"Lo"}
+,{"code":83043,"name":"ANATOLIAN HIEROGLYPH A090","cat":"Lo"}
+,{"code":83044,"name":"ANATOLIAN HIEROGLYPH A091","cat":"Lo"}
+,{"code":83045,"name":"ANATOLIAN HIEROGLYPH A092","cat":"Lo"}
+,{"code":83046,"name":"ANATOLIAN HIEROGLYPH A093","cat":"Lo"}
+,{"code":83047,"name":"ANATOLIAN HIEROGLYPH A094","cat":"Lo"}
+,{"code":83048,"name":"ANATOLIAN HIEROGLYPH A095","cat":"Lo"}
+,{"code":83049,"name":"ANATOLIAN HIEROGLYPH A096","cat":"Lo"}
+,{"code":83050,"name":"ANATOLIAN HIEROGLYPH A097","cat":"Lo"}
+,{"code":83051,"name":"ANATOLIAN HIEROGLYPH A097A","cat":"Lo"}
+,{"code":83052,"name":"ANATOLIAN HIEROGLYPH A098","cat":"Lo"}
+,{"code":83053,"name":"ANATOLIAN HIEROGLYPH A098A","cat":"Lo"}
+,{"code":83054,"name":"ANATOLIAN HIEROGLYPH A099","cat":"Lo"}
+,{"code":83055,"name":"ANATOLIAN HIEROGLYPH A100","cat":"Lo"}
+,{"code":83056,"name":"ANATOLIAN HIEROGLYPH A100A","cat":"Lo"}
+,{"code":83057,"name":"ANATOLIAN HIEROGLYPH A101","cat":"Lo"}
+,{"code":83058,"name":"ANATOLIAN HIEROGLYPH A101A","cat":"Lo"}
+,{"code":83059,"name":"ANATOLIAN HIEROGLYPH A102","cat":"Lo"}
+,{"code":83060,"name":"ANATOLIAN HIEROGLYPH A102A","cat":"Lo"}
+,{"code":83061,"name":"ANATOLIAN HIEROGLYPH A103","cat":"Lo"}
+,{"code":83062,"name":"ANATOLIAN HIEROGLYPH A104","cat":"Lo"}
+,{"code":83063,"name":"ANATOLIAN HIEROGLYPH A104A","cat":"Lo"}
+,{"code":83064,"name":"ANATOLIAN HIEROGLYPH A104B","cat":"Lo"}
+,{"code":83065,"name":"ANATOLIAN HIEROGLYPH A104C","cat":"Lo"}
+,{"code":83066,"name":"ANATOLIAN HIEROGLYPH A105","cat":"Lo"}
+,{"code":83067,"name":"ANATOLIAN HIEROGLYPH A105A","cat":"Lo"}
+,{"code":83068,"name":"ANATOLIAN HIEROGLYPH A105B","cat":"Lo"}
+,{"code":83069,"name":"ANATOLIAN HIEROGLYPH A106","cat":"Lo"}
+,{"code":83070,"name":"ANATOLIAN HIEROGLYPH A107","cat":"Lo"}
+,{"code":83071,"name":"ANATOLIAN HIEROGLYPH A107A","cat":"Lo"}
+,{"code":83072,"name":"ANATOLIAN HIEROGLYPH A107B","cat":"Lo"}
+,{"code":83073,"name":"ANATOLIAN HIEROGLYPH A107C","cat":"Lo"}
+,{"code":83074,"name":"ANATOLIAN HIEROGLYPH A108","cat":"Lo"}
+,{"code":83075,"name":"ANATOLIAN HIEROGLYPH A109","cat":"Lo"}
+,{"code":83076,"name":"ANATOLIAN HIEROGLYPH A110","cat":"Lo"}
+,{"code":83077,"name":"ANATOLIAN HIEROGLYPH A110A","cat":"Lo"}
+,{"code":83078,"name":"ANATOLIAN HIEROGLYPH A110B","cat":"Lo"}
+,{"code":83079,"name":"ANATOLIAN HIEROGLYPH A111","cat":"Lo"}
+,{"code":83080,"name":"ANATOLIAN HIEROGLYPH A112","cat":"Lo"}
+,{"code":83081,"name":"ANATOLIAN HIEROGLYPH A113","cat":"Lo"}
+,{"code":83082,"name":"ANATOLIAN HIEROGLYPH A114","cat":"Lo"}
+,{"code":83083,"name":"ANATOLIAN HIEROGLYPH A115","cat":"Lo"}
+,{"code":83084,"name":"ANATOLIAN HIEROGLYPH A115A","cat":"Lo"}
+,{"code":83085,"name":"ANATOLIAN HIEROGLYPH A116","cat":"Lo"}
+,{"code":83086,"name":"ANATOLIAN HIEROGLYPH A117","cat":"Lo"}
+,{"code":83087,"name":"ANATOLIAN HIEROGLYPH A118","cat":"Lo"}
+,{"code":83088,"name":"ANATOLIAN HIEROGLYPH A119","cat":"Lo"}
+,{"code":83089,"name":"ANATOLIAN HIEROGLYPH A120","cat":"Lo"}
+,{"code":83090,"name":"ANATOLIAN HIEROGLYPH A121","cat":"Lo"}
+,{"code":83091,"name":"ANATOLIAN HIEROGLYPH A122","cat":"Lo"}
+,{"code":83092,"name":"ANATOLIAN HIEROGLYPH A123","cat":"Lo"}
+,{"code":83093,"name":"ANATOLIAN HIEROGLYPH A124","cat":"Lo"}
+,{"code":83094,"name":"ANATOLIAN HIEROGLYPH A125","cat":"Lo"}
+,{"code":83095,"name":"ANATOLIAN HIEROGLYPH A125A","cat":"Lo"}
+,{"code":83096,"name":"ANATOLIAN HIEROGLYPH A126","cat":"Lo"}
+,{"code":83097,"name":"ANATOLIAN HIEROGLYPH A127","cat":"Lo"}
+,{"code":83098,"name":"ANATOLIAN HIEROGLYPH A128","cat":"Lo"}
+,{"code":83099,"name":"ANATOLIAN HIEROGLYPH A129","cat":"Lo"}
+,{"code":83100,"name":"ANATOLIAN HIEROGLYPH A130","cat":"Lo"}
+,{"code":83101,"name":"ANATOLIAN HIEROGLYPH A131","cat":"Lo"}
+,{"code":83102,"name":"ANATOLIAN HIEROGLYPH A132","cat":"Lo"}
+,{"code":83103,"name":"ANATOLIAN HIEROGLYPH A133","cat":"Lo"}
+,{"code":83104,"name":"ANATOLIAN HIEROGLYPH A134","cat":"Lo"}
+,{"code":83105,"name":"ANATOLIAN HIEROGLYPH A135","cat":"Lo"}
+,{"code":83106,"name":"ANATOLIAN HIEROGLYPH A135A","cat":"Lo"}
+,{"code":83107,"name":"ANATOLIAN HIEROGLYPH A136","cat":"Lo"}
+,{"code":83108,"name":"ANATOLIAN HIEROGLYPH A137","cat":"Lo"}
+,{"code":83109,"name":"ANATOLIAN HIEROGLYPH A138","cat":"Lo"}
+,{"code":83110,"name":"ANATOLIAN HIEROGLYPH A139","cat":"Lo"}
+,{"code":83111,"name":"ANATOLIAN HIEROGLYPH A140","cat":"Lo"}
+,{"code":83112,"name":"ANATOLIAN HIEROGLYPH A141","cat":"Lo"}
+,{"code":83113,"name":"ANATOLIAN HIEROGLYPH A142","cat":"Lo"}
+,{"code":83114,"name":"ANATOLIAN HIEROGLYPH A143","cat":"Lo"}
+,{"code":83115,"name":"ANATOLIAN HIEROGLYPH A144","cat":"Lo"}
+,{"code":83116,"name":"ANATOLIAN HIEROGLYPH A145","cat":"Lo"}
+,{"code":83117,"name":"ANATOLIAN HIEROGLYPH A146","cat":"Lo"}
+,{"code":83118,"name":"ANATOLIAN HIEROGLYPH A147","cat":"Lo"}
+,{"code":83119,"name":"ANATOLIAN HIEROGLYPH A148","cat":"Lo"}
+,{"code":83120,"name":"ANATOLIAN HIEROGLYPH A149","cat":"Lo"}
+,{"code":83121,"name":"ANATOLIAN HIEROGLYPH A150","cat":"Lo"}
+,{"code":83122,"name":"ANATOLIAN HIEROGLYPH A151","cat":"Lo"}
+,{"code":83123,"name":"ANATOLIAN HIEROGLYPH A152","cat":"Lo"}
+,{"code":83124,"name":"ANATOLIAN HIEROGLYPH A153","cat":"Lo"}
+,{"code":83125,"name":"ANATOLIAN HIEROGLYPH A154","cat":"Lo"}
+,{"code":83126,"name":"ANATOLIAN HIEROGLYPH A155","cat":"Lo"}
+,{"code":83127,"name":"ANATOLIAN HIEROGLYPH A156","cat":"Lo"}
+,{"code":83128,"name":"ANATOLIAN HIEROGLYPH A157","cat":"Lo"}
+,{"code":83129,"name":"ANATOLIAN HIEROGLYPH A158","cat":"Lo"}
+,{"code":83130,"name":"ANATOLIAN HIEROGLYPH A159","cat":"Lo"}
+,{"code":83131,"name":"ANATOLIAN HIEROGLYPH A160","cat":"Lo"}
+,{"code":83132,"name":"ANATOLIAN HIEROGLYPH A161","cat":"Lo"}
+,{"code":83133,"name":"ANATOLIAN HIEROGLYPH A162","cat":"Lo"}
+,{"code":83134,"name":"ANATOLIAN HIEROGLYPH A163","cat":"Lo"}
+,{"code":83135,"name":"ANATOLIAN HIEROGLYPH A164","cat":"Lo"}
+,{"code":83136,"name":"ANATOLIAN HIEROGLYPH A165","cat":"Lo"}
+,{"code":83137,"name":"ANATOLIAN HIEROGLYPH A166","cat":"Lo"}
+,{"code":83138,"name":"ANATOLIAN HIEROGLYPH A167","cat":"Lo"}
+,{"code":83139,"name":"ANATOLIAN HIEROGLYPH A168","cat":"Lo"}
+,{"code":83140,"name":"ANATOLIAN HIEROGLYPH A169","cat":"Lo"}
+,{"code":83141,"name":"ANATOLIAN HIEROGLYPH A170","cat":"Lo"}
+,{"code":83142,"name":"ANATOLIAN HIEROGLYPH A171","cat":"Lo"}
+,{"code":83143,"name":"ANATOLIAN HIEROGLYPH A172","cat":"Lo"}
+,{"code":83144,"name":"ANATOLIAN HIEROGLYPH A173","cat":"Lo"}
+,{"code":83145,"name":"ANATOLIAN HIEROGLYPH A174","cat":"Lo"}
+,{"code":83146,"name":"ANATOLIAN HIEROGLYPH A175","cat":"Lo"}
+,{"code":83147,"name":"ANATOLIAN HIEROGLYPH A176","cat":"Lo"}
+,{"code":83148,"name":"ANATOLIAN HIEROGLYPH A177","cat":"Lo"}
+,{"code":83149,"name":"ANATOLIAN HIEROGLYPH A178","cat":"Lo"}
+,{"code":83150,"name":"ANATOLIAN HIEROGLYPH A179","cat":"Lo"}
+,{"code":83151,"name":"ANATOLIAN HIEROGLYPH A180","cat":"Lo"}
+,{"code":83152,"name":"ANATOLIAN HIEROGLYPH A181","cat":"Lo"}
+,{"code":83153,"name":"ANATOLIAN HIEROGLYPH A182","cat":"Lo"}
+,{"code":83154,"name":"ANATOLIAN HIEROGLYPH A183","cat":"Lo"}
+,{"code":83155,"name":"ANATOLIAN HIEROGLYPH A184","cat":"Lo"}
+,{"code":83156,"name":"ANATOLIAN HIEROGLYPH A185","cat":"Lo"}
+,{"code":83157,"name":"ANATOLIAN HIEROGLYPH A186","cat":"Lo"}
+,{"code":83158,"name":"ANATOLIAN HIEROGLYPH A187","cat":"Lo"}
+,{"code":83159,"name":"ANATOLIAN HIEROGLYPH A188","cat":"Lo"}
+,{"code":83160,"name":"ANATOLIAN HIEROGLYPH A189","cat":"Lo"}
+,{"code":83161,"name":"ANATOLIAN HIEROGLYPH A190","cat":"Lo"}
+,{"code":83162,"name":"ANATOLIAN HIEROGLYPH A191","cat":"Lo"}
+,{"code":83163,"name":"ANATOLIAN HIEROGLYPH A192","cat":"Lo"}
+,{"code":83164,"name":"ANATOLIAN HIEROGLYPH A193","cat":"Lo"}
+,{"code":83165,"name":"ANATOLIAN HIEROGLYPH A194","cat":"Lo"}
+,{"code":83166,"name":"ANATOLIAN HIEROGLYPH A195","cat":"Lo"}
+,{"code":83167,"name":"ANATOLIAN HIEROGLYPH A196","cat":"Lo"}
+,{"code":83168,"name":"ANATOLIAN HIEROGLYPH A197","cat":"Lo"}
+,{"code":83169,"name":"ANATOLIAN HIEROGLYPH A198","cat":"Lo"}
+,{"code":83170,"name":"ANATOLIAN HIEROGLYPH A199","cat":"Lo"}
+,{"code":83171,"name":"ANATOLIAN HIEROGLYPH A200","cat":"Lo"}
+,{"code":83172,"name":"ANATOLIAN HIEROGLYPH A201","cat":"Lo"}
+,{"code":83173,"name":"ANATOLIAN HIEROGLYPH A202","cat":"Lo"}
+,{"code":83174,"name":"ANATOLIAN HIEROGLYPH A202A","cat":"Lo"}
+,{"code":83175,"name":"ANATOLIAN HIEROGLYPH A202B","cat":"Lo"}
+,{"code":83176,"name":"ANATOLIAN HIEROGLYPH A203","cat":"Lo"}
+,{"code":83177,"name":"ANATOLIAN HIEROGLYPH A204","cat":"Lo"}
+,{"code":83178,"name":"ANATOLIAN HIEROGLYPH A205","cat":"Lo"}
+,{"code":83179,"name":"ANATOLIAN HIEROGLYPH A206","cat":"Lo"}
+,{"code":83180,"name":"ANATOLIAN HIEROGLYPH A207","cat":"Lo"}
+,{"code":83181,"name":"ANATOLIAN HIEROGLYPH A207A","cat":"Lo"}
+,{"code":83182,"name":"ANATOLIAN HIEROGLYPH A208","cat":"Lo"}
+,{"code":83183,"name":"ANATOLIAN HIEROGLYPH A209","cat":"Lo"}
+,{"code":83184,"name":"ANATOLIAN HIEROGLYPH A209A","cat":"Lo"}
+,{"code":83185,"name":"ANATOLIAN HIEROGLYPH A210","cat":"Lo"}
+,{"code":83186,"name":"ANATOLIAN HIEROGLYPH A211","cat":"Lo"}
+,{"code":83187,"name":"ANATOLIAN HIEROGLYPH A212","cat":"Lo"}
+,{"code":83188,"name":"ANATOLIAN HIEROGLYPH A213","cat":"Lo"}
+,{"code":83189,"name":"ANATOLIAN HIEROGLYPH A214","cat":"Lo"}
+,{"code":83190,"name":"ANATOLIAN HIEROGLYPH A215","cat":"Lo"}
+,{"code":83191,"name":"ANATOLIAN HIEROGLYPH A215A","cat":"Lo"}
+,{"code":83192,"name":"ANATOLIAN HIEROGLYPH A216","cat":"Lo"}
+,{"code":83193,"name":"ANATOLIAN HIEROGLYPH A216A","cat":"Lo"}
+,{"code":83194,"name":"ANATOLIAN HIEROGLYPH A217","cat":"Lo"}
+,{"code":83195,"name":"ANATOLIAN HIEROGLYPH A218","cat":"Lo"}
+,{"code":83196,"name":"ANATOLIAN HIEROGLYPH A219","cat":"Lo"}
+,{"code":83197,"name":"ANATOLIAN HIEROGLYPH A220","cat":"Lo"}
+,{"code":83198,"name":"ANATOLIAN HIEROGLYPH A221","cat":"Lo"}
+,{"code":83199,"name":"ANATOLIAN HIEROGLYPH A222","cat":"Lo"}
+,{"code":83200,"name":"ANATOLIAN HIEROGLYPH A223","cat":"Lo"}
+,{"code":83201,"name":"ANATOLIAN HIEROGLYPH A224","cat":"Lo"}
+,{"code":83202,"name":"ANATOLIAN HIEROGLYPH A225","cat":"Lo"}
+,{"code":83203,"name":"ANATOLIAN HIEROGLYPH A226","cat":"Lo"}
+,{"code":83204,"name":"ANATOLIAN HIEROGLYPH A227","cat":"Lo"}
+,{"code":83205,"name":"ANATOLIAN HIEROGLYPH A227A","cat":"Lo"}
+,{"code":83206,"name":"ANATOLIAN HIEROGLYPH A228","cat":"Lo"}
+,{"code":83207,"name":"ANATOLIAN HIEROGLYPH A229","cat":"Lo"}
+,{"code":83208,"name":"ANATOLIAN HIEROGLYPH A230","cat":"Lo"}
+,{"code":83209,"name":"ANATOLIAN HIEROGLYPH A231","cat":"Lo"}
+,{"code":83210,"name":"ANATOLIAN HIEROGLYPH A232","cat":"Lo"}
+,{"code":83211,"name":"ANATOLIAN HIEROGLYPH A233","cat":"Lo"}
+,{"code":83212,"name":"ANATOLIAN HIEROGLYPH A234","cat":"Lo"}
+,{"code":83213,"name":"ANATOLIAN HIEROGLYPH A235","cat":"Lo"}
+,{"code":83214,"name":"ANATOLIAN HIEROGLYPH A236","cat":"Lo"}
+,{"code":83215,"name":"ANATOLIAN HIEROGLYPH A237","cat":"Lo"}
+,{"code":83216,"name":"ANATOLIAN HIEROGLYPH A238","cat":"Lo"}
+,{"code":83217,"name":"ANATOLIAN HIEROGLYPH A239","cat":"Lo"}
+,{"code":83218,"name":"ANATOLIAN HIEROGLYPH A240","cat":"Lo"}
+,{"code":83219,"name":"ANATOLIAN HIEROGLYPH A241","cat":"Lo"}
+,{"code":83220,"name":"ANATOLIAN HIEROGLYPH A242","cat":"Lo"}
+,{"code":83221,"name":"ANATOLIAN HIEROGLYPH A243","cat":"Lo"}
+,{"code":83222,"name":"ANATOLIAN HIEROGLYPH A244","cat":"Lo"}
+,{"code":83223,"name":"ANATOLIAN HIEROGLYPH A245","cat":"Lo"}
+,{"code":83224,"name":"ANATOLIAN HIEROGLYPH A246","cat":"Lo"}
+,{"code":83225,"name":"ANATOLIAN HIEROGLYPH A247","cat":"Lo"}
+,{"code":83226,"name":"ANATOLIAN HIEROGLYPH A248","cat":"Lo"}
+,{"code":83227,"name":"ANATOLIAN HIEROGLYPH A249","cat":"Lo"}
+,{"code":83228,"name":"ANATOLIAN HIEROGLYPH A250","cat":"Lo"}
+,{"code":83229,"name":"ANATOLIAN HIEROGLYPH A251","cat":"Lo"}
+,{"code":83230,"name":"ANATOLIAN HIEROGLYPH A252","cat":"Lo"}
+,{"code":83231,"name":"ANATOLIAN HIEROGLYPH A253","cat":"Lo"}
+,{"code":83232,"name":"ANATOLIAN HIEROGLYPH A254","cat":"Lo"}
+,{"code":83233,"name":"ANATOLIAN HIEROGLYPH A255","cat":"Lo"}
+,{"code":83234,"name":"ANATOLIAN HIEROGLYPH A256","cat":"Lo"}
+,{"code":83235,"name":"ANATOLIAN HIEROGLYPH A257","cat":"Lo"}
+,{"code":83236,"name":"ANATOLIAN HIEROGLYPH A258","cat":"Lo"}
+,{"code":83237,"name":"ANATOLIAN HIEROGLYPH A259","cat":"Lo"}
+,{"code":83238,"name":"ANATOLIAN HIEROGLYPH A260","cat":"Lo"}
+,{"code":83239,"name":"ANATOLIAN HIEROGLYPH A261","cat":"Lo"}
+,{"code":83240,"name":"ANATOLIAN HIEROGLYPH A262","cat":"Lo"}
+,{"code":83241,"name":"ANATOLIAN HIEROGLYPH A263","cat":"Lo"}
+,{"code":83242,"name":"ANATOLIAN HIEROGLYPH A264","cat":"Lo"}
+,{"code":83243,"name":"ANATOLIAN HIEROGLYPH A265","cat":"Lo"}
+,{"code":83244,"name":"ANATOLIAN HIEROGLYPH A266","cat":"Lo"}
+,{"code":83245,"name":"ANATOLIAN HIEROGLYPH A267","cat":"Lo"}
+,{"code":83246,"name":"ANATOLIAN HIEROGLYPH A267A","cat":"Lo"}
+,{"code":83247,"name":"ANATOLIAN HIEROGLYPH A268","cat":"Lo"}
+,{"code":83248,"name":"ANATOLIAN HIEROGLYPH A269","cat":"Lo"}
+,{"code":83249,"name":"ANATOLIAN HIEROGLYPH A270","cat":"Lo"}
+,{"code":83250,"name":"ANATOLIAN HIEROGLYPH A271","cat":"Lo"}
+,{"code":83251,"name":"ANATOLIAN HIEROGLYPH A272","cat":"Lo"}
+,{"code":83252,"name":"ANATOLIAN HIEROGLYPH A273","cat":"Lo"}
+,{"code":83253,"name":"ANATOLIAN HIEROGLYPH A274","cat":"Lo"}
+,{"code":83254,"name":"ANATOLIAN HIEROGLYPH A275","cat":"Lo"}
+,{"code":83255,"name":"ANATOLIAN HIEROGLYPH A276","cat":"Lo"}
+,{"code":83256,"name":"ANATOLIAN HIEROGLYPH A277","cat":"Lo"}
+,{"code":83257,"name":"ANATOLIAN HIEROGLYPH A278","cat":"Lo"}
+,{"code":83258,"name":"ANATOLIAN HIEROGLYPH A279","cat":"Lo"}
+,{"code":83259,"name":"ANATOLIAN HIEROGLYPH A280","cat":"Lo"}
+,{"code":83260,"name":"ANATOLIAN HIEROGLYPH A281","cat":"Lo"}
+,{"code":83261,"name":"ANATOLIAN HIEROGLYPH A282","cat":"Lo"}
+,{"code":83262,"name":"ANATOLIAN HIEROGLYPH A283","cat":"Lo"}
+,{"code":83263,"name":"ANATOLIAN HIEROGLYPH A284","cat":"Lo"}
+,{"code":83264,"name":"ANATOLIAN HIEROGLYPH A285","cat":"Lo"}
+,{"code":83265,"name":"ANATOLIAN HIEROGLYPH A286","cat":"Lo"}
+,{"code":83266,"name":"ANATOLIAN HIEROGLYPH A287","cat":"Lo"}
+,{"code":83267,"name":"ANATOLIAN HIEROGLYPH A288","cat":"Lo"}
+,{"code":83268,"name":"ANATOLIAN HIEROGLYPH A289","cat":"Lo"}
+,{"code":83269,"name":"ANATOLIAN HIEROGLYPH A289A","cat":"Lo"}
+,{"code":83270,"name":"ANATOLIAN HIEROGLYPH A290","cat":"Lo"}
+,{"code":83271,"name":"ANATOLIAN HIEROGLYPH A291","cat":"Lo"}
+,{"code":83272,"name":"ANATOLIAN HIEROGLYPH A292","cat":"Lo"}
+,{"code":83273,"name":"ANATOLIAN HIEROGLYPH A293","cat":"Lo"}
+,{"code":83274,"name":"ANATOLIAN HIEROGLYPH A294","cat":"Lo"}
+,{"code":83275,"name":"ANATOLIAN HIEROGLYPH A294A","cat":"Lo"}
+,{"code":83276,"name":"ANATOLIAN HIEROGLYPH A295","cat":"Lo"}
+,{"code":83277,"name":"ANATOLIAN HIEROGLYPH A296","cat":"Lo"}
+,{"code":83278,"name":"ANATOLIAN HIEROGLYPH A297","cat":"Lo"}
+,{"code":83279,"name":"ANATOLIAN HIEROGLYPH A298","cat":"Lo"}
+,{"code":83280,"name":"ANATOLIAN HIEROGLYPH A299","cat":"Lo"}
+,{"code":83281,"name":"ANATOLIAN HIEROGLYPH A299A","cat":"Lo"}
+,{"code":83282,"name":"ANATOLIAN HIEROGLYPH A300","cat":"Lo"}
+,{"code":83283,"name":"ANATOLIAN HIEROGLYPH A301","cat":"Lo"}
+,{"code":83284,"name":"ANATOLIAN HIEROGLYPH A302","cat":"Lo"}
+,{"code":83285,"name":"ANATOLIAN HIEROGLYPH A303","cat":"Lo"}
+,{"code":83286,"name":"ANATOLIAN HIEROGLYPH A304","cat":"Lo"}
+,{"code":83287,"name":"ANATOLIAN HIEROGLYPH A305","cat":"Lo"}
+,{"code":83288,"name":"ANATOLIAN HIEROGLYPH A306","cat":"Lo"}
+,{"code":83289,"name":"ANATOLIAN HIEROGLYPH A307","cat":"Lo"}
+,{"code":83290,"name":"ANATOLIAN HIEROGLYPH A308","cat":"Lo"}
+,{"code":83291,"name":"ANATOLIAN HIEROGLYPH A309","cat":"Lo"}
+,{"code":83292,"name":"ANATOLIAN HIEROGLYPH A309A","cat":"Lo"}
+,{"code":83293,"name":"ANATOLIAN HIEROGLYPH A310","cat":"Lo"}
+,{"code":83294,"name":"ANATOLIAN HIEROGLYPH A311","cat":"Lo"}
+,{"code":83295,"name":"ANATOLIAN HIEROGLYPH A312","cat":"Lo"}
+,{"code":83296,"name":"ANATOLIAN HIEROGLYPH A313","cat":"Lo"}
+,{"code":83297,"name":"ANATOLIAN HIEROGLYPH A314","cat":"Lo"}
+,{"code":83298,"name":"ANATOLIAN HIEROGLYPH A315","cat":"Lo"}
+,{"code":83299,"name":"ANATOLIAN HIEROGLYPH A316","cat":"Lo"}
+,{"code":83300,"name":"ANATOLIAN HIEROGLYPH A317","cat":"Lo"}
+,{"code":83301,"name":"ANATOLIAN HIEROGLYPH A318","cat":"Lo"}
+,{"code":83302,"name":"ANATOLIAN HIEROGLYPH A319","cat":"Lo"}
+,{"code":83303,"name":"ANATOLIAN HIEROGLYPH A320","cat":"Lo"}
+,{"code":83304,"name":"ANATOLIAN HIEROGLYPH A321","cat":"Lo"}
+,{"code":83305,"name":"ANATOLIAN HIEROGLYPH A322","cat":"Lo"}
+,{"code":83306,"name":"ANATOLIAN HIEROGLYPH A323","cat":"Lo"}
+,{"code":83307,"name":"ANATOLIAN HIEROGLYPH A324","cat":"Lo"}
+,{"code":83308,"name":"ANATOLIAN HIEROGLYPH A325","cat":"Lo"}
+,{"code":83309,"name":"ANATOLIAN HIEROGLYPH A326","cat":"Lo"}
+,{"code":83310,"name":"ANATOLIAN HIEROGLYPH A327","cat":"Lo"}
+,{"code":83311,"name":"ANATOLIAN HIEROGLYPH A328","cat":"Lo"}
+,{"code":83312,"name":"ANATOLIAN HIEROGLYPH A329","cat":"Lo"}
+,{"code":83313,"name":"ANATOLIAN HIEROGLYPH A329A","cat":"Lo"}
+,{"code":83314,"name":"ANATOLIAN HIEROGLYPH A330","cat":"Lo"}
+,{"code":83315,"name":"ANATOLIAN HIEROGLYPH A331","cat":"Lo"}
+,{"code":83316,"name":"ANATOLIAN HIEROGLYPH A332A","cat":"Lo"}
+,{"code":83317,"name":"ANATOLIAN HIEROGLYPH A332B","cat":"Lo"}
+,{"code":83318,"name":"ANATOLIAN HIEROGLYPH A332C","cat":"Lo"}
+,{"code":83319,"name":"ANATOLIAN HIEROGLYPH A333","cat":"Lo"}
+,{"code":83320,"name":"ANATOLIAN HIEROGLYPH A334","cat":"Lo"}
+,{"code":83321,"name":"ANATOLIAN HIEROGLYPH A335","cat":"Lo"}
+,{"code":83322,"name":"ANATOLIAN HIEROGLYPH A336","cat":"Lo"}
+,{"code":83323,"name":"ANATOLIAN HIEROGLYPH A336A","cat":"Lo"}
+,{"code":83324,"name":"ANATOLIAN HIEROGLYPH A336B","cat":"Lo"}
+,{"code":83325,"name":"ANATOLIAN HIEROGLYPH A336C","cat":"Lo"}
+,{"code":83326,"name":"ANATOLIAN HIEROGLYPH A337","cat":"Lo"}
+,{"code":83327,"name":"ANATOLIAN HIEROGLYPH A338","cat":"Lo"}
+,{"code":83328,"name":"ANATOLIAN HIEROGLYPH A339","cat":"Lo"}
+,{"code":83329,"name":"ANATOLIAN HIEROGLYPH A340","cat":"Lo"}
+,{"code":83330,"name":"ANATOLIAN HIEROGLYPH A341","cat":"Lo"}
+,{"code":83331,"name":"ANATOLIAN HIEROGLYPH A342","cat":"Lo"}
+,{"code":83332,"name":"ANATOLIAN HIEROGLYPH A343","cat":"Lo"}
+,{"code":83333,"name":"ANATOLIAN HIEROGLYPH A344","cat":"Lo"}
+,{"code":83334,"name":"ANATOLIAN HIEROGLYPH A345","cat":"Lo"}
+,{"code":83335,"name":"ANATOLIAN HIEROGLYPH A346","cat":"Lo"}
+,{"code":83336,"name":"ANATOLIAN HIEROGLYPH A347","cat":"Lo"}
+,{"code":83337,"name":"ANATOLIAN HIEROGLYPH A348","cat":"Lo"}
+,{"code":83338,"name":"ANATOLIAN HIEROGLYPH A349","cat":"Lo"}
+,{"code":83339,"name":"ANATOLIAN HIEROGLYPH A350","cat":"Lo"}
+,{"code":83340,"name":"ANATOLIAN HIEROGLYPH A351","cat":"Lo"}
+,{"code":83341,"name":"ANATOLIAN HIEROGLYPH A352","cat":"Lo"}
+,{"code":83342,"name":"ANATOLIAN HIEROGLYPH A353","cat":"Lo"}
+,{"code":83343,"name":"ANATOLIAN HIEROGLYPH A354","cat":"Lo"}
+,{"code":83344,"name":"ANATOLIAN HIEROGLYPH A355","cat":"Lo"}
+,{"code":83345,"name":"ANATOLIAN HIEROGLYPH A356","cat":"Lo"}
+,{"code":83346,"name":"ANATOLIAN HIEROGLYPH A357","cat":"Lo"}
+,{"code":83347,"name":"ANATOLIAN HIEROGLYPH A358","cat":"Lo"}
+,{"code":83348,"name":"ANATOLIAN HIEROGLYPH A359","cat":"Lo"}
+,{"code":83349,"name":"ANATOLIAN HIEROGLYPH A359A","cat":"Lo"}
+,{"code":83350,"name":"ANATOLIAN HIEROGLYPH A360","cat":"Lo"}
+,{"code":83351,"name":"ANATOLIAN HIEROGLYPH A361","cat":"Lo"}
+,{"code":83352,"name":"ANATOLIAN HIEROGLYPH A362","cat":"Lo"}
+,{"code":83353,"name":"ANATOLIAN HIEROGLYPH A363","cat":"Lo"}
+,{"code":83354,"name":"ANATOLIAN HIEROGLYPH A364","cat":"Lo"}
+,{"code":83355,"name":"ANATOLIAN HIEROGLYPH A364A","cat":"Lo"}
+,{"code":83356,"name":"ANATOLIAN HIEROGLYPH A365","cat":"Lo"}
+,{"code":83357,"name":"ANATOLIAN HIEROGLYPH A366","cat":"Lo"}
+,{"code":83358,"name":"ANATOLIAN HIEROGLYPH A367","cat":"Lo"}
+,{"code":83359,"name":"ANATOLIAN HIEROGLYPH A368","cat":"Lo"}
+,{"code":83360,"name":"ANATOLIAN HIEROGLYPH A368A","cat":"Lo"}
+,{"code":83361,"name":"ANATOLIAN HIEROGLYPH A369","cat":"Lo"}
+,{"code":83362,"name":"ANATOLIAN HIEROGLYPH A370","cat":"Lo"}
+,{"code":83363,"name":"ANATOLIAN HIEROGLYPH A371","cat":"Lo"}
+,{"code":83364,"name":"ANATOLIAN HIEROGLYPH A371A","cat":"Lo"}
+,{"code":83365,"name":"ANATOLIAN HIEROGLYPH A372","cat":"Lo"}
+,{"code":83366,"name":"ANATOLIAN HIEROGLYPH A373","cat":"Lo"}
+,{"code":83367,"name":"ANATOLIAN HIEROGLYPH A374","cat":"Lo"}
+,{"code":83368,"name":"ANATOLIAN HIEROGLYPH A375","cat":"Lo"}
+,{"code":83369,"name":"ANATOLIAN HIEROGLYPH A376","cat":"Lo"}
+,{"code":83370,"name":"ANATOLIAN HIEROGLYPH A377","cat":"Lo"}
+,{"code":83371,"name":"ANATOLIAN HIEROGLYPH A378","cat":"Lo"}
+,{"code":83372,"name":"ANATOLIAN HIEROGLYPH A379","cat":"Lo"}
+,{"code":83373,"name":"ANATOLIAN HIEROGLYPH A380","cat":"Lo"}
+,{"code":83374,"name":"ANATOLIAN HIEROGLYPH A381","cat":"Lo"}
+,{"code":83375,"name":"ANATOLIAN HIEROGLYPH A381A","cat":"Lo"}
+,{"code":83376,"name":"ANATOLIAN HIEROGLYPH A382","cat":"Lo"}
+,{"code":83377,"name":"ANATOLIAN HIEROGLYPH A383 RA OR RI","cat":"Lo"}
+,{"code":83378,"name":"ANATOLIAN HIEROGLYPH A383A","cat":"Lo"}
+,{"code":83379,"name":"ANATOLIAN HIEROGLYPH A384","cat":"Lo"}
+,{"code":83380,"name":"ANATOLIAN HIEROGLYPH A385","cat":"Lo"}
+,{"code":83381,"name":"ANATOLIAN HIEROGLYPH A386","cat":"Lo"}
+,{"code":83382,"name":"ANATOLIAN HIEROGLYPH A386A","cat":"Lo"}
+,{"code":83383,"name":"ANATOLIAN HIEROGLYPH A387","cat":"Lo"}
+,{"code":83384,"name":"ANATOLIAN HIEROGLYPH A388","cat":"Lo"}
+,{"code":83385,"name":"ANATOLIAN HIEROGLYPH A389","cat":"Lo"}
+,{"code":83386,"name":"ANATOLIAN HIEROGLYPH A390","cat":"Lo"}
+,{"code":83387,"name":"ANATOLIAN HIEROGLYPH A391","cat":"Lo"}
+,{"code":83388,"name":"ANATOLIAN HIEROGLYPH A392","cat":"Lo"}
+,{"code":83389,"name":"ANATOLIAN HIEROGLYPH A393 EIGHT","cat":"Lo"}
+,{"code":83390,"name":"ANATOLIAN HIEROGLYPH A394","cat":"Lo"}
+,{"code":83391,"name":"ANATOLIAN HIEROGLYPH A395","cat":"Lo"}
+,{"code":83392,"name":"ANATOLIAN HIEROGLYPH A396","cat":"Lo"}
+,{"code":83393,"name":"ANATOLIAN HIEROGLYPH A397","cat":"Lo"}
+,{"code":83394,"name":"ANATOLIAN HIEROGLYPH A398","cat":"Lo"}
+,{"code":83395,"name":"ANATOLIAN HIEROGLYPH A399","cat":"Lo"}
+,{"code":83396,"name":"ANATOLIAN HIEROGLYPH A400","cat":"Lo"}
+,{"code":83397,"name":"ANATOLIAN HIEROGLYPH A401","cat":"Lo"}
+,{"code":83398,"name":"ANATOLIAN HIEROGLYPH A402","cat":"Lo"}
+,{"code":83399,"name":"ANATOLIAN HIEROGLYPH A403","cat":"Lo"}
+,{"code":83400,"name":"ANATOLIAN HIEROGLYPH A404","cat":"Lo"}
+,{"code":83401,"name":"ANATOLIAN HIEROGLYPH A405","cat":"Lo"}
+,{"code":83402,"name":"ANATOLIAN HIEROGLYPH A406","cat":"Lo"}
+,{"code":83403,"name":"ANATOLIAN HIEROGLYPH A407","cat":"Lo"}
+,{"code":83404,"name":"ANATOLIAN HIEROGLYPH A408","cat":"Lo"}
+,{"code":83405,"name":"ANATOLIAN HIEROGLYPH A409","cat":"Lo"}
+,{"code":83406,"name":"ANATOLIAN HIEROGLYPH A410 BEGIN LOGOGRAM MARK","cat":"Lo"}
+,{"code":83407,"name":"ANATOLIAN HIEROGLYPH A410A END LOGOGRAM MARK","cat":"Lo"}
+,{"code":83408,"name":"ANATOLIAN HIEROGLYPH A411","cat":"Lo"}
+,{"code":83409,"name":"ANATOLIAN HIEROGLYPH A412","cat":"Lo"}
+,{"code":83410,"name":"ANATOLIAN HIEROGLYPH A413","cat":"Lo"}
+,{"code":83411,"name":"ANATOLIAN HIEROGLYPH A414","cat":"Lo"}
+,{"code":83412,"name":"ANATOLIAN HIEROGLYPH A415","cat":"Lo"}
+,{"code":83413,"name":"ANATOLIAN HIEROGLYPH A416","cat":"Lo"}
+,{"code":83414,"name":"ANATOLIAN HIEROGLYPH A417","cat":"Lo"}
+,{"code":83415,"name":"ANATOLIAN HIEROGLYPH A418","cat":"Lo"}
+,{"code":83416,"name":"ANATOLIAN HIEROGLYPH A419","cat":"Lo"}
+,{"code":83417,"name":"ANATOLIAN HIEROGLYPH A420","cat":"Lo"}
+,{"code":83418,"name":"ANATOLIAN HIEROGLYPH A421","cat":"Lo"}
+,{"code":83419,"name":"ANATOLIAN HIEROGLYPH A422","cat":"Lo"}
+,{"code":83420,"name":"ANATOLIAN HIEROGLYPH A423","cat":"Lo"}
+,{"code":83421,"name":"ANATOLIAN HIEROGLYPH A424","cat":"Lo"}
+,{"code":83422,"name":"ANATOLIAN HIEROGLYPH A425","cat":"Lo"}
+,{"code":83423,"name":"ANATOLIAN HIEROGLYPH A426","cat":"Lo"}
+,{"code":83424,"name":"ANATOLIAN HIEROGLYPH A427","cat":"Lo"}
+,{"code":83425,"name":"ANATOLIAN HIEROGLYPH A428","cat":"Lo"}
+,{"code":83426,"name":"ANATOLIAN HIEROGLYPH A429","cat":"Lo"}
+,{"code":83427,"name":"ANATOLIAN HIEROGLYPH A430","cat":"Lo"}
+,{"code":83428,"name":"ANATOLIAN HIEROGLYPH A431","cat":"Lo"}
+,{"code":83429,"name":"ANATOLIAN HIEROGLYPH A432","cat":"Lo"}
+,{"code":83430,"name":"ANATOLIAN HIEROGLYPH A433","cat":"Lo"}
+,{"code":83431,"name":"ANATOLIAN HIEROGLYPH A434","cat":"Lo"}
+,{"code":83432,"name":"ANATOLIAN HIEROGLYPH A435","cat":"Lo"}
+,{"code":83433,"name":"ANATOLIAN HIEROGLYPH A436","cat":"Lo"}
+,{"code":83434,"name":"ANATOLIAN HIEROGLYPH A437","cat":"Lo"}
+,{"code":83435,"name":"ANATOLIAN HIEROGLYPH A438","cat":"Lo"}
+,{"code":83436,"name":"ANATOLIAN HIEROGLYPH A439","cat":"Lo"}
+,{"code":83437,"name":"ANATOLIAN HIEROGLYPH A440","cat":"Lo"}
+,{"code":83438,"name":"ANATOLIAN HIEROGLYPH A441","cat":"Lo"}
+,{"code":83439,"name":"ANATOLIAN HIEROGLYPH A442","cat":"Lo"}
+,{"code":83440,"name":"ANATOLIAN HIEROGLYPH A443","cat":"Lo"}
+,{"code":83441,"name":"ANATOLIAN HIEROGLYPH A444","cat":"Lo"}
+,{"code":83442,"name":"ANATOLIAN HIEROGLYPH A445","cat":"Lo"}
+,{"code":83443,"name":"ANATOLIAN HIEROGLYPH A446","cat":"Lo"}
+,{"code":83444,"name":"ANATOLIAN HIEROGLYPH A447","cat":"Lo"}
+,{"code":83445,"name":"ANATOLIAN HIEROGLYPH A448","cat":"Lo"}
+,{"code":83446,"name":"ANATOLIAN HIEROGLYPH A449","cat":"Lo"}
+,{"code":83447,"name":"ANATOLIAN HIEROGLYPH A450","cat":"Lo"}
+,{"code":83448,"name":"ANATOLIAN HIEROGLYPH A450A","cat":"Lo"}
+,{"code":83449,"name":"ANATOLIAN HIEROGLYPH A451","cat":"Lo"}
+,{"code":83450,"name":"ANATOLIAN HIEROGLYPH A452","cat":"Lo"}
+,{"code":83451,"name":"ANATOLIAN HIEROGLYPH A453","cat":"Lo"}
+,{"code":83452,"name":"ANATOLIAN HIEROGLYPH A454","cat":"Lo"}
+,{"code":83453,"name":"ANATOLIAN HIEROGLYPH A455","cat":"Lo"}
+,{"code":83454,"name":"ANATOLIAN HIEROGLYPH A456","cat":"Lo"}
+,{"code":83455,"name":"ANATOLIAN HIEROGLYPH A457","cat":"Lo"}
+,{"code":83456,"name":"ANATOLIAN HIEROGLYPH A457A","cat":"Lo"}
+,{"code":83457,"name":"ANATOLIAN HIEROGLYPH A458","cat":"Lo"}
+,{"code":83458,"name":"ANATOLIAN HIEROGLYPH A459","cat":"Lo"}
+,{"code":83459,"name":"ANATOLIAN HIEROGLYPH A460","cat":"Lo"}
+,{"code":83460,"name":"ANATOLIAN HIEROGLYPH A461","cat":"Lo"}
+,{"code":83461,"name":"ANATOLIAN HIEROGLYPH A462","cat":"Lo"}
+,{"code":83462,"name":"ANATOLIAN HIEROGLYPH A463","cat":"Lo"}
+,{"code":83463,"name":"ANATOLIAN HIEROGLYPH A464","cat":"Lo"}
+,{"code":83464,"name":"ANATOLIAN HIEROGLYPH A465","cat":"Lo"}
+,{"code":83465,"name":"ANATOLIAN HIEROGLYPH A466","cat":"Lo"}
+,{"code":83466,"name":"ANATOLIAN HIEROGLYPH A467","cat":"Lo"}
+,{"code":83467,"name":"ANATOLIAN HIEROGLYPH A468","cat":"Lo"}
+,{"code":83468,"name":"ANATOLIAN HIEROGLYPH A469","cat":"Lo"}
+,{"code":83469,"name":"ANATOLIAN HIEROGLYPH A470","cat":"Lo"}
+,{"code":83470,"name":"ANATOLIAN HIEROGLYPH A471","cat":"Lo"}
+,{"code":83471,"name":"ANATOLIAN HIEROGLYPH A472","cat":"Lo"}
+,{"code":83472,"name":"ANATOLIAN HIEROGLYPH A473","cat":"Lo"}
+,{"code":83473,"name":"ANATOLIAN HIEROGLYPH A474","cat":"Lo"}
+,{"code":83474,"name":"ANATOLIAN HIEROGLYPH A475","cat":"Lo"}
+,{"code":83475,"name":"ANATOLIAN HIEROGLYPH A476","cat":"Lo"}
+,{"code":83476,"name":"ANATOLIAN HIEROGLYPH A477","cat":"Lo"}
+,{"code":83477,"name":"ANATOLIAN HIEROGLYPH A478","cat":"Lo"}
+,{"code":83478,"name":"ANATOLIAN HIEROGLYPH A479","cat":"Lo"}
+,{"code":83479,"name":"ANATOLIAN HIEROGLYPH A480","cat":"Lo"}
+,{"code":83480,"name":"ANATOLIAN HIEROGLYPH A481","cat":"Lo"}
+,{"code":83481,"name":"ANATOLIAN HIEROGLYPH A482","cat":"Lo"}
+,{"code":83482,"name":"ANATOLIAN HIEROGLYPH A483","cat":"Lo"}
+,{"code":83483,"name":"ANATOLIAN HIEROGLYPH A484","cat":"Lo"}
+,{"code":83484,"name":"ANATOLIAN HIEROGLYPH A485","cat":"Lo"}
+,{"code":83485,"name":"ANATOLIAN HIEROGLYPH A486","cat":"Lo"}
+,{"code":83486,"name":"ANATOLIAN HIEROGLYPH A487","cat":"Lo"}
+,{"code":83487,"name":"ANATOLIAN HIEROGLYPH A488","cat":"Lo"}
+,{"code":83488,"name":"ANATOLIAN HIEROGLYPH A489","cat":"Lo"}
+,{"code":83489,"name":"ANATOLIAN HIEROGLYPH A490","cat":"Lo"}
+,{"code":83490,"name":"ANATOLIAN HIEROGLYPH A491","cat":"Lo"}
+,{"code":83491,"name":"ANATOLIAN HIEROGLYPH A492","cat":"Lo"}
+,{"code":83492,"name":"ANATOLIAN HIEROGLYPH A493","cat":"Lo"}
+,{"code":83493,"name":"ANATOLIAN HIEROGLYPH A494","cat":"Lo"}
+,{"code":83494,"name":"ANATOLIAN HIEROGLYPH A495","cat":"Lo"}
+,{"code":83495,"name":"ANATOLIAN HIEROGLYPH A496","cat":"Lo"}
+,{"code":83496,"name":"ANATOLIAN HIEROGLYPH A497","cat":"Lo"}
+,{"code":83497,"name":"ANATOLIAN HIEROGLYPH A501","cat":"Lo"}
+,{"code":83498,"name":"ANATOLIAN HIEROGLYPH A502","cat":"Lo"}
+,{"code":83499,"name":"ANATOLIAN HIEROGLYPH A503","cat":"Lo"}
+,{"code":83500,"name":"ANATOLIAN HIEROGLYPH A504","cat":"Lo"}
+,{"code":83501,"name":"ANATOLIAN HIEROGLYPH A505","cat":"Lo"}
+,{"code":83502,"name":"ANATOLIAN HIEROGLYPH A506","cat":"Lo"}
+,{"code":83503,"name":"ANATOLIAN HIEROGLYPH A507","cat":"Lo"}
+,{"code":83504,"name":"ANATOLIAN HIEROGLYPH A508","cat":"Lo"}
+,{"code":83505,"name":"ANATOLIAN HIEROGLYPH A509","cat":"Lo"}
+,{"code":83506,"name":"ANATOLIAN HIEROGLYPH A510","cat":"Lo"}
+,{"code":83507,"name":"ANATOLIAN HIEROGLYPH A511","cat":"Lo"}
+,{"code":83508,"name":"ANATOLIAN HIEROGLYPH A512","cat":"Lo"}
+,{"code":83509,"name":"ANATOLIAN HIEROGLYPH A513","cat":"Lo"}
+,{"code":83510,"name":"ANATOLIAN HIEROGLYPH A514","cat":"Lo"}
+,{"code":83511,"name":"ANATOLIAN HIEROGLYPH A515","cat":"Lo"}
+,{"code":83512,"name":"ANATOLIAN HIEROGLYPH A516","cat":"Lo"}
+,{"code":83513,"name":"ANATOLIAN HIEROGLYPH A517","cat":"Lo"}
+,{"code":83514,"name":"ANATOLIAN HIEROGLYPH A518","cat":"Lo"}
+,{"code":83515,"name":"ANATOLIAN HIEROGLYPH A519","cat":"Lo"}
+,{"code":83516,"name":"ANATOLIAN HIEROGLYPH A520","cat":"Lo"}
+,{"code":83517,"name":"ANATOLIAN HIEROGLYPH A521","cat":"Lo"}
+,{"code":83518,"name":"ANATOLIAN HIEROGLYPH A522","cat":"Lo"}
+,{"code":83519,"name":"ANATOLIAN HIEROGLYPH A523","cat":"Lo"}
+,{"code":83520,"name":"ANATOLIAN HIEROGLYPH A524","cat":"Lo"}
+,{"code":83521,"name":"ANATOLIAN HIEROGLYPH A525","cat":"Lo"}
+,{"code":83522,"name":"ANATOLIAN HIEROGLYPH A526","cat":"Lo"}
+,{"code":83523,"name":"ANATOLIAN HIEROGLYPH A527","cat":"Lo"}
+,{"code":83524,"name":"ANATOLIAN HIEROGLYPH A528","cat":"Lo"}
+,{"code":83525,"name":"ANATOLIAN HIEROGLYPH A529","cat":"Lo"}
+,{"code":83526,"name":"ANATOLIAN HIEROGLYPH A530","cat":"Lo"}
 ,{"code":92160,"name":"BAMUM LETTER PHASE-A NGKUE MFON","cat":"Lo"}
 ,{"code":92161,"name":"BAMUM LETTER PHASE-A GBIEE FON","cat":"Lo"}
 ,{"code":92162,"name":"BAMUM LETTER PHASE-A PON MFON PIPAEMGBIEE","cat":"Lo"}
@@ -23080,6 +24300,17 @@
 ,{"code":119259,"name":"MUSICAL SYMBOL SCANDICUS FLEXUS","cat":"So"}
 ,{"code":119260,"name":"MUSICAL SYMBOL TORCULUS RESUPINUS","cat":"So"}
 ,{"code":119261,"name":"MUSICAL SYMBOL PES SUBPUNCTIS","cat":"So"}
+,{"code":119262,"name":"MUSICAL SYMBOL KIEVAN C CLEF","cat":"So"}
+,{"code":119263,"name":"MUSICAL SYMBOL KIEVAN END OF PIECE","cat":"So"}
+,{"code":119264,"name":"MUSICAL SYMBOL KIEVAN FINAL NOTE","cat":"So"}
+,{"code":119265,"name":"MUSICAL SYMBOL KIEVAN RECITATIVE MARK","cat":"So"}
+,{"code":119266,"name":"MUSICAL SYMBOL KIEVAN WHOLE NOTE","cat":"So"}
+,{"code":119267,"name":"MUSICAL SYMBOL KIEVAN HALF NOTE","cat":"So"}
+,{"code":119268,"name":"MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM DOWN","cat":"So"}
+,{"code":119269,"name":"MUSICAL SYMBOL KIEVAN QUARTER NOTE STEM UP","cat":"So"}
+,{"code":119270,"name":"MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM DOWN","cat":"So"}
+,{"code":119271,"name":"MUSICAL SYMBOL KIEVAN EIGHTH NOTE STEM UP","cat":"So"}
+,{"code":119272,"name":"MUSICAL SYMBOL KIEVAN FLAT SIGN","cat":"So"}
 ,{"code":119296,"name":"GREEK VOCAL NOTATION SYMBOL-1","cat":"So","bidi":"ON"}
 ,{"code":119297,"name":"GREEK VOCAL NOTATION SYMBOL-2","cat":"So","bidi":"ON"}
 ,{"code":119298,"name":"GREEK VOCAL NOTATION SYMBOL-3","cat":"So","bidi":"ON"}
@@ -24251,6 +25482,678 @@
 ,{"code":120829,"name":"MATHEMATICAL MONOSPACE DIGIT SEVEN","cat":"Nd","bidi":"EN","decomp":[55],"decompType":"font","num":"7"}
 ,{"code":120830,"name":"MATHEMATICAL MONOSPACE DIGIT EIGHT","cat":"Nd","bidi":"EN","decomp":[56],"decompType":"font","num":"8"}
 ,{"code":120831,"name":"MATHEMATICAL MONOSPACE DIGIT NINE","cat":"Nd","bidi":"EN","decomp":[57],"decompType":"font","num":"9"}
+,{"code":120832,"name":"SIGNWRITING HAND-FIST INDEX","cat":"So"}
+,{"code":120833,"name":"SIGNWRITING HAND-CIRCLE INDEX","cat":"So"}
+,{"code":120834,"name":"SIGNWRITING HAND-CUP INDEX","cat":"So"}
+,{"code":120835,"name":"SIGNWRITING HAND-OVAL INDEX","cat":"So"}
+,{"code":120836,"name":"SIGNWRITING HAND-HINGE INDEX","cat":"So"}
+,{"code":120837,"name":"SIGNWRITING HAND-ANGLE INDEX","cat":"So"}
+,{"code":120838,"name":"SIGNWRITING HAND-FIST INDEX BENT","cat":"So"}
+,{"code":120839,"name":"SIGNWRITING HAND-CIRCLE INDEX BENT","cat":"So"}
+,{"code":120840,"name":"SIGNWRITING HAND-FIST THUMB UNDER INDEX BENT","cat":"So"}
+,{"code":120841,"name":"SIGNWRITING HAND-FIST INDEX RAISED KNUCKLE","cat":"So"}
+,{"code":120842,"name":"SIGNWRITING HAND-FIST INDEX CUPPED","cat":"So"}
+,{"code":120843,"name":"SIGNWRITING HAND-FIST INDEX HINGED","cat":"So"}
+,{"code":120844,"name":"SIGNWRITING HAND-FIST INDEX HINGED LOW","cat":"So"}
+,{"code":120845,"name":"SIGNWRITING HAND-CIRCLE INDEX HINGE","cat":"So"}
+,{"code":120846,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE","cat":"So"}
+,{"code":120847,"name":"SIGNWRITING HAND-CIRCLE INDEX MIDDLE","cat":"So"}
+,{"code":120848,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE BENT","cat":"So"}
+,{"code":120849,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE RAISED KNUCKLES","cat":"So"}
+,{"code":120850,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE HINGED","cat":"So"}
+,{"code":120851,"name":"SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED","cat":"So"}
+,{"code":120852,"name":"SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP","cat":"So"}
+,{"code":120853,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED","cat":"So"}
+,{"code":120854,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED INDEX BENT","cat":"So"}
+,{"code":120855,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED MIDDLE BENT","cat":"So"}
+,{"code":120856,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED","cat":"So"}
+,{"code":120857,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED","cat":"So"}
+,{"code":120858,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED","cat":"So"}
+,{"code":120859,"name":"SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSSED","cat":"So"}
+,{"code":120860,"name":"SIGNWRITING HAND-FIST MIDDLE BENT OVER INDEX","cat":"So"}
+,{"code":120861,"name":"SIGNWRITING HAND-FIST INDEX BENT OVER MIDDLE","cat":"So"}
+,{"code":120862,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB","cat":"So"}
+,{"code":120863,"name":"SIGNWRITING HAND-CIRCLE INDEX MIDDLE THUMB","cat":"So"}
+,{"code":120864,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE STRAIGHT THUMB BENT","cat":"So"}
+,{"code":120865,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE BENT THUMB STRAIGHT","cat":"So"}
+,{"code":120866,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB BENT","cat":"So"}
+,{"code":120867,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE HINGED SPREAD THUMB SIDE","cat":"So"}
+,{"code":120868,"name":"SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB SIDE","cat":"So"}
+,{"code":120869,"name":"SIGNWRITING HAND-FIST INDEX UP MIDDLE HINGED THUMB CONJOINED","cat":"So"}
+,{"code":120870,"name":"SIGNWRITING HAND-FIST INDEX HINGED MIDDLE UP THUMB SIDE","cat":"So"}
+,{"code":120871,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE UP SPREAD THUMB FORWARD","cat":"So"}
+,{"code":120872,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CUPPED","cat":"So"}
+,{"code":120873,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CIRCLED","cat":"So"}
+,{"code":120874,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HOOKED","cat":"So"}
+,{"code":120875,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB HINGED","cat":"So"}
+,{"code":120876,"name":"SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE STRAIGHT","cat":"So"}
+,{"code":120877,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE","cat":"So"}
+,{"code":120878,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE CONJOINED","cat":"So"}
+,{"code":120879,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB SIDE BENT","cat":"So"}
+,{"code":120880,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB HOOKED INDEX UP","cat":"So"}
+,{"code":120881,"name":"SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE UP","cat":"So"}
+,{"code":120882,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED HINGED THUMB SIDE","cat":"So"}
+,{"code":120883,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CROSSED THUMB SIDE","cat":"So"}
+,{"code":120884,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED THUMB FORWARD","cat":"So"}
+,{"code":120885,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CONJOINED CUPPED THUMB FORWARD","cat":"So"}
+,{"code":120886,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB CUPPED INDEX UP","cat":"So"}
+,{"code":120887,"name":"SIGNWRITING HAND-FIST INDEX THUMB CUPPED MIDDLE UP","cat":"So"}
+,{"code":120888,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX UP","cat":"So"}
+,{"code":120889,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB CIRCLED INDEX HINGED","cat":"So"}
+,{"code":120890,"name":"SIGNWRITING HAND-FIST INDEX THUMB ANGLED OUT MIDDLE UP","cat":"So"}
+,{"code":120891,"name":"SIGNWRITING HAND-FIST INDEX THUMB ANGLED IN MIDDLE UP","cat":"So"}
+,{"code":120892,"name":"SIGNWRITING HAND-FIST INDEX THUMB CIRCLED MIDDLE UP","cat":"So"}
+,{"code":120893,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB CONJOINED HINGED","cat":"So"}
+,{"code":120894,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED OUT","cat":"So"}
+,{"code":120895,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE THUMB ANGLED","cat":"So"}
+,{"code":120896,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX UP","cat":"So"}
+,{"code":120897,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED OUT INDEX CROSSED","cat":"So"}
+,{"code":120898,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB ANGLED INDEX UP","cat":"So"}
+,{"code":120899,"name":"SIGNWRITING HAND-FIST INDEX THUMB HOOKED MIDDLE HINGED","cat":"So"}
+,{"code":120900,"name":"SIGNWRITING HAND-FLAT FOUR FINGERS","cat":"So"}
+,{"code":120901,"name":"SIGNWRITING HAND-FLAT FOUR FINGERS BENT","cat":"So"}
+,{"code":120902,"name":"SIGNWRITING HAND-FLAT FOUR FINGERS HINGED","cat":"So"}
+,{"code":120903,"name":"SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED","cat":"So"}
+,{"code":120904,"name":"SIGNWRITING HAND-FLAT FOUR FINGERS CONJOINED SPLIT","cat":"So"}
+,{"code":120905,"name":"SIGNWRITING HAND-CLAW FOUR FINGERS CONJOINED","cat":"So"}
+,{"code":120906,"name":"SIGNWRITING HAND-FIST FOUR FINGERS CONJOINED BENT","cat":"So"}
+,{"code":120907,"name":"SIGNWRITING HAND-HINGE FOUR FINGERS CONJOINED","cat":"So"}
+,{"code":120908,"name":"SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD","cat":"So"}
+,{"code":120909,"name":"SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD","cat":"So"}
+,{"code":120910,"name":"SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD FOUR BENT","cat":"So"}
+,{"code":120911,"name":"SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD FOUR BENT","cat":"So"}
+,{"code":120912,"name":"SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD BENT","cat":"So"}
+,{"code":120913,"name":"SIGNWRITING HAND-FLAT HEEL FIVE FINGERS SPREAD BENT","cat":"So"}
+,{"code":120914,"name":"SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD THUMB FORWARD","cat":"So"}
+,{"code":120915,"name":"SIGNWRITING HAND-CUP FIVE FINGERS SPREAD","cat":"So"}
+,{"code":120916,"name":"SIGNWRITING HAND-CUP FIVE FINGERS SPREAD OPEN","cat":"So"}
+,{"code":120917,"name":"SIGNWRITING HAND-HINGE FIVE FINGERS SPREAD OPEN","cat":"So"}
+,{"code":120918,"name":"SIGNWRITING HAND-OVAL FIVE FINGERS SPREAD","cat":"So"}
+,{"code":120919,"name":"SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED","cat":"So"}
+,{"code":120920,"name":"SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED THUMB SIDE","cat":"So"}
+,{"code":120921,"name":"SIGNWRITING HAND-FLAT FIVE FINGERS SPREAD HINGED NO THUMB","cat":"So"}
+,{"code":120922,"name":"SIGNWRITING HAND-FLAT","cat":"So"}
+,{"code":120923,"name":"SIGNWRITING HAND-FLAT BETWEEN PALM FACINGS","cat":"So"}
+,{"code":120924,"name":"SIGNWRITING HAND-FLAT HEEL","cat":"So"}
+,{"code":120925,"name":"SIGNWRITING HAND-FLAT THUMB SIDE","cat":"So"}
+,{"code":120926,"name":"SIGNWRITING HAND-FLAT HEEL THUMB SIDE","cat":"So"}
+,{"code":120927,"name":"SIGNWRITING HAND-FLAT THUMB BENT","cat":"So"}
+,{"code":120928,"name":"SIGNWRITING HAND-FLAT THUMB FORWARD","cat":"So"}
+,{"code":120929,"name":"SIGNWRITING HAND-FLAT SPLIT INDEX THUMB SIDE","cat":"So"}
+,{"code":120930,"name":"SIGNWRITING HAND-FLAT SPLIT CENTRE","cat":"So"}
+,{"code":120931,"name":"SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE","cat":"So"}
+,{"code":120932,"name":"SIGNWRITING HAND-FLAT SPLIT CENTRE THUMB SIDE BENT","cat":"So"}
+,{"code":120933,"name":"SIGNWRITING HAND-FLAT SPLIT LITTLE","cat":"So"}
+,{"code":120934,"name":"SIGNWRITING HAND-CLAW","cat":"So"}
+,{"code":120935,"name":"SIGNWRITING HAND-CLAW THUMB SIDE","cat":"So"}
+,{"code":120936,"name":"SIGNWRITING HAND-CLAW NO THUMB","cat":"So"}
+,{"code":120937,"name":"SIGNWRITING HAND-CLAW THUMB FORWARD","cat":"So"}
+,{"code":120938,"name":"SIGNWRITING HAND-HOOK CURLICUE","cat":"So"}
+,{"code":120939,"name":"SIGNWRITING HAND-HOOK","cat":"So"}
+,{"code":120940,"name":"SIGNWRITING HAND-CUP OPEN","cat":"So"}
+,{"code":120941,"name":"SIGNWRITING HAND-CUP","cat":"So"}
+,{"code":120942,"name":"SIGNWRITING HAND-CUP OPEN THUMB SIDE","cat":"So"}
+,{"code":120943,"name":"SIGNWRITING HAND-CUP THUMB SIDE","cat":"So"}
+,{"code":120944,"name":"SIGNWRITING HAND-CUP OPEN NO THUMB","cat":"So"}
+,{"code":120945,"name":"SIGNWRITING HAND-CUP NO THUMB","cat":"So"}
+,{"code":120946,"name":"SIGNWRITING HAND-CUP OPEN THUMB FORWARD","cat":"So"}
+,{"code":120947,"name":"SIGNWRITING HAND-CUP THUMB FORWARD","cat":"So"}
+,{"code":120948,"name":"SIGNWRITING HAND-CURLICUE OPEN","cat":"So"}
+,{"code":120949,"name":"SIGNWRITING HAND-CURLICUE","cat":"So"}
+,{"code":120950,"name":"SIGNWRITING HAND-CIRCLE","cat":"So"}
+,{"code":120951,"name":"SIGNWRITING HAND-OVAL","cat":"So"}
+,{"code":120952,"name":"SIGNWRITING HAND-OVAL THUMB SIDE","cat":"So"}
+,{"code":120953,"name":"SIGNWRITING HAND-OVAL NO THUMB","cat":"So"}
+,{"code":120954,"name":"SIGNWRITING HAND-OVAL THUMB FORWARD","cat":"So"}
+,{"code":120955,"name":"SIGNWRITING HAND-HINGE OPEN","cat":"So"}
+,{"code":120956,"name":"SIGNWRITING HAND-HINGE OPEN THUMB FORWARD","cat":"So"}
+,{"code":120957,"name":"SIGNWRITING HAND-HINGE","cat":"So"}
+,{"code":120958,"name":"SIGNWRITING HAND-HINGE SMALL","cat":"So"}
+,{"code":120959,"name":"SIGNWRITING HAND-HINGE OPEN THUMB SIDE","cat":"So"}
+,{"code":120960,"name":"SIGNWRITING HAND-HINGE THUMB SIDE","cat":"So"}
+,{"code":120961,"name":"SIGNWRITING HAND-HINGE OPEN NO THUMB","cat":"So"}
+,{"code":120962,"name":"SIGNWRITING HAND-HINGE NO THUMB","cat":"So"}
+,{"code":120963,"name":"SIGNWRITING HAND-HINGE THUMB SIDE TOUCHING INDEX","cat":"So"}
+,{"code":120964,"name":"SIGNWRITING HAND-HINGE THUMB BETWEEN MIDDLE RING","cat":"So"}
+,{"code":120965,"name":"SIGNWRITING HAND-ANGLE","cat":"So"}
+,{"code":120966,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE RING","cat":"So"}
+,{"code":120967,"name":"SIGNWRITING HAND-CIRCLE INDEX MIDDLE RING","cat":"So"}
+,{"code":120968,"name":"SIGNWRITING HAND-HINGE INDEX MIDDLE RING","cat":"So"}
+,{"code":120969,"name":"SIGNWRITING HAND-ANGLE INDEX MIDDLE RING","cat":"So"}
+,{"code":120970,"name":"SIGNWRITING HAND-HINGE LITTLE","cat":"So"}
+,{"code":120971,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE RING BENT","cat":"So"}
+,{"code":120972,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE RING CONJOINED","cat":"So"}
+,{"code":120973,"name":"SIGNWRITING HAND-HINGE INDEX MIDDLE RING CONJOINED","cat":"So"}
+,{"code":120974,"name":"SIGNWRITING HAND-FIST LITTLE DOWN","cat":"So"}
+,{"code":120975,"name":"SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE STRAIGHT","cat":"So"}
+,{"code":120976,"name":"SIGNWRITING HAND-FIST LITTLE DOWN RIPPLE CURVED","cat":"So"}
+,{"code":120977,"name":"SIGNWRITING HAND-FIST LITTLE DOWN OTHERS CIRCLED","cat":"So"}
+,{"code":120978,"name":"SIGNWRITING HAND-FIST LITTLE UP","cat":"So"}
+,{"code":120979,"name":"SIGNWRITING HAND-FIST THUMB UNDER LITTLE UP","cat":"So"}
+,{"code":120980,"name":"SIGNWRITING HAND-CIRCLE LITTLE UP","cat":"So"}
+,{"code":120981,"name":"SIGNWRITING HAND-OVAL LITTLE UP","cat":"So"}
+,{"code":120982,"name":"SIGNWRITING HAND-ANGLE LITTLE UP","cat":"So"}
+,{"code":120983,"name":"SIGNWRITING HAND-FIST LITTLE RAISED KNUCKLE","cat":"So"}
+,{"code":120984,"name":"SIGNWRITING HAND-FIST LITTLE BENT","cat":"So"}
+,{"code":120985,"name":"SIGNWRITING HAND-FIST LITTLE TOUCHES THUMB","cat":"So"}
+,{"code":120986,"name":"SIGNWRITING HAND-FIST LITTLE THUMB","cat":"So"}
+,{"code":120987,"name":"SIGNWRITING HAND-HINGE LITTLE THUMB","cat":"So"}
+,{"code":120988,"name":"SIGNWRITING HAND-FIST LITTLE INDEX THUMB","cat":"So"}
+,{"code":120989,"name":"SIGNWRITING HAND-HINGE LITTLE INDEX THUMB","cat":"So"}
+,{"code":120990,"name":"SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB OUT","cat":"So"}
+,{"code":120991,"name":"SIGNWRITING HAND-ANGLE LITTLE INDEX THUMB INDEX THUMB","cat":"So"}
+,{"code":120992,"name":"SIGNWRITING HAND-FIST LITTLE INDEX","cat":"So"}
+,{"code":120993,"name":"SIGNWRITING HAND-CIRCLE LITTLE INDEX","cat":"So"}
+,{"code":120994,"name":"SIGNWRITING HAND-HINGE LITTLE INDEX","cat":"So"}
+,{"code":120995,"name":"SIGNWRITING HAND-ANGLE LITTLE INDEX","cat":"So"}
+,{"code":120996,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE LITTLE","cat":"So"}
+,{"code":120997,"name":"SIGNWRITING HAND-CIRCLE INDEX MIDDLE LITTLE","cat":"So"}
+,{"code":120998,"name":"SIGNWRITING HAND-HINGE INDEX MIDDLE LITTLE","cat":"So"}
+,{"code":120999,"name":"SIGNWRITING HAND-HINGE RING","cat":"So"}
+,{"code":121000,"name":"SIGNWRITING HAND-ANGLE INDEX MIDDLE LITTLE","cat":"So"}
+,{"code":121001,"name":"SIGNWRITING HAND-FIST INDEX MIDDLE CROSS LITTLE","cat":"So"}
+,{"code":121002,"name":"SIGNWRITING HAND-CIRCLE INDEX MIDDLE CROSS LITTLE","cat":"So"}
+,{"code":121003,"name":"SIGNWRITING HAND-FIST RING DOWN","cat":"So"}
+,{"code":121004,"name":"SIGNWRITING HAND-HINGE RING DOWN INDEX THUMB HOOK MIDDLE","cat":"So"}
+,{"code":121005,"name":"SIGNWRITING HAND-ANGLE RING DOWN MIDDLE THUMB INDEX CROSS","cat":"So"}
+,{"code":121006,"name":"SIGNWRITING HAND-FIST RING UP","cat":"So"}
+,{"code":121007,"name":"SIGNWRITING HAND-FIST RING RAISED KNUCKLE","cat":"So"}
+,{"code":121008,"name":"SIGNWRITING HAND-FIST RING LITTLE","cat":"So"}
+,{"code":121009,"name":"SIGNWRITING HAND-CIRCLE RING LITTLE","cat":"So"}
+,{"code":121010,"name":"SIGNWRITING HAND-OVAL RING LITTLE","cat":"So"}
+,{"code":121011,"name":"SIGNWRITING HAND-ANGLE RING LITTLE","cat":"So"}
+,{"code":121012,"name":"SIGNWRITING HAND-FIST RING MIDDLE","cat":"So"}
+,{"code":121013,"name":"SIGNWRITING HAND-FIST RING MIDDLE CONJOINED","cat":"So"}
+,{"code":121014,"name":"SIGNWRITING HAND-FIST RING MIDDLE RAISED KNUCKLES","cat":"So"}
+,{"code":121015,"name":"SIGNWRITING HAND-FIST RING INDEX","cat":"So"}
+,{"code":121016,"name":"SIGNWRITING HAND-FIST RING THUMB","cat":"So"}
+,{"code":121017,"name":"SIGNWRITING HAND-HOOK RING THUMB","cat":"So"}
+,{"code":121018,"name":"SIGNWRITING HAND-FIST INDEX RING LITTLE","cat":"So"}
+,{"code":121019,"name":"SIGNWRITING HAND-CIRCLE INDEX RING LITTLE","cat":"So"}
+,{"code":121020,"name":"SIGNWRITING HAND-CURLICUE INDEX RING LITTLE ON","cat":"So"}
+,{"code":121021,"name":"SIGNWRITING HAND-HOOK INDEX RING LITTLE OUT","cat":"So"}
+,{"code":121022,"name":"SIGNWRITING HAND-HOOK INDEX RING LITTLE IN","cat":"So"}
+,{"code":121023,"name":"SIGNWRITING HAND-HOOK INDEX RING LITTLE UNDER","cat":"So"}
+,{"code":121024,"name":"SIGNWRITING HAND-CUP INDEX RING LITTLE","cat":"So"}
+,{"code":121025,"name":"SIGNWRITING HAND-HINGE INDEX RING LITTLE","cat":"So"}
+,{"code":121026,"name":"SIGNWRITING HAND-ANGLE INDEX RING LITTLE OUT","cat":"So"}
+,{"code":121027,"name":"SIGNWRITING HAND-ANGLE INDEX RING LITTLE","cat":"So"}
+,{"code":121028,"name":"SIGNWRITING HAND-FIST MIDDLE DOWN","cat":"So"}
+,{"code":121029,"name":"SIGNWRITING HAND-HINGE MIDDLE","cat":"So"}
+,{"code":121030,"name":"SIGNWRITING HAND-FIST MIDDLE UP","cat":"So"}
+,{"code":121031,"name":"SIGNWRITING HAND-CIRCLE MIDDLE UP","cat":"So"}
+,{"code":121032,"name":"SIGNWRITING HAND-FIST MIDDLE RAISED KNUCKLE","cat":"So"}
+,{"code":121033,"name":"SIGNWRITING HAND-FIST MIDDLE UP THUMB SIDE","cat":"So"}
+,{"code":121034,"name":"SIGNWRITING HAND-HOOK MIDDLE THUMB","cat":"So"}
+,{"code":121035,"name":"SIGNWRITING HAND-FIST MIDDLE THUMB LITTLE","cat":"So"}
+,{"code":121036,"name":"SIGNWRITING HAND-FIST MIDDLE LITTLE","cat":"So"}
+,{"code":121037,"name":"SIGNWRITING HAND-FIST MIDDLE RING LITTLE","cat":"So"}
+,{"code":121038,"name":"SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE","cat":"So"}
+,{"code":121039,"name":"SIGNWRITING HAND-CURLICUE MIDDLE RING LITTLE ON","cat":"So"}
+,{"code":121040,"name":"SIGNWRITING HAND-CUP MIDDLE RING LITTLE","cat":"So"}
+,{"code":121041,"name":"SIGNWRITING HAND-HINGE MIDDLE RING LITTLE","cat":"So"}
+,{"code":121042,"name":"SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE OUT","cat":"So"}
+,{"code":121043,"name":"SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE IN","cat":"So"}
+,{"code":121044,"name":"SIGNWRITING HAND-ANGLE MIDDLE RING LITTLE","cat":"So"}
+,{"code":121045,"name":"SIGNWRITING HAND-CIRCLE MIDDLE RING LITTLE BENT","cat":"So"}
+,{"code":121046,"name":"SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED","cat":"So"}
+,{"code":121047,"name":"SIGNWRITING HAND-CLAW MIDDLE RING LITTLE CONJOINED SIDE","cat":"So"}
+,{"code":121048,"name":"SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED OUT","cat":"So"}
+,{"code":121049,"name":"SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED IN","cat":"So"}
+,{"code":121050,"name":"SIGNWRITING HAND-HOOK MIDDLE RING LITTLE CONJOINED","cat":"So"}
+,{"code":121051,"name":"SIGNWRITING HAND-HINGE INDEX HINGED","cat":"So"}
+,{"code":121052,"name":"SIGNWRITING HAND-FIST INDEX THUMB SIDE","cat":"So"}
+,{"code":121053,"name":"SIGNWRITING HAND-HINGE INDEX THUMB SIDE","cat":"So"}
+,{"code":121054,"name":"SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB DIAGONAL","cat":"So"}
+,{"code":121055,"name":"SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB CONJOINED","cat":"So"}
+,{"code":121056,"name":"SIGNWRITING HAND-FIST INDEX THUMB SIDE THUMB BENT","cat":"So"}
+,{"code":121057,"name":"SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX BENT","cat":"So"}
+,{"code":121058,"name":"SIGNWRITING HAND-FIST INDEX THUMB SIDE BOTH BENT","cat":"So"}
+,{"code":121059,"name":"SIGNWRITING HAND-FIST INDEX THUMB SIDE INDEX HINGE","cat":"So"}
+,{"code":121060,"name":"SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX STRAIGHT","cat":"So"}
+,{"code":121061,"name":"SIGNWRITING HAND-FIST INDEX THUMB FORWARD INDEX BENT","cat":"So"}
+,{"code":121062,"name":"SIGNWRITING HAND-FIST INDEX THUMB HOOK","cat":"So"}
+,{"code":121063,"name":"SIGNWRITING HAND-FIST INDEX THUMB CURLICUE","cat":"So"}
+,{"code":121064,"name":"SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB INSIDE","cat":"So"}
+,{"code":121065,"name":"SIGNWRITING HAND-CLAW INDEX THUMB CURVE THUMB INSIDE","cat":"So"}
+,{"code":121066,"name":"SIGNWRITING HAND-FIST INDEX THUMB CURVE THUMB UNDER","cat":"So"}
+,{"code":121067,"name":"SIGNWRITING HAND-FIST INDEX THUMB CIRCLE","cat":"So"}
+,{"code":121068,"name":"SIGNWRITING HAND-CUP INDEX THUMB","cat":"So"}
+,{"code":121069,"name":"SIGNWRITING HAND-CUP INDEX THUMB OPEN","cat":"So"}
+,{"code":121070,"name":"SIGNWRITING HAND-HINGE INDEX THUMB OPEN","cat":"So"}
+,{"code":121071,"name":"SIGNWRITING HAND-HINGE INDEX THUMB LARGE","cat":"So"}
+,{"code":121072,"name":"SIGNWRITING HAND-HINGE INDEX THUMB","cat":"So"}
+,{"code":121073,"name":"SIGNWRITING HAND-HINGE INDEX THUMB SMALL","cat":"So"}
+,{"code":121074,"name":"SIGNWRITING HAND-ANGLE INDEX THUMB OUT","cat":"So"}
+,{"code":121075,"name":"SIGNWRITING HAND-ANGLE INDEX THUMB IN","cat":"So"}
+,{"code":121076,"name":"SIGNWRITING HAND-ANGLE INDEX THUMB","cat":"So"}
+,{"code":121077,"name":"SIGNWRITING HAND-FIST THUMB","cat":"So"}
+,{"code":121078,"name":"SIGNWRITING HAND-FIST THUMB HEEL","cat":"So"}
+,{"code":121079,"name":"SIGNWRITING HAND-FIST THUMB SIDE DIAGONAL","cat":"So"}
+,{"code":121080,"name":"SIGNWRITING HAND-FIST THUMB SIDE CONJOINED","cat":"So"}
+,{"code":121081,"name":"SIGNWRITING HAND-FIST THUMB SIDE BENT","cat":"So"}
+,{"code":121082,"name":"SIGNWRITING HAND-FIST THUMB FORWARD","cat":"So"}
+,{"code":121083,"name":"SIGNWRITING HAND-FIST THUMB BETWEEN INDEX MIDDLE","cat":"So"}
+,{"code":121084,"name":"SIGNWRITING HAND-FIST THUMB BETWEEN MIDDLE RING","cat":"So"}
+,{"code":121085,"name":"SIGNWRITING HAND-FIST THUMB BETWEEN RING LITTLE","cat":"So"}
+,{"code":121086,"name":"SIGNWRITING HAND-FIST THUMB UNDER TWO FINGERS","cat":"So"}
+,{"code":121087,"name":"SIGNWRITING HAND-FIST THUMB OVER TWO FINGERS","cat":"So"}
+,{"code":121088,"name":"SIGNWRITING HAND-FIST THUMB UNDER THREE FINGERS","cat":"So"}
+,{"code":121089,"name":"SIGNWRITING HAND-FIST THUMB UNDER FOUR FINGERS","cat":"So"}
+,{"code":121090,"name":"SIGNWRITING HAND-FIST THUMB OVER FOUR RAISED KNUCKLES","cat":"So"}
+,{"code":121091,"name":"SIGNWRITING HAND-FIST","cat":"So"}
+,{"code":121092,"name":"SIGNWRITING HAND-FIST HEEL","cat":"So"}
+,{"code":121093,"name":"SIGNWRITING TOUCH SINGLE","cat":"So"}
+,{"code":121094,"name":"SIGNWRITING TOUCH MULTIPLE","cat":"So"}
+,{"code":121095,"name":"SIGNWRITING TOUCH BETWEEN","cat":"So"}
+,{"code":121096,"name":"SIGNWRITING GRASP SINGLE","cat":"So"}
+,{"code":121097,"name":"SIGNWRITING GRASP MULTIPLE","cat":"So"}
+,{"code":121098,"name":"SIGNWRITING GRASP BETWEEN","cat":"So"}
+,{"code":121099,"name":"SIGNWRITING STRIKE SINGLE","cat":"So"}
+,{"code":121100,"name":"SIGNWRITING STRIKE MULTIPLE","cat":"So"}
+,{"code":121101,"name":"SIGNWRITING STRIKE BETWEEN","cat":"So"}
+,{"code":121102,"name":"SIGNWRITING BRUSH SINGLE","cat":"So"}
+,{"code":121103,"name":"SIGNWRITING BRUSH MULTIPLE","cat":"So"}
+,{"code":121104,"name":"SIGNWRITING BRUSH BETWEEN","cat":"So"}
+,{"code":121105,"name":"SIGNWRITING RUB SINGLE","cat":"So"}
+,{"code":121106,"name":"SIGNWRITING RUB MULTIPLE","cat":"So"}
+,{"code":121107,"name":"SIGNWRITING RUB BETWEEN","cat":"So"}
+,{"code":121108,"name":"SIGNWRITING SURFACE SYMBOLS","cat":"So"}
+,{"code":121109,"name":"SIGNWRITING SURFACE BETWEEN","cat":"So"}
+,{"code":121110,"name":"SIGNWRITING SQUEEZE LARGE SINGLE","cat":"So"}
+,{"code":121111,"name":"SIGNWRITING SQUEEZE SMALL SINGLE","cat":"So"}
+,{"code":121112,"name":"SIGNWRITING SQUEEZE LARGE MULTIPLE","cat":"So"}
+,{"code":121113,"name":"SIGNWRITING SQUEEZE SMALL MULTIPLE","cat":"So"}
+,{"code":121114,"name":"SIGNWRITING SQUEEZE SEQUENTIAL","cat":"So"}
+,{"code":121115,"name":"SIGNWRITING FLICK LARGE SINGLE","cat":"So"}
+,{"code":121116,"name":"SIGNWRITING FLICK SMALL SINGLE","cat":"So"}
+,{"code":121117,"name":"SIGNWRITING FLICK LARGE MULTIPLE","cat":"So"}
+,{"code":121118,"name":"SIGNWRITING FLICK SMALL MULTIPLE","cat":"So"}
+,{"code":121119,"name":"SIGNWRITING FLICK SEQUENTIAL","cat":"So"}
+,{"code":121120,"name":"SIGNWRITING SQUEEZE FLICK ALTERNATING","cat":"So"}
+,{"code":121121,"name":"SIGNWRITING MOVEMENT-HINGE UP DOWN LARGE","cat":"So"}
+,{"code":121122,"name":"SIGNWRITING MOVEMENT-HINGE UP DOWN SMALL","cat":"So"}
+,{"code":121123,"name":"SIGNWRITING MOVEMENT-HINGE UP SEQUENTIAL","cat":"So"}
+,{"code":121124,"name":"SIGNWRITING MOVEMENT-HINGE DOWN SEQUENTIAL","cat":"So"}
+,{"code":121125,"name":"SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING LARGE","cat":"So"}
+,{"code":121126,"name":"SIGNWRITING MOVEMENT-HINGE UP DOWN ALTERNATING SMALL","cat":"So"}
+,{"code":121127,"name":"SIGNWRITING MOVEMENT-HINGE SIDE TO SIDE SCISSORS","cat":"So"}
+,{"code":121128,"name":"SIGNWRITING MOVEMENT-WALLPLANE FINGER CONTACT","cat":"So"}
+,{"code":121129,"name":"SIGNWRITING MOVEMENT-FLOORPLANE FINGER CONTACT","cat":"So"}
+,{"code":121130,"name":"SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT SMALL","cat":"So"}
+,{"code":121131,"name":"SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT MEDIUM","cat":"So"}
+,{"code":121132,"name":"SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGE","cat":"So"}
+,{"code":121133,"name":"SIGNWRITING MOVEMENT-WALLPLANE SINGLE STRAIGHT LARGEST","cat":"So"}
+,{"code":121134,"name":"SIGNWRITING MOVEMENT-WALLPLANE SINGLE WRIST FLEX","cat":"So"}
+,{"code":121135,"name":"SIGNWRITING MOVEMENT-WALLPLANE DOUBLE STRAIGHT","cat":"So"}
+,{"code":121136,"name":"SIGNWRITING MOVEMENT-WALLPLANE DOUBLE WRIST FLEX","cat":"So"}
+,{"code":121137,"name":"SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING","cat":"So"}
+,{"code":121138,"name":"SIGNWRITING MOVEMENT-WALLPLANE DOUBLE ALTERNATING WRIST FLEX","cat":"So"}
+,{"code":121139,"name":"SIGNWRITING MOVEMENT-WALLPLANE CROSS","cat":"So"}
+,{"code":121140,"name":"SIGNWRITING MOVEMENT-WALLPLANE TRIPLE STRAIGHT MOVEMENT","cat":"So"}
+,{"code":121141,"name":"SIGNWRITING MOVEMENT-WALLPLANE TRIPLE WRIST FLEX","cat":"So"}
+,{"code":121142,"name":"SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING","cat":"So"}
+,{"code":121143,"name":"SIGNWRITING MOVEMENT-WALLPLANE TRIPLE ALTERNATING WRIST FLEX","cat":"So"}
+,{"code":121144,"name":"SIGNWRITING MOVEMENT-WALLPLANE BEND SMALL","cat":"So"}
+,{"code":121145,"name":"SIGNWRITING MOVEMENT-WALLPLANE BEND MEDIUM","cat":"So"}
+,{"code":121146,"name":"SIGNWRITING MOVEMENT-WALLPLANE BEND LARGE","cat":"So"}
+,{"code":121147,"name":"SIGNWRITING MOVEMENT-WALLPLANE CORNER SMALL","cat":"So"}
+,{"code":121148,"name":"SIGNWRITING MOVEMENT-WALLPLANE CORNER MEDIUM","cat":"So"}
+,{"code":121149,"name":"SIGNWRITING MOVEMENT-WALLPLANE CORNER LARGE","cat":"So"}
+,{"code":121150,"name":"SIGNWRITING MOVEMENT-WALLPLANE CORNER ROTATION","cat":"So"}
+,{"code":121151,"name":"SIGNWRITING MOVEMENT-WALLPLANE CHECK SMALL","cat":"So"}
+,{"code":121152,"name":"SIGNWRITING MOVEMENT-WALLPLANE CHECK MEDIUM","cat":"So"}
+,{"code":121153,"name":"SIGNWRITING MOVEMENT-WALLPLANE CHECK LARGE","cat":"So"}
+,{"code":121154,"name":"SIGNWRITING MOVEMENT-WALLPLANE BOX SMALL","cat":"So"}
+,{"code":121155,"name":"SIGNWRITING MOVEMENT-WALLPLANE BOX MEDIUM","cat":"So"}
+,{"code":121156,"name":"SIGNWRITING MOVEMENT-WALLPLANE BOX LARGE","cat":"So"}
+,{"code":121157,"name":"SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG SMALL","cat":"So"}
+,{"code":121158,"name":"SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG MEDIUM","cat":"So"}
+,{"code":121159,"name":"SIGNWRITING MOVEMENT-WALLPLANE ZIGZAG LARGE","cat":"So"}
+,{"code":121160,"name":"SIGNWRITING MOVEMENT-WALLPLANE PEAKS SMALL","cat":"So"}
+,{"code":121161,"name":"SIGNWRITING MOVEMENT-WALLPLANE PEAKS MEDIUM","cat":"So"}
+,{"code":121162,"name":"SIGNWRITING MOVEMENT-WALLPLANE PEAKS LARGE","cat":"So"}
+,{"code":121163,"name":"SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE SINGLE","cat":"So"}
+,{"code":121164,"name":"SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE DOUBLE","cat":"So"}
+,{"code":121165,"name":"SIGNWRITING TRAVEL-WALLPLANE ROTATION-WALLPLANE ALTERNATING","cat":"So"}
+,{"code":121166,"name":"SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE SINGLE","cat":"So"}
+,{"code":121167,"name":"SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE DOUBLE","cat":"So"}
+,{"code":121168,"name":"SIGNWRITING TRAVEL-WALLPLANE ROTATION-FLOORPLANE ALTERNATING","cat":"So"}
+,{"code":121169,"name":"SIGNWRITING TRAVEL-WALLPLANE SHAKING","cat":"So"}
+,{"code":121170,"name":"SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL SINGLE","cat":"So"}
+,{"code":121171,"name":"SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL DOUBLE","cat":"So"}
+,{"code":121172,"name":"SIGNWRITING TRAVEL-WALLPLANE ARM SPIRAL TRIPLE","cat":"So"}
+,{"code":121173,"name":"SIGNWRITING MOVEMENT-DIAGONAL AWAY SMALL","cat":"So"}
+,{"code":121174,"name":"SIGNWRITING MOVEMENT-DIAGONAL AWAY MEDIUM","cat":"So"}
+,{"code":121175,"name":"SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGE","cat":"So"}
+,{"code":121176,"name":"SIGNWRITING MOVEMENT-DIAGONAL AWAY LARGEST","cat":"So"}
+,{"code":121177,"name":"SIGNWRITING MOVEMENT-DIAGONAL TOWARDS SMALL","cat":"So"}
+,{"code":121178,"name":"SIGNWRITING MOVEMENT-DIAGONAL TOWARDS MEDIUM","cat":"So"}
+,{"code":121179,"name":"SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGE","cat":"So"}
+,{"code":121180,"name":"SIGNWRITING MOVEMENT-DIAGONAL TOWARDS LARGEST","cat":"So"}
+,{"code":121181,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY SMALL","cat":"So"}
+,{"code":121182,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY MEDIUM","cat":"So"}
+,{"code":121183,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGE","cat":"So"}
+,{"code":121184,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN AWAY LARGEST","cat":"So"}
+,{"code":121185,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS SMALL","cat":"So"}
+,{"code":121186,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS MEDIUM","cat":"So"}
+,{"code":121187,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGE","cat":"So"}
+,{"code":121188,"name":"SIGNWRITING MOVEMENT-DIAGONAL BETWEEN TOWARDS LARGEST","cat":"So"}
+,{"code":121189,"name":"SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT SMALL","cat":"So"}
+,{"code":121190,"name":"SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT MEDIUM","cat":"So"}
+,{"code":121191,"name":"SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGE","cat":"So"}
+,{"code":121192,"name":"SIGNWRITING MOVEMENT-FLOORPLANE SINGLE STRAIGHT LARGEST","cat":"So"}
+,{"code":121193,"name":"SIGNWRITING MOVEMENT-FLOORPLANE SINGLE WRIST FLEX","cat":"So"}
+,{"code":121194,"name":"SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE STRAIGHT","cat":"So"}
+,{"code":121195,"name":"SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE WRIST FLEX","cat":"So"}
+,{"code":121196,"name":"SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING","cat":"So"}
+,{"code":121197,"name":"SIGNWRITING MOVEMENT-FLOORPLANE DOUBLE ALTERNATING WRIST FLEX","cat":"So"}
+,{"code":121198,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CROSS","cat":"So"}
+,{"code":121199,"name":"SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE STRAIGHT MOVEMENT","cat":"So"}
+,{"code":121200,"name":"SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE WRIST FLEX","cat":"So"}
+,{"code":121201,"name":"SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING MOVEMENT","cat":"So"}
+,{"code":121202,"name":"SIGNWRITING MOVEMENT-FLOORPLANE TRIPLE ALTERNATING WRIST FLEX","cat":"So"}
+,{"code":121203,"name":"SIGNWRITING MOVEMENT-FLOORPLANE BEND","cat":"So"}
+,{"code":121204,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CORNER SMALL","cat":"So"}
+,{"code":121205,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CORNER MEDIUM","cat":"So"}
+,{"code":121206,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CORNER LARGE","cat":"So"}
+,{"code":121207,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CHECK","cat":"So"}
+,{"code":121208,"name":"SIGNWRITING MOVEMENT-FLOORPLANE BOX SMALL","cat":"So"}
+,{"code":121209,"name":"SIGNWRITING MOVEMENT-FLOORPLANE BOX MEDIUM","cat":"So"}
+,{"code":121210,"name":"SIGNWRITING MOVEMENT-FLOORPLANE BOX LARGE","cat":"So"}
+,{"code":121211,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG SMALL","cat":"So"}
+,{"code":121212,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG MEDIUM","cat":"So"}
+,{"code":121213,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ZIGZAG LARGE","cat":"So"}
+,{"code":121214,"name":"SIGNWRITING MOVEMENT-FLOORPLANE PEAKS SMALL","cat":"So"}
+,{"code":121215,"name":"SIGNWRITING MOVEMENT-FLOORPLANE PEAKS MEDIUM","cat":"So"}
+,{"code":121216,"name":"SIGNWRITING MOVEMENT-FLOORPLANE PEAKS LARGE","cat":"So"}
+,{"code":121217,"name":"SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE SINGLE","cat":"So"}
+,{"code":121218,"name":"SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE DOUBLE","cat":"So"}
+,{"code":121219,"name":"SIGNWRITING TRAVEL-FLOORPLANE ROTATION-FLOORPLANE ALTERNATING","cat":"So"}
+,{"code":121220,"name":"SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE SINGLE","cat":"So"}
+,{"code":121221,"name":"SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE DOUBLE","cat":"So"}
+,{"code":121222,"name":"SIGNWRITING TRAVEL-FLOORPLANE ROTATION-WALLPLANE ALTERNATING","cat":"So"}
+,{"code":121223,"name":"SIGNWRITING TRAVEL-FLOORPLANE SHAKING","cat":"So"}
+,{"code":121224,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER SMALL","cat":"So"}
+,{"code":121225,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER MEDIUM","cat":"So"}
+,{"code":121226,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGE","cat":"So"}
+,{"code":121227,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE QUARTER LARGEST","cat":"So"}
+,{"code":121228,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE SMALL","cat":"So"}
+,{"code":121229,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE MEDIUM","cat":"So"}
+,{"code":121230,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGE","cat":"So"}
+,{"code":121231,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE HALF-CIRCLE LARGEST","cat":"So"}
+,{"code":121232,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE SMALL","cat":"So"}
+,{"code":121233,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE THREE-QUARTER CIRCLE MEDIUM","cat":"So"}
+,{"code":121234,"name":"SIGNWRITING MOVEMENT-WALLPLANE HUMP SMALL","cat":"So"}
+,{"code":121235,"name":"SIGNWRITING MOVEMENT-WALLPLANE HUMP MEDIUM","cat":"So"}
+,{"code":121236,"name":"SIGNWRITING MOVEMENT-WALLPLANE HUMP LARGE","cat":"So"}
+,{"code":121237,"name":"SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL","cat":"So"}
+,{"code":121238,"name":"SIGNWRITING MOVEMENT-WALLPLANE LOOP MEDIUM","cat":"So"}
+,{"code":121239,"name":"SIGNWRITING MOVEMENT-WALLPLANE LOOP LARGE","cat":"So"}
+,{"code":121240,"name":"SIGNWRITING MOVEMENT-WALLPLANE LOOP SMALL DOUBLE","cat":"So"}
+,{"code":121241,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE SMALL","cat":"So"}
+,{"code":121242,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE MEDIUM","cat":"So"}
+,{"code":121243,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE DOUBLE LARGE","cat":"So"}
+,{"code":121244,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE SMALL","cat":"So"}
+,{"code":121245,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE MEDIUM","cat":"So"}
+,{"code":121246,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE CURVE TRIPLE LARGE","cat":"So"}
+,{"code":121247,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE THEN STRAIGHT","cat":"So"}
+,{"code":121248,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS SMALL","cat":"So"}
+,{"code":121249,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVED CROSS MEDIUM","cat":"So"}
+,{"code":121250,"name":"SIGNWRITING ROTATION-WALLPLANE SINGLE","cat":"So"}
+,{"code":121251,"name":"SIGNWRITING ROTATION-WALLPLANE DOUBLE","cat":"So"}
+,{"code":121252,"name":"SIGNWRITING ROTATION-WALLPLANE ALTERNATE","cat":"So"}
+,{"code":121253,"name":"SIGNWRITING MOVEMENT-WALLPLANE SHAKING","cat":"So"}
+,{"code":121254,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING FRONT WALL","cat":"So"}
+,{"code":121255,"name":"SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING FRONT WALL","cat":"So"}
+,{"code":121256,"name":"SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING FRONT WALL","cat":"So"}
+,{"code":121257,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING FRONT WALL","cat":"So"}
+,{"code":121258,"name":"SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING FRONT WALL","cat":"So"}
+,{"code":121259,"name":"SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING FRONT WALL","cat":"So"}
+,{"code":121260,"name":"SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING FRONT WALL","cat":"So"}
+,{"code":121261,"name":"SIGNWRITING MOVEMENT-WALLPLANE CURVE HITTING CHEST","cat":"So"}
+,{"code":121262,"name":"SIGNWRITING MOVEMENT-WALLPLANE HUMP HITTING CHEST","cat":"So"}
+,{"code":121263,"name":"SIGNWRITING MOVEMENT-WALLPLANE LOOP HITTING CHEST","cat":"So"}
+,{"code":121264,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE HITTING CHEST","cat":"So"}
+,{"code":121265,"name":"SIGNWRITING ROTATION-WALLPLANE SINGLE HITTING CHEST","cat":"So"}
+,{"code":121266,"name":"SIGNWRITING ROTATION-WALLPLANE DOUBLE HITTING CHEST","cat":"So"}
+,{"code":121267,"name":"SIGNWRITING ROTATION-WALLPLANE ALTERNATING HITTING CHEST","cat":"So"}
+,{"code":121268,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH SMALL","cat":"So"}
+,{"code":121269,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH MEDIUM","cat":"So"}
+,{"code":121270,"name":"SIGNWRITING MOVEMENT-WALLPLANE WAVE DIAGONAL PATH LARGE","cat":"So"}
+,{"code":121271,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING SMALL","cat":"So"}
+,{"code":121272,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING CEILING LARGE","cat":"So"}
+,{"code":121273,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL DOUBLE","cat":"So"}
+,{"code":121274,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE DOUBLE","cat":"So"}
+,{"code":121275,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING SMALL TRIPLE","cat":"So"}
+,{"code":121276,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING CEILING LARGE TRIPLE","cat":"So"}
+,{"code":121277,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL SINGLE","cat":"So"}
+,{"code":121278,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE SINGLE","cat":"So"}
+,{"code":121279,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING SMALL DOUBLE","cat":"So"}
+,{"code":121280,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING CEILING LARGE DOUBLE","cat":"So"}
+,{"code":121281,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING SMALL","cat":"So"}
+,{"code":121282,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING CEILING LARGE","cat":"So"}
+,{"code":121283,"name":"SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING CEILING","cat":"So"}
+,{"code":121284,"name":"SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING CEILING","cat":"So"}
+,{"code":121285,"name":"SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING CEILING","cat":"So"}
+,{"code":121286,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR SMALL","cat":"So"}
+,{"code":121287,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE HITTING FLOOR LARGE","cat":"So"}
+,{"code":121288,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR SMALL DOUBLE","cat":"So"}
+,{"code":121289,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR LARGE DOUBLE","cat":"So"}
+,{"code":121290,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE SMALL TRIPLE","cat":"So"}
+,{"code":121291,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP HITTING FLOOR TRIPLE LARGE TRIPLE","cat":"So"}
+,{"code":121292,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL SINGLE","cat":"So"}
+,{"code":121293,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE SINGLE","cat":"So"}
+,{"code":121294,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR SMALL DOUBLE","cat":"So"}
+,{"code":121295,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP HITTING FLOOR LARGE DOUBLE","cat":"So"}
+,{"code":121296,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR SMALL","cat":"So"}
+,{"code":121297,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WAVE HITTING FLOOR LARGE","cat":"So"}
+,{"code":121298,"name":"SIGNWRITING ROTATION-FLOORPLANE SINGLE HITTING FLOOR","cat":"So"}
+,{"code":121299,"name":"SIGNWRITING ROTATION-FLOORPLANE DOUBLE HITTING FLOOR","cat":"So"}
+,{"code":121300,"name":"SIGNWRITING ROTATION-FLOORPLANE ALTERNATING HITTING FLOOR","cat":"So"}
+,{"code":121301,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE SMALL","cat":"So"}
+,{"code":121302,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE MEDIUM","cat":"So"}
+,{"code":121303,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGE","cat":"So"}
+,{"code":121304,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE LARGEST","cat":"So"}
+,{"code":121305,"name":"SIGNWRITING MOVEMENT-FLOORPLANE CURVE COMBINED","cat":"So"}
+,{"code":121306,"name":"SIGNWRITING MOVEMENT-FLOORPLANE HUMP SMALL","cat":"So"}
+,{"code":121307,"name":"SIGNWRITING MOVEMENT-FLOORPLANE LOOP SMALL","cat":"So"}
+,{"code":121308,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WAVE SNAKE","cat":"So"}
+,{"code":121309,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WAVE SMALL","cat":"So"}
+,{"code":121310,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WAVE LARGE","cat":"So"}
+,{"code":121311,"name":"SIGNWRITING ROTATION-FLOORPLANE SINGLE","cat":"So"}
+,{"code":121312,"name":"SIGNWRITING ROTATION-FLOORPLANE DOUBLE","cat":"So"}
+,{"code":121313,"name":"SIGNWRITING ROTATION-FLOORPLANE ALTERNATING","cat":"So"}
+,{"code":121314,"name":"SIGNWRITING MOVEMENT-FLOORPLANE SHAKING PARALLEL","cat":"So"}
+,{"code":121315,"name":"SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL SINGLE","cat":"So"}
+,{"code":121316,"name":"SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM SINGLE","cat":"So"}
+,{"code":121317,"name":"SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE SMALL DOUBLE","cat":"So"}
+,{"code":121318,"name":"SIGNWRITING MOVEMENT-WALLPLANE ARM CIRCLE MEDIUM DOUBLE","cat":"So"}
+,{"code":121319,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL SINGLE","cat":"So"}
+,{"code":121320,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM SINGLE","cat":"So"}
+,{"code":121321,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE SINGLE","cat":"So"}
+,{"code":121322,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL SMALL DOUBLE","cat":"So"}
+,{"code":121323,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL MEDIUM DOUBLE","cat":"So"}
+,{"code":121324,"name":"SIGNWRITING MOVEMENT-FLOORPLANE ARM CIRCLE HITTING WALL LARGE DOUBLE","cat":"So"}
+,{"code":121325,"name":"SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT SINGLE","cat":"So"}
+,{"code":121326,"name":"SIGNWRITING MOVEMENT-WALLPLANE WRIST CIRCLE FRONT DOUBLE","cat":"So"}
+,{"code":121327,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL SINGLE","cat":"So"}
+,{"code":121328,"name":"SIGNWRITING MOVEMENT-FLOORPLANE WRIST CIRCLE HITTING WALL DOUBLE","cat":"So"}
+,{"code":121329,"name":"SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES SINGLE","cat":"So"}
+,{"code":121330,"name":"SIGNWRITING MOVEMENT-WALLPLANE FINGER CIRCLES DOUBLE","cat":"So"}
+,{"code":121331,"name":"SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL SINGLE","cat":"So"}
+,{"code":121332,"name":"SIGNWRITING MOVEMENT-FLOORPLANE FINGER CIRCLES HITTING WALL DOUBLE","cat":"So"}
+,{"code":121333,"name":"SIGNWRITING DYNAMIC ARROWHEAD SMALL","cat":"So"}
+,{"code":121334,"name":"SIGNWRITING DYNAMIC ARROWHEAD LARGE","cat":"So"}
+,{"code":121335,"name":"SIGNWRITING DYNAMIC FAST","cat":"So"}
+,{"code":121336,"name":"SIGNWRITING DYNAMIC SLOW","cat":"So"}
+,{"code":121337,"name":"SIGNWRITING DYNAMIC TENSE","cat":"So"}
+,{"code":121338,"name":"SIGNWRITING DYNAMIC RELAXED","cat":"So"}
+,{"code":121339,"name":"SIGNWRITING DYNAMIC SIMULTANEOUS","cat":"So"}
+,{"code":121340,"name":"SIGNWRITING DYNAMIC SIMULTANEOUS ALTERNATING","cat":"So"}
+,{"code":121341,"name":"SIGNWRITING DYNAMIC EVERY OTHER TIME","cat":"So"}
+,{"code":121342,"name":"SIGNWRITING DYNAMIC GRADUAL","cat":"So"}
+,{"code":121343,"name":"SIGNWRITING HEAD","cat":"So"}
+,{"code":121344,"name":"SIGNWRITING HEAD RIM","cat":"Mn","bidi":"NSM"}
+,{"code":121345,"name":"SIGNWRITING HEAD MOVEMENT-WALLPLANE STRAIGHT","cat":"Mn","bidi":"NSM"}
+,{"code":121346,"name":"SIGNWRITING HEAD MOVEMENT-WALLPLANE TILT","cat":"Mn","bidi":"NSM"}
+,{"code":121347,"name":"SIGNWRITING HEAD MOVEMENT-FLOORPLANE STRAIGHT","cat":"Mn","bidi":"NSM"}
+,{"code":121348,"name":"SIGNWRITING HEAD MOVEMENT-WALLPLANE CURVE","cat":"Mn","bidi":"NSM"}
+,{"code":121349,"name":"SIGNWRITING HEAD MOVEMENT-FLOORPLANE CURVE","cat":"Mn","bidi":"NSM"}
+,{"code":121350,"name":"SIGNWRITING HEAD MOVEMENT CIRCLE","cat":"Mn","bidi":"NSM"}
+,{"code":121351,"name":"SIGNWRITING FACE DIRECTION POSITION NOSE FORWARD TILTING","cat":"Mn","bidi":"NSM"}
+,{"code":121352,"name":"SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN","cat":"Mn","bidi":"NSM"}
+,{"code":121353,"name":"SIGNWRITING FACE DIRECTION POSITION NOSE UP OR DOWN TILTING","cat":"Mn","bidi":"NSM"}
+,{"code":121354,"name":"SIGNWRITING EYEBROWS STRAIGHT UP","cat":"Mn","bidi":"NSM"}
+,{"code":121355,"name":"SIGNWRITING EYEBROWS STRAIGHT NEUTRAL","cat":"Mn","bidi":"NSM"}
+,{"code":121356,"name":"SIGNWRITING EYEBROWS STRAIGHT DOWN","cat":"Mn","bidi":"NSM"}
+,{"code":121357,"name":"SIGNWRITING DREAMY EYEBROWS NEUTRAL DOWN","cat":"Mn","bidi":"NSM"}
+,{"code":121358,"name":"SIGNWRITING DREAMY EYEBROWS DOWN NEUTRAL","cat":"Mn","bidi":"NSM"}
+,{"code":121359,"name":"SIGNWRITING DREAMY EYEBROWS UP NEUTRAL","cat":"Mn","bidi":"NSM"}
+,{"code":121360,"name":"SIGNWRITING DREAMY EYEBROWS NEUTRAL UP","cat":"Mn","bidi":"NSM"}
+,{"code":121361,"name":"SIGNWRITING FOREHEAD NEUTRAL","cat":"Mn","bidi":"NSM"}
+,{"code":121362,"name":"SIGNWRITING FOREHEAD CONTACT","cat":"Mn","bidi":"NSM"}
+,{"code":121363,"name":"SIGNWRITING FOREHEAD WRINKLED","cat":"Mn","bidi":"NSM"}
+,{"code":121364,"name":"SIGNWRITING EYES OPEN","cat":"Mn","bidi":"NSM"}
+,{"code":121365,"name":"SIGNWRITING EYES SQUEEZED","cat":"Mn","bidi":"NSM"}
+,{"code":121366,"name":"SIGNWRITING EYES CLOSED","cat":"Mn","bidi":"NSM"}
+,{"code":121367,"name":"SIGNWRITING EYE BLINK SINGLE","cat":"Mn","bidi":"NSM"}
+,{"code":121368,"name":"SIGNWRITING EYE BLINK MULTIPLE","cat":"Mn","bidi":"NSM"}
+,{"code":121369,"name":"SIGNWRITING EYES HALF OPEN","cat":"Mn","bidi":"NSM"}
+,{"code":121370,"name":"SIGNWRITING EYES WIDE OPEN","cat":"Mn","bidi":"NSM"}
+,{"code":121371,"name":"SIGNWRITING EYES HALF CLOSED","cat":"Mn","bidi":"NSM"}
+,{"code":121372,"name":"SIGNWRITING EYES WIDENING MOVEMENT","cat":"Mn","bidi":"NSM"}
+,{"code":121373,"name":"SIGNWRITING EYE WINK","cat":"Mn","bidi":"NSM"}
+,{"code":121374,"name":"SIGNWRITING EYELASHES UP","cat":"Mn","bidi":"NSM"}
+,{"code":121375,"name":"SIGNWRITING EYELASHES DOWN","cat":"Mn","bidi":"NSM"}
+,{"code":121376,"name":"SIGNWRITING EYELASHES FLUTTERING","cat":"Mn","bidi":"NSM"}
+,{"code":121377,"name":"SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT","cat":"Mn","bidi":"NSM"}
+,{"code":121378,"name":"SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT DOUBLE","cat":"Mn","bidi":"NSM"}
+,{"code":121379,"name":"SIGNWRITING EYEGAZE-WALLPLANE STRAIGHT ALTERNATING","cat":"Mn","bidi":"NSM"}
+,{"code":121380,"name":"SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT","cat":"Mn","bidi":"NSM"}
+,{"code":121381,"name":"SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT DOUBLE","cat":"Mn","bidi":"NSM"}
+,{"code":121382,"name":"SIGNWRITING EYEGAZE-FLOORPLANE STRAIGHT ALTERNATING","cat":"Mn","bidi":"NSM"}
+,{"code":121383,"name":"SIGNWRITING EYEGAZE-WALLPLANE CURVED","cat":"Mn","bidi":"NSM"}
+,{"code":121384,"name":"SIGNWRITING EYEGAZE-FLOORPLANE CURVED","cat":"Mn","bidi":"NSM"}
+,{"code":121385,"name":"SIGNWRITING EYEGAZE-WALLPLANE CIRCLING","cat":"Mn","bidi":"NSM"}
+,{"code":121386,"name":"SIGNWRITING CHEEKS PUFFED","cat":"Mn","bidi":"NSM"}
+,{"code":121387,"name":"SIGNWRITING CHEEKS NEUTRAL","cat":"Mn","bidi":"NSM"}
+,{"code":121388,"name":"SIGNWRITING CHEEKS SUCKED","cat":"Mn","bidi":"NSM"}
+,{"code":121389,"name":"SIGNWRITING TENSE CHEEKS HIGH","cat":"Mn","bidi":"NSM"}
+,{"code":121390,"name":"SIGNWRITING TENSE CHEEKS MIDDLE","cat":"Mn","bidi":"NSM"}
+,{"code":121391,"name":"SIGNWRITING TENSE CHEEKS LOW","cat":"Mn","bidi":"NSM"}
+,{"code":121392,"name":"SIGNWRITING EARS","cat":"Mn","bidi":"NSM"}
+,{"code":121393,"name":"SIGNWRITING NOSE NEUTRAL","cat":"Mn","bidi":"NSM"}
+,{"code":121394,"name":"SIGNWRITING NOSE CONTACT","cat":"Mn","bidi":"NSM"}
+,{"code":121395,"name":"SIGNWRITING NOSE WRINKLES","cat":"Mn","bidi":"NSM"}
+,{"code":121396,"name":"SIGNWRITING NOSE WIGGLES","cat":"Mn","bidi":"NSM"}
+,{"code":121397,"name":"SIGNWRITING AIR BLOWING OUT","cat":"Mn","bidi":"NSM"}
+,{"code":121398,"name":"SIGNWRITING AIR SUCKING IN","cat":"Mn","bidi":"NSM"}
+,{"code":121399,"name":"SIGNWRITING AIR BLOW SMALL ROTATIONS","cat":"So"}
+,{"code":121400,"name":"SIGNWRITING AIR SUCK SMALL ROTATIONS","cat":"So"}
+,{"code":121401,"name":"SIGNWRITING BREATH INHALE","cat":"So"}
+,{"code":121402,"name":"SIGNWRITING BREATH EXHALE","cat":"So"}
+,{"code":121403,"name":"SIGNWRITING MOUTH CLOSED NEUTRAL","cat":"Mn","bidi":"NSM"}
+,{"code":121404,"name":"SIGNWRITING MOUTH CLOSED FORWARD","cat":"Mn","bidi":"NSM"}
+,{"code":121405,"name":"SIGNWRITING MOUTH CLOSED CONTACT","cat":"Mn","bidi":"NSM"}
+,{"code":121406,"name":"SIGNWRITING MOUTH SMILE","cat":"Mn","bidi":"NSM"}
+,{"code":121407,"name":"SIGNWRITING MOUTH SMILE WRINKLED","cat":"Mn","bidi":"NSM"}
+,{"code":121408,"name":"SIGNWRITING MOUTH SMILE OPEN","cat":"Mn","bidi":"NSM"}
+,{"code":121409,"name":"SIGNWRITING MOUTH FROWN","cat":"Mn","bidi":"NSM"}
+,{"code":121410,"name":"SIGNWRITING MOUTH FROWN WRINKLED","cat":"Mn","bidi":"NSM"}
+,{"code":121411,"name":"SIGNWRITING MOUTH FROWN OPEN","cat":"Mn","bidi":"NSM"}
+,{"code":121412,"name":"SIGNWRITING MOUTH OPEN CIRCLE","cat":"Mn","bidi":"NSM"}
+,{"code":121413,"name":"SIGNWRITING MOUTH OPEN FORWARD","cat":"Mn","bidi":"NSM"}
+,{"code":121414,"name":"SIGNWRITING MOUTH OPEN WRINKLED","cat":"Mn","bidi":"NSM"}
+,{"code":121415,"name":"SIGNWRITING MOUTH OPEN OVAL","cat":"Mn","bidi":"NSM"}
+,{"code":121416,"name":"SIGNWRITING MOUTH OPEN OVAL WRINKLED","cat":"Mn","bidi":"NSM"}
+,{"code":121417,"name":"SIGNWRITING MOUTH OPEN OVAL YAWN","cat":"Mn","bidi":"NSM"}
+,{"code":121418,"name":"SIGNWRITING MOUTH OPEN RECTANGLE","cat":"Mn","bidi":"NSM"}
+,{"code":121419,"name":"SIGNWRITING MOUTH OPEN RECTANGLE WRINKLED","cat":"Mn","bidi":"NSM"}
+,{"code":121420,"name":"SIGNWRITING MOUTH OPEN RECTANGLE YAWN","cat":"Mn","bidi":"NSM"}
+,{"code":121421,"name":"SIGNWRITING MOUTH KISS","cat":"Mn","bidi":"NSM"}
+,{"code":121422,"name":"SIGNWRITING MOUTH KISS FORWARD","cat":"Mn","bidi":"NSM"}
+,{"code":121423,"name":"SIGNWRITING MOUTH KISS WRINKLED","cat":"Mn","bidi":"NSM"}
+,{"code":121424,"name":"SIGNWRITING MOUTH TENSE","cat":"Mn","bidi":"NSM"}
+,{"code":121425,"name":"SIGNWRITING MOUTH TENSE FORWARD","cat":"Mn","bidi":"NSM"}
+,{"code":121426,"name":"SIGNWRITING MOUTH TENSE SUCKED","cat":"Mn","bidi":"NSM"}
+,{"code":121427,"name":"SIGNWRITING LIPS PRESSED TOGETHER","cat":"Mn","bidi":"NSM"}
+,{"code":121428,"name":"SIGNWRITING LIP LOWER OVER UPPER","cat":"Mn","bidi":"NSM"}
+,{"code":121429,"name":"SIGNWRITING LIP UPPER OVER LOWER","cat":"Mn","bidi":"NSM"}
+,{"code":121430,"name":"SIGNWRITING MOUTH CORNERS","cat":"Mn","bidi":"NSM"}
+,{"code":121431,"name":"SIGNWRITING MOUTH WRINKLES SINGLE","cat":"Mn","bidi":"NSM"}
+,{"code":121432,"name":"SIGNWRITING MOUTH WRINKLES DOUBLE","cat":"Mn","bidi":"NSM"}
+,{"code":121433,"name":"SIGNWRITING TONGUE STICKING OUT FAR","cat":"Mn","bidi":"NSM"}
+,{"code":121434,"name":"SIGNWRITING TONGUE LICKING LIPS","cat":"Mn","bidi":"NSM"}
+,{"code":121435,"name":"SIGNWRITING TONGUE TIP BETWEEN LIPS","cat":"Mn","bidi":"NSM"}
+,{"code":121436,"name":"SIGNWRITING TONGUE TIP TOUCHING INSIDE MOUTH","cat":"Mn","bidi":"NSM"}
+,{"code":121437,"name":"SIGNWRITING TONGUE INSIDE MOUTH RELAXED","cat":"Mn","bidi":"NSM"}
+,{"code":121438,"name":"SIGNWRITING TONGUE MOVES AGAINST CHEEK","cat":"Mn","bidi":"NSM"}
+,{"code":121439,"name":"SIGNWRITING TONGUE CENTRE STICKING OUT","cat":"Mn","bidi":"NSM"}
+,{"code":121440,"name":"SIGNWRITING TONGUE CENTRE INSIDE MOUTH","cat":"Mn","bidi":"NSM"}
+,{"code":121441,"name":"SIGNWRITING TEETH","cat":"Mn","bidi":"NSM"}
+,{"code":121442,"name":"SIGNWRITING TEETH MOVEMENT","cat":"Mn","bidi":"NSM"}
+,{"code":121443,"name":"SIGNWRITING TEETH ON TONGUE","cat":"Mn","bidi":"NSM"}
+,{"code":121444,"name":"SIGNWRITING TEETH ON TONGUE MOVEMENT","cat":"Mn","bidi":"NSM"}
+,{"code":121445,"name":"SIGNWRITING TEETH ON LIPS","cat":"Mn","bidi":"NSM"}
+,{"code":121446,"name":"SIGNWRITING TEETH ON LIPS MOVEMENT","cat":"Mn","bidi":"NSM"}
+,{"code":121447,"name":"SIGNWRITING TEETH BITE LIPS","cat":"Mn","bidi":"NSM"}
+,{"code":121448,"name":"SIGNWRITING MOVEMENT-WALLPLANE JAW","cat":"Mn","bidi":"NSM"}
+,{"code":121449,"name":"SIGNWRITING MOVEMENT-FLOORPLANE JAW","cat":"Mn","bidi":"NSM"}
+,{"code":121450,"name":"SIGNWRITING NECK","cat":"Mn","bidi":"NSM"}
+,{"code":121451,"name":"SIGNWRITING HAIR","cat":"Mn","bidi":"NSM"}
+,{"code":121452,"name":"SIGNWRITING EXCITEMENT","cat":"Mn","bidi":"NSM"}
+,{"code":121453,"name":"SIGNWRITING SHOULDER HIP SPINE","cat":"So"}
+,{"code":121454,"name":"SIGNWRITING SHOULDER HIP POSITIONS","cat":"So"}
+,{"code":121455,"name":"SIGNWRITING WALLPLANE SHOULDER HIP MOVE","cat":"So"}
+,{"code":121456,"name":"SIGNWRITING FLOORPLANE SHOULDER HIP MOVE","cat":"So"}
+,{"code":121457,"name":"SIGNWRITING SHOULDER TILTING FROM WAIST","cat":"So"}
+,{"code":121458,"name":"SIGNWRITING TORSO-WALLPLANE STRAIGHT STRETCH","cat":"So"}
+,{"code":121459,"name":"SIGNWRITING TORSO-WALLPLANE CURVED BEND","cat":"So"}
+,{"code":121460,"name":"SIGNWRITING TORSO-FLOORPLANE TWISTING","cat":"So"}
+,{"code":121461,"name":"SIGNWRITING UPPER BODY TILTING FROM HIP JOINTS","cat":"Mn","bidi":"NSM"}
+,{"code":121462,"name":"SIGNWRITING LIMB COMBINATION","cat":"So"}
+,{"code":121463,"name":"SIGNWRITING LIMB LENGTH-1","cat":"So"}
+,{"code":121464,"name":"SIGNWRITING LIMB LENGTH-2","cat":"So"}
+,{"code":121465,"name":"SIGNWRITING LIMB LENGTH-3","cat":"So"}
+,{"code":121466,"name":"SIGNWRITING LIMB LENGTH-4","cat":"So"}
+,{"code":121467,"name":"SIGNWRITING LIMB LENGTH-5","cat":"So"}
+,{"code":121468,"name":"SIGNWRITING LIMB LENGTH-6","cat":"So"}
+,{"code":121469,"name":"SIGNWRITING LIMB LENGTH-7","cat":"So"}
+,{"code":121470,"name":"SIGNWRITING FINGER","cat":"So"}
+,{"code":121471,"name":"SIGNWRITING LOCATION-WALLPLANE SPACE","cat":"So"}
+,{"code":121472,"name":"SIGNWRITING LOCATION-FLOORPLANE SPACE","cat":"So"}
+,{"code":121473,"name":"SIGNWRITING LOCATION HEIGHT","cat":"So"}
+,{"code":121474,"name":"SIGNWRITING LOCATION WIDTH","cat":"So"}
+,{"code":121475,"name":"SIGNWRITING LOCATION DEPTH","cat":"So"}
+,{"code":121476,"name":"SIGNWRITING LOCATION HEAD NECK","cat":"Mn","bidi":"NSM"}
+,{"code":121477,"name":"SIGNWRITING LOCATION TORSO","cat":"So"}
+,{"code":121478,"name":"SIGNWRITING LOCATION LIMBS DIGITS","cat":"So"}
+,{"code":121479,"name":"SIGNWRITING COMMA","cat":"Po"}
+,{"code":121480,"name":"SIGNWRITING FULL STOP","cat":"Po"}
+,{"code":121481,"name":"SIGNWRITING SEMICOLON","cat":"Po"}
+,{"code":121482,"name":"SIGNWRITING COLON","cat":"Po"}
+,{"code":121483,"name":"SIGNWRITING PARENTHESIS","cat":"Po"}
+,{"code":121499,"name":"SIGNWRITING FILL MODIFIER-2","cat":"Mn","bidi":"NSM"}
+,{"code":121500,"name":"SIGNWRITING FILL MODIFIER-3","cat":"Mn","bidi":"NSM"}
+,{"code":121501,"name":"SIGNWRITING FILL MODIFIER-4","cat":"Mn","bidi":"NSM"}
+,{"code":121502,"name":"SIGNWRITING FILL MODIFIER-5","cat":"Mn","bidi":"NSM"}
+,{"code":121503,"name":"SIGNWRITING FILL MODIFIER-6","cat":"Mn","bidi":"NSM"}
+,{"code":121505,"name":"SIGNWRITING ROTATION MODIFIER-2","cat":"Mn","bidi":"NSM"}
+,{"code":121506,"name":"SIGNWRITING ROTATION MODIFIER-3","cat":"Mn","bidi":"NSM"}
+,{"code":121507,"name":"SIGNWRITING ROTATION MODIFIER-4","cat":"Mn","bidi":"NSM"}
+,{"code":121508,"name":"SIGNWRITING ROTATION MODIFIER-5","cat":"Mn","bidi":"NSM"}
+,{"code":121509,"name":"SIGNWRITING ROTATION MODIFIER-6","cat":"Mn","bidi":"NSM"}
+,{"code":121510,"name":"SIGNWRITING ROTATION MODIFIER-7","cat":"Mn","bidi":"NSM"}
+,{"code":121511,"name":"SIGNWRITING ROTATION MODIFIER-8","cat":"Mn","bidi":"NSM"}
+,{"code":121512,"name":"SIGNWRITING ROTATION MODIFIER-9","cat":"Mn","bidi":"NSM"}
+,{"code":121513,"name":"SIGNWRITING ROTATION MODIFIER-10","cat":"Mn","bidi":"NSM"}
+,{"code":121514,"name":"SIGNWRITING ROTATION MODIFIER-11","cat":"Mn","bidi":"NSM"}
+,{"code":121515,"name":"SIGNWRITING ROTATION MODIFIER-12","cat":"Mn","bidi":"NSM"}
+,{"code":121516,"name":"SIGNWRITING ROTATION MODIFIER-13","cat":"Mn","bidi":"NSM"}
+,{"code":121517,"name":"SIGNWRITING ROTATION MODIFIER-14","cat":"Mn","bidi":"NSM"}
+,{"code":121518,"name":"SIGNWRITING ROTATION MODIFIER-15","cat":"Mn","bidi":"NSM"}
+,{"code":121519,"name":"SIGNWRITING ROTATION MODIFIER-16","cat":"Mn","bidi":"NSM"}
 ,{"code":124928,"name":"MENDE KIKAKUI SYLLABLE M001 KI","cat":"Lo","bidi":"R"}
 ,{"code":124929,"name":"MENDE KIKAKUI SYLLABLE M002 KA","cat":"Lo","bidi":"R"}
 ,{"code":124930,"name":"MENDE KIKAKUI SYLLABLE M003 KU","cat":"Lo","bidi":"R"}
@@ -25108,6 +27011,9 @@
 ,{"code":127786,"name":"CLOUD WITH TORNADO","cat":"So","bidi":"ON"}
 ,{"code":127787,"name":"FOG","cat":"So","bidi":"ON"}
 ,{"code":127788,"name":"WIND BLOWING FACE","cat":"So","bidi":"ON"}
+,{"code":127789,"name":"HOT DOG","cat":"So","bidi":"ON"}
+,{"code":127790,"name":"TACO","cat":"So","bidi":"ON"}
+,{"code":127791,"name":"BURRITO","cat":"So","bidi":"ON"}
 ,{"code":127792,"name":"CHESTNUT","cat":"So","bidi":"ON"}
 ,{"code":127793,"name":"SEEDLING","cat":"So","bidi":"ON"}
 ,{"code":127794,"name":"EVERGREEN TREE","cat":"So","bidi":"ON"}
@@ -25186,6 +27092,8 @@
 ,{"code":127867,"name":"CLINKING BEER MUGS","cat":"So","bidi":"ON"}
 ,{"code":127868,"name":"BABY BOTTLE","cat":"So","bidi":"ON"}
 ,{"code":127869,"name":"FORK AND KNIFE WITH PLATE","cat":"So","bidi":"ON"}
+,{"code":127870,"name":"BOTTLE WITH POPPING CORK","cat":"So","bidi":"ON"}
+,{"code":127871,"name":"POPCORN","cat":"So","bidi":"ON"}
 ,{"code":127872,"name":"RIBBON","cat":"So","bidi":"ON"}
 ,{"code":127873,"name":"WRAPPED PRESENT","cat":"So","bidi":"ON"}
 ,{"code":127874,"name":"BIRTHDAY CAKE","cat":"So","bidi":"ON"}
@@ -25265,6 +27173,11 @@
 ,{"code":127948,"name":"GOLFER","cat":"So","bidi":"ON"}
 ,{"code":127949,"name":"RACING MOTORCYCLE","cat":"So","bidi":"ON"}
 ,{"code":127950,"name":"RACING CAR","cat":"So","bidi":"ON"}
+,{"code":127951,"name":"CRICKET BAT AND BALL","cat":"So","bidi":"ON"}
+,{"code":127952,"name":"VOLLEYBALL","cat":"So","bidi":"ON"}
+,{"code":127953,"name":"FIELD HOCKEY STICK AND BALL","cat":"So","bidi":"ON"}
+,{"code":127954,"name":"ICE HOCKEY STICK AND PUCK","cat":"So","bidi":"ON"}
+,{"code":127955,"name":"TABLE TENNIS PADDLE AND BALL","cat":"So","bidi":"ON"}
 ,{"code":127956,"name":"SNOW CAPPED MOUNTAIN","cat":"So","bidi":"ON"}
 ,{"code":127957,"name":"CAMPING","cat":"So","bidi":"ON"}
 ,{"code":127958,"name":"BEACH WITH UMBRELLA","cat":"So","bidi":"ON"}
@@ -25301,6 +27214,14 @@
 ,{"code":127989,"name":"ROSETTE","cat":"So","bidi":"ON"}
 ,{"code":127990,"name":"BLACK ROSETTE","cat":"So","bidi":"ON"}
 ,{"code":127991,"name":"LABEL","cat":"So","bidi":"ON"}
+,{"code":127992,"name":"BADMINTON RACQUET AND SHUTTLECOCK","cat":"So","bidi":"ON"}
+,{"code":127993,"name":"BOW AND ARROW","cat":"So","bidi":"ON"}
+,{"code":127994,"name":"AMPHORA","cat":"So","bidi":"ON"}
+,{"code":127995,"name":"EMOJI MODIFIER FITZPATRICK TYPE-1-2","cat":"Sk","bidi":"ON"}
+,{"code":127996,"name":"EMOJI MODIFIER FITZPATRICK TYPE-3","cat":"Sk","bidi":"ON"}
+,{"code":127997,"name":"EMOJI MODIFIER FITZPATRICK TYPE-4","cat":"Sk","bidi":"ON"}
+,{"code":127998,"name":"EMOJI MODIFIER FITZPATRICK TYPE-5","cat":"Sk","bidi":"ON"}
+,{"code":127999,"name":"EMOJI MODIFIER FITZPATRICK TYPE-6","cat":"Sk","bidi":"ON"}
 ,{"code":128000,"name":"RAT","cat":"So","bidi":"ON"}
 ,{"code":128001,"name":"MOUSE","cat":"So","bidi":"ON"}
 ,{"code":128002,"name":"OX","cat":"So","bidi":"ON"}
@@ -25556,6 +27477,7 @@
 ,{"code":128252,"name":"VIDEOCASSETTE","cat":"So","bidi":"ON"}
 ,{"code":128253,"name":"FILM PROJECTOR","cat":"So","bidi":"ON"}
 ,{"code":128254,"name":"PORTABLE STEREO","cat":"So","bidi":"ON"}
+,{"code":128255,"name":"PRAYER BEADS","cat":"So","bidi":"ON"}
 ,{"code":128256,"name":"TWISTED RIGHTWARDS ARROWS","cat":"So","bidi":"ON"}
 ,{"code":128257,"name":"CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS","cat":"So","bidi":"ON"}
 ,{"code":128258,"name":"CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY","cat":"So","bidi":"ON"}
@@ -25631,6 +27553,11 @@
 ,{"code":128328,"name":"CELTIC CROSS","cat":"So","bidi":"ON"}
 ,{"code":128329,"name":"OM SYMBOL","cat":"So","bidi":"ON"}
 ,{"code":128330,"name":"DOVE OF PEACE","cat":"So","bidi":"ON"}
+,{"code":128331,"name":"KAABA","cat":"So","bidi":"ON"}
+,{"code":128332,"name":"MOSQUE","cat":"So","bidi":"ON"}
+,{"code":128333,"name":"SYNAGOGUE","cat":"So","bidi":"ON"}
+,{"code":128334,"name":"MENORAH WITH NINE BRANCHES","cat":"So","bidi":"ON"}
+,{"code":128335,"name":"BOWL OF HYGIEIA","cat":"So","bidi":"ON"}
 ,{"code":128336,"name":"CLOCK FACE ONE OCLOCK","cat":"So","bidi":"ON"}
 ,{"code":128337,"name":"CLOCK FACE TWO OCLOCK","cat":"So","bidi":"ON"}
 ,{"code":128338,"name":"CLOCK FACE THREE OCLOCK","cat":"So","bidi":"ON"}
@@ -25872,6 +27799,8 @@
 ,{"code":128576,"name":"WEARY CAT FACE","cat":"So","bidi":"ON"}
 ,{"code":128577,"name":"SLIGHTLY FROWNING FACE","cat":"So","bidi":"ON"}
 ,{"code":128578,"name":"SLIGHTLY SMILING FACE","cat":"So","bidi":"ON"}
+,{"code":128579,"name":"UPSIDE-DOWN FACE","cat":"So","bidi":"ON"}
+,{"code":128580,"name":"FACE WITH ROLLING EYES","cat":"So","bidi":"ON"}
 ,{"code":128581,"name":"FACE WITH NO GOOD GESTURE","cat":"So","bidi":"ON"}
 ,{"code":128582,"name":"FACE WITH OK GESTURE","cat":"So","bidi":"ON"}
 ,{"code":128583,"name":"PERSON BOWING DEEPLY","cat":"So","bidi":"ON"}
@@ -26011,6 +27940,7 @@
 ,{"code":128717,"name":"SHOPPING BAGS","cat":"So","bidi":"ON"}
 ,{"code":128718,"name":"BELLHOP BELL","cat":"So","bidi":"ON"}
 ,{"code":128719,"name":"BED","cat":"So","bidi":"ON"}
+,{"code":128720,"name":"PLACE OF WORSHIP","cat":"So","bidi":"ON"}
 ,{"code":128736,"name":"HAMMER AND WRENCH","cat":"So","bidi":"ON"}
 ,{"code":128737,"name":"SHIELD","cat":"So","bidi":"ON"}
 ,{"code":128738,"name":"OIL DRUM","cat":"So","bidi":"ON"}
@@ -26377,12 +28307,29 @@
 ,{"code":129195,"name":"RIGHTWARDS FRONT-TILTED SHADOWED WHITE ARROW","cat":"So","bidi":"ON"}
 ,{"code":129196,"name":"WHITE ARROW SHAFT WIDTH ONE","cat":"So","bidi":"ON"}
 ,{"code":129197,"name":"WHITE ARROW SHAFT WIDTH TWO THIRDS","cat":"So","bidi":"ON"}
+,{"code":129296,"name":"ZIPPER-MOUTH FACE","cat":"So","bidi":"ON"}
+,{"code":129297,"name":"MONEY-MOUTH FACE","cat":"So","bidi":"ON"}
+,{"code":129298,"name":"FACE WITH THERMOMETER","cat":"So","bidi":"ON"}
+,{"code":129299,"name":"NERD FACE","cat":"So","bidi":"ON"}
+,{"code":129300,"name":"THINKING FACE","cat":"So","bidi":"ON"}
+,{"code":129301,"name":"FACE WITH HEAD-BANDAGE","cat":"So","bidi":"ON"}
+,{"code":129302,"name":"ROBOT FACE","cat":"So","bidi":"ON"}
+,{"code":129303,"name":"HUGGING FACE","cat":"So","bidi":"ON"}
+,{"code":129304,"name":"SIGN OF THE HORNS","cat":"So","bidi":"ON"}
+,{"code":129408,"name":"CRAB","cat":"So","bidi":"ON"}
+,{"code":129409,"name":"LION FACE","cat":"So","bidi":"ON"}
+,{"code":129410,"name":"SCORPION","cat":"So","bidi":"ON"}
+,{"code":129411,"name":"TURKEY","cat":"So","bidi":"ON"}
+,{"code":129412,"name":"UNICORN FACE","cat":"So","bidi":"ON"}
+,{"code":129472,"name":"CHEESE WEDGE","cat":"So","bidi":"ON"}
 ,{"code":131072,"name":"<CJK Ideograph Extension B, First>","cat":"Lo"}
 ,{"code":173782,"name":"<CJK Ideograph Extension B, Last>","cat":"Lo"}
 ,{"code":173824,"name":"<CJK Ideograph Extension C, First>","cat":"Lo"}
 ,{"code":177972,"name":"<CJK Ideograph Extension C, Last>","cat":"Lo"}
 ,{"code":177984,"name":"<CJK Ideograph Extension D, First>","cat":"Lo"}
 ,{"code":178205,"name":"<CJK Ideograph Extension D, Last>","cat":"Lo"}
+,{"code":178208,"name":"<CJK Ideograph Extension E, First>","cat":"Lo"}
+,{"code":183969,"name":"<CJK Ideograph Extension E, Last>","cat":"Lo"}
 ,{"code":194560,"name":"CJK COMPATIBILITY IDEOGRAPH-2F800","cat":"Lo","decomp":[20029]}
 ,{"code":194561,"name":"CJK COMPATIBILITY IDEOGRAPH-2F801","cat":"Lo","decomp":[20024]}
 ,{"code":194562,"name":"CJK COMPATIBILITY IDEOGRAPH-2F802","cat":"Lo","decomp":[20033]}
