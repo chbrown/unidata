@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as UnicodeData from './UnicodeData';
 import * as Blocks from './Blocks';
 
-fs.readFile('tmp/UnicodeData.txt', {encoding: 'ascii'}, (error: Error, UnicodeData_txt: string) => {
+fs.readFile('ucd/UnicodeData.txt', {encoding: 'ascii'}, (error: Error, UnicodeData_txt: string) => {
   if (error) throw error;
   var characters = UnicodeData.parse(UnicodeData_txt);
   var json = JSON.stringify(characters);
@@ -14,7 +14,7 @@ fs.readFile('tmp/UnicodeData.txt', {encoding: 'ascii'}, (error: Error, UnicodeDa
   });
 });
 
-fs.readFile('tmp/Blocks.txt', {encoding: 'ascii'}, (error: Error, Blocks_txt: string) => {
+fs.readFile('ucd/Blocks.txt', {encoding: 'ascii'}, (error: Error, Blocks_txt: string) => {
   if (error) throw error;
   var blocks = Blocks.parse(Blocks_txt);
   var json = JSON.stringify(blocks);
