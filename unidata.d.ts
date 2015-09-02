@@ -1,6 +1,9 @@
+/// <reference path='./UnicodeData.d.ts'/>
+/// <reference path='./Blocks.d.ts'/>
+
 declare module "unidata" {
-  import UnicodeData = require('UnicodeData');
-  import Blocks = require('Blocks');
+  import UnicodeData = require('unidata/UnicodeData');
+  import Blocks = require('unidata/Blocks');
 
   type Block = Blocks.Block;
   type Character = UnicodeData.Character;
