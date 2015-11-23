@@ -1,21 +1,15 @@
 BIN := node_modules/.bin
-DTS := node/node
 
-all: ucd/UnicodeData.txt ucd/Blocks.txt UnicodeData.json Blocks.json
-type_declarations: $(DTS:%=type_declarations/DefinitelyTyped/%.d.ts)
-
-UnicodeData.json Blocks.json: build.js
-	node $<
-
-type_declarations/DefinitelyTyped/%:
-	mkdir -p $(@D)
-	curl -s https://raw.githubusercontent.com/chbrown/DefinitelyTyped/master/$* > $@
+all: ucd/Blocks.txt ucd/UnicodeData.txt Blocks.json UnicodeData.json
 
 $(BIN)/tsc:
 	npm install
 
-%.js: %.ts $(BIN)/tsc type_declarations
-	$(BIN)/tsc -m commonjs -t ES5 $<
+%.js: %.ts $(BIN)/tsc
+	$(BIN)/tsc -d
+
+UnicodeData.json Blocks.json: dev/build.js
+	node $<
 
 # Could use http://www.unicode.org/Public/UNIDATA/$@ instead
 ucd/%.txt:

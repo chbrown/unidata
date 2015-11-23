@@ -9,12 +9,15 @@
   ],
   "version": "8.0.1",
   "homepage": "https://github.com/chbrown/unidata",
-  "repository": "git://github.com/chbrown/unidata.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chbrown/unidata.git"
+  },
   "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "typescript": "*"
-  },
-  "scripts": {}
+    "declarations": "*",
+    "typescript": "next"
+  }
 }

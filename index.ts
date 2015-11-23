@@ -1,3 +1,9 @@
+export interface Block {
+  blockName: string;
+  startCode: number;
+  endCode: number;
+}
+
 /**
 Character is a raw representation of a character.
 */
@@ -29,8 +35,59 @@ export interface Character {
   title?: number;
 }
 
-/**
+export function getBlocks(): Block[] {
+  return require('./Blocks.json');
+}
 
+export function getCharacters(): Character[] {
+  return require('./UnicodeData.json');
+}
+
+/**
+evaluateNum(num: string): number
+
+Take a Character.num string value and return a native Javascript number.
+
+1000000000000 is the biggest numeric value defined for any Unicode character
+(U+16B61 "PAHAWH HMONG NUMBER TRILLIONS"), so what we have to worry about are
+the fractions (which can have negative signs, though
+U+0F33 "TIBETAN DIGIT HALF ZERO" is the only one of those)
+*/
+export function evaluateNum(num) {
+  if (num === undefined || num === null || num === '') return NaN;
+  var fraction_match = num.match(/(-?\d+)\/(\d+)/);
+  if (fraction_match) {
+    return parseInt(fraction_match[1], 10) / parseInt(fraction_match[2], 10);
+  }
+  return parseInt(num, 10);
+}
+
+/**
+Snippet from `Blocks.txt`:
+
+    0000..007F; Basic Latin
+    0080..00FF; Latin-1 Supplement
+    0100..017F; Latin Extended-A
+    0180..024F; Latin Extended-B
+    0250..02AF; IPA Extensions
+
+*/
+export function parseBlocks(Blocks_txt: string): Block[] {
+  return Blocks_txt
+    .split(/\n/)
+    .map(line => line.match(/^([A-F0-9]+)\.\.([A-F0-9]+); (.+)$/))
+    .filter(match => match !== null)
+    .map(match => {
+      var [_, startCode, endCode, blockName] = match;
+      return {
+        blockName: blockName,
+        startCode: parseInt(startCode, 16),
+        endCode: parseInt(endCode, 16),
+      };
+    });
+}
+
+/**
 Snippet from `UnicodeData.txt`:
 
     00A0;NO-BREAK SPACE;Zs;0;CS;<noBreak> 0020;;;;N;NON-BREAKING SPACE;;;;
@@ -64,7 +121,7 @@ There are 14 ;'s per line, and so there are 15 fields per UnicodeDatum:
 14. Simple_Titlecase_Mapping
 
 */
-export function parse(UnicodeData_txt: string): Character[] {
+export function parseUnicodeData(UnicodeData_txt: string): Character[] {
   return UnicodeData_txt
     .split(/\n/)
     .filter(line => line !== '')
