@@ -1,3 +1,6 @@
+// node.d.ts shim
+declare var require: {(path: string): any};
+
 export interface Block {
   blockName: string;
   startCode: number;
@@ -36,11 +39,11 @@ export interface Character {
 }
 
 export function getBlocks(): Block[] {
-  return require('./Blocks.json');
+  return require('./Blocks');
 }
 
 export function getCharacters(): Character[] {
-  return require('./UnicodeData.json');
+  return require('./UnicodeData');
 }
 
 /**

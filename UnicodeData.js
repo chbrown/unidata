@@ -1,4 +1,4 @@
-[{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":"NULL"}
+module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":"NULL"}
 ,{"code":1,"name":"<control>","cat":"Cc","bidi":"BN","oldName":"START OF HEADING"}
 ,{"code":2,"name":"<control>","cat":"Cc","bidi":"BN","oldName":"START OF TEXT"}
 ,{"code":3,"name":"<control>","cat":"Cc","bidi":"BN","oldName":"END OF TEXT"}

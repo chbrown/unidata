@@ -1,4 +1,4 @@
-[{"blockName":"Basic Latin","startCode":0,"endCode":127}
+module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Latin-1 Supplement","startCode":128,"endCode":255}
 ,{"blockName":"Latin Extended-A","startCode":256,"endCode":383}
 ,{"blockName":"Latin Extended-B","startCode":384,"endCode":591}

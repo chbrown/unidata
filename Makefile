@@ -1,15 +1,18 @@
 BIN := node_modules/.bin
 
-all: ucd/Blocks.txt ucd/UnicodeData.txt Blocks.json UnicodeData.json
+all: index.js index.d.ts Blocks.js UnicodeData.js
 
 $(BIN)/tsc:
 	npm install
 
-%.js: %.ts $(BIN)/tsc
+%.js %.d.ts: %.ts $(BIN)/tsc
 	$(BIN)/tsc -d
 
-UnicodeData.json Blocks.json: dev/build.js
-	node $<
+Blocks.js: ucd/Blocks.txt
+	node dev/writeBlocks.js > $@
+
+UnicodeData.js: ucd/UnicodeData.txt
+	node dev/writeUnicodeData.js > $@
 
 # Could use http://www.unicode.org/Public/UNIDATA/$@ instead
 ucd/%.txt:

@@ -4,8 +4,6 @@
     "target": "ES5"
   },
   "files": [
-    "node_modules/declarations/node/node.d.ts",
-    "dev/build.ts",
     "index.ts"
   ]
 }
