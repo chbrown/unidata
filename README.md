@@ -1,6 +1,6 @@
 # unidata
 
-[![version on npmjs.com](https://badge.fury.io/js/unidata.svg)](https://www.npmjs.com/package/unidata)
+[![npm version](https://badge.fury.io/js/unidata.svg)](https://www.npmjs.com/package/unidata)
 
 Javascript interface to the [Unicode Character Database](http://www.unicode.org/reports/tr44/) (currently using [Unicode 8.0.0](http://www.unicode.org/versions/Unicode8.0.0/)).
 
