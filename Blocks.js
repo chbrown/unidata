@@ -17,6 +17,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"NKo","startCode":1984,"endCode":2047}
 ,{"blockName":"Samaritan","startCode":2048,"endCode":2111}
 ,{"blockName":"Mandaic","startCode":2112,"endCode":2143}
+,{"blockName":"Syriac Supplement","startCode":2144,"endCode":2159}
 ,{"blockName":"Arabic Extended-A","startCode":2208,"endCode":2303}
 ,{"blockName":"Devanagari","startCode":2304,"endCode":2431}
 ,{"blockName":"Bengali","startCode":2432,"endCode":2559}
@@ -59,6 +60,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Batak","startCode":7104,"endCode":7167}
 ,{"blockName":"Lepcha","startCode":7168,"endCode":7247}
 ,{"blockName":"Ol Chiki","startCode":7248,"endCode":7295}
+,{"blockName":"Cyrillic Extended-C","startCode":7296,"endCode":7311}
 ,{"blockName":"Sundanese Supplement","startCode":7360,"endCode":7375}
 ,{"blockName":"Vedic Extensions","startCode":7376,"endCode":7423}
 ,{"blockName":"Phonetic Extensions","startCode":7424,"endCode":7551}
@@ -175,6 +177,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Deseret","startCode":66560,"endCode":66639}
 ,{"blockName":"Shavian","startCode":66640,"endCode":66687}
 ,{"blockName":"Osmanya","startCode":66688,"endCode":66735}
+,{"blockName":"Osage","startCode":66736,"endCode":66815}
 ,{"blockName":"Elbasan","startCode":66816,"endCode":66863}
 ,{"blockName":"Caucasian Albanian","startCode":66864,"endCode":66927}
 ,{"blockName":"Linear A","startCode":67072,"endCode":67455}
@@ -209,13 +212,20 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Multani","startCode":70272,"endCode":70319}
 ,{"blockName":"Khudawadi","startCode":70320,"endCode":70399}
 ,{"blockName":"Grantha","startCode":70400,"endCode":70527}
+,{"blockName":"Newa","startCode":70656,"endCode":70783}
 ,{"blockName":"Tirhuta","startCode":70784,"endCode":70879}
 ,{"blockName":"Siddham","startCode":71040,"endCode":71167}
 ,{"blockName":"Modi","startCode":71168,"endCode":71263}
+,{"blockName":"Mongolian Supplement","startCode":71264,"endCode":71295}
 ,{"blockName":"Takri","startCode":71296,"endCode":71375}
 ,{"blockName":"Ahom","startCode":71424,"endCode":71487}
 ,{"blockName":"Warang Citi","startCode":71840,"endCode":71935}
+,{"blockName":"Zanabazar Square","startCode":72192,"endCode":72271}
+,{"blockName":"Soyombo","startCode":72272,"endCode":72367}
 ,{"blockName":"Pau Cin Hau","startCode":72384,"endCode":72447}
+,{"blockName":"Bhaiksuki","startCode":72704,"endCode":72815}
+,{"blockName":"Marchen","startCode":72816,"endCode":72895}
+,{"blockName":"Masaram Gondi","startCode":72960,"endCode":73055}
 ,{"blockName":"Cuneiform","startCode":73728,"endCode":74751}
 ,{"blockName":"Cuneiform Numbers and Punctuation","startCode":74752,"endCode":74879}
 ,{"blockName":"Early Dynastic Cuneiform","startCode":74880,"endCode":75087}
@@ -226,7 +236,12 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Bassa Vah","startCode":92880,"endCode":92927}
 ,{"blockName":"Pahawh Hmong","startCode":92928,"endCode":93071}
 ,{"blockName":"Miao","startCode":93952,"endCode":94111}
+,{"blockName":"Ideographic Symbols and Punctuation","startCode":94176,"endCode":94207}
+,{"blockName":"Tangut","startCode":94208,"endCode":100351}
+,{"blockName":"Tangut Components","startCode":100352,"endCode":101119}
 ,{"blockName":"Kana Supplement","startCode":110592,"endCode":110847}
+,{"blockName":"Kana Extended-A","startCode":110848,"endCode":110895}
+,{"blockName":"Nushu","startCode":110960,"endCode":111359}
 ,{"blockName":"Duployan","startCode":113664,"endCode":113823}
 ,{"blockName":"Shorthand Format Controls","startCode":113824,"endCode":113839}
 ,{"blockName":"Byzantine Musical Symbols","startCode":118784,"endCode":119039}
@@ -236,7 +251,9 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Counting Rod Numerals","startCode":119648,"endCode":119679}
 ,{"blockName":"Mathematical Alphanumeric Symbols","startCode":119808,"endCode":120831}
 ,{"blockName":"Sutton SignWriting","startCode":120832,"endCode":121519}
+,{"blockName":"Glagolitic Supplement","startCode":122880,"endCode":122927}
 ,{"blockName":"Mende Kikakui","startCode":124928,"endCode":125151}
+,{"blockName":"Adlam","startCode":125184,"endCode":125279}
 ,{"blockName":"Arabic Mathematical Alphabetic Symbols","startCode":126464,"endCode":126719}
 ,{"blockName":"Mahjong Tiles","startCode":126976,"endCode":127023}
 ,{"blockName":"Domino Tiles","startCode":127024,"endCode":127135}
@@ -255,6 +272,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"CJK Unified Ideographs Extension C","startCode":173824,"endCode":177983}
 ,{"blockName":"CJK Unified Ideographs Extension D","startCode":177984,"endCode":178207}
 ,{"blockName":"CJK Unified Ideographs Extension E","startCode":178208,"endCode":183983}
+,{"blockName":"CJK Unified Ideographs Extension F","startCode":183984,"endCode":191471}
 ,{"blockName":"CJK Compatibility Ideographs Supplement","startCode":194560,"endCode":195103}
 ,{"blockName":"Tags","startCode":917504,"endCode":917631}
 ,{"blockName":"Variation Selectors Supplement","startCode":917760,"endCode":917999}
