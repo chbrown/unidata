@@ -18,5 +18,8 @@
   "devDependencies": {
     "@types/node": "latest",
     "typescript": "^2.7.1"
+  },
+  "scripts": {
+    "prepare": "tsc -d"
   }
 }
