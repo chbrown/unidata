@@ -10,3 +10,7 @@ UnicodeData.js: ucd/UnicodeData.txt
 ucd/%.txt:
 	mkdir -p $(@D)
 	curl -s http://www.unicode.org/Public/8.0.0/$@ > $@
+
+clean:
+	rm -rf ucd/
+	npm run-script clean

@@ -20,6 +20,7 @@
     "typescript": "^2.7.1"
   },
   "scripts": {
-    "prepare": "tsc -d"
+    "prepare": "tsc -d",
+    "clean": "tsc -d --listEmittedFiles | sed 's/^TSFILE: //' | xargs rm -v"
   }
 }
