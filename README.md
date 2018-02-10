@@ -1,8 +1,9 @@
 # unidata
 
-[![npm version](https://badge.fury.io/js/unidata.svg)](https://www.npmjs.com/package/unidata)
+[![npm package version](https://badge.fury.io/js/unidata.svg)](https://www.npmjs.com/package/unidata)
 
-Javascript interface to the [Unicode Character Database](http://www.unicode.org/reports/tr44/) (currently using [Unicode 8.0.0](http://www.unicode.org/versions/Unicode8.0.0/)).
+JavaScript interface to the [Unicode Character Database](http://www.unicode.org/reports/tr44/)
+(currently using [Unicode 8.0.0](http://www.unicode.org/versions/Unicode8.0.0/)).
 
     npm install unidata --save
 
@@ -13,14 +14,18 @@ Using ES6 syntax:
 
     import {getBlocks, getCharacters} from 'unidata';
 
-There are a few other exports (and a couple useful interfaces, if you're using TypeScript), but these are the main methods.
+There are a few other exports (and a couple useful interfaces, if you're using TypeScript),
+but these are the main methods.
 
 They both simply call `require()` to load the preprocessed Unicode data from a JSON file.
 
     const characters = getCharacters();
     const blocks = getBlocks();
 
-These are both just arrays. `characters` is a list of [`Character`](index.d.ts), and `blocks` is an array of [`Block`](index.d.ts). Blocks are simple; _every_ item in `blocks` has these three fields:
+These are both just arrays.
+* `characters` is an array of [`Character`](index.d.ts)
+* `blocks` is an array of [`Block`](index.d.ts)
+Blocks are simple; _every_ item in `blocks` has these three fields:
 
     > blocks.length
     262
@@ -48,9 +53,11 @@ if a field is not available or not applicable for a given character, that key wi
 
 The first three fields, `code`, `name`, and `cat`, are always present.
 The other ten are optional.
-(For details on the optional fields, and what values to assume when they are omitted, see the comments on the `Block` interface.)
+(For details on the optional fields, and what values to assume when they are omitted,
+see the comments on the `Block` interface.)
 
 
 ## License
 
-Copyright 2015 Christopher Brown. [MIT Licensed](http://chbrown.github.io/licenses/MIT/#2015).
+Copyright 2015-2018 Christopher Brown.
+[MIT Licensed](https://chbrown.github.io/licenses/MIT/#2015-2018).
