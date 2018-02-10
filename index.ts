@@ -1,6 +1,3 @@
-// node.d.ts shim
-declare var require: {(path: string): any};
-
 export interface Block {
   blockName: string;
   startCode: number;

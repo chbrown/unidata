@@ -16,6 +16,7 @@
   "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "1.7.5"
+    "@types/node": "latest",
+    "typescript": "^2.7.1"
   }
 }
