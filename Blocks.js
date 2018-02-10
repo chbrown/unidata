@@ -17,6 +17,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"NKo","startCode":1984,"endCode":2047}
 ,{"blockName":"Samaritan","startCode":2048,"endCode":2111}
 ,{"blockName":"Mandaic","startCode":2112,"endCode":2143}
+,{"blockName":"Syriac Supplement","startCode":2144,"endCode":2159}
 ,{"blockName":"Arabic Extended-A","startCode":2208,"endCode":2303}
 ,{"blockName":"Devanagari","startCode":2304,"endCode":2431}
 ,{"blockName":"Bengali","startCode":2432,"endCode":2559}
@@ -219,9 +220,12 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Takri","startCode":71296,"endCode":71375}
 ,{"blockName":"Ahom","startCode":71424,"endCode":71487}
 ,{"blockName":"Warang Citi","startCode":71840,"endCode":71935}
+,{"blockName":"Zanabazar Square","startCode":72192,"endCode":72271}
+,{"blockName":"Soyombo","startCode":72272,"endCode":72367}
 ,{"blockName":"Pau Cin Hau","startCode":72384,"endCode":72447}
 ,{"blockName":"Bhaiksuki","startCode":72704,"endCode":72815}
 ,{"blockName":"Marchen","startCode":72816,"endCode":72895}
+,{"blockName":"Masaram Gondi","startCode":72960,"endCode":73055}
 ,{"blockName":"Cuneiform","startCode":73728,"endCode":74751}
 ,{"blockName":"Cuneiform Numbers and Punctuation","startCode":74752,"endCode":74879}
 ,{"blockName":"Early Dynastic Cuneiform","startCode":74880,"endCode":75087}
@@ -236,6 +240,8 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Tangut","startCode":94208,"endCode":100351}
 ,{"blockName":"Tangut Components","startCode":100352,"endCode":101119}
 ,{"blockName":"Kana Supplement","startCode":110592,"endCode":110847}
+,{"blockName":"Kana Extended-A","startCode":110848,"endCode":110895}
+,{"blockName":"Nushu","startCode":110960,"endCode":111359}
 ,{"blockName":"Duployan","startCode":113664,"endCode":113823}
 ,{"blockName":"Shorthand Format Controls","startCode":113824,"endCode":113839}
 ,{"blockName":"Byzantine Musical Symbols","startCode":118784,"endCode":119039}
@@ -266,6 +272,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"CJK Unified Ideographs Extension C","startCode":173824,"endCode":177983}
 ,{"blockName":"CJK Unified Ideographs Extension D","startCode":177984,"endCode":178207}
 ,{"blockName":"CJK Unified Ideographs Extension E","startCode":178208,"endCode":183983}
+,{"blockName":"CJK Unified Ideographs Extension F","startCode":183984,"endCode":191471}
 ,{"blockName":"CJK Compatibility Ideographs Supplement","startCode":194560,"endCode":195103}
 ,{"blockName":"Tags","startCode":917504,"endCode":917631}
 ,{"blockName":"Variation Selectors Supplement","startCode":917760,"endCode":917999}

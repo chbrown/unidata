@@ -2072,6 +2072,17 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2138,"name":"MANDAIC VOCALIZATION MARK","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":2139,"name":"MANDAIC GEMINATION MARK","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":2142,"name":"MANDAIC PUNCTUATION","cat":"Po","bidi":"R"}
+,{"code":2144,"name":"SYRIAC LETTER MALAYALAM NGA","cat":"Lo","bidi":"AL"}
+,{"code":2145,"name":"SYRIAC LETTER MALAYALAM JA","cat":"Lo","bidi":"AL"}
+,{"code":2146,"name":"SYRIAC LETTER MALAYALAM NYA","cat":"Lo","bidi":"AL"}
+,{"code":2147,"name":"SYRIAC LETTER MALAYALAM TTA","cat":"Lo","bidi":"AL"}
+,{"code":2148,"name":"SYRIAC LETTER MALAYALAM NNA","cat":"Lo","bidi":"AL"}
+,{"code":2149,"name":"SYRIAC LETTER MALAYALAM NNNA","cat":"Lo","bidi":"AL"}
+,{"code":2150,"name":"SYRIAC LETTER MALAYALAM BHA","cat":"Lo","bidi":"AL"}
+,{"code":2151,"name":"SYRIAC LETTER MALAYALAM RA","cat":"Lo","bidi":"AL"}
+,{"code":2152,"name":"SYRIAC LETTER MALAYALAM LLA","cat":"Lo","bidi":"AL"}
+,{"code":2153,"name":"SYRIAC LETTER MALAYALAM LLLA","cat":"Lo","bidi":"AL"}
+,{"code":2154,"name":"SYRIAC LETTER MALAYALAM SSA","cat":"Lo","bidi":"AL"}
 ,{"code":2208,"name":"ARABIC LETTER BEH WITH SMALL V BELOW","cat":"Lo","bidi":"AL"}
 ,{"code":2209,"name":"ARABIC LETTER BEH WITH HAMZA ABOVE","cat":"Lo","bidi":"AL"}
 ,{"code":2210,"name":"ARABIC LETTER JEEM WITH TWO DOTS ABOVE","cat":"Lo","bidi":"AL"}
@@ -2366,6 +2377,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2553,"name":"BENGALI CURRENCY DENOMINATOR SIXTEEN","cat":"No","num":"16"}
 ,{"code":2554,"name":"BENGALI ISSHAR","cat":"So"}
 ,{"code":2555,"name":"BENGALI GANDA MARK","cat":"Sc","bidi":"ET"}
+,{"code":2556,"name":"BENGALI LETTER VEDIC ANUSVARA","cat":"Lo"}
+,{"code":2557,"name":"BENGALI ABBREVIATION SIGN","cat":"Po"}
 ,{"code":2561,"name":"GURMUKHI SIGN ADAK BINDI","cat":"Mn","bidi":"NSM"}
 ,{"code":2562,"name":"GURMUKHI SIGN BINDI","cat":"Mn","bidi":"NSM"}
 ,{"code":2563,"name":"GURMUKHI SIGN VISARGA","cat":"Mc"}
@@ -2530,6 +2543,12 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2800,"name":"GUJARATI ABBREVIATION SIGN","cat":"Po"}
 ,{"code":2801,"name":"GUJARATI RUPEE SIGN","cat":"Sc","bidi":"ET"}
 ,{"code":2809,"name":"GUJARATI LETTER ZHA","cat":"Lo"}
+,{"code":2810,"name":"GUJARATI SIGN SUKUN","cat":"Mn","bidi":"NSM"}
+,{"code":2811,"name":"GUJARATI SIGN SHADDA","cat":"Mn","bidi":"NSM"}
+,{"code":2812,"name":"GUJARATI SIGN MADDAH","cat":"Mn","bidi":"NSM"}
+,{"code":2813,"name":"GUJARATI SIGN THREE-DOT NUKTA ABOVE","cat":"Mn","bidi":"NSM"}
+,{"code":2814,"name":"GUJARATI SIGN CIRCLE NUKTA ABOVE","cat":"Mn","bidi":"NSM"}
+,{"code":2815,"name":"GUJARATI SIGN TWO-CIRCLE NUKTA ABOVE","cat":"Mn","bidi":"NSM"}
 ,{"code":2817,"name":"ORIYA SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":2818,"name":"ORIYA SIGN ANUSVARA","cat":"Mc"}
 ,{"code":2819,"name":"ORIYA SIGN VISARGA","cat":"Mc"}
@@ -2876,6 +2895,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":3311,"name":"KANNADA DIGIT NINE","cat":"Nd","num":"9"}
 ,{"code":3313,"name":"KANNADA SIGN JIHVAMULIYA","cat":"Lo"}
 ,{"code":3314,"name":"KANNADA SIGN UPADHMANIYA","cat":"Lo"}
+,{"code":3328,"name":"MALAYALAM SIGN COMBINING ANUSVARA ABOVE","cat":"Mn","bidi":"NSM"}
 ,{"code":3329,"name":"MALAYALAM SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":3330,"name":"MALAYALAM SIGN ANUSVARA","cat":"Mc"}
 ,{"code":3331,"name":"MALAYALAM SIGN VISARGA","cat":"Mc"}
@@ -2931,6 +2951,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":3384,"name":"MALAYALAM LETTER SA","cat":"Lo"}
 ,{"code":3385,"name":"MALAYALAM LETTER HA","cat":"Lo"}
 ,{"code":3386,"name":"MALAYALAM LETTER TTTA","cat":"Lo"}
+,{"code":3387,"name":"MALAYALAM SIGN VERTICAL BAR VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":3388,"name":"MALAYALAM SIGN CIRCULAR VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
 ,{"code":3389,"name":"MALAYALAM SIGN AVAGRAHA","cat":"Lo"}
 ,{"code":3390,"name":"MALAYALAM VOWEL SIGN AA","cat":"Mc"}
 ,{"code":3391,"name":"MALAYALAM VOWEL SIGN I","cat":"Mc"}
@@ -6413,6 +6435,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":7412,"name":"VEDIC TONE CANDRA ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":7413,"name":"VEDIC SIGN JIHVAMULIYA","cat":"Lo"}
 ,{"code":7414,"name":"VEDIC SIGN UPADHMANIYA","cat":"Lo"}
+,{"code":7415,"name":"VEDIC SIGN ATIKRAMA","cat":"Mc"}
 ,{"code":7416,"name":"VEDIC TONE RING ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":7417,"name":"VEDIC TONE DOUBLE RING ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":7424,"name":"LATIN LETTER SMALL CAPITAL A","cat":"Ll"}
@@ -6661,6 +6684,10 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":7667,"name":"COMBINING LATIN SMALL LETTER O WITH DIAERESIS","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":7668,"name":"COMBINING LATIN SMALL LETTER U WITH DIAERESIS","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":7669,"name":"COMBINING UP TACK ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":7670,"name":"COMBINING KAVYKA ABOVE RIGHT","cat":"Mn","comb":232,"bidi":"NSM"}
+,{"code":7671,"name":"COMBINING KAVYKA ABOVE LEFT","cat":"Mn","comb":228,"bidi":"NSM"}
+,{"code":7672,"name":"COMBINING DOT ABOVE LEFT","cat":"Mn","comb":228,"bidi":"NSM"}
+,{"code":7673,"name":"COMBINING WIDE INVERTED BRIDGE BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":7675,"name":"COMBINING DELETION MARK","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":7676,"name":"COMBINING DOUBLE INVERTED BREVE BELOW","cat":"Mn","comb":233,"bidi":"NSM"}
 ,{"code":7677,"name":"COMBINING ALMOST EQUAL TO BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
@@ -7339,6 +7366,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":8380,"name":"MANAT SIGN","cat":"Sc","bidi":"ET"}
 ,{"code":8381,"name":"RUBLE SIGN","cat":"Sc","bidi":"ET"}
 ,{"code":8382,"name":"LARI SIGN","cat":"Sc","bidi":"ET"}
+,{"code":8383,"name":"BITCOIN SIGN","cat":"Sc","bidi":"ET"}
 ,{"code":8400,"name":"COMBINING LEFT HARPOON ABOVE","cat":"Mn","comb":230,"bidi":"NSM","oldName":"NON-SPACING LEFT HARPOON ABOVE"}
 ,{"code":8401,"name":"COMBINING RIGHT HARPOON ABOVE","cat":"Mn","comb":230,"bidi":"NSM","oldName":"NON-SPACING RIGHT HARPOON ABOVE"}
 ,{"code":8402,"name":"COMBINING LONG VERTICAL LINE OVERLAY","cat":"Mn","comb":1,"bidi":"NSM","oldName":"NON-SPACING LONG VERTICAL BAR OVERLAY"}
@@ -8135,6 +8163,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":9212,"name":"POWER ON-OFF SYMBOL","cat":"So","bidi":"ON"}
 ,{"code":9213,"name":"POWER ON SYMBOL","cat":"So","bidi":"ON"}
 ,{"code":9214,"name":"POWER SLEEP SYMBOL","cat":"So","bidi":"ON"}
+,{"code":9215,"name":"OBSERVER EYE SYMBOL","cat":"So","bidi":"ON"}
 ,{"code":9216,"name":"SYMBOL FOR NULL","cat":"So","bidi":"ON","oldName":"GRAPHIC FOR NULL"}
 ,{"code":9217,"name":"SYMBOL FOR START OF HEADING","cat":"So","bidi":"ON","oldName":"GRAPHIC FOR START OF HEADING"}
 ,{"code":9218,"name":"SYMBOL FOR START OF TEXT","cat":"So","bidi":"ON","oldName":"GRAPHIC FOR START OF TEXT"}
@@ -10083,6 +10112,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":11215,"name":"ROTATED WHITE FOUR POINTED CUSP","cat":"So","bidi":"ON"}
 ,{"code":11216,"name":"SQUARE POSITION INDICATOR","cat":"So","bidi":"ON"}
 ,{"code":11217,"name":"UNCERTAINTY SIGN","cat":"So","bidi":"ON"}
+,{"code":11218,"name":"GROUP MARK","cat":"So","bidi":"ON"}
 ,{"code":11244,"name":"LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
 ,{"code":11245,"name":"UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
 ,{"code":11246,"name":"RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
@@ -10615,6 +10645,11 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":11842,"name":"DOUBLE LOW-REVERSED-9 QUOTATION MARK","cat":"Ps","bidi":"ON"}
 ,{"code":11843,"name":"DASH WITH LEFT UPTURN","cat":"Po","bidi":"ON"}
 ,{"code":11844,"name":"DOUBLE SUSPENSION MARK","cat":"Po","bidi":"ON"}
+,{"code":11845,"name":"INVERTED LOW KAVYKA","cat":"Po","bidi":"ON"}
+,{"code":11846,"name":"INVERTED LOW KAVYKA WITH KAVYKA ABOVE","cat":"Po","bidi":"ON"}
+,{"code":11847,"name":"LOW KAVYKA","cat":"Po","bidi":"ON"}
+,{"code":11848,"name":"LOW KAVYKA WITH DOT","cat":"Po","bidi":"ON"}
+,{"code":11849,"name":"DOUBLE STACKED COMMA","cat":"Po","bidi":"ON"}
 ,{"code":11904,"name":"CJK RADICAL REPEAT","cat":"So","bidi":"ON"}
 ,{"code":11905,"name":"CJK RADICAL CLIFF","cat":"So","bidi":"ON"}
 ,{"code":11906,"name":"CJK RADICAL SECOND ONE","cat":"So","bidi":"ON"}
@@ -11250,6 +11285,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":12587,"name":"BOPOMOFO LETTER NG","cat":"Lo"}
 ,{"code":12588,"name":"BOPOMOFO LETTER GN","cat":"Lo"}
 ,{"code":12589,"name":"BOPOMOFO LETTER IH","cat":"Lo"}
+,{"code":12590,"name":"BOPOMOFO LETTER O WITH DOT ABOVE","cat":"Lo"}
 ,{"code":12593,"name":"HANGUL LETTER KIYEOK","cat":"Lo","decomp":[4352],"decompType":"compat","oldName":"HANGUL LETTER GIYEOG"}
 ,{"code":12594,"name":"HANGUL LETTER SSANGKIYEOK","cat":"Lo","decomp":[4353],"decompType":"compat","oldName":"HANGUL LETTER SSANG GIYEOG"}
 ,{"code":12595,"name":"HANGUL LETTER KIYEOK-SIOS","cat":"Lo","decomp":[4522],"decompType":"compat","oldName":"HANGUL LETTER GIYEOG SIOS"}
@@ -12016,7 +12052,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":19966,"name":"HEXAGRAM FOR AFTER COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19967,"name":"HEXAGRAM FOR BEFORE COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19968,"name":"<CJK Ideograph, First>","cat":"Lo"}
-,{"code":40917,"name":"<CJK Ideograph, Last>","cat":"Lo"}
+,{"code":40938,"name":"<CJK Ideograph, Last>","cat":"Lo"}
 ,{"code":40960,"name":"YI SYLLABLE IT","cat":"Lo"}
 ,{"code":40961,"name":"YI SYLLABLE IX","cat":"Lo"}
 ,{"code":40962,"name":"YI SYLLABLE I","cat":"Lo"}
@@ -17093,6 +17129,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":66337,"name":"OLD ITALIC NUMERAL FIVE","cat":"No","num":"5"}
 ,{"code":66338,"name":"OLD ITALIC NUMERAL TEN","cat":"No","num":"10"}
 ,{"code":66339,"name":"OLD ITALIC NUMERAL FIFTY","cat":"No","num":"50"}
+,{"code":66349,"name":"OLD ITALIC LETTER YE","cat":"Lo"}
+,{"code":66350,"name":"OLD ITALIC LETTER NORTHERN TSE","cat":"Lo"}
+,{"code":66351,"name":"OLD ITALIC LETTER SOUTHERN TSE","cat":"Lo"}
 ,{"code":66352,"name":"GOTHIC LETTER AHSA","cat":"Lo"}
 ,{"code":66353,"name":"GOTHIC LETTER BAIRKAN","cat":"Lo"}
 ,{"code":66354,"name":"GOTHIC LETTER GIBA","cat":"Lo"}
@@ -20068,6 +20107,158 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":71921,"name":"WARANG CITI NUMBER EIGHTY","cat":"No","num":"80"}
 ,{"code":71922,"name":"WARANG CITI NUMBER NINETY","cat":"No","num":"90"}
 ,{"code":71935,"name":"WARANG CITI OM","cat":"Lo"}
+,{"code":72192,"name":"ZANABAZAR SQUARE LETTER A","cat":"Lo"}
+,{"code":72193,"name":"ZANABAZAR SQUARE VOWEL SIGN I","cat":"Mn","bidi":"NSM"}
+,{"code":72194,"name":"ZANABAZAR SQUARE VOWEL SIGN UE","cat":"Mn","bidi":"NSM"}
+,{"code":72195,"name":"ZANABAZAR SQUARE VOWEL SIGN U","cat":"Mn","bidi":"NSM"}
+,{"code":72196,"name":"ZANABAZAR SQUARE VOWEL SIGN E","cat":"Mn","bidi":"NSM"}
+,{"code":72197,"name":"ZANABAZAR SQUARE VOWEL SIGN OE","cat":"Mn","bidi":"NSM"}
+,{"code":72198,"name":"ZANABAZAR SQUARE VOWEL SIGN O","cat":"Mn","bidi":"NSM"}
+,{"code":72199,"name":"ZANABAZAR SQUARE VOWEL SIGN AI","cat":"Mc"}
+,{"code":72200,"name":"ZANABAZAR SQUARE VOWEL SIGN AU","cat":"Mc"}
+,{"code":72201,"name":"ZANABAZAR SQUARE VOWEL SIGN REVERSED I","cat":"Mn","bidi":"NSM"}
+,{"code":72202,"name":"ZANABAZAR SQUARE VOWEL LENGTH MARK","cat":"Mn","bidi":"NSM"}
+,{"code":72203,"name":"ZANABAZAR SQUARE LETTER KA","cat":"Lo"}
+,{"code":72204,"name":"ZANABAZAR SQUARE LETTER KHA","cat":"Lo"}
+,{"code":72205,"name":"ZANABAZAR SQUARE LETTER GA","cat":"Lo"}
+,{"code":72206,"name":"ZANABAZAR SQUARE LETTER GHA","cat":"Lo"}
+,{"code":72207,"name":"ZANABAZAR SQUARE LETTER NGA","cat":"Lo"}
+,{"code":72208,"name":"ZANABAZAR SQUARE LETTER CA","cat":"Lo"}
+,{"code":72209,"name":"ZANABAZAR SQUARE LETTER CHA","cat":"Lo"}
+,{"code":72210,"name":"ZANABAZAR SQUARE LETTER JA","cat":"Lo"}
+,{"code":72211,"name":"ZANABAZAR SQUARE LETTER NYA","cat":"Lo"}
+,{"code":72212,"name":"ZANABAZAR SQUARE LETTER TTA","cat":"Lo"}
+,{"code":72213,"name":"ZANABAZAR SQUARE LETTER TTHA","cat":"Lo"}
+,{"code":72214,"name":"ZANABAZAR SQUARE LETTER DDA","cat":"Lo"}
+,{"code":72215,"name":"ZANABAZAR SQUARE LETTER DDHA","cat":"Lo"}
+,{"code":72216,"name":"ZANABAZAR SQUARE LETTER NNA","cat":"Lo"}
+,{"code":72217,"name":"ZANABAZAR SQUARE LETTER TA","cat":"Lo"}
+,{"code":72218,"name":"ZANABAZAR SQUARE LETTER THA","cat":"Lo"}
+,{"code":72219,"name":"ZANABAZAR SQUARE LETTER DA","cat":"Lo"}
+,{"code":72220,"name":"ZANABAZAR SQUARE LETTER DHA","cat":"Lo"}
+,{"code":72221,"name":"ZANABAZAR SQUARE LETTER NA","cat":"Lo"}
+,{"code":72222,"name":"ZANABAZAR SQUARE LETTER PA","cat":"Lo"}
+,{"code":72223,"name":"ZANABAZAR SQUARE LETTER PHA","cat":"Lo"}
+,{"code":72224,"name":"ZANABAZAR SQUARE LETTER BA","cat":"Lo"}
+,{"code":72225,"name":"ZANABAZAR SQUARE LETTER BHA","cat":"Lo"}
+,{"code":72226,"name":"ZANABAZAR SQUARE LETTER MA","cat":"Lo"}
+,{"code":72227,"name":"ZANABAZAR SQUARE LETTER TSA","cat":"Lo"}
+,{"code":72228,"name":"ZANABAZAR SQUARE LETTER TSHA","cat":"Lo"}
+,{"code":72229,"name":"ZANABAZAR SQUARE LETTER DZA","cat":"Lo"}
+,{"code":72230,"name":"ZANABAZAR SQUARE LETTER DZHA","cat":"Lo"}
+,{"code":72231,"name":"ZANABAZAR SQUARE LETTER ZHA","cat":"Lo"}
+,{"code":72232,"name":"ZANABAZAR SQUARE LETTER ZA","cat":"Lo"}
+,{"code":72233,"name":"ZANABAZAR SQUARE LETTER -A","cat":"Lo"}
+,{"code":72234,"name":"ZANABAZAR SQUARE LETTER YA","cat":"Lo"}
+,{"code":72235,"name":"ZANABAZAR SQUARE LETTER RA","cat":"Lo"}
+,{"code":72236,"name":"ZANABAZAR SQUARE LETTER LA","cat":"Lo"}
+,{"code":72237,"name":"ZANABAZAR SQUARE LETTER VA","cat":"Lo"}
+,{"code":72238,"name":"ZANABAZAR SQUARE LETTER SHA","cat":"Lo"}
+,{"code":72239,"name":"ZANABAZAR SQUARE LETTER SSA","cat":"Lo"}
+,{"code":72240,"name":"ZANABAZAR SQUARE LETTER SA","cat":"Lo"}
+,{"code":72241,"name":"ZANABAZAR SQUARE LETTER HA","cat":"Lo"}
+,{"code":72242,"name":"ZANABAZAR SQUARE LETTER KSSA","cat":"Lo"}
+,{"code":72243,"name":"ZANABAZAR SQUARE FINAL CONSONANT MARK","cat":"Mn","bidi":"NSM"}
+,{"code":72244,"name":"ZANABAZAR SQUARE SIGN VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":72245,"name":"ZANABAZAR SQUARE SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
+,{"code":72246,"name":"ZANABAZAR SQUARE SIGN CANDRABINDU WITH ORNAMENT","cat":"Mn","bidi":"NSM"}
+,{"code":72247,"name":"ZANABAZAR SQUARE SIGN CANDRA WITH ORNAMENT","cat":"Mn","bidi":"NSM"}
+,{"code":72248,"name":"ZANABAZAR SQUARE SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
+,{"code":72249,"name":"ZANABAZAR SQUARE SIGN VISARGA","cat":"Mc"}
+,{"code":72250,"name":"ZANABAZAR SQUARE CLUSTER-INITIAL LETTER RA","cat":"Lo"}
+,{"code":72251,"name":"ZANABAZAR SQUARE CLUSTER-FINAL LETTER YA","cat":"Mn","bidi":"NSM"}
+,{"code":72252,"name":"ZANABAZAR SQUARE CLUSTER-FINAL LETTER RA","cat":"Mn","bidi":"NSM"}
+,{"code":72253,"name":"ZANABAZAR SQUARE CLUSTER-FINAL LETTER LA","cat":"Mn","bidi":"NSM"}
+,{"code":72254,"name":"ZANABAZAR SQUARE CLUSTER-FINAL LETTER VA","cat":"Mn","bidi":"NSM"}
+,{"code":72255,"name":"ZANABAZAR SQUARE INITIAL HEAD MARK","cat":"Po"}
+,{"code":72256,"name":"ZANABAZAR SQUARE CLOSING HEAD MARK","cat":"Po"}
+,{"code":72257,"name":"ZANABAZAR SQUARE MARK TSHEG","cat":"Po"}
+,{"code":72258,"name":"ZANABAZAR SQUARE MARK SHAD","cat":"Po"}
+,{"code":72259,"name":"ZANABAZAR SQUARE MARK DOUBLE SHAD","cat":"Po"}
+,{"code":72260,"name":"ZANABAZAR SQUARE MARK LONG TSHEG","cat":"Po"}
+,{"code":72261,"name":"ZANABAZAR SQUARE INITIAL DOUBLE-LINED HEAD MARK","cat":"Po"}
+,{"code":72262,"name":"ZANABAZAR SQUARE CLOSING DOUBLE-LINED HEAD MARK","cat":"Po"}
+,{"code":72263,"name":"ZANABAZAR SQUARE SUBJOINER","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":72272,"name":"SOYOMBO LETTER A","cat":"Lo"}
+,{"code":72273,"name":"SOYOMBO VOWEL SIGN I","cat":"Mn","bidi":"NSM"}
+,{"code":72274,"name":"SOYOMBO VOWEL SIGN UE","cat":"Mn","bidi":"NSM"}
+,{"code":72275,"name":"SOYOMBO VOWEL SIGN U","cat":"Mn","bidi":"NSM"}
+,{"code":72276,"name":"SOYOMBO VOWEL SIGN E","cat":"Mn","bidi":"NSM"}
+,{"code":72277,"name":"SOYOMBO VOWEL SIGN O","cat":"Mn","bidi":"NSM"}
+,{"code":72278,"name":"SOYOMBO VOWEL SIGN OE","cat":"Mn","bidi":"NSM"}
+,{"code":72279,"name":"SOYOMBO VOWEL SIGN AI","cat":"Mc"}
+,{"code":72280,"name":"SOYOMBO VOWEL SIGN AU","cat":"Mc"}
+,{"code":72281,"name":"SOYOMBO VOWEL SIGN VOCALIC R","cat":"Mn","bidi":"NSM"}
+,{"code":72282,"name":"SOYOMBO VOWEL SIGN VOCALIC L","cat":"Mn","bidi":"NSM"}
+,{"code":72283,"name":"SOYOMBO VOWEL LENGTH MARK","cat":"Mn","bidi":"NSM"}
+,{"code":72284,"name":"SOYOMBO LETTER KA","cat":"Lo"}
+,{"code":72285,"name":"SOYOMBO LETTER KHA","cat":"Lo"}
+,{"code":72286,"name":"SOYOMBO LETTER GA","cat":"Lo"}
+,{"code":72287,"name":"SOYOMBO LETTER GHA","cat":"Lo"}
+,{"code":72288,"name":"SOYOMBO LETTER NGA","cat":"Lo"}
+,{"code":72289,"name":"SOYOMBO LETTER CA","cat":"Lo"}
+,{"code":72290,"name":"SOYOMBO LETTER CHA","cat":"Lo"}
+,{"code":72291,"name":"SOYOMBO LETTER JA","cat":"Lo"}
+,{"code":72292,"name":"SOYOMBO LETTER JHA","cat":"Lo"}
+,{"code":72293,"name":"SOYOMBO LETTER NYA","cat":"Lo"}
+,{"code":72294,"name":"SOYOMBO LETTER TTA","cat":"Lo"}
+,{"code":72295,"name":"SOYOMBO LETTER TTHA","cat":"Lo"}
+,{"code":72296,"name":"SOYOMBO LETTER DDA","cat":"Lo"}
+,{"code":72297,"name":"SOYOMBO LETTER DDHA","cat":"Lo"}
+,{"code":72298,"name":"SOYOMBO LETTER NNA","cat":"Lo"}
+,{"code":72299,"name":"SOYOMBO LETTER TA","cat":"Lo"}
+,{"code":72300,"name":"SOYOMBO LETTER THA","cat":"Lo"}
+,{"code":72301,"name":"SOYOMBO LETTER DA","cat":"Lo"}
+,{"code":72302,"name":"SOYOMBO LETTER DHA","cat":"Lo"}
+,{"code":72303,"name":"SOYOMBO LETTER NA","cat":"Lo"}
+,{"code":72304,"name":"SOYOMBO LETTER PA","cat":"Lo"}
+,{"code":72305,"name":"SOYOMBO LETTER PHA","cat":"Lo"}
+,{"code":72306,"name":"SOYOMBO LETTER BA","cat":"Lo"}
+,{"code":72307,"name":"SOYOMBO LETTER BHA","cat":"Lo"}
+,{"code":72308,"name":"SOYOMBO LETTER MA","cat":"Lo"}
+,{"code":72309,"name":"SOYOMBO LETTER TSA","cat":"Lo"}
+,{"code":72310,"name":"SOYOMBO LETTER TSHA","cat":"Lo"}
+,{"code":72311,"name":"SOYOMBO LETTER DZA","cat":"Lo"}
+,{"code":72312,"name":"SOYOMBO LETTER ZHA","cat":"Lo"}
+,{"code":72313,"name":"SOYOMBO LETTER ZA","cat":"Lo"}
+,{"code":72314,"name":"SOYOMBO LETTER -A","cat":"Lo"}
+,{"code":72315,"name":"SOYOMBO LETTER YA","cat":"Lo"}
+,{"code":72316,"name":"SOYOMBO LETTER RA","cat":"Lo"}
+,{"code":72317,"name":"SOYOMBO LETTER LA","cat":"Lo"}
+,{"code":72318,"name":"SOYOMBO LETTER VA","cat":"Lo"}
+,{"code":72319,"name":"SOYOMBO LETTER SHA","cat":"Lo"}
+,{"code":72320,"name":"SOYOMBO LETTER SSA","cat":"Lo"}
+,{"code":72321,"name":"SOYOMBO LETTER SA","cat":"Lo"}
+,{"code":72322,"name":"SOYOMBO LETTER HA","cat":"Lo"}
+,{"code":72323,"name":"SOYOMBO LETTER KSSA","cat":"Lo"}
+,{"code":72326,"name":"SOYOMBO CLUSTER-INITIAL LETTER RA","cat":"Lo"}
+,{"code":72327,"name":"SOYOMBO CLUSTER-INITIAL LETTER LA","cat":"Lo"}
+,{"code":72328,"name":"SOYOMBO CLUSTER-INITIAL LETTER SHA","cat":"Lo"}
+,{"code":72329,"name":"SOYOMBO CLUSTER-INITIAL LETTER SA","cat":"Lo"}
+,{"code":72330,"name":"SOYOMBO FINAL CONSONANT SIGN G","cat":"Mn","bidi":"NSM"}
+,{"code":72331,"name":"SOYOMBO FINAL CONSONANT SIGN K","cat":"Mn","bidi":"NSM"}
+,{"code":72332,"name":"SOYOMBO FINAL CONSONANT SIGN NG","cat":"Mn","bidi":"NSM"}
+,{"code":72333,"name":"SOYOMBO FINAL CONSONANT SIGN D","cat":"Mn","bidi":"NSM"}
+,{"code":72334,"name":"SOYOMBO FINAL CONSONANT SIGN N","cat":"Mn","bidi":"NSM"}
+,{"code":72335,"name":"SOYOMBO FINAL CONSONANT SIGN B","cat":"Mn","bidi":"NSM"}
+,{"code":72336,"name":"SOYOMBO FINAL CONSONANT SIGN M","cat":"Mn","bidi":"NSM"}
+,{"code":72337,"name":"SOYOMBO FINAL CONSONANT SIGN R","cat":"Mn","bidi":"NSM"}
+,{"code":72338,"name":"SOYOMBO FINAL CONSONANT SIGN L","cat":"Mn","bidi":"NSM"}
+,{"code":72339,"name":"SOYOMBO FINAL CONSONANT SIGN SH","cat":"Mn","bidi":"NSM"}
+,{"code":72340,"name":"SOYOMBO FINAL CONSONANT SIGN S","cat":"Mn","bidi":"NSM"}
+,{"code":72341,"name":"SOYOMBO FINAL CONSONANT SIGN -A","cat":"Mn","bidi":"NSM"}
+,{"code":72342,"name":"SOYOMBO SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
+,{"code":72343,"name":"SOYOMBO SIGN VISARGA","cat":"Mc"}
+,{"code":72344,"name":"SOYOMBO GEMINATION MARK","cat":"Mn","bidi":"NSM"}
+,{"code":72345,"name":"SOYOMBO SUBJOINER","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":72346,"name":"SOYOMBO MARK TSHEG","cat":"Po"}
+,{"code":72347,"name":"SOYOMBO MARK SHAD","cat":"Po"}
+,{"code":72348,"name":"SOYOMBO MARK DOUBLE SHAD","cat":"Po"}
+,{"code":72350,"name":"SOYOMBO HEAD MARK WITH MOON AND SUN AND TRIPLE FLAME","cat":"Po"}
+,{"code":72351,"name":"SOYOMBO HEAD MARK WITH MOON AND SUN AND FLAME","cat":"Po"}
+,{"code":72352,"name":"SOYOMBO HEAD MARK WITH MOON AND SUN","cat":"Po"}
+,{"code":72353,"name":"SOYOMBO TERMINAL MARK-1","cat":"Po"}
+,{"code":72354,"name":"SOYOMBO TERMINAL MARK-2","cat":"Po"}
 ,{"code":72384,"name":"PAU CIN HAU LETTER PA","cat":"Lo"}
 ,{"code":72385,"name":"PAU CIN HAU LETTER KA","cat":"Lo"}
 ,{"code":72386,"name":"PAU CIN HAU LETTER LA","cat":"Lo"}
@@ -20290,6 +20481,81 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":72884,"name":"MARCHEN VOWEL SIGN O","cat":"Mc"}
 ,{"code":72885,"name":"MARCHEN SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
 ,{"code":72886,"name":"MARCHEN SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
+,{"code":72960,"name":"MASARAM GONDI LETTER A","cat":"Lo"}
+,{"code":72961,"name":"MASARAM GONDI LETTER AA","cat":"Lo"}
+,{"code":72962,"name":"MASARAM GONDI LETTER I","cat":"Lo"}
+,{"code":72963,"name":"MASARAM GONDI LETTER II","cat":"Lo"}
+,{"code":72964,"name":"MASARAM GONDI LETTER U","cat":"Lo"}
+,{"code":72965,"name":"MASARAM GONDI LETTER UU","cat":"Lo"}
+,{"code":72966,"name":"MASARAM GONDI LETTER E","cat":"Lo"}
+,{"code":72968,"name":"MASARAM GONDI LETTER AI","cat":"Lo"}
+,{"code":72969,"name":"MASARAM GONDI LETTER O","cat":"Lo"}
+,{"code":72971,"name":"MASARAM GONDI LETTER AU","cat":"Lo"}
+,{"code":72972,"name":"MASARAM GONDI LETTER KA","cat":"Lo"}
+,{"code":72973,"name":"MASARAM GONDI LETTER KHA","cat":"Lo"}
+,{"code":72974,"name":"MASARAM GONDI LETTER GA","cat":"Lo"}
+,{"code":72975,"name":"MASARAM GONDI LETTER GHA","cat":"Lo"}
+,{"code":72976,"name":"MASARAM GONDI LETTER NGA","cat":"Lo"}
+,{"code":72977,"name":"MASARAM GONDI LETTER CA","cat":"Lo"}
+,{"code":72978,"name":"MASARAM GONDI LETTER CHA","cat":"Lo"}
+,{"code":72979,"name":"MASARAM GONDI LETTER JA","cat":"Lo"}
+,{"code":72980,"name":"MASARAM GONDI LETTER JHA","cat":"Lo"}
+,{"code":72981,"name":"MASARAM GONDI LETTER NYA","cat":"Lo"}
+,{"code":72982,"name":"MASARAM GONDI LETTER TTA","cat":"Lo"}
+,{"code":72983,"name":"MASARAM GONDI LETTER TTHA","cat":"Lo"}
+,{"code":72984,"name":"MASARAM GONDI LETTER DDA","cat":"Lo"}
+,{"code":72985,"name":"MASARAM GONDI LETTER DDHA","cat":"Lo"}
+,{"code":72986,"name":"MASARAM GONDI LETTER NNA","cat":"Lo"}
+,{"code":72987,"name":"MASARAM GONDI LETTER TA","cat":"Lo"}
+,{"code":72988,"name":"MASARAM GONDI LETTER THA","cat":"Lo"}
+,{"code":72989,"name":"MASARAM GONDI LETTER DA","cat":"Lo"}
+,{"code":72990,"name":"MASARAM GONDI LETTER DHA","cat":"Lo"}
+,{"code":72991,"name":"MASARAM GONDI LETTER NA","cat":"Lo"}
+,{"code":72992,"name":"MASARAM GONDI LETTER PA","cat":"Lo"}
+,{"code":72993,"name":"MASARAM GONDI LETTER PHA","cat":"Lo"}
+,{"code":72994,"name":"MASARAM GONDI LETTER BA","cat":"Lo"}
+,{"code":72995,"name":"MASARAM GONDI LETTER BHA","cat":"Lo"}
+,{"code":72996,"name":"MASARAM GONDI LETTER MA","cat":"Lo"}
+,{"code":72997,"name":"MASARAM GONDI LETTER YA","cat":"Lo"}
+,{"code":72998,"name":"MASARAM GONDI LETTER RA","cat":"Lo"}
+,{"code":72999,"name":"MASARAM GONDI LETTER LA","cat":"Lo"}
+,{"code":73000,"name":"MASARAM GONDI LETTER VA","cat":"Lo"}
+,{"code":73001,"name":"MASARAM GONDI LETTER SHA","cat":"Lo"}
+,{"code":73002,"name":"MASARAM GONDI LETTER SSA","cat":"Lo"}
+,{"code":73003,"name":"MASARAM GONDI LETTER SA","cat":"Lo"}
+,{"code":73004,"name":"MASARAM GONDI LETTER HA","cat":"Lo"}
+,{"code":73005,"name":"MASARAM GONDI LETTER LLA","cat":"Lo"}
+,{"code":73006,"name":"MASARAM GONDI LETTER KSSA","cat":"Lo"}
+,{"code":73007,"name":"MASARAM GONDI LETTER JNYA","cat":"Lo"}
+,{"code":73008,"name":"MASARAM GONDI LETTER TRA","cat":"Lo"}
+,{"code":73009,"name":"MASARAM GONDI VOWEL SIGN AA","cat":"Mn","bidi":"NSM"}
+,{"code":73010,"name":"MASARAM GONDI VOWEL SIGN I","cat":"Mn","bidi":"NSM"}
+,{"code":73011,"name":"MASARAM GONDI VOWEL SIGN II","cat":"Mn","bidi":"NSM"}
+,{"code":73012,"name":"MASARAM GONDI VOWEL SIGN U","cat":"Mn","bidi":"NSM"}
+,{"code":73013,"name":"MASARAM GONDI VOWEL SIGN UU","cat":"Mn","bidi":"NSM"}
+,{"code":73014,"name":"MASARAM GONDI VOWEL SIGN VOCALIC R","cat":"Mn","bidi":"NSM"}
+,{"code":73018,"name":"MASARAM GONDI VOWEL SIGN E","cat":"Mn","bidi":"NSM"}
+,{"code":73020,"name":"MASARAM GONDI VOWEL SIGN AI","cat":"Mn","bidi":"NSM"}
+,{"code":73021,"name":"MASARAM GONDI VOWEL SIGN O","cat":"Mn","bidi":"NSM"}
+,{"code":73023,"name":"MASARAM GONDI VOWEL SIGN AU","cat":"Mn","bidi":"NSM"}
+,{"code":73024,"name":"MASARAM GONDI SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
+,{"code":73025,"name":"MASARAM GONDI SIGN VISARGA","cat":"Mn","bidi":"NSM"}
+,{"code":73026,"name":"MASARAM GONDI SIGN NUKTA","cat":"Mn","comb":7,"bidi":"NSM"}
+,{"code":73027,"name":"MASARAM GONDI SIGN CANDRA","cat":"Mn","bidi":"NSM"}
+,{"code":73028,"name":"MASARAM GONDI SIGN HALANTA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":73029,"name":"MASARAM GONDI VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":73030,"name":"MASARAM GONDI REPHA","cat":"Lo"}
+,{"code":73031,"name":"MASARAM GONDI RA-KARA","cat":"Mn","bidi":"NSM"}
+,{"code":73040,"name":"MASARAM GONDI DIGIT ZERO","cat":"Nd","num":"0"}
+,{"code":73041,"name":"MASARAM GONDI DIGIT ONE","cat":"Nd","num":"1"}
+,{"code":73042,"name":"MASARAM GONDI DIGIT TWO","cat":"Nd","num":"2"}
+,{"code":73043,"name":"MASARAM GONDI DIGIT THREE","cat":"Nd","num":"3"}
+,{"code":73044,"name":"MASARAM GONDI DIGIT FOUR","cat":"Nd","num":"4"}
+,{"code":73045,"name":"MASARAM GONDI DIGIT FIVE","cat":"Nd","num":"5"}
+,{"code":73046,"name":"MASARAM GONDI DIGIT SIX","cat":"Nd","num":"6"}
+,{"code":73047,"name":"MASARAM GONDI DIGIT SEVEN","cat":"Nd","num":"7"}
+,{"code":73048,"name":"MASARAM GONDI DIGIT EIGHT","cat":"Nd","num":"8"}
+,{"code":73049,"name":"MASARAM GONDI DIGIT NINE","cat":"Nd","num":"9"}
 ,{"code":73728,"name":"CUNEIFORM SIGN A","cat":"Lo"}
 ,{"code":73729,"name":"CUNEIFORM SIGN A TIMES A","cat":"Lo"}
 ,{"code":73730,"name":"CUNEIFORM SIGN A TIMES BAD","cat":"Lo"}
@@ -24087,6 +24353,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":94110,"name":"MIAO LETTER REFORMED TONE-6","cat":"Lm"}
 ,{"code":94111,"name":"MIAO LETTER REFORMED TONE-8","cat":"Lm"}
 ,{"code":94176,"name":"TANGUT ITERATION MARK","cat":"Lm"}
+,{"code":94177,"name":"NUSHU ITERATION MARK","cat":"Lm"}
 ,{"code":94208,"name":"<Tangut Ideograph, First>","cat":"Lo"}
 ,{"code":100332,"name":"<Tangut Ideograph, Last>","cat":"Lo"}
 ,{"code":100352,"name":"TANGUT COMPONENT-001","cat":"Lo"}
@@ -24846,6 +25113,687 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":101106,"name":"TANGUT COMPONENT-755","cat":"Lo"}
 ,{"code":110592,"name":"KATAKANA LETTER ARCHAIC E","cat":"Lo"}
 ,{"code":110593,"name":"HIRAGANA LETTER ARCHAIC YE","cat":"Lo"}
+,{"code":110594,"name":"HENTAIGANA LETTER A-1","cat":"Lo"}
+,{"code":110595,"name":"HENTAIGANA LETTER A-2","cat":"Lo"}
+,{"code":110596,"name":"HENTAIGANA LETTER A-3","cat":"Lo"}
+,{"code":110597,"name":"HENTAIGANA LETTER A-WO","cat":"Lo"}
+,{"code":110598,"name":"HENTAIGANA LETTER I-1","cat":"Lo"}
+,{"code":110599,"name":"HENTAIGANA LETTER I-2","cat":"Lo"}
+,{"code":110600,"name":"HENTAIGANA LETTER I-3","cat":"Lo"}
+,{"code":110601,"name":"HENTAIGANA LETTER I-4","cat":"Lo"}
+,{"code":110602,"name":"HENTAIGANA LETTER U-1","cat":"Lo"}
+,{"code":110603,"name":"HENTAIGANA LETTER U-2","cat":"Lo"}
+,{"code":110604,"name":"HENTAIGANA LETTER U-3","cat":"Lo"}
+,{"code":110605,"name":"HENTAIGANA LETTER U-4","cat":"Lo"}
+,{"code":110606,"name":"HENTAIGANA LETTER U-5","cat":"Lo"}
+,{"code":110607,"name":"HENTAIGANA LETTER E-2","cat":"Lo"}
+,{"code":110608,"name":"HENTAIGANA LETTER E-3","cat":"Lo"}
+,{"code":110609,"name":"HENTAIGANA LETTER E-4","cat":"Lo"}
+,{"code":110610,"name":"HENTAIGANA LETTER E-5","cat":"Lo"}
+,{"code":110611,"name":"HENTAIGANA LETTER E-6","cat":"Lo"}
+,{"code":110612,"name":"HENTAIGANA LETTER O-1","cat":"Lo"}
+,{"code":110613,"name":"HENTAIGANA LETTER O-2","cat":"Lo"}
+,{"code":110614,"name":"HENTAIGANA LETTER O-3","cat":"Lo"}
+,{"code":110615,"name":"HENTAIGANA LETTER KA-1","cat":"Lo"}
+,{"code":110616,"name":"HENTAIGANA LETTER KA-2","cat":"Lo"}
+,{"code":110617,"name":"HENTAIGANA LETTER KA-3","cat":"Lo"}
+,{"code":110618,"name":"HENTAIGANA LETTER KA-4","cat":"Lo"}
+,{"code":110619,"name":"HENTAIGANA LETTER KA-5","cat":"Lo"}
+,{"code":110620,"name":"HENTAIGANA LETTER KA-6","cat":"Lo"}
+,{"code":110621,"name":"HENTAIGANA LETTER KA-7","cat":"Lo"}
+,{"code":110622,"name":"HENTAIGANA LETTER KA-8","cat":"Lo"}
+,{"code":110623,"name":"HENTAIGANA LETTER KA-9","cat":"Lo"}
+,{"code":110624,"name":"HENTAIGANA LETTER KA-10","cat":"Lo"}
+,{"code":110625,"name":"HENTAIGANA LETTER KA-11","cat":"Lo"}
+,{"code":110626,"name":"HENTAIGANA LETTER KA-KE","cat":"Lo"}
+,{"code":110627,"name":"HENTAIGANA LETTER KI-1","cat":"Lo"}
+,{"code":110628,"name":"HENTAIGANA LETTER KI-2","cat":"Lo"}
+,{"code":110629,"name":"HENTAIGANA LETTER KI-3","cat":"Lo"}
+,{"code":110630,"name":"HENTAIGANA LETTER KI-4","cat":"Lo"}
+,{"code":110631,"name":"HENTAIGANA LETTER KI-5","cat":"Lo"}
+,{"code":110632,"name":"HENTAIGANA LETTER KI-6","cat":"Lo"}
+,{"code":110633,"name":"HENTAIGANA LETTER KI-7","cat":"Lo"}
+,{"code":110634,"name":"HENTAIGANA LETTER KI-8","cat":"Lo"}
+,{"code":110635,"name":"HENTAIGANA LETTER KU-1","cat":"Lo"}
+,{"code":110636,"name":"HENTAIGANA LETTER KU-2","cat":"Lo"}
+,{"code":110637,"name":"HENTAIGANA LETTER KU-3","cat":"Lo"}
+,{"code":110638,"name":"HENTAIGANA LETTER KU-4","cat":"Lo"}
+,{"code":110639,"name":"HENTAIGANA LETTER KU-5","cat":"Lo"}
+,{"code":110640,"name":"HENTAIGANA LETTER KU-6","cat":"Lo"}
+,{"code":110641,"name":"HENTAIGANA LETTER KU-7","cat":"Lo"}
+,{"code":110642,"name":"HENTAIGANA LETTER KE-1","cat":"Lo"}
+,{"code":110643,"name":"HENTAIGANA LETTER KE-2","cat":"Lo"}
+,{"code":110644,"name":"HENTAIGANA LETTER KE-3","cat":"Lo"}
+,{"code":110645,"name":"HENTAIGANA LETTER KE-4","cat":"Lo"}
+,{"code":110646,"name":"HENTAIGANA LETTER KE-5","cat":"Lo"}
+,{"code":110647,"name":"HENTAIGANA LETTER KE-6","cat":"Lo"}
+,{"code":110648,"name":"HENTAIGANA LETTER KO-1","cat":"Lo"}
+,{"code":110649,"name":"HENTAIGANA LETTER KO-2","cat":"Lo"}
+,{"code":110650,"name":"HENTAIGANA LETTER KO-3","cat":"Lo"}
+,{"code":110651,"name":"HENTAIGANA LETTER KO-KI","cat":"Lo"}
+,{"code":110652,"name":"HENTAIGANA LETTER SA-1","cat":"Lo"}
+,{"code":110653,"name":"HENTAIGANA LETTER SA-2","cat":"Lo"}
+,{"code":110654,"name":"HENTAIGANA LETTER SA-3","cat":"Lo"}
+,{"code":110655,"name":"HENTAIGANA LETTER SA-4","cat":"Lo"}
+,{"code":110656,"name":"HENTAIGANA LETTER SA-5","cat":"Lo"}
+,{"code":110657,"name":"HENTAIGANA LETTER SA-6","cat":"Lo"}
+,{"code":110658,"name":"HENTAIGANA LETTER SA-7","cat":"Lo"}
+,{"code":110659,"name":"HENTAIGANA LETTER SA-8","cat":"Lo"}
+,{"code":110660,"name":"HENTAIGANA LETTER SI-1","cat":"Lo"}
+,{"code":110661,"name":"HENTAIGANA LETTER SI-2","cat":"Lo"}
+,{"code":110662,"name":"HENTAIGANA LETTER SI-3","cat":"Lo"}
+,{"code":110663,"name":"HENTAIGANA LETTER SI-4","cat":"Lo"}
+,{"code":110664,"name":"HENTAIGANA LETTER SI-5","cat":"Lo"}
+,{"code":110665,"name":"HENTAIGANA LETTER SI-6","cat":"Lo"}
+,{"code":110666,"name":"HENTAIGANA LETTER SU-1","cat":"Lo"}
+,{"code":110667,"name":"HENTAIGANA LETTER SU-2","cat":"Lo"}
+,{"code":110668,"name":"HENTAIGANA LETTER SU-3","cat":"Lo"}
+,{"code":110669,"name":"HENTAIGANA LETTER SU-4","cat":"Lo"}
+,{"code":110670,"name":"HENTAIGANA LETTER SU-5","cat":"Lo"}
+,{"code":110671,"name":"HENTAIGANA LETTER SU-6","cat":"Lo"}
+,{"code":110672,"name":"HENTAIGANA LETTER SU-7","cat":"Lo"}
+,{"code":110673,"name":"HENTAIGANA LETTER SU-8","cat":"Lo"}
+,{"code":110674,"name":"HENTAIGANA LETTER SE-1","cat":"Lo"}
+,{"code":110675,"name":"HENTAIGANA LETTER SE-2","cat":"Lo"}
+,{"code":110676,"name":"HENTAIGANA LETTER SE-3","cat":"Lo"}
+,{"code":110677,"name":"HENTAIGANA LETTER SE-4","cat":"Lo"}
+,{"code":110678,"name":"HENTAIGANA LETTER SE-5","cat":"Lo"}
+,{"code":110679,"name":"HENTAIGANA LETTER SO-1","cat":"Lo"}
+,{"code":110680,"name":"HENTAIGANA LETTER SO-2","cat":"Lo"}
+,{"code":110681,"name":"HENTAIGANA LETTER SO-3","cat":"Lo"}
+,{"code":110682,"name":"HENTAIGANA LETTER SO-4","cat":"Lo"}
+,{"code":110683,"name":"HENTAIGANA LETTER SO-5","cat":"Lo"}
+,{"code":110684,"name":"HENTAIGANA LETTER SO-6","cat":"Lo"}
+,{"code":110685,"name":"HENTAIGANA LETTER SO-7","cat":"Lo"}
+,{"code":110686,"name":"HENTAIGANA LETTER TA-1","cat":"Lo"}
+,{"code":110687,"name":"HENTAIGANA LETTER TA-2","cat":"Lo"}
+,{"code":110688,"name":"HENTAIGANA LETTER TA-3","cat":"Lo"}
+,{"code":110689,"name":"HENTAIGANA LETTER TA-4","cat":"Lo"}
+,{"code":110690,"name":"HENTAIGANA LETTER TI-1","cat":"Lo"}
+,{"code":110691,"name":"HENTAIGANA LETTER TI-2","cat":"Lo"}
+,{"code":110692,"name":"HENTAIGANA LETTER TI-3","cat":"Lo"}
+,{"code":110693,"name":"HENTAIGANA LETTER TI-4","cat":"Lo"}
+,{"code":110694,"name":"HENTAIGANA LETTER TI-5","cat":"Lo"}
+,{"code":110695,"name":"HENTAIGANA LETTER TI-6","cat":"Lo"}
+,{"code":110696,"name":"HENTAIGANA LETTER TI-7","cat":"Lo"}
+,{"code":110697,"name":"HENTAIGANA LETTER TU-1","cat":"Lo"}
+,{"code":110698,"name":"HENTAIGANA LETTER TU-2","cat":"Lo"}
+,{"code":110699,"name":"HENTAIGANA LETTER TU-3","cat":"Lo"}
+,{"code":110700,"name":"HENTAIGANA LETTER TU-4","cat":"Lo"}
+,{"code":110701,"name":"HENTAIGANA LETTER TU-TO","cat":"Lo"}
+,{"code":110702,"name":"HENTAIGANA LETTER TE-1","cat":"Lo"}
+,{"code":110703,"name":"HENTAIGANA LETTER TE-2","cat":"Lo"}
+,{"code":110704,"name":"HENTAIGANA LETTER TE-3","cat":"Lo"}
+,{"code":110705,"name":"HENTAIGANA LETTER TE-4","cat":"Lo"}
+,{"code":110706,"name":"HENTAIGANA LETTER TE-5","cat":"Lo"}
+,{"code":110707,"name":"HENTAIGANA LETTER TE-6","cat":"Lo"}
+,{"code":110708,"name":"HENTAIGANA LETTER TE-7","cat":"Lo"}
+,{"code":110709,"name":"HENTAIGANA LETTER TE-8","cat":"Lo"}
+,{"code":110710,"name":"HENTAIGANA LETTER TE-9","cat":"Lo"}
+,{"code":110711,"name":"HENTAIGANA LETTER TO-1","cat":"Lo"}
+,{"code":110712,"name":"HENTAIGANA LETTER TO-2","cat":"Lo"}
+,{"code":110713,"name":"HENTAIGANA LETTER TO-3","cat":"Lo"}
+,{"code":110714,"name":"HENTAIGANA LETTER TO-4","cat":"Lo"}
+,{"code":110715,"name":"HENTAIGANA LETTER TO-5","cat":"Lo"}
+,{"code":110716,"name":"HENTAIGANA LETTER TO-6","cat":"Lo"}
+,{"code":110717,"name":"HENTAIGANA LETTER TO-RA","cat":"Lo"}
+,{"code":110718,"name":"HENTAIGANA LETTER NA-1","cat":"Lo"}
+,{"code":110719,"name":"HENTAIGANA LETTER NA-2","cat":"Lo"}
+,{"code":110720,"name":"HENTAIGANA LETTER NA-3","cat":"Lo"}
+,{"code":110721,"name":"HENTAIGANA LETTER NA-4","cat":"Lo"}
+,{"code":110722,"name":"HENTAIGANA LETTER NA-5","cat":"Lo"}
+,{"code":110723,"name":"HENTAIGANA LETTER NA-6","cat":"Lo"}
+,{"code":110724,"name":"HENTAIGANA LETTER NA-7","cat":"Lo"}
+,{"code":110725,"name":"HENTAIGANA LETTER NA-8","cat":"Lo"}
+,{"code":110726,"name":"HENTAIGANA LETTER NA-9","cat":"Lo"}
+,{"code":110727,"name":"HENTAIGANA LETTER NI-1","cat":"Lo"}
+,{"code":110728,"name":"HENTAIGANA LETTER NI-2","cat":"Lo"}
+,{"code":110729,"name":"HENTAIGANA LETTER NI-3","cat":"Lo"}
+,{"code":110730,"name":"HENTAIGANA LETTER NI-4","cat":"Lo"}
+,{"code":110731,"name":"HENTAIGANA LETTER NI-5","cat":"Lo"}
+,{"code":110732,"name":"HENTAIGANA LETTER NI-6","cat":"Lo"}
+,{"code":110733,"name":"HENTAIGANA LETTER NI-7","cat":"Lo"}
+,{"code":110734,"name":"HENTAIGANA LETTER NI-TE","cat":"Lo"}
+,{"code":110735,"name":"HENTAIGANA LETTER NU-1","cat":"Lo"}
+,{"code":110736,"name":"HENTAIGANA LETTER NU-2","cat":"Lo"}
+,{"code":110737,"name":"HENTAIGANA LETTER NU-3","cat":"Lo"}
+,{"code":110738,"name":"HENTAIGANA LETTER NE-1","cat":"Lo"}
+,{"code":110739,"name":"HENTAIGANA LETTER NE-2","cat":"Lo"}
+,{"code":110740,"name":"HENTAIGANA LETTER NE-3","cat":"Lo"}
+,{"code":110741,"name":"HENTAIGANA LETTER NE-4","cat":"Lo"}
+,{"code":110742,"name":"HENTAIGANA LETTER NE-5","cat":"Lo"}
+,{"code":110743,"name":"HENTAIGANA LETTER NE-6","cat":"Lo"}
+,{"code":110744,"name":"HENTAIGANA LETTER NE-KO","cat":"Lo"}
+,{"code":110745,"name":"HENTAIGANA LETTER NO-1","cat":"Lo"}
+,{"code":110746,"name":"HENTAIGANA LETTER NO-2","cat":"Lo"}
+,{"code":110747,"name":"HENTAIGANA LETTER NO-3","cat":"Lo"}
+,{"code":110748,"name":"HENTAIGANA LETTER NO-4","cat":"Lo"}
+,{"code":110749,"name":"HENTAIGANA LETTER NO-5","cat":"Lo"}
+,{"code":110750,"name":"HENTAIGANA LETTER HA-1","cat":"Lo"}
+,{"code":110751,"name":"HENTAIGANA LETTER HA-2","cat":"Lo"}
+,{"code":110752,"name":"HENTAIGANA LETTER HA-3","cat":"Lo"}
+,{"code":110753,"name":"HENTAIGANA LETTER HA-4","cat":"Lo"}
+,{"code":110754,"name":"HENTAIGANA LETTER HA-5","cat":"Lo"}
+,{"code":110755,"name":"HENTAIGANA LETTER HA-6","cat":"Lo"}
+,{"code":110756,"name":"HENTAIGANA LETTER HA-7","cat":"Lo"}
+,{"code":110757,"name":"HENTAIGANA LETTER HA-8","cat":"Lo"}
+,{"code":110758,"name":"HENTAIGANA LETTER HA-9","cat":"Lo"}
+,{"code":110759,"name":"HENTAIGANA LETTER HA-10","cat":"Lo"}
+,{"code":110760,"name":"HENTAIGANA LETTER HA-11","cat":"Lo"}
+,{"code":110761,"name":"HENTAIGANA LETTER HI-1","cat":"Lo"}
+,{"code":110762,"name":"HENTAIGANA LETTER HI-2","cat":"Lo"}
+,{"code":110763,"name":"HENTAIGANA LETTER HI-3","cat":"Lo"}
+,{"code":110764,"name":"HENTAIGANA LETTER HI-4","cat":"Lo"}
+,{"code":110765,"name":"HENTAIGANA LETTER HI-5","cat":"Lo"}
+,{"code":110766,"name":"HENTAIGANA LETTER HI-6","cat":"Lo"}
+,{"code":110767,"name":"HENTAIGANA LETTER HI-7","cat":"Lo"}
+,{"code":110768,"name":"HENTAIGANA LETTER HU-1","cat":"Lo"}
+,{"code":110769,"name":"HENTAIGANA LETTER HU-2","cat":"Lo"}
+,{"code":110770,"name":"HENTAIGANA LETTER HU-3","cat":"Lo"}
+,{"code":110771,"name":"HENTAIGANA LETTER HE-1","cat":"Lo"}
+,{"code":110772,"name":"HENTAIGANA LETTER HE-2","cat":"Lo"}
+,{"code":110773,"name":"HENTAIGANA LETTER HE-3","cat":"Lo"}
+,{"code":110774,"name":"HENTAIGANA LETTER HE-4","cat":"Lo"}
+,{"code":110775,"name":"HENTAIGANA LETTER HE-5","cat":"Lo"}
+,{"code":110776,"name":"HENTAIGANA LETTER HE-6","cat":"Lo"}
+,{"code":110777,"name":"HENTAIGANA LETTER HE-7","cat":"Lo"}
+,{"code":110778,"name":"HENTAIGANA LETTER HO-1","cat":"Lo"}
+,{"code":110779,"name":"HENTAIGANA LETTER HO-2","cat":"Lo"}
+,{"code":110780,"name":"HENTAIGANA LETTER HO-3","cat":"Lo"}
+,{"code":110781,"name":"HENTAIGANA LETTER HO-4","cat":"Lo"}
+,{"code":110782,"name":"HENTAIGANA LETTER HO-5","cat":"Lo"}
+,{"code":110783,"name":"HENTAIGANA LETTER HO-6","cat":"Lo"}
+,{"code":110784,"name":"HENTAIGANA LETTER HO-7","cat":"Lo"}
+,{"code":110785,"name":"HENTAIGANA LETTER HO-8","cat":"Lo"}
+,{"code":110786,"name":"HENTAIGANA LETTER MA-1","cat":"Lo"}
+,{"code":110787,"name":"HENTAIGANA LETTER MA-2","cat":"Lo"}
+,{"code":110788,"name":"HENTAIGANA LETTER MA-3","cat":"Lo"}
+,{"code":110789,"name":"HENTAIGANA LETTER MA-4","cat":"Lo"}
+,{"code":110790,"name":"HENTAIGANA LETTER MA-5","cat":"Lo"}
+,{"code":110791,"name":"HENTAIGANA LETTER MA-6","cat":"Lo"}
+,{"code":110792,"name":"HENTAIGANA LETTER MA-7","cat":"Lo"}
+,{"code":110793,"name":"HENTAIGANA LETTER MI-1","cat":"Lo"}
+,{"code":110794,"name":"HENTAIGANA LETTER MI-2","cat":"Lo"}
+,{"code":110795,"name":"HENTAIGANA LETTER MI-3","cat":"Lo"}
+,{"code":110796,"name":"HENTAIGANA LETTER MI-4","cat":"Lo"}
+,{"code":110797,"name":"HENTAIGANA LETTER MI-5","cat":"Lo"}
+,{"code":110798,"name":"HENTAIGANA LETTER MI-6","cat":"Lo"}
+,{"code":110799,"name":"HENTAIGANA LETTER MI-7","cat":"Lo"}
+,{"code":110800,"name":"HENTAIGANA LETTER MU-1","cat":"Lo"}
+,{"code":110801,"name":"HENTAIGANA LETTER MU-2","cat":"Lo"}
+,{"code":110802,"name":"HENTAIGANA LETTER MU-3","cat":"Lo"}
+,{"code":110803,"name":"HENTAIGANA LETTER MU-4","cat":"Lo"}
+,{"code":110804,"name":"HENTAIGANA LETTER ME-1","cat":"Lo"}
+,{"code":110805,"name":"HENTAIGANA LETTER ME-2","cat":"Lo"}
+,{"code":110806,"name":"HENTAIGANA LETTER ME-MA","cat":"Lo"}
+,{"code":110807,"name":"HENTAIGANA LETTER MO-1","cat":"Lo"}
+,{"code":110808,"name":"HENTAIGANA LETTER MO-2","cat":"Lo"}
+,{"code":110809,"name":"HENTAIGANA LETTER MO-3","cat":"Lo"}
+,{"code":110810,"name":"HENTAIGANA LETTER MO-4","cat":"Lo"}
+,{"code":110811,"name":"HENTAIGANA LETTER MO-5","cat":"Lo"}
+,{"code":110812,"name":"HENTAIGANA LETTER MO-6","cat":"Lo"}
+,{"code":110813,"name":"HENTAIGANA LETTER YA-1","cat":"Lo"}
+,{"code":110814,"name":"HENTAIGANA LETTER YA-2","cat":"Lo"}
+,{"code":110815,"name":"HENTAIGANA LETTER YA-3","cat":"Lo"}
+,{"code":110816,"name":"HENTAIGANA LETTER YA-4","cat":"Lo"}
+,{"code":110817,"name":"HENTAIGANA LETTER YA-5","cat":"Lo"}
+,{"code":110818,"name":"HENTAIGANA LETTER YA-YO","cat":"Lo"}
+,{"code":110819,"name":"HENTAIGANA LETTER YU-1","cat":"Lo"}
+,{"code":110820,"name":"HENTAIGANA LETTER YU-2","cat":"Lo"}
+,{"code":110821,"name":"HENTAIGANA LETTER YU-3","cat":"Lo"}
+,{"code":110822,"name":"HENTAIGANA LETTER YU-4","cat":"Lo"}
+,{"code":110823,"name":"HENTAIGANA LETTER YO-1","cat":"Lo"}
+,{"code":110824,"name":"HENTAIGANA LETTER YO-2","cat":"Lo"}
+,{"code":110825,"name":"HENTAIGANA LETTER YO-3","cat":"Lo"}
+,{"code":110826,"name":"HENTAIGANA LETTER YO-4","cat":"Lo"}
+,{"code":110827,"name":"HENTAIGANA LETTER YO-5","cat":"Lo"}
+,{"code":110828,"name":"HENTAIGANA LETTER YO-6","cat":"Lo"}
+,{"code":110829,"name":"HENTAIGANA LETTER RA-1","cat":"Lo"}
+,{"code":110830,"name":"HENTAIGANA LETTER RA-2","cat":"Lo"}
+,{"code":110831,"name":"HENTAIGANA LETTER RA-3","cat":"Lo"}
+,{"code":110832,"name":"HENTAIGANA LETTER RA-4","cat":"Lo"}
+,{"code":110833,"name":"HENTAIGANA LETTER RI-1","cat":"Lo"}
+,{"code":110834,"name":"HENTAIGANA LETTER RI-2","cat":"Lo"}
+,{"code":110835,"name":"HENTAIGANA LETTER RI-3","cat":"Lo"}
+,{"code":110836,"name":"HENTAIGANA LETTER RI-4","cat":"Lo"}
+,{"code":110837,"name":"HENTAIGANA LETTER RI-5","cat":"Lo"}
+,{"code":110838,"name":"HENTAIGANA LETTER RI-6","cat":"Lo"}
+,{"code":110839,"name":"HENTAIGANA LETTER RI-7","cat":"Lo"}
+,{"code":110840,"name":"HENTAIGANA LETTER RU-1","cat":"Lo"}
+,{"code":110841,"name":"HENTAIGANA LETTER RU-2","cat":"Lo"}
+,{"code":110842,"name":"HENTAIGANA LETTER RU-3","cat":"Lo"}
+,{"code":110843,"name":"HENTAIGANA LETTER RU-4","cat":"Lo"}
+,{"code":110844,"name":"HENTAIGANA LETTER RU-5","cat":"Lo"}
+,{"code":110845,"name":"HENTAIGANA LETTER RU-6","cat":"Lo"}
+,{"code":110846,"name":"HENTAIGANA LETTER RE-1","cat":"Lo"}
+,{"code":110847,"name":"HENTAIGANA LETTER RE-2","cat":"Lo"}
+,{"code":110848,"name":"HENTAIGANA LETTER RE-3","cat":"Lo"}
+,{"code":110849,"name":"HENTAIGANA LETTER RE-4","cat":"Lo"}
+,{"code":110850,"name":"HENTAIGANA LETTER RO-1","cat":"Lo"}
+,{"code":110851,"name":"HENTAIGANA LETTER RO-2","cat":"Lo"}
+,{"code":110852,"name":"HENTAIGANA LETTER RO-3","cat":"Lo"}
+,{"code":110853,"name":"HENTAIGANA LETTER RO-4","cat":"Lo"}
+,{"code":110854,"name":"HENTAIGANA LETTER RO-5","cat":"Lo"}
+,{"code":110855,"name":"HENTAIGANA LETTER RO-6","cat":"Lo"}
+,{"code":110856,"name":"HENTAIGANA LETTER WA-1","cat":"Lo"}
+,{"code":110857,"name":"HENTAIGANA LETTER WA-2","cat":"Lo"}
+,{"code":110858,"name":"HENTAIGANA LETTER WA-3","cat":"Lo"}
+,{"code":110859,"name":"HENTAIGANA LETTER WA-4","cat":"Lo"}
+,{"code":110860,"name":"HENTAIGANA LETTER WA-5","cat":"Lo"}
+,{"code":110861,"name":"HENTAIGANA LETTER WI-1","cat":"Lo"}
+,{"code":110862,"name":"HENTAIGANA LETTER WI-2","cat":"Lo"}
+,{"code":110863,"name":"HENTAIGANA LETTER WI-3","cat":"Lo"}
+,{"code":110864,"name":"HENTAIGANA LETTER WI-4","cat":"Lo"}
+,{"code":110865,"name":"HENTAIGANA LETTER WI-5","cat":"Lo"}
+,{"code":110866,"name":"HENTAIGANA LETTER WE-1","cat":"Lo"}
+,{"code":110867,"name":"HENTAIGANA LETTER WE-2","cat":"Lo"}
+,{"code":110868,"name":"HENTAIGANA LETTER WE-3","cat":"Lo"}
+,{"code":110869,"name":"HENTAIGANA LETTER WE-4","cat":"Lo"}
+,{"code":110870,"name":"HENTAIGANA LETTER WO-1","cat":"Lo"}
+,{"code":110871,"name":"HENTAIGANA LETTER WO-2","cat":"Lo"}
+,{"code":110872,"name":"HENTAIGANA LETTER WO-3","cat":"Lo"}
+,{"code":110873,"name":"HENTAIGANA LETTER WO-4","cat":"Lo"}
+,{"code":110874,"name":"HENTAIGANA LETTER WO-5","cat":"Lo"}
+,{"code":110875,"name":"HENTAIGANA LETTER WO-6","cat":"Lo"}
+,{"code":110876,"name":"HENTAIGANA LETTER WO-7","cat":"Lo"}
+,{"code":110877,"name":"HENTAIGANA LETTER N-MU-MO-1","cat":"Lo"}
+,{"code":110878,"name":"HENTAIGANA LETTER N-MU-MO-2","cat":"Lo"}
+,{"code":110960,"name":"NUSHU CHARACTER-1B170","cat":"Lo"}
+,{"code":110961,"name":"NUSHU CHARACTER-1B171","cat":"Lo"}
+,{"code":110962,"name":"NUSHU CHARACTER-1B172","cat":"Lo"}
+,{"code":110963,"name":"NUSHU CHARACTER-1B173","cat":"Lo"}
+,{"code":110964,"name":"NUSHU CHARACTER-1B174","cat":"Lo"}
+,{"code":110965,"name":"NUSHU CHARACTER-1B175","cat":"Lo"}
+,{"code":110966,"name":"NUSHU CHARACTER-1B176","cat":"Lo"}
+,{"code":110967,"name":"NUSHU CHARACTER-1B177","cat":"Lo"}
+,{"code":110968,"name":"NUSHU CHARACTER-1B178","cat":"Lo"}
+,{"code":110969,"name":"NUSHU CHARACTER-1B179","cat":"Lo"}
+,{"code":110970,"name":"NUSHU CHARACTER-1B17A","cat":"Lo"}
+,{"code":110971,"name":"NUSHU CHARACTER-1B17B","cat":"Lo"}
+,{"code":110972,"name":"NUSHU CHARACTER-1B17C","cat":"Lo"}
+,{"code":110973,"name":"NUSHU CHARACTER-1B17D","cat":"Lo"}
+,{"code":110974,"name":"NUSHU CHARACTER-1B17E","cat":"Lo"}
+,{"code":110975,"name":"NUSHU CHARACTER-1B17F","cat":"Lo"}
+,{"code":110976,"name":"NUSHU CHARACTER-1B180","cat":"Lo"}
+,{"code":110977,"name":"NUSHU CHARACTER-1B181","cat":"Lo"}
+,{"code":110978,"name":"NUSHU CHARACTER-1B182","cat":"Lo"}
+,{"code":110979,"name":"NUSHU CHARACTER-1B183","cat":"Lo"}
+,{"code":110980,"name":"NUSHU CHARACTER-1B184","cat":"Lo"}
+,{"code":110981,"name":"NUSHU CHARACTER-1B185","cat":"Lo"}
+,{"code":110982,"name":"NUSHU CHARACTER-1B186","cat":"Lo"}
+,{"code":110983,"name":"NUSHU CHARACTER-1B187","cat":"Lo"}
+,{"code":110984,"name":"NUSHU CHARACTER-1B188","cat":"Lo"}
+,{"code":110985,"name":"NUSHU CHARACTER-1B189","cat":"Lo"}
+,{"code":110986,"name":"NUSHU CHARACTER-1B18A","cat":"Lo"}
+,{"code":110987,"name":"NUSHU CHARACTER-1B18B","cat":"Lo"}
+,{"code":110988,"name":"NUSHU CHARACTER-1B18C","cat":"Lo"}
+,{"code":110989,"name":"NUSHU CHARACTER-1B18D","cat":"Lo"}
+,{"code":110990,"name":"NUSHU CHARACTER-1B18E","cat":"Lo"}
+,{"code":110991,"name":"NUSHU CHARACTER-1B18F","cat":"Lo"}
+,{"code":110992,"name":"NUSHU CHARACTER-1B190","cat":"Lo"}
+,{"code":110993,"name":"NUSHU CHARACTER-1B191","cat":"Lo"}
+,{"code":110994,"name":"NUSHU CHARACTER-1B192","cat":"Lo"}
+,{"code":110995,"name":"NUSHU CHARACTER-1B193","cat":"Lo"}
+,{"code":110996,"name":"NUSHU CHARACTER-1B194","cat":"Lo"}
+,{"code":110997,"name":"NUSHU CHARACTER-1B195","cat":"Lo"}
+,{"code":110998,"name":"NUSHU CHARACTER-1B196","cat":"Lo"}
+,{"code":110999,"name":"NUSHU CHARACTER-1B197","cat":"Lo"}
+,{"code":111000,"name":"NUSHU CHARACTER-1B198","cat":"Lo"}
+,{"code":111001,"name":"NUSHU CHARACTER-1B199","cat":"Lo"}
+,{"code":111002,"name":"NUSHU CHARACTER-1B19A","cat":"Lo"}
+,{"code":111003,"name":"NUSHU CHARACTER-1B19B","cat":"Lo"}
+,{"code":111004,"name":"NUSHU CHARACTER-1B19C","cat":"Lo"}
+,{"code":111005,"name":"NUSHU CHARACTER-1B19D","cat":"Lo"}
+,{"code":111006,"name":"NUSHU CHARACTER-1B19E","cat":"Lo"}
+,{"code":111007,"name":"NUSHU CHARACTER-1B19F","cat":"Lo"}
+,{"code":111008,"name":"NUSHU CHARACTER-1B1A0","cat":"Lo"}
+,{"code":111009,"name":"NUSHU CHARACTER-1B1A1","cat":"Lo"}
+,{"code":111010,"name":"NUSHU CHARACTER-1B1A2","cat":"Lo"}
+,{"code":111011,"name":"NUSHU CHARACTER-1B1A3","cat":"Lo"}
+,{"code":111012,"name":"NUSHU CHARACTER-1B1A4","cat":"Lo"}
+,{"code":111013,"name":"NUSHU CHARACTER-1B1A5","cat":"Lo"}
+,{"code":111014,"name":"NUSHU CHARACTER-1B1A6","cat":"Lo"}
+,{"code":111015,"name":"NUSHU CHARACTER-1B1A7","cat":"Lo"}
+,{"code":111016,"name":"NUSHU CHARACTER-1B1A8","cat":"Lo"}
+,{"code":111017,"name":"NUSHU CHARACTER-1B1A9","cat":"Lo"}
+,{"code":111018,"name":"NUSHU CHARACTER-1B1AA","cat":"Lo"}
+,{"code":111019,"name":"NUSHU CHARACTER-1B1AB","cat":"Lo"}
+,{"code":111020,"name":"NUSHU CHARACTER-1B1AC","cat":"Lo"}
+,{"code":111021,"name":"NUSHU CHARACTER-1B1AD","cat":"Lo"}
+,{"code":111022,"name":"NUSHU CHARACTER-1B1AE","cat":"Lo"}
+,{"code":111023,"name":"NUSHU CHARACTER-1B1AF","cat":"Lo"}
+,{"code":111024,"name":"NUSHU CHARACTER-1B1B0","cat":"Lo"}
+,{"code":111025,"name":"NUSHU CHARACTER-1B1B1","cat":"Lo"}
+,{"code":111026,"name":"NUSHU CHARACTER-1B1B2","cat":"Lo"}
+,{"code":111027,"name":"NUSHU CHARACTER-1B1B3","cat":"Lo"}
+,{"code":111028,"name":"NUSHU CHARACTER-1B1B4","cat":"Lo"}
+,{"code":111029,"name":"NUSHU CHARACTER-1B1B5","cat":"Lo"}
+,{"code":111030,"name":"NUSHU CHARACTER-1B1B6","cat":"Lo"}
+,{"code":111031,"name":"NUSHU CHARACTER-1B1B7","cat":"Lo"}
+,{"code":111032,"name":"NUSHU CHARACTER-1B1B8","cat":"Lo"}
+,{"code":111033,"name":"NUSHU CHARACTER-1B1B9","cat":"Lo"}
+,{"code":111034,"name":"NUSHU CHARACTER-1B1BA","cat":"Lo"}
+,{"code":111035,"name":"NUSHU CHARACTER-1B1BB","cat":"Lo"}
+,{"code":111036,"name":"NUSHU CHARACTER-1B1BC","cat":"Lo"}
+,{"code":111037,"name":"NUSHU CHARACTER-1B1BD","cat":"Lo"}
+,{"code":111038,"name":"NUSHU CHARACTER-1B1BE","cat":"Lo"}
+,{"code":111039,"name":"NUSHU CHARACTER-1B1BF","cat":"Lo"}
+,{"code":111040,"name":"NUSHU CHARACTER-1B1C0","cat":"Lo"}
+,{"code":111041,"name":"NUSHU CHARACTER-1B1C1","cat":"Lo"}
+,{"code":111042,"name":"NUSHU CHARACTER-1B1C2","cat":"Lo"}
+,{"code":111043,"name":"NUSHU CHARACTER-1B1C3","cat":"Lo"}
+,{"code":111044,"name":"NUSHU CHARACTER-1B1C4","cat":"Lo"}
+,{"code":111045,"name":"NUSHU CHARACTER-1B1C5","cat":"Lo"}
+,{"code":111046,"name":"NUSHU CHARACTER-1B1C6","cat":"Lo"}
+,{"code":111047,"name":"NUSHU CHARACTER-1B1C7","cat":"Lo"}
+,{"code":111048,"name":"NUSHU CHARACTER-1B1C8","cat":"Lo"}
+,{"code":111049,"name":"NUSHU CHARACTER-1B1C9","cat":"Lo"}
+,{"code":111050,"name":"NUSHU CHARACTER-1B1CA","cat":"Lo"}
+,{"code":111051,"name":"NUSHU CHARACTER-1B1CB","cat":"Lo"}
+,{"code":111052,"name":"NUSHU CHARACTER-1B1CC","cat":"Lo"}
+,{"code":111053,"name":"NUSHU CHARACTER-1B1CD","cat":"Lo"}
+,{"code":111054,"name":"NUSHU CHARACTER-1B1CE","cat":"Lo"}
+,{"code":111055,"name":"NUSHU CHARACTER-1B1CF","cat":"Lo"}
+,{"code":111056,"name":"NUSHU CHARACTER-1B1D0","cat":"Lo"}
+,{"code":111057,"name":"NUSHU CHARACTER-1B1D1","cat":"Lo"}
+,{"code":111058,"name":"NUSHU CHARACTER-1B1D2","cat":"Lo"}
+,{"code":111059,"name":"NUSHU CHARACTER-1B1D3","cat":"Lo"}
+,{"code":111060,"name":"NUSHU CHARACTER-1B1D4","cat":"Lo"}
+,{"code":111061,"name":"NUSHU CHARACTER-1B1D5","cat":"Lo"}
+,{"code":111062,"name":"NUSHU CHARACTER-1B1D6","cat":"Lo"}
+,{"code":111063,"name":"NUSHU CHARACTER-1B1D7","cat":"Lo"}
+,{"code":111064,"name":"NUSHU CHARACTER-1B1D8","cat":"Lo"}
+,{"code":111065,"name":"NUSHU CHARACTER-1B1D9","cat":"Lo"}
+,{"code":111066,"name":"NUSHU CHARACTER-1B1DA","cat":"Lo"}
+,{"code":111067,"name":"NUSHU CHARACTER-1B1DB","cat":"Lo"}
+,{"code":111068,"name":"NUSHU CHARACTER-1B1DC","cat":"Lo"}
+,{"code":111069,"name":"NUSHU CHARACTER-1B1DD","cat":"Lo"}
+,{"code":111070,"name":"NUSHU CHARACTER-1B1DE","cat":"Lo"}
+,{"code":111071,"name":"NUSHU CHARACTER-1B1DF","cat":"Lo"}
+,{"code":111072,"name":"NUSHU CHARACTER-1B1E0","cat":"Lo"}
+,{"code":111073,"name":"NUSHU CHARACTER-1B1E1","cat":"Lo"}
+,{"code":111074,"name":"NUSHU CHARACTER-1B1E2","cat":"Lo"}
+,{"code":111075,"name":"NUSHU CHARACTER-1B1E3","cat":"Lo"}
+,{"code":111076,"name":"NUSHU CHARACTER-1B1E4","cat":"Lo"}
+,{"code":111077,"name":"NUSHU CHARACTER-1B1E5","cat":"Lo"}
+,{"code":111078,"name":"NUSHU CHARACTER-1B1E6","cat":"Lo"}
+,{"code":111079,"name":"NUSHU CHARACTER-1B1E7","cat":"Lo"}
+,{"code":111080,"name":"NUSHU CHARACTER-1B1E8","cat":"Lo"}
+,{"code":111081,"name":"NUSHU CHARACTER-1B1E9","cat":"Lo"}
+,{"code":111082,"name":"NUSHU CHARACTER-1B1EA","cat":"Lo"}
+,{"code":111083,"name":"NUSHU CHARACTER-1B1EB","cat":"Lo"}
+,{"code":111084,"name":"NUSHU CHARACTER-1B1EC","cat":"Lo"}
+,{"code":111085,"name":"NUSHU CHARACTER-1B1ED","cat":"Lo"}
+,{"code":111086,"name":"NUSHU CHARACTER-1B1EE","cat":"Lo"}
+,{"code":111087,"name":"NUSHU CHARACTER-1B1EF","cat":"Lo"}
+,{"code":111088,"name":"NUSHU CHARACTER-1B1F0","cat":"Lo"}
+,{"code":111089,"name":"NUSHU CHARACTER-1B1F1","cat":"Lo"}
+,{"code":111090,"name":"NUSHU CHARACTER-1B1F2","cat":"Lo"}
+,{"code":111091,"name":"NUSHU CHARACTER-1B1F3","cat":"Lo"}
+,{"code":111092,"name":"NUSHU CHARACTER-1B1F4","cat":"Lo"}
+,{"code":111093,"name":"NUSHU CHARACTER-1B1F5","cat":"Lo"}
+,{"code":111094,"name":"NUSHU CHARACTER-1B1F6","cat":"Lo"}
+,{"code":111095,"name":"NUSHU CHARACTER-1B1F7","cat":"Lo"}
+,{"code":111096,"name":"NUSHU CHARACTER-1B1F8","cat":"Lo"}
+,{"code":111097,"name":"NUSHU CHARACTER-1B1F9","cat":"Lo"}
+,{"code":111098,"name":"NUSHU CHARACTER-1B1FA","cat":"Lo"}
+,{"code":111099,"name":"NUSHU CHARACTER-1B1FB","cat":"Lo"}
+,{"code":111100,"name":"NUSHU CHARACTER-1B1FC","cat":"Lo"}
+,{"code":111101,"name":"NUSHU CHARACTER-1B1FD","cat":"Lo"}
+,{"code":111102,"name":"NUSHU CHARACTER-1B1FE","cat":"Lo"}
+,{"code":111103,"name":"NUSHU CHARACTER-1B1FF","cat":"Lo"}
+,{"code":111104,"name":"NUSHU CHARACTER-1B200","cat":"Lo"}
+,{"code":111105,"name":"NUSHU CHARACTER-1B201","cat":"Lo"}
+,{"code":111106,"name":"NUSHU CHARACTER-1B202","cat":"Lo"}
+,{"code":111107,"name":"NUSHU CHARACTER-1B203","cat":"Lo"}
+,{"code":111108,"name":"NUSHU CHARACTER-1B204","cat":"Lo"}
+,{"code":111109,"name":"NUSHU CHARACTER-1B205","cat":"Lo"}
+,{"code":111110,"name":"NUSHU CHARACTER-1B206","cat":"Lo"}
+,{"code":111111,"name":"NUSHU CHARACTER-1B207","cat":"Lo"}
+,{"code":111112,"name":"NUSHU CHARACTER-1B208","cat":"Lo"}
+,{"code":111113,"name":"NUSHU CHARACTER-1B209","cat":"Lo"}
+,{"code":111114,"name":"NUSHU CHARACTER-1B20A","cat":"Lo"}
+,{"code":111115,"name":"NUSHU CHARACTER-1B20B","cat":"Lo"}
+,{"code":111116,"name":"NUSHU CHARACTER-1B20C","cat":"Lo"}
+,{"code":111117,"name":"NUSHU CHARACTER-1B20D","cat":"Lo"}
+,{"code":111118,"name":"NUSHU CHARACTER-1B20E","cat":"Lo"}
+,{"code":111119,"name":"NUSHU CHARACTER-1B20F","cat":"Lo"}
+,{"code":111120,"name":"NUSHU CHARACTER-1B210","cat":"Lo"}
+,{"code":111121,"name":"NUSHU CHARACTER-1B211","cat":"Lo"}
+,{"code":111122,"name":"NUSHU CHARACTER-1B212","cat":"Lo"}
+,{"code":111123,"name":"NUSHU CHARACTER-1B213","cat":"Lo"}
+,{"code":111124,"name":"NUSHU CHARACTER-1B214","cat":"Lo"}
+,{"code":111125,"name":"NUSHU CHARACTER-1B215","cat":"Lo"}
+,{"code":111126,"name":"NUSHU CHARACTER-1B216","cat":"Lo"}
+,{"code":111127,"name":"NUSHU CHARACTER-1B217","cat":"Lo"}
+,{"code":111128,"name":"NUSHU CHARACTER-1B218","cat":"Lo"}
+,{"code":111129,"name":"NUSHU CHARACTER-1B219","cat":"Lo"}
+,{"code":111130,"name":"NUSHU CHARACTER-1B21A","cat":"Lo"}
+,{"code":111131,"name":"NUSHU CHARACTER-1B21B","cat":"Lo"}
+,{"code":111132,"name":"NUSHU CHARACTER-1B21C","cat":"Lo"}
+,{"code":111133,"name":"NUSHU CHARACTER-1B21D","cat":"Lo"}
+,{"code":111134,"name":"NUSHU CHARACTER-1B21E","cat":"Lo"}
+,{"code":111135,"name":"NUSHU CHARACTER-1B21F","cat":"Lo"}
+,{"code":111136,"name":"NUSHU CHARACTER-1B220","cat":"Lo"}
+,{"code":111137,"name":"NUSHU CHARACTER-1B221","cat":"Lo"}
+,{"code":111138,"name":"NUSHU CHARACTER-1B222","cat":"Lo"}
+,{"code":111139,"name":"NUSHU CHARACTER-1B223","cat":"Lo"}
+,{"code":111140,"name":"NUSHU CHARACTER-1B224","cat":"Lo"}
+,{"code":111141,"name":"NUSHU CHARACTER-1B225","cat":"Lo"}
+,{"code":111142,"name":"NUSHU CHARACTER-1B226","cat":"Lo"}
+,{"code":111143,"name":"NUSHU CHARACTER-1B227","cat":"Lo"}
+,{"code":111144,"name":"NUSHU CHARACTER-1B228","cat":"Lo"}
+,{"code":111145,"name":"NUSHU CHARACTER-1B229","cat":"Lo"}
+,{"code":111146,"name":"NUSHU CHARACTER-1B22A","cat":"Lo"}
+,{"code":111147,"name":"NUSHU CHARACTER-1B22B","cat":"Lo"}
+,{"code":111148,"name":"NUSHU CHARACTER-1B22C","cat":"Lo"}
+,{"code":111149,"name":"NUSHU CHARACTER-1B22D","cat":"Lo"}
+,{"code":111150,"name":"NUSHU CHARACTER-1B22E","cat":"Lo"}
+,{"code":111151,"name":"NUSHU CHARACTER-1B22F","cat":"Lo"}
+,{"code":111152,"name":"NUSHU CHARACTER-1B230","cat":"Lo"}
+,{"code":111153,"name":"NUSHU CHARACTER-1B231","cat":"Lo"}
+,{"code":111154,"name":"NUSHU CHARACTER-1B232","cat":"Lo"}
+,{"code":111155,"name":"NUSHU CHARACTER-1B233","cat":"Lo"}
+,{"code":111156,"name":"NUSHU CHARACTER-1B234","cat":"Lo"}
+,{"code":111157,"name":"NUSHU CHARACTER-1B235","cat":"Lo"}
+,{"code":111158,"name":"NUSHU CHARACTER-1B236","cat":"Lo"}
+,{"code":111159,"name":"NUSHU CHARACTER-1B237","cat":"Lo"}
+,{"code":111160,"name":"NUSHU CHARACTER-1B238","cat":"Lo"}
+,{"code":111161,"name":"NUSHU CHARACTER-1B239","cat":"Lo"}
+,{"code":111162,"name":"NUSHU CHARACTER-1B23A","cat":"Lo"}
+,{"code":111163,"name":"NUSHU CHARACTER-1B23B","cat":"Lo"}
+,{"code":111164,"name":"NUSHU CHARACTER-1B23C","cat":"Lo"}
+,{"code":111165,"name":"NUSHU CHARACTER-1B23D","cat":"Lo"}
+,{"code":111166,"name":"NUSHU CHARACTER-1B23E","cat":"Lo"}
+,{"code":111167,"name":"NUSHU CHARACTER-1B23F","cat":"Lo"}
+,{"code":111168,"name":"NUSHU CHARACTER-1B240","cat":"Lo"}
+,{"code":111169,"name":"NUSHU CHARACTER-1B241","cat":"Lo"}
+,{"code":111170,"name":"NUSHU CHARACTER-1B242","cat":"Lo"}
+,{"code":111171,"name":"NUSHU CHARACTER-1B243","cat":"Lo"}
+,{"code":111172,"name":"NUSHU CHARACTER-1B244","cat":"Lo"}
+,{"code":111173,"name":"NUSHU CHARACTER-1B245","cat":"Lo"}
+,{"code":111174,"name":"NUSHU CHARACTER-1B246","cat":"Lo"}
+,{"code":111175,"name":"NUSHU CHARACTER-1B247","cat":"Lo"}
+,{"code":111176,"name":"NUSHU CHARACTER-1B248","cat":"Lo"}
+,{"code":111177,"name":"NUSHU CHARACTER-1B249","cat":"Lo"}
+,{"code":111178,"name":"NUSHU CHARACTER-1B24A","cat":"Lo"}
+,{"code":111179,"name":"NUSHU CHARACTER-1B24B","cat":"Lo"}
+,{"code":111180,"name":"NUSHU CHARACTER-1B24C","cat":"Lo"}
+,{"code":111181,"name":"NUSHU CHARACTER-1B24D","cat":"Lo"}
+,{"code":111182,"name":"NUSHU CHARACTER-1B24E","cat":"Lo"}
+,{"code":111183,"name":"NUSHU CHARACTER-1B24F","cat":"Lo"}
+,{"code":111184,"name":"NUSHU CHARACTER-1B250","cat":"Lo"}
+,{"code":111185,"name":"NUSHU CHARACTER-1B251","cat":"Lo"}
+,{"code":111186,"name":"NUSHU CHARACTER-1B252","cat":"Lo"}
+,{"code":111187,"name":"NUSHU CHARACTER-1B253","cat":"Lo"}
+,{"code":111188,"name":"NUSHU CHARACTER-1B254","cat":"Lo"}
+,{"code":111189,"name":"NUSHU CHARACTER-1B255","cat":"Lo"}
+,{"code":111190,"name":"NUSHU CHARACTER-1B256","cat":"Lo"}
+,{"code":111191,"name":"NUSHU CHARACTER-1B257","cat":"Lo"}
+,{"code":111192,"name":"NUSHU CHARACTER-1B258","cat":"Lo"}
+,{"code":111193,"name":"NUSHU CHARACTER-1B259","cat":"Lo"}
+,{"code":111194,"name":"NUSHU CHARACTER-1B25A","cat":"Lo"}
+,{"code":111195,"name":"NUSHU CHARACTER-1B25B","cat":"Lo"}
+,{"code":111196,"name":"NUSHU CHARACTER-1B25C","cat":"Lo"}
+,{"code":111197,"name":"NUSHU CHARACTER-1B25D","cat":"Lo"}
+,{"code":111198,"name":"NUSHU CHARACTER-1B25E","cat":"Lo"}
+,{"code":111199,"name":"NUSHU CHARACTER-1B25F","cat":"Lo"}
+,{"code":111200,"name":"NUSHU CHARACTER-1B260","cat":"Lo"}
+,{"code":111201,"name":"NUSHU CHARACTER-1B261","cat":"Lo"}
+,{"code":111202,"name":"NUSHU CHARACTER-1B262","cat":"Lo"}
+,{"code":111203,"name":"NUSHU CHARACTER-1B263","cat":"Lo"}
+,{"code":111204,"name":"NUSHU CHARACTER-1B264","cat":"Lo"}
+,{"code":111205,"name":"NUSHU CHARACTER-1B265","cat":"Lo"}
+,{"code":111206,"name":"NUSHU CHARACTER-1B266","cat":"Lo"}
+,{"code":111207,"name":"NUSHU CHARACTER-1B267","cat":"Lo"}
+,{"code":111208,"name":"NUSHU CHARACTER-1B268","cat":"Lo"}
+,{"code":111209,"name":"NUSHU CHARACTER-1B269","cat":"Lo"}
+,{"code":111210,"name":"NUSHU CHARACTER-1B26A","cat":"Lo"}
+,{"code":111211,"name":"NUSHU CHARACTER-1B26B","cat":"Lo"}
+,{"code":111212,"name":"NUSHU CHARACTER-1B26C","cat":"Lo"}
+,{"code":111213,"name":"NUSHU CHARACTER-1B26D","cat":"Lo"}
+,{"code":111214,"name":"NUSHU CHARACTER-1B26E","cat":"Lo"}
+,{"code":111215,"name":"NUSHU CHARACTER-1B26F","cat":"Lo"}
+,{"code":111216,"name":"NUSHU CHARACTER-1B270","cat":"Lo"}
+,{"code":111217,"name":"NUSHU CHARACTER-1B271","cat":"Lo"}
+,{"code":111218,"name":"NUSHU CHARACTER-1B272","cat":"Lo"}
+,{"code":111219,"name":"NUSHU CHARACTER-1B273","cat":"Lo"}
+,{"code":111220,"name":"NUSHU CHARACTER-1B274","cat":"Lo"}
+,{"code":111221,"name":"NUSHU CHARACTER-1B275","cat":"Lo"}
+,{"code":111222,"name":"NUSHU CHARACTER-1B276","cat":"Lo"}
+,{"code":111223,"name":"NUSHU CHARACTER-1B277","cat":"Lo"}
+,{"code":111224,"name":"NUSHU CHARACTER-1B278","cat":"Lo"}
+,{"code":111225,"name":"NUSHU CHARACTER-1B279","cat":"Lo"}
+,{"code":111226,"name":"NUSHU CHARACTER-1B27A","cat":"Lo"}
+,{"code":111227,"name":"NUSHU CHARACTER-1B27B","cat":"Lo"}
+,{"code":111228,"name":"NUSHU CHARACTER-1B27C","cat":"Lo"}
+,{"code":111229,"name":"NUSHU CHARACTER-1B27D","cat":"Lo"}
+,{"code":111230,"name":"NUSHU CHARACTER-1B27E","cat":"Lo"}
+,{"code":111231,"name":"NUSHU CHARACTER-1B27F","cat":"Lo"}
+,{"code":111232,"name":"NUSHU CHARACTER-1B280","cat":"Lo"}
+,{"code":111233,"name":"NUSHU CHARACTER-1B281","cat":"Lo"}
+,{"code":111234,"name":"NUSHU CHARACTER-1B282","cat":"Lo"}
+,{"code":111235,"name":"NUSHU CHARACTER-1B283","cat":"Lo"}
+,{"code":111236,"name":"NUSHU CHARACTER-1B284","cat":"Lo"}
+,{"code":111237,"name":"NUSHU CHARACTER-1B285","cat":"Lo"}
+,{"code":111238,"name":"NUSHU CHARACTER-1B286","cat":"Lo"}
+,{"code":111239,"name":"NUSHU CHARACTER-1B287","cat":"Lo"}
+,{"code":111240,"name":"NUSHU CHARACTER-1B288","cat":"Lo"}
+,{"code":111241,"name":"NUSHU CHARACTER-1B289","cat":"Lo"}
+,{"code":111242,"name":"NUSHU CHARACTER-1B28A","cat":"Lo"}
+,{"code":111243,"name":"NUSHU CHARACTER-1B28B","cat":"Lo"}
+,{"code":111244,"name":"NUSHU CHARACTER-1B28C","cat":"Lo"}
+,{"code":111245,"name":"NUSHU CHARACTER-1B28D","cat":"Lo"}
+,{"code":111246,"name":"NUSHU CHARACTER-1B28E","cat":"Lo"}
+,{"code":111247,"name":"NUSHU CHARACTER-1B28F","cat":"Lo"}
+,{"code":111248,"name":"NUSHU CHARACTER-1B290","cat":"Lo"}
+,{"code":111249,"name":"NUSHU CHARACTER-1B291","cat":"Lo"}
+,{"code":111250,"name":"NUSHU CHARACTER-1B292","cat":"Lo"}
+,{"code":111251,"name":"NUSHU CHARACTER-1B293","cat":"Lo"}
+,{"code":111252,"name":"NUSHU CHARACTER-1B294","cat":"Lo"}
+,{"code":111253,"name":"NUSHU CHARACTER-1B295","cat":"Lo"}
+,{"code":111254,"name":"NUSHU CHARACTER-1B296","cat":"Lo"}
+,{"code":111255,"name":"NUSHU CHARACTER-1B297","cat":"Lo"}
+,{"code":111256,"name":"NUSHU CHARACTER-1B298","cat":"Lo"}
+,{"code":111257,"name":"NUSHU CHARACTER-1B299","cat":"Lo"}
+,{"code":111258,"name":"NUSHU CHARACTER-1B29A","cat":"Lo"}
+,{"code":111259,"name":"NUSHU CHARACTER-1B29B","cat":"Lo"}
+,{"code":111260,"name":"NUSHU CHARACTER-1B29C","cat":"Lo"}
+,{"code":111261,"name":"NUSHU CHARACTER-1B29D","cat":"Lo"}
+,{"code":111262,"name":"NUSHU CHARACTER-1B29E","cat":"Lo"}
+,{"code":111263,"name":"NUSHU CHARACTER-1B29F","cat":"Lo"}
+,{"code":111264,"name":"NUSHU CHARACTER-1B2A0","cat":"Lo"}
+,{"code":111265,"name":"NUSHU CHARACTER-1B2A1","cat":"Lo"}
+,{"code":111266,"name":"NUSHU CHARACTER-1B2A2","cat":"Lo"}
+,{"code":111267,"name":"NUSHU CHARACTER-1B2A3","cat":"Lo"}
+,{"code":111268,"name":"NUSHU CHARACTER-1B2A4","cat":"Lo"}
+,{"code":111269,"name":"NUSHU CHARACTER-1B2A5","cat":"Lo"}
+,{"code":111270,"name":"NUSHU CHARACTER-1B2A6","cat":"Lo"}
+,{"code":111271,"name":"NUSHU CHARACTER-1B2A7","cat":"Lo"}
+,{"code":111272,"name":"NUSHU CHARACTER-1B2A8","cat":"Lo"}
+,{"code":111273,"name":"NUSHU CHARACTER-1B2A9","cat":"Lo"}
+,{"code":111274,"name":"NUSHU CHARACTER-1B2AA","cat":"Lo"}
+,{"code":111275,"name":"NUSHU CHARACTER-1B2AB","cat":"Lo"}
+,{"code":111276,"name":"NUSHU CHARACTER-1B2AC","cat":"Lo"}
+,{"code":111277,"name":"NUSHU CHARACTER-1B2AD","cat":"Lo"}
+,{"code":111278,"name":"NUSHU CHARACTER-1B2AE","cat":"Lo"}
+,{"code":111279,"name":"NUSHU CHARACTER-1B2AF","cat":"Lo"}
+,{"code":111280,"name":"NUSHU CHARACTER-1B2B0","cat":"Lo"}
+,{"code":111281,"name":"NUSHU CHARACTER-1B2B1","cat":"Lo"}
+,{"code":111282,"name":"NUSHU CHARACTER-1B2B2","cat":"Lo"}
+,{"code":111283,"name":"NUSHU CHARACTER-1B2B3","cat":"Lo"}
+,{"code":111284,"name":"NUSHU CHARACTER-1B2B4","cat":"Lo"}
+,{"code":111285,"name":"NUSHU CHARACTER-1B2B5","cat":"Lo"}
+,{"code":111286,"name":"NUSHU CHARACTER-1B2B6","cat":"Lo"}
+,{"code":111287,"name":"NUSHU CHARACTER-1B2B7","cat":"Lo"}
+,{"code":111288,"name":"NUSHU CHARACTER-1B2B8","cat":"Lo"}
+,{"code":111289,"name":"NUSHU CHARACTER-1B2B9","cat":"Lo"}
+,{"code":111290,"name":"NUSHU CHARACTER-1B2BA","cat":"Lo"}
+,{"code":111291,"name":"NUSHU CHARACTER-1B2BB","cat":"Lo"}
+,{"code":111292,"name":"NUSHU CHARACTER-1B2BC","cat":"Lo"}
+,{"code":111293,"name":"NUSHU CHARACTER-1B2BD","cat":"Lo"}
+,{"code":111294,"name":"NUSHU CHARACTER-1B2BE","cat":"Lo"}
+,{"code":111295,"name":"NUSHU CHARACTER-1B2BF","cat":"Lo"}
+,{"code":111296,"name":"NUSHU CHARACTER-1B2C0","cat":"Lo"}
+,{"code":111297,"name":"NUSHU CHARACTER-1B2C1","cat":"Lo"}
+,{"code":111298,"name":"NUSHU CHARACTER-1B2C2","cat":"Lo"}
+,{"code":111299,"name":"NUSHU CHARACTER-1B2C3","cat":"Lo"}
+,{"code":111300,"name":"NUSHU CHARACTER-1B2C4","cat":"Lo"}
+,{"code":111301,"name":"NUSHU CHARACTER-1B2C5","cat":"Lo"}
+,{"code":111302,"name":"NUSHU CHARACTER-1B2C6","cat":"Lo"}
+,{"code":111303,"name":"NUSHU CHARACTER-1B2C7","cat":"Lo"}
+,{"code":111304,"name":"NUSHU CHARACTER-1B2C8","cat":"Lo"}
+,{"code":111305,"name":"NUSHU CHARACTER-1B2C9","cat":"Lo"}
+,{"code":111306,"name":"NUSHU CHARACTER-1B2CA","cat":"Lo"}
+,{"code":111307,"name":"NUSHU CHARACTER-1B2CB","cat":"Lo"}
+,{"code":111308,"name":"NUSHU CHARACTER-1B2CC","cat":"Lo"}
+,{"code":111309,"name":"NUSHU CHARACTER-1B2CD","cat":"Lo"}
+,{"code":111310,"name":"NUSHU CHARACTER-1B2CE","cat":"Lo"}
+,{"code":111311,"name":"NUSHU CHARACTER-1B2CF","cat":"Lo"}
+,{"code":111312,"name":"NUSHU CHARACTER-1B2D0","cat":"Lo"}
+,{"code":111313,"name":"NUSHU CHARACTER-1B2D1","cat":"Lo"}
+,{"code":111314,"name":"NUSHU CHARACTER-1B2D2","cat":"Lo"}
+,{"code":111315,"name":"NUSHU CHARACTER-1B2D3","cat":"Lo"}
+,{"code":111316,"name":"NUSHU CHARACTER-1B2D4","cat":"Lo"}
+,{"code":111317,"name":"NUSHU CHARACTER-1B2D5","cat":"Lo"}
+,{"code":111318,"name":"NUSHU CHARACTER-1B2D6","cat":"Lo"}
+,{"code":111319,"name":"NUSHU CHARACTER-1B2D7","cat":"Lo"}
+,{"code":111320,"name":"NUSHU CHARACTER-1B2D8","cat":"Lo"}
+,{"code":111321,"name":"NUSHU CHARACTER-1B2D9","cat":"Lo"}
+,{"code":111322,"name":"NUSHU CHARACTER-1B2DA","cat":"Lo"}
+,{"code":111323,"name":"NUSHU CHARACTER-1B2DB","cat":"Lo"}
+,{"code":111324,"name":"NUSHU CHARACTER-1B2DC","cat":"Lo"}
+,{"code":111325,"name":"NUSHU CHARACTER-1B2DD","cat":"Lo"}
+,{"code":111326,"name":"NUSHU CHARACTER-1B2DE","cat":"Lo"}
+,{"code":111327,"name":"NUSHU CHARACTER-1B2DF","cat":"Lo"}
+,{"code":111328,"name":"NUSHU CHARACTER-1B2E0","cat":"Lo"}
+,{"code":111329,"name":"NUSHU CHARACTER-1B2E1","cat":"Lo"}
+,{"code":111330,"name":"NUSHU CHARACTER-1B2E2","cat":"Lo"}
+,{"code":111331,"name":"NUSHU CHARACTER-1B2E3","cat":"Lo"}
+,{"code":111332,"name":"NUSHU CHARACTER-1B2E4","cat":"Lo"}
+,{"code":111333,"name":"NUSHU CHARACTER-1B2E5","cat":"Lo"}
+,{"code":111334,"name":"NUSHU CHARACTER-1B2E6","cat":"Lo"}
+,{"code":111335,"name":"NUSHU CHARACTER-1B2E7","cat":"Lo"}
+,{"code":111336,"name":"NUSHU CHARACTER-1B2E8","cat":"Lo"}
+,{"code":111337,"name":"NUSHU CHARACTER-1B2E9","cat":"Lo"}
+,{"code":111338,"name":"NUSHU CHARACTER-1B2EA","cat":"Lo"}
+,{"code":111339,"name":"NUSHU CHARACTER-1B2EB","cat":"Lo"}
+,{"code":111340,"name":"NUSHU CHARACTER-1B2EC","cat":"Lo"}
+,{"code":111341,"name":"NUSHU CHARACTER-1B2ED","cat":"Lo"}
+,{"code":111342,"name":"NUSHU CHARACTER-1B2EE","cat":"Lo"}
+,{"code":111343,"name":"NUSHU CHARACTER-1B2EF","cat":"Lo"}
+,{"code":111344,"name":"NUSHU CHARACTER-1B2F0","cat":"Lo"}
+,{"code":111345,"name":"NUSHU CHARACTER-1B2F1","cat":"Lo"}
+,{"code":111346,"name":"NUSHU CHARACTER-1B2F2","cat":"Lo"}
+,{"code":111347,"name":"NUSHU CHARACTER-1B2F3","cat":"Lo"}
+,{"code":111348,"name":"NUSHU CHARACTER-1B2F4","cat":"Lo"}
+,{"code":111349,"name":"NUSHU CHARACTER-1B2F5","cat":"Lo"}
+,{"code":111350,"name":"NUSHU CHARACTER-1B2F6","cat":"Lo"}
+,{"code":111351,"name":"NUSHU CHARACTER-1B2F7","cat":"Lo"}
+,{"code":111352,"name":"NUSHU CHARACTER-1B2F8","cat":"Lo"}
+,{"code":111353,"name":"NUSHU CHARACTER-1B2F9","cat":"Lo"}
+,{"code":111354,"name":"NUSHU CHARACTER-1B2FA","cat":"Lo"}
+,{"code":111355,"name":"NUSHU CHARACTER-1B2FB","cat":"Lo"}
 ,{"code":113664,"name":"DUPLOYAN LETTER H","cat":"Lo"}
 ,{"code":113665,"name":"DUPLOYAN LETTER X","cat":"Lo"}
 ,{"code":113666,"name":"DUPLOYAN LETTER P","cat":"Lo"}
@@ -28269,6 +29217,12 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":127560,"name":"TORTOISE SHELL BRACKETED CJK UNIFIED IDEOGRAPH-6557","cat":"So","decomp":[12308,25943,12309],"decompType":"compat"}
 ,{"code":127568,"name":"CIRCLED IDEOGRAPH ADVANTAGE","cat":"So","decomp":[24471],"decompType":"circle"}
 ,{"code":127569,"name":"CIRCLED IDEOGRAPH ACCEPT","cat":"So","decomp":[21487],"decompType":"circle"}
+,{"code":127584,"name":"ROUNDED SYMBOL FOR FU","cat":"So","bidi":"ON"}
+,{"code":127585,"name":"ROUNDED SYMBOL FOR LU","cat":"So","bidi":"ON"}
+,{"code":127586,"name":"ROUNDED SYMBOL FOR SHOU","cat":"So","bidi":"ON"}
+,{"code":127587,"name":"ROUNDED SYMBOL FOR XI","cat":"So","bidi":"ON"}
+,{"code":127588,"name":"ROUNDED SYMBOL FOR SHUANGXI","cat":"So","bidi":"ON"}
+,{"code":127589,"name":"ROUNDED SYMBOL FOR CAI","cat":"So","bidi":"ON"}
 ,{"code":127744,"name":"CYCLONE","cat":"So","bidi":"ON"}
 ,{"code":127745,"name":"FOGGY","cat":"So","bidi":"ON"}
 ,{"code":127746,"name":"CLOSED UMBRELLA","cat":"So","bidi":"ON"}
@@ -29248,6 +30202,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":128720,"name":"PLACE OF WORSHIP","cat":"So","bidi":"ON"}
 ,{"code":128721,"name":"OCTAGONAL SIGN","cat":"So","bidi":"ON"}
 ,{"code":128722,"name":"SHOPPING TROLLEY","cat":"So","bidi":"ON"}
+,{"code":128723,"name":"STUPA","cat":"So","bidi":"ON"}
+,{"code":128724,"name":"PAGODA","cat":"So","bidi":"ON"}
 ,{"code":128736,"name":"HAMMER AND WRENCH","cat":"So","bidi":"ON"}
 ,{"code":128737,"name":"SHIELD","cat":"So","bidi":"ON"}
 ,{"code":128738,"name":"OIL DRUM","cat":"So","bidi":"ON"}
@@ -29268,6 +30224,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":128756,"name":"SCOOTER","cat":"So","bidi":"ON"}
 ,{"code":128757,"name":"MOTOR SCOOTER","cat":"So","bidi":"ON"}
 ,{"code":128758,"name":"CANOE","cat":"So","bidi":"ON"}
+,{"code":128759,"name":"SLED","cat":"So","bidi":"ON"}
+,{"code":128760,"name":"FLYING SAUCER","cat":"So","bidi":"ON"}
 ,{"code":128768,"name":"ALCHEMICAL SYMBOL FOR QUINTESSENCE","cat":"So","bidi":"ON"}
 ,{"code":128769,"name":"ALCHEMICAL SYMBOL FOR AIR","cat":"So","bidi":"ON"}
 ,{"code":128770,"name":"ALCHEMICAL SYMBOL FOR FIRE","cat":"So","bidi":"ON"}
@@ -29617,6 +30575,18 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129195,"name":"RIGHTWARDS FRONT-TILTED SHADOWED WHITE ARROW","cat":"So","bidi":"ON"}
 ,{"code":129196,"name":"WHITE ARROW SHAFT WIDTH ONE","cat":"So","bidi":"ON"}
 ,{"code":129197,"name":"WHITE ARROW SHAFT WIDTH TWO THIRDS","cat":"So","bidi":"ON"}
+,{"code":129280,"name":"CIRCLED CROSS FORMEE WITH FOUR DOTS","cat":"So","bidi":"ON"}
+,{"code":129281,"name":"CIRCLED CROSS FORMEE WITH TWO DOTS","cat":"So","bidi":"ON"}
+,{"code":129282,"name":"CIRCLED CROSS FORMEE","cat":"So","bidi":"ON"}
+,{"code":129283,"name":"LEFT HALF CIRCLE WITH FOUR DOTS","cat":"So","bidi":"ON"}
+,{"code":129284,"name":"LEFT HALF CIRCLE WITH THREE DOTS","cat":"So","bidi":"ON"}
+,{"code":129285,"name":"LEFT HALF CIRCLE WITH TWO DOTS","cat":"So","bidi":"ON"}
+,{"code":129286,"name":"LEFT HALF CIRCLE WITH DOT","cat":"So","bidi":"ON"}
+,{"code":129287,"name":"LEFT HALF CIRCLE","cat":"So","bidi":"ON"}
+,{"code":129288,"name":"DOWNWARD FACING HOOK","cat":"So","bidi":"ON"}
+,{"code":129289,"name":"DOWNWARD FACING NOTCHED HOOK","cat":"So","bidi":"ON"}
+,{"code":129290,"name":"DOWNWARD FACING HOOK WITH DOT","cat":"So","bidi":"ON"}
+,{"code":129291,"name":"DOWNWARD FACING NOTCHED HOOK WITH DOT","cat":"So","bidi":"ON"}
 ,{"code":129296,"name":"ZIPPER-MOUTH FACE","cat":"So","bidi":"ON"}
 ,{"code":129297,"name":"MONEY-MOUTH FACE","cat":"So","bidi":"ON"}
 ,{"code":129298,"name":"FACE WITH THERMOMETER","cat":"So","bidi":"ON"}
@@ -29632,6 +30602,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129308,"name":"RIGHT-FACING FIST","cat":"So","bidi":"ON"}
 ,{"code":129309,"name":"HANDSHAKE","cat":"So","bidi":"ON"}
 ,{"code":129310,"name":"HAND WITH INDEX AND MIDDLE FINGERS CROSSED","cat":"So","bidi":"ON"}
+,{"code":129311,"name":"I LOVE YOU HAND SIGN","cat":"So","bidi":"ON"}
 ,{"code":129312,"name":"FACE WITH COWBOY HAT","cat":"So","bidi":"ON"}
 ,{"code":129313,"name":"CLOWN FACE","cat":"So","bidi":"ON"}
 ,{"code":129314,"name":"NAUSEATED FACE","cat":"So","bidi":"ON"}
@@ -29640,7 +30611,17 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129317,"name":"LYING FACE","cat":"So","bidi":"ON"}
 ,{"code":129318,"name":"FACE PALM","cat":"So","bidi":"ON"}
 ,{"code":129319,"name":"SNEEZING FACE","cat":"So","bidi":"ON"}
+,{"code":129320,"name":"FACE WITH ONE EYEBROW RAISED","cat":"So","bidi":"ON"}
+,{"code":129321,"name":"GRINNING FACE WITH STAR EYES","cat":"So","bidi":"ON"}
+,{"code":129322,"name":"GRINNING FACE WITH ONE LARGE AND ONE SMALL EYE","cat":"So","bidi":"ON"}
+,{"code":129323,"name":"FACE WITH FINGER COVERING CLOSED LIPS","cat":"So","bidi":"ON"}
+,{"code":129324,"name":"SERIOUS FACE WITH SYMBOLS COVERING MOUTH","cat":"So","bidi":"ON"}
+,{"code":129325,"name":"SMILING FACE WITH SMILING EYES AND HAND COVERING MOUTH","cat":"So","bidi":"ON"}
+,{"code":129326,"name":"FACE WITH OPEN MOUTH VOMITING","cat":"So","bidi":"ON"}
+,{"code":129327,"name":"SHOCKED FACE WITH EXPLODING HEAD","cat":"So","bidi":"ON"}
 ,{"code":129328,"name":"PREGNANT WOMAN","cat":"So","bidi":"ON"}
+,{"code":129329,"name":"BREAST-FEEDING","cat":"So","bidi":"ON"}
+,{"code":129330,"name":"PALMS UP TOGETHER","cat":"So","bidi":"ON"}
 ,{"code":129331,"name":"SELFIE","cat":"So","bidi":"ON"}
 ,{"code":129332,"name":"PRINCE","cat":"So","bidi":"ON"}
 ,{"code":129333,"name":"MAN IN TUXEDO","cat":"So","bidi":"ON"}
@@ -29665,6 +30646,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129353,"name":"THIRD PLACE MEDAL","cat":"So","bidi":"ON"}
 ,{"code":129354,"name":"BOXING GLOVE","cat":"So","bidi":"ON"}
 ,{"code":129355,"name":"MARTIAL ARTS UNIFORM","cat":"So","bidi":"ON"}
+,{"code":129356,"name":"CURLING STONE","cat":"So","bidi":"ON"}
 ,{"code":129360,"name":"CROISSANT","cat":"So","bidi":"ON"}
 ,{"code":129361,"name":"AVOCADO","cat":"So","bidi":"ON"}
 ,{"code":129362,"name":"CUCUMBER","cat":"So","bidi":"ON"}
@@ -29680,6 +30662,19 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129372,"name":"PEANUTS","cat":"So","bidi":"ON"}
 ,{"code":129373,"name":"KIWIFRUIT","cat":"So","bidi":"ON"}
 ,{"code":129374,"name":"PANCAKES","cat":"So","bidi":"ON"}
+,{"code":129375,"name":"DUMPLING","cat":"So","bidi":"ON"}
+,{"code":129376,"name":"FORTUNE COOKIE","cat":"So","bidi":"ON"}
+,{"code":129377,"name":"TAKEOUT BOX","cat":"So","bidi":"ON"}
+,{"code":129378,"name":"CHOPSTICKS","cat":"So","bidi":"ON"}
+,{"code":129379,"name":"BOWL WITH SPOON","cat":"So","bidi":"ON"}
+,{"code":129380,"name":"CUP WITH STRAW","cat":"So","bidi":"ON"}
+,{"code":129381,"name":"COCONUT","cat":"So","bidi":"ON"}
+,{"code":129382,"name":"BROCCOLI","cat":"So","bidi":"ON"}
+,{"code":129383,"name":"PIE","cat":"So","bidi":"ON"}
+,{"code":129384,"name":"PRETZEL","cat":"So","bidi":"ON"}
+,{"code":129385,"name":"CUT OF MEAT","cat":"So","bidi":"ON"}
+,{"code":129386,"name":"SANDWICH","cat":"So","bidi":"ON"}
+,{"code":129387,"name":"CANNED FOOD","cat":"So","bidi":"ON"}
 ,{"code":129408,"name":"CRAB","cat":"So","bidi":"ON"}
 ,{"code":129409,"name":"LION FACE","cat":"So","bidi":"ON"}
 ,{"code":129410,"name":"SCORPION","cat":"So","bidi":"ON"}
@@ -29698,7 +30693,36 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129423,"name":"RHINOCEROS","cat":"So","bidi":"ON"}
 ,{"code":129424,"name":"SHRIMP","cat":"So","bidi":"ON"}
 ,{"code":129425,"name":"SQUID","cat":"So","bidi":"ON"}
+,{"code":129426,"name":"GIRAFFE FACE","cat":"So","bidi":"ON"}
+,{"code":129427,"name":"ZEBRA FACE","cat":"So","bidi":"ON"}
+,{"code":129428,"name":"HEDGEHOG","cat":"So","bidi":"ON"}
+,{"code":129429,"name":"SAUROPOD","cat":"So","bidi":"ON"}
+,{"code":129430,"name":"T-REX","cat":"So","bidi":"ON"}
+,{"code":129431,"name":"CRICKET","cat":"So","bidi":"ON"}
 ,{"code":129472,"name":"CHEESE WEDGE","cat":"So","bidi":"ON"}
+,{"code":129488,"name":"FACE WITH MONOCLE","cat":"So","bidi":"ON"}
+,{"code":129489,"name":"ADULT","cat":"So","bidi":"ON"}
+,{"code":129490,"name":"CHILD","cat":"So","bidi":"ON"}
+,{"code":129491,"name":"OLDER ADULT","cat":"So","bidi":"ON"}
+,{"code":129492,"name":"BEARDED PERSON","cat":"So","bidi":"ON"}
+,{"code":129493,"name":"PERSON WITH HEADSCARF","cat":"So","bidi":"ON"}
+,{"code":129494,"name":"PERSON IN STEAMY ROOM","cat":"So","bidi":"ON"}
+,{"code":129495,"name":"PERSON CLIMBING","cat":"So","bidi":"ON"}
+,{"code":129496,"name":"PERSON IN LOTUS POSITION","cat":"So","bidi":"ON"}
+,{"code":129497,"name":"MAGE","cat":"So","bidi":"ON"}
+,{"code":129498,"name":"FAIRY","cat":"So","bidi":"ON"}
+,{"code":129499,"name":"VAMPIRE","cat":"So","bidi":"ON"}
+,{"code":129500,"name":"MERPERSON","cat":"So","bidi":"ON"}
+,{"code":129501,"name":"ELF","cat":"So","bidi":"ON"}
+,{"code":129502,"name":"GENIE","cat":"So","bidi":"ON"}
+,{"code":129503,"name":"ZOMBIE","cat":"So","bidi":"ON"}
+,{"code":129504,"name":"BRAIN","cat":"So","bidi":"ON"}
+,{"code":129505,"name":"ORANGE HEART","cat":"So","bidi":"ON"}
+,{"code":129506,"name":"BILLED CAP","cat":"So","bidi":"ON"}
+,{"code":129507,"name":"SCARF","cat":"So","bidi":"ON"}
+,{"code":129508,"name":"GLOVES","cat":"So","bidi":"ON"}
+,{"code":129509,"name":"COAT","cat":"So","bidi":"ON"}
+,{"code":129510,"name":"SOCKS","cat":"So","bidi":"ON"}
 ,{"code":131072,"name":"<CJK Ideograph Extension B, First>","cat":"Lo"}
 ,{"code":173782,"name":"<CJK Ideograph Extension B, Last>","cat":"Lo"}
 ,{"code":173824,"name":"<CJK Ideograph Extension C, First>","cat":"Lo"}
@@ -29707,6 +30731,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":178205,"name":"<CJK Ideograph Extension D, Last>","cat":"Lo"}
 ,{"code":178208,"name":"<CJK Ideograph Extension E, First>","cat":"Lo"}
 ,{"code":183969,"name":"<CJK Ideograph Extension E, Last>","cat":"Lo"}
+,{"code":183984,"name":"<CJK Ideograph Extension F, First>","cat":"Lo"}
+,{"code":191456,"name":"<CJK Ideograph Extension F, Last>","cat":"Lo"}
 ,{"code":194560,"name":"CJK COMPATIBILITY IDEOGRAPH-2F800","cat":"Lo","decomp":[20029]}
 ,{"code":194561,"name":"CJK COMPATIBILITY IDEOGRAPH-2F801","cat":"Lo","decomp":[20024]}
 ,{"code":194562,"name":"CJK COMPATIBILITY IDEOGRAPH-2F802","cat":"Lo","decomp":[20033]}

@@ -3,7 +3,7 @@
 [![npm package version](https://badge.fury.io/js/unidata.svg)](https://www.npmjs.com/package/unidata)
 
 JavaScript interface to the [Unicode Character Database](http://www.unicode.org/reports/tr44/)
-(currently using [Unicode 9.0.0](https://www.unicode.org/versions/Unicode9.0.0/)).
+(currently using [Unicode 10.0.0](https://www.unicode.org/versions/Unicode10.0.0/)).
 
     npm install unidata --save
 
