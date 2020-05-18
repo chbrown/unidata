@@ -203,8 +203,10 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Old Hungarian","startCode":68736,"endCode":68863}
 ,{"blockName":"Hanifi Rohingya","startCode":68864,"endCode":68927}
 ,{"blockName":"Rumi Numeral Symbols","startCode":69216,"endCode":69247}
+,{"blockName":"Yezidi","startCode":69248,"endCode":69311}
 ,{"blockName":"Old Sogdian","startCode":69376,"endCode":69423}
 ,{"blockName":"Sogdian","startCode":69424,"endCode":69487}
+,{"blockName":"Chorasmian","startCode":69552,"endCode":69599}
 ,{"blockName":"Elymaic","startCode":69600,"endCode":69631}
 ,{"blockName":"Brahmi","startCode":69632,"endCode":69759}
 ,{"blockName":"Kaithi","startCode":69760,"endCode":69839}
@@ -226,6 +228,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Ahom","startCode":71424,"endCode":71487}
 ,{"blockName":"Dogra","startCode":71680,"endCode":71759}
 ,{"blockName":"Warang Citi","startCode":71840,"endCode":71935}
+,{"blockName":"Dives Akuru","startCode":71936,"endCode":72031}
 ,{"blockName":"Nandinagari","startCode":72096,"endCode":72191}
 ,{"blockName":"Zanabazar Square","startCode":72192,"endCode":72271}
 ,{"blockName":"Soyombo","startCode":72272,"endCode":72367}
@@ -235,6 +238,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Masaram Gondi","startCode":72960,"endCode":73055}
 ,{"blockName":"Gunjala Gondi","startCode":73056,"endCode":73135}
 ,{"blockName":"Makasar","startCode":73440,"endCode":73471}
+,{"blockName":"Lisu Supplement","startCode":73648,"endCode":73663}
 ,{"blockName":"Tamil Supplement","startCode":73664,"endCode":73727}
 ,{"blockName":"Cuneiform","startCode":73728,"endCode":74751}
 ,{"blockName":"Cuneiform Numbers and Punctuation","startCode":74752,"endCode":74879}
@@ -251,6 +255,8 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Ideographic Symbols and Punctuation","startCode":94176,"endCode":94207}
 ,{"blockName":"Tangut","startCode":94208,"endCode":100351}
 ,{"blockName":"Tangut Components","startCode":100352,"endCode":101119}
+,{"blockName":"Khitan Small Script","startCode":101120,"endCode":101631}
+,{"blockName":"Tangut Supplement","startCode":101632,"endCode":101775}
 ,{"blockName":"Kana Supplement","startCode":110592,"endCode":110847}
 ,{"blockName":"Kana Extended-A","startCode":110848,"endCode":110895}
 ,{"blockName":"Small Kana Extension","startCode":110896,"endCode":110959}
@@ -288,12 +294,14 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Supplemental Symbols and Pictographs","startCode":129280,"endCode":129535}
 ,{"blockName":"Chess Symbols","startCode":129536,"endCode":129647}
 ,{"blockName":"Symbols and Pictographs Extended-A","startCode":129648,"endCode":129791}
+,{"blockName":"Symbols for Legacy Computing","startCode":129792,"endCode":130047}
 ,{"blockName":"CJK Unified Ideographs Extension B","startCode":131072,"endCode":173791}
 ,{"blockName":"CJK Unified Ideographs Extension C","startCode":173824,"endCode":177983}
 ,{"blockName":"CJK Unified Ideographs Extension D","startCode":177984,"endCode":178207}
 ,{"blockName":"CJK Unified Ideographs Extension E","startCode":178208,"endCode":183983}
 ,{"blockName":"CJK Unified Ideographs Extension F","startCode":183984,"endCode":191471}
 ,{"blockName":"CJK Compatibility Ideographs Supplement","startCode":194560,"endCode":195103}
+,{"blockName":"CJK Unified Ideographs Extension G","startCode":196608,"endCode":201551}
 ,{"blockName":"Tags","startCode":917504,"endCode":917631}
 ,{"blockName":"Variation Selectors Supplement","startCode":917760,"endCode":917999}
 ,{"blockName":"Supplementary Private Use Area-A","startCode":983040,"endCode":1048575}

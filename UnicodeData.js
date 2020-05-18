@@ -2118,6 +2118,16 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2235,"name":"ARABIC LETTER AFRICAN FEH","cat":"Lo","bidi":"AL"}
 ,{"code":2236,"name":"ARABIC LETTER AFRICAN QAF","cat":"Lo","bidi":"AL"}
 ,{"code":2237,"name":"ARABIC LETTER AFRICAN NOON","cat":"Lo","bidi":"AL"}
+,{"code":2238,"name":"ARABIC LETTER PEH WITH SMALL V","cat":"Lo","bidi":"AL"}
+,{"code":2239,"name":"ARABIC LETTER TEH WITH SMALL V","cat":"Lo","bidi":"AL"}
+,{"code":2240,"name":"ARABIC LETTER TTEH WITH SMALL V","cat":"Lo","bidi":"AL"}
+,{"code":2241,"name":"ARABIC LETTER TCHEH WITH SMALL V","cat":"Lo","bidi":"AL"}
+,{"code":2242,"name":"ARABIC LETTER KEHEH WITH SMALL V","cat":"Lo","bidi":"AL"}
+,{"code":2243,"name":"ARABIC LETTER GHAIN WITH THREE DOTS ABOVE","cat":"Lo","bidi":"AL"}
+,{"code":2244,"name":"ARABIC LETTER AFRICAN QAF WITH THREE DOTS ABOVE","cat":"Lo","bidi":"AL"}
+,{"code":2245,"name":"ARABIC LETTER JEEM WITH THREE DOTS ABOVE","cat":"Lo","bidi":"AL"}
+,{"code":2246,"name":"ARABIC LETTER JEEM WITH THREE DOTS BELOW","cat":"Lo","bidi":"AL"}
+,{"code":2247,"name":"ARABIC LETTER LAM WITH SMALL ARABIC LETTER TAH ABOVE","cat":"Lo","bidi":"AL"}
 ,{"code":2259,"name":"ARABIC SMALL LOW WAW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":2260,"name":"ARABIC SMALL HIGH WORD AR-RUB","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":2261,"name":"ARABIC SMALL HIGH SAD","cat":"Mn","comb":230,"bidi":"NSM"}
@@ -2621,6 +2631,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2891,"name":"ORIYA VOWEL SIGN O","cat":"Mc","decomp":[2887,2878]}
 ,{"code":2892,"name":"ORIYA VOWEL SIGN AU","cat":"Mc","decomp":[2887,2903]}
 ,{"code":2893,"name":"ORIYA SIGN VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":2901,"name":"ORIYA SIGN OVERLINE","cat":"Mn","bidi":"NSM"}
 ,{"code":2902,"name":"ORIYA AI LENGTH MARK","cat":"Mn","bidi":"NSM"}
 ,{"code":2903,"name":"ORIYA AU LENGTH MARK","cat":"Mc"}
 ,{"code":2908,"name":"ORIYA LETTER RRA","cat":"Lo","decomp":[2849,2876]}
@@ -2911,6 +2922,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":3329,"name":"MALAYALAM SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":3330,"name":"MALAYALAM SIGN ANUSVARA","cat":"Mc"}
 ,{"code":3331,"name":"MALAYALAM SIGN VISARGA","cat":"Mc"}
+,{"code":3332,"name":"MALAYALAM LETTER VEDIC ANUSVARA","cat":"Lo"}
 ,{"code":3333,"name":"MALAYALAM LETTER A","cat":"Lo"}
 ,{"code":3334,"name":"MALAYALAM LETTER AA","cat":"Lo"}
 ,{"code":3335,"name":"MALAYALAM LETTER I","cat":"Lo"}
@@ -3024,6 +3036,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":3453,"name":"MALAYALAM LETTER CHILLU L","cat":"Lo"}
 ,{"code":3454,"name":"MALAYALAM LETTER CHILLU LL","cat":"Lo"}
 ,{"code":3455,"name":"MALAYALAM LETTER CHILLU K","cat":"Lo"}
+,{"code":3457,"name":"SINHALA SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":3458,"name":"SINHALA SIGN ANUSVARAYA","cat":"Mc"}
 ,{"code":3459,"name":"SINHALA SIGN VISARGAYA","cat":"Mc"}
 ,{"code":3461,"name":"SINHALA LETTER AYANNA","cat":"Lo"}
@@ -6044,6 +6057,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":6844,"name":"COMBINING DOUBLE PARENTHESES ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":6845,"name":"COMBINING PARENTHESES BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":6846,"name":"COMBINING PARENTHESES OVERLAY","cat":"Me","bidi":"NSM"}
+,{"code":6847,"name":"COMBINING LATIN SMALL LETTER W BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":6848,"name":"COMBINING LATIN SMALL LETTER TURNED W BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":6912,"name":"BALINESE SIGN ULU RICEM","cat":"Mn","bidi":"NSM"}
 ,{"code":6913,"name":"BALINESE SIGN ULU CANDRA","cat":"Mn","bidi":"NSM"}
 ,{"code":6914,"name":"BALINESE SIGN CECEK","cat":"Mn","bidi":"NSM"}
@@ -10133,6 +10148,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":11155,"name":"NEWLINE RIGHT","cat":"So","bidi":"ON"}
 ,{"code":11156,"name":"FOUR CORNER ARROWS CIRCLING ANTICLOCKWISE","cat":"So","bidi":"ON"}
 ,{"code":11157,"name":"RIGHTWARDS BLACK ARROW","cat":"So","bidi":"ON"}
+,{"code":11159,"name":"SYMBOL FOR TYPE A ELECTRONICS","cat":"So","bidi":"ON"}
 ,{"code":11160,"name":"THREE-D TOP-LIGHTED LEFTWARDS EQUILATERAL ARROWHEAD","cat":"So","bidi":"ON"}
 ,{"code":11161,"name":"THREE-D RIGHT-LIGHTED UPWARDS EQUILATERAL ARROWHEAD","cat":"So","bidi":"ON"}
 ,{"code":11162,"name":"THREE-D TOP-LIGHTED RIGHTWARDS EQUILATERAL ARROWHEAD","cat":"So","bidi":"ON"}
@@ -10776,6 +10792,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":11853,"name":"PARAGRAPHUS MARK","cat":"Po","bidi":"ON"}
 ,{"code":11854,"name":"PUNCTUS ELEVATUS MARK","cat":"Po","bidi":"ON"}
 ,{"code":11855,"name":"CORNISH VERSE DIVIDER","cat":"Po","bidi":"ON"}
+,{"code":11856,"name":"CROSS PATTY WITH RIGHT CROSSBAR","cat":"So","bidi":"ON"}
+,{"code":11857,"name":"CROSS PATTY WITH LEFT CROSSBAR","cat":"So","bidi":"ON"}
+,{"code":11858,"name":"TIRONIAN SIGN CAPITAL ET","cat":"Po","bidi":"ON"}
 ,{"code":11904,"name":"CJK RADICAL REPEAT","cat":"So","bidi":"ON"}
 ,{"code":11905,"name":"CJK RADICAL CLIFF","cat":"So","bidi":"ON"}
 ,{"code":11906,"name":"CJK RADICAL SECOND ONE","cat":"So","bidi":"ON"}
@@ -11550,6 +11569,11 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":12728,"name":"BOPOMOFO LETTER GH","cat":"Lo"}
 ,{"code":12729,"name":"BOPOMOFO LETTER LH","cat":"Lo"}
 ,{"code":12730,"name":"BOPOMOFO LETTER ZY","cat":"Lo"}
+,{"code":12731,"name":"BOPOMOFO FINAL LETTER G","cat":"Lo"}
+,{"code":12732,"name":"BOPOMOFO LETTER GW","cat":"Lo"}
+,{"code":12733,"name":"BOPOMOFO LETTER KW","cat":"Lo"}
+,{"code":12734,"name":"BOPOMOFO LETTER OE","cat":"Lo"}
+,{"code":12735,"name":"BOPOMOFO LETTER AH","cat":"Lo"}
 ,{"code":12736,"name":"CJK STROKE T","cat":"So","bidi":"ON"}
 ,{"code":12737,"name":"CJK STROKE WG","cat":"So","bidi":"ON"}
 ,{"code":12738,"name":"CJK STROKE XG","cat":"So","bidi":"ON"}
@@ -12114,7 +12138,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":13310,"name":"IDEOGRAPHIC TELEGRAPH SYMBOL FOR DAY THIRTY-ONE","cat":"So","decomp":[51,49,26085],"decompType":"compat"}
 ,{"code":13311,"name":"SQUARE GAL","cat":"So","bidi":"ON","decomp":[103,97,108],"decompType":"square"}
 ,{"code":13312,"name":"<CJK Ideograph Extension A, First>","cat":"Lo"}
-,{"code":19893,"name":"<CJK Ideograph Extension A, Last>","cat":"Lo"}
+,{"code":19903,"name":"<CJK Ideograph Extension A, Last>","cat":"Lo"}
 ,{"code":19904,"name":"HEXAGRAM FOR THE CREATIVE HEAVEN","cat":"So","bidi":"ON"}
 ,{"code":19905,"name":"HEXAGRAM FOR THE RECEPTIVE EARTH","cat":"So","bidi":"ON"}
 ,{"code":19906,"name":"HEXAGRAM FOR DIFFICULTY AT THE BEGINNING","cat":"So","bidi":"ON"}
@@ -12180,7 +12204,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":19966,"name":"HEXAGRAM FOR AFTER COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19967,"name":"HEXAGRAM FOR BEFORE COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19968,"name":"<CJK Ideograph, First>","cat":"Lo"}
-,{"code":40943,"name":"<CJK Ideograph, Last>","cat":"Lo"}
+,{"code":40956,"name":"<CJK Ideograph, Last>","cat":"Lo"}
 ,{"code":40960,"name":"YI SYLLABLE IT","cat":"Lo"}
 ,{"code":40961,"name":"YI SYLLABLE IX","cat":"Lo"}
 ,{"code":40962,"name":"YI SYLLABLE I","cat":"Lo"}
@@ -14130,6 +14154,12 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":42948,"name":"LATIN CAPITAL LETTER C WITH PALATAL HOOK","cat":"Lu","lower":42900}
 ,{"code":42949,"name":"LATIN CAPITAL LETTER S WITH HOOK","cat":"Lu","lower":642}
 ,{"code":42950,"name":"LATIN CAPITAL LETTER Z WITH PALATAL HOOK","cat":"Lu","lower":7566}
+,{"code":42951,"name":"LATIN CAPITAL LETTER D WITH SHORT STROKE OVERLAY","cat":"Lu","lower":42952}
+,{"code":42952,"name":"LATIN SMALL LETTER D WITH SHORT STROKE OVERLAY","cat":"Ll","upper":42951,"title":42951}
+,{"code":42953,"name":"LATIN CAPITAL LETTER S WITH SHORT STROKE OVERLAY","cat":"Lu","lower":42954}
+,{"code":42954,"name":"LATIN SMALL LETTER S WITH SHORT STROKE OVERLAY","cat":"Ll","upper":42953,"title":42953}
+,{"code":42997,"name":"LATIN CAPITAL LETTER REVERSED HALF H","cat":"Lu","lower":42998}
+,{"code":42998,"name":"LATIN SMALL LETTER REVERSED HALF H","cat":"Ll","upper":42997,"title":42997}
 ,{"code":42999,"name":"LATIN EPIGRAPHIC LETTER SIDEWAYS I","cat":"Lo"}
 ,{"code":43000,"name":"MODIFIER LETTER CAPITAL H WITH STROKE","cat":"Lm","decomp":[294],"decompType":"super"}
 ,{"code":43001,"name":"MODIFIER LETTER SMALL LIGATURE OE","cat":"Lm","decomp":[339],"decompType":"super"}
@@ -14183,6 +14213,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":43049,"name":"SYLOTI NAGRI POETRY MARK-2","cat":"So","bidi":"ON"}
 ,{"code":43050,"name":"SYLOTI NAGRI POETRY MARK-3","cat":"So","bidi":"ON"}
 ,{"code":43051,"name":"SYLOTI NAGRI POETRY MARK-4","cat":"So","bidi":"ON"}
+,{"code":43052,"name":"SYLOTI NAGRI SIGN ALTERNATE HASANTA","cat":"Mn","comb":9,"bidi":"NSM"}
 ,{"code":43056,"name":"NORTH INDIC FRACTION ONE QUARTER","cat":"No","num":"1/4"}
 ,{"code":43057,"name":"NORTH INDIC FRACTION ONE HALF","cat":"No","num":"1/2"}
 ,{"code":43058,"name":"NORTH INDIC FRACTION THREE QUARTERS","cat":"No","num":"3/4"}
@@ -14897,6 +14928,10 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":43877,"name":"GREEK LETTER SMALL CAPITAL OMEGA","cat":"Ll"}
 ,{"code":43878,"name":"LATIN SMALL LETTER DZ DIGRAPH WITH RETROFLEX HOOK","cat":"Ll"}
 ,{"code":43879,"name":"LATIN SMALL LETTER TS DIGRAPH WITH RETROFLEX HOOK","cat":"Ll"}
+,{"code":43880,"name":"LATIN SMALL LETTER TURNED R WITH MIDDLE TILDE","cat":"Ll"}
+,{"code":43881,"name":"MODIFIER LETTER SMALL TURNED W","cat":"Lm","decomp":[653],"decompType":"super"}
+,{"code":43882,"name":"MODIFIER LETTER LEFT TACK","cat":"Sk","bidi":"ON"}
+,{"code":43883,"name":"MODIFIER LETTER RIGHT TACK","cat":"Sk","bidi":"ON"}
 ,{"code":43888,"name":"CHEROKEE SMALL LETTER A","cat":"Ll","upper":5024,"title":5024}
 ,{"code":43889,"name":"CHEROKEE SMALL LETTER E","cat":"Ll","upper":5025,"title":5025}
 ,{"code":43890,"name":"CHEROKEE SMALL LETTER I","cat":"Ll","upper":5026,"title":5026}
@@ -17086,6 +17121,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":65945,"name":"ROMAN DUPONDIUS SIGN","cat":"So","bidi":"ON"}
 ,{"code":65946,"name":"ROMAN AS SIGN","cat":"So","bidi":"ON"}
 ,{"code":65947,"name":"ROMAN CENTURIAL SIGN","cat":"So","bidi":"ON"}
+,{"code":65948,"name":"ASCIA SYMBOL","cat":"So","bidi":"ON"}
 ,{"code":65952,"name":"GREEK SYMBOL TAU RHO","cat":"So","bidi":"ON"}
 ,{"code":66000,"name":"PHAISTOS DISC SIGN PEDESTRIAN","cat":"So"}
 ,{"code":66001,"name":"PHAISTOS DISC SIGN PLUMED HEAD","cat":"So"}
@@ -19057,6 +19093,53 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":69244,"name":"RUMI FRACTION ONE QUARTER","cat":"No","bidi":"AN","num":"1/4"}
 ,{"code":69245,"name":"RUMI FRACTION ONE THIRD","cat":"No","bidi":"AN","num":"1/3"}
 ,{"code":69246,"name":"RUMI FRACTION TWO THIRDS","cat":"No","bidi":"AN","num":"2/3"}
+,{"code":69248,"name":"YEZIDI LETTER ELIF","cat":"Lo","bidi":"R"}
+,{"code":69249,"name":"YEZIDI LETTER BE","cat":"Lo","bidi":"R"}
+,{"code":69250,"name":"YEZIDI LETTER PE","cat":"Lo","bidi":"R"}
+,{"code":69251,"name":"YEZIDI LETTER PHE","cat":"Lo","bidi":"R"}
+,{"code":69252,"name":"YEZIDI LETTER THE","cat":"Lo","bidi":"R"}
+,{"code":69253,"name":"YEZIDI LETTER SE","cat":"Lo","bidi":"R"}
+,{"code":69254,"name":"YEZIDI LETTER CIM","cat":"Lo","bidi":"R"}
+,{"code":69255,"name":"YEZIDI LETTER CHIM","cat":"Lo","bidi":"R"}
+,{"code":69256,"name":"YEZIDI LETTER CHHIM","cat":"Lo","bidi":"R"}
+,{"code":69257,"name":"YEZIDI LETTER HHA","cat":"Lo","bidi":"R"}
+,{"code":69258,"name":"YEZIDI LETTER XA","cat":"Lo","bidi":"R"}
+,{"code":69259,"name":"YEZIDI LETTER DAL","cat":"Lo","bidi":"R"}
+,{"code":69260,"name":"YEZIDI LETTER ZAL","cat":"Lo","bidi":"R"}
+,{"code":69261,"name":"YEZIDI LETTER RA","cat":"Lo","bidi":"R"}
+,{"code":69262,"name":"YEZIDI LETTER RHA","cat":"Lo","bidi":"R"}
+,{"code":69263,"name":"YEZIDI LETTER ZA","cat":"Lo","bidi":"R"}
+,{"code":69264,"name":"YEZIDI LETTER JA","cat":"Lo","bidi":"R"}
+,{"code":69265,"name":"YEZIDI LETTER SIN","cat":"Lo","bidi":"R"}
+,{"code":69266,"name":"YEZIDI LETTER SHIN","cat":"Lo","bidi":"R"}
+,{"code":69267,"name":"YEZIDI LETTER SAD","cat":"Lo","bidi":"R"}
+,{"code":69268,"name":"YEZIDI LETTER DAD","cat":"Lo","bidi":"R"}
+,{"code":69269,"name":"YEZIDI LETTER TA","cat":"Lo","bidi":"R"}
+,{"code":69270,"name":"YEZIDI LETTER ZE","cat":"Lo","bidi":"R"}
+,{"code":69271,"name":"YEZIDI LETTER EYN","cat":"Lo","bidi":"R"}
+,{"code":69272,"name":"YEZIDI LETTER XHEYN","cat":"Lo","bidi":"R"}
+,{"code":69273,"name":"YEZIDI LETTER FA","cat":"Lo","bidi":"R"}
+,{"code":69274,"name":"YEZIDI LETTER VA","cat":"Lo","bidi":"R"}
+,{"code":69275,"name":"YEZIDI LETTER VA ALTERNATE FORM","cat":"Lo","bidi":"R"}
+,{"code":69276,"name":"YEZIDI LETTER QAF","cat":"Lo","bidi":"R"}
+,{"code":69277,"name":"YEZIDI LETTER KAF","cat":"Lo","bidi":"R"}
+,{"code":69278,"name":"YEZIDI LETTER KHAF","cat":"Lo","bidi":"R"}
+,{"code":69279,"name":"YEZIDI LETTER GAF","cat":"Lo","bidi":"R"}
+,{"code":69280,"name":"YEZIDI LETTER LAM","cat":"Lo","bidi":"R"}
+,{"code":69281,"name":"YEZIDI LETTER MIM","cat":"Lo","bidi":"R"}
+,{"code":69282,"name":"YEZIDI LETTER NUN","cat":"Lo","bidi":"R"}
+,{"code":69283,"name":"YEZIDI LETTER UM","cat":"Lo","bidi":"R"}
+,{"code":69284,"name":"YEZIDI LETTER WAW","cat":"Lo","bidi":"R"}
+,{"code":69285,"name":"YEZIDI LETTER OW","cat":"Lo","bidi":"R"}
+,{"code":69286,"name":"YEZIDI LETTER EW","cat":"Lo","bidi":"R"}
+,{"code":69287,"name":"YEZIDI LETTER HAY","cat":"Lo","bidi":"R"}
+,{"code":69288,"name":"YEZIDI LETTER YOT","cat":"Lo","bidi":"R"}
+,{"code":69289,"name":"YEZIDI LETTER ET","cat":"Lo","bidi":"R"}
+,{"code":69291,"name":"YEZIDI COMBINING HAMZA MARK","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":69292,"name":"YEZIDI COMBINING MADDA MARK","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":69293,"name":"YEZIDI HYPHENATION MARK","cat":"Pd","bidi":"R"}
+,{"code":69296,"name":"YEZIDI LETTER LAM WITH DOT ABOVE","cat":"Lo","bidi":"R"}
+,{"code":69297,"name":"YEZIDI LETTER YOT WITH CIRCUMFLEX ABOVE","cat":"Lo","bidi":"R"}
 ,{"code":69376,"name":"OLD SOGDIAN LETTER ALEPH","cat":"Lo","bidi":"R"}
 ,{"code":69377,"name":"OLD SOGDIAN LETTER FINAL ALEPH","cat":"Lo","bidi":"R"}
 ,{"code":69378,"name":"OLD SOGDIAN LETTER BETH","cat":"Lo","bidi":"R"}
@@ -19139,6 +19222,34 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":69463,"name":"SOGDIAN PUNCTUATION CIRCLE WITH DOT","cat":"Po","bidi":"AL"}
 ,{"code":69464,"name":"SOGDIAN PUNCTUATION TWO CIRCLES WITH DOTS","cat":"Po","bidi":"AL"}
 ,{"code":69465,"name":"SOGDIAN PUNCTUATION HALF CIRCLE WITH DOT","cat":"Po","bidi":"AL"}
+,{"code":69552,"name":"CHORASMIAN LETTER ALEPH","cat":"Lo","bidi":"R"}
+,{"code":69553,"name":"CHORASMIAN LETTER SMALL ALEPH","cat":"Lo","bidi":"R"}
+,{"code":69554,"name":"CHORASMIAN LETTER BETH","cat":"Lo","bidi":"R"}
+,{"code":69555,"name":"CHORASMIAN LETTER GIMEL","cat":"Lo","bidi":"R"}
+,{"code":69556,"name":"CHORASMIAN LETTER DALETH","cat":"Lo","bidi":"R"}
+,{"code":69557,"name":"CHORASMIAN LETTER HE","cat":"Lo","bidi":"R"}
+,{"code":69558,"name":"CHORASMIAN LETTER WAW","cat":"Lo","bidi":"R"}
+,{"code":69559,"name":"CHORASMIAN LETTER CURLED WAW","cat":"Lo","bidi":"R"}
+,{"code":69560,"name":"CHORASMIAN LETTER ZAYIN","cat":"Lo","bidi":"R"}
+,{"code":69561,"name":"CHORASMIAN LETTER HETH","cat":"Lo","bidi":"R"}
+,{"code":69562,"name":"CHORASMIAN LETTER YODH","cat":"Lo","bidi":"R"}
+,{"code":69563,"name":"CHORASMIAN LETTER KAPH","cat":"Lo","bidi":"R"}
+,{"code":69564,"name":"CHORASMIAN LETTER LAMEDH","cat":"Lo","bidi":"R"}
+,{"code":69565,"name":"CHORASMIAN LETTER MEM","cat":"Lo","bidi":"R"}
+,{"code":69566,"name":"CHORASMIAN LETTER NUN","cat":"Lo","bidi":"R"}
+,{"code":69567,"name":"CHORASMIAN LETTER SAMEKH","cat":"Lo","bidi":"R"}
+,{"code":69568,"name":"CHORASMIAN LETTER AYIN","cat":"Lo","bidi":"R"}
+,{"code":69569,"name":"CHORASMIAN LETTER PE","cat":"Lo","bidi":"R"}
+,{"code":69570,"name":"CHORASMIAN LETTER RESH","cat":"Lo","bidi":"R"}
+,{"code":69571,"name":"CHORASMIAN LETTER SHIN","cat":"Lo","bidi":"R"}
+,{"code":69572,"name":"CHORASMIAN LETTER TAW","cat":"Lo","bidi":"R"}
+,{"code":69573,"name":"CHORASMIAN NUMBER ONE","cat":"No","bidi":"R","num":"1"}
+,{"code":69574,"name":"CHORASMIAN NUMBER TWO","cat":"No","bidi":"R","num":"2"}
+,{"code":69575,"name":"CHORASMIAN NUMBER THREE","cat":"No","bidi":"R","num":"3"}
+,{"code":69576,"name":"CHORASMIAN NUMBER FOUR","cat":"No","bidi":"R","num":"4"}
+,{"code":69577,"name":"CHORASMIAN NUMBER TEN","cat":"No","bidi":"R","num":"10"}
+,{"code":69578,"name":"CHORASMIAN NUMBER TWENTY","cat":"No","bidi":"R","num":"20"}
+,{"code":69579,"name":"CHORASMIAN NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
 ,{"code":69600,"name":"ELYMAIC LETTER ALEPH","cat":"Lo","bidi":"R"}
 ,{"code":69601,"name":"ELYMAIC LETTER BETH","cat":"Lo","bidi":"R"}
 ,{"code":69602,"name":"ELYMAIC LETTER GIMEL","cat":"Lo","bidi":"R"}
@@ -19443,6 +19554,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":69956,"name":"CHAKMA LETTER LHAA","cat":"Lo"}
 ,{"code":69957,"name":"CHAKMA VOWEL SIGN AA","cat":"Mc"}
 ,{"code":69958,"name":"CHAKMA VOWEL SIGN EI","cat":"Mc"}
+,{"code":69959,"name":"CHAKMA LETTER VAA","cat":"Lo"}
 ,{"code":69968,"name":"MAHAJANI LETTER A","cat":"Lo"}
 ,{"code":69969,"name":"MAHAJANI LETTER I","cat":"Lo"}
 ,{"code":69970,"name":"MAHAJANI LETTER U","cat":"Lo"}
@@ -19560,6 +19672,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":70091,"name":"SHARADA VOWEL MODIFIER MARK","cat":"Mn","bidi":"NSM"}
 ,{"code":70092,"name":"SHARADA EXTRA SHORT VOWEL MARK","cat":"Mn","bidi":"NSM"}
 ,{"code":70093,"name":"SHARADA SUTRA MARK","cat":"Po"}
+,{"code":70094,"name":"SHARADA VOWEL SIGN PRISHTHAMATRA E","cat":"Mc"}
+,{"code":70095,"name":"SHARADA SIGN INVERTED CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":70096,"name":"SHARADA DIGIT ZERO","cat":"Nd","num":"0"}
 ,{"code":70097,"name":"SHARADA DIGIT ONE","cat":"Nd","num":"1"}
 ,{"code":70098,"name":"SHARADA DIGIT TWO","cat":"Nd","num":"2"}
@@ -19941,10 +20055,13 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":70743,"name":"NEWA DIGIT SEVEN","cat":"Nd","num":"7"}
 ,{"code":70744,"name":"NEWA DIGIT EIGHT","cat":"Nd","num":"8"}
 ,{"code":70745,"name":"NEWA DIGIT NINE","cat":"Nd","num":"9"}
+,{"code":70746,"name":"NEWA DOUBLE COMMA","cat":"Po"}
 ,{"code":70747,"name":"NEWA PLACEHOLDER MARK","cat":"Po"}
 ,{"code":70749,"name":"NEWA INSERTION SIGN","cat":"Po"}
 ,{"code":70750,"name":"NEWA SANDHI MARK","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":70751,"name":"NEWA LETTER VEDIC ANUSVARA","cat":"Lo"}
+,{"code":70752,"name":"NEWA SIGN JIHVAMULIYA","cat":"Lo"}
+,{"code":70753,"name":"NEWA SIGN UPADHMANIYA","cat":"Lo"}
 ,{"code":70784,"name":"TIRHUTA ANJI","cat":"Lo"}
 ,{"code":70785,"name":"TIRHUTA LETTER A","cat":"Lo"}
 ,{"code":70786,"name":"TIRHUTA LETTER AA","cat":"Lo"}
@@ -20480,6 +20597,78 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":71921,"name":"WARANG CITI NUMBER EIGHTY","cat":"No","num":"80"}
 ,{"code":71922,"name":"WARANG CITI NUMBER NINETY","cat":"No","num":"90"}
 ,{"code":71935,"name":"WARANG CITI OM","cat":"Lo"}
+,{"code":71936,"name":"DIVES AKURU LETTER A","cat":"Lo"}
+,{"code":71937,"name":"DIVES AKURU LETTER AA","cat":"Lo"}
+,{"code":71938,"name":"DIVES AKURU LETTER I","cat":"Lo"}
+,{"code":71939,"name":"DIVES AKURU LETTER II","cat":"Lo"}
+,{"code":71940,"name":"DIVES AKURU LETTER U","cat":"Lo"}
+,{"code":71941,"name":"DIVES AKURU LETTER UU","cat":"Lo"}
+,{"code":71942,"name":"DIVES AKURU LETTER E","cat":"Lo"}
+,{"code":71945,"name":"DIVES AKURU LETTER O","cat":"Lo"}
+,{"code":71948,"name":"DIVES AKURU LETTER KA","cat":"Lo"}
+,{"code":71949,"name":"DIVES AKURU LETTER KHA","cat":"Lo"}
+,{"code":71950,"name":"DIVES AKURU LETTER GA","cat":"Lo"}
+,{"code":71951,"name":"DIVES AKURU LETTER GHA","cat":"Lo"}
+,{"code":71952,"name":"DIVES AKURU LETTER NGA","cat":"Lo"}
+,{"code":71953,"name":"DIVES AKURU LETTER CA","cat":"Lo"}
+,{"code":71954,"name":"DIVES AKURU LETTER CHA","cat":"Lo"}
+,{"code":71955,"name":"DIVES AKURU LETTER JA","cat":"Lo"}
+,{"code":71957,"name":"DIVES AKURU LETTER NYA","cat":"Lo"}
+,{"code":71958,"name":"DIVES AKURU LETTER TTA","cat":"Lo"}
+,{"code":71960,"name":"DIVES AKURU LETTER DDA","cat":"Lo"}
+,{"code":71961,"name":"DIVES AKURU LETTER DDHA","cat":"Lo"}
+,{"code":71962,"name":"DIVES AKURU LETTER NNA","cat":"Lo"}
+,{"code":71963,"name":"DIVES AKURU LETTER TA","cat":"Lo"}
+,{"code":71964,"name":"DIVES AKURU LETTER THA","cat":"Lo"}
+,{"code":71965,"name":"DIVES AKURU LETTER DA","cat":"Lo"}
+,{"code":71966,"name":"DIVES AKURU LETTER DHA","cat":"Lo"}
+,{"code":71967,"name":"DIVES AKURU LETTER NA","cat":"Lo"}
+,{"code":71968,"name":"DIVES AKURU LETTER PA","cat":"Lo"}
+,{"code":71969,"name":"DIVES AKURU LETTER PHA","cat":"Lo"}
+,{"code":71970,"name":"DIVES AKURU LETTER BA","cat":"Lo"}
+,{"code":71971,"name":"DIVES AKURU LETTER BHA","cat":"Lo"}
+,{"code":71972,"name":"DIVES AKURU LETTER MA","cat":"Lo"}
+,{"code":71973,"name":"DIVES AKURU LETTER YA","cat":"Lo"}
+,{"code":71974,"name":"DIVES AKURU LETTER YYA","cat":"Lo"}
+,{"code":71975,"name":"DIVES AKURU LETTER RA","cat":"Lo"}
+,{"code":71976,"name":"DIVES AKURU LETTER LA","cat":"Lo"}
+,{"code":71977,"name":"DIVES AKURU LETTER VA","cat":"Lo"}
+,{"code":71978,"name":"DIVES AKURU LETTER SHA","cat":"Lo"}
+,{"code":71979,"name":"DIVES AKURU LETTER SSA","cat":"Lo"}
+,{"code":71980,"name":"DIVES AKURU LETTER SA","cat":"Lo"}
+,{"code":71981,"name":"DIVES AKURU LETTER HA","cat":"Lo"}
+,{"code":71982,"name":"DIVES AKURU LETTER LLA","cat":"Lo"}
+,{"code":71983,"name":"DIVES AKURU LETTER ZA","cat":"Lo"}
+,{"code":71984,"name":"DIVES AKURU VOWEL SIGN AA","cat":"Mc"}
+,{"code":71985,"name":"DIVES AKURU VOWEL SIGN I","cat":"Mc"}
+,{"code":71986,"name":"DIVES AKURU VOWEL SIGN II","cat":"Mc"}
+,{"code":71987,"name":"DIVES AKURU VOWEL SIGN U","cat":"Mc"}
+,{"code":71988,"name":"DIVES AKURU VOWEL SIGN UU","cat":"Mc"}
+,{"code":71989,"name":"DIVES AKURU VOWEL SIGN E","cat":"Mc"}
+,{"code":71991,"name":"DIVES AKURU VOWEL SIGN AI","cat":"Mc"}
+,{"code":71992,"name":"DIVES AKURU VOWEL SIGN O","cat":"Mc","decomp":[71989,71984]}
+,{"code":71995,"name":"DIVES AKURU SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
+,{"code":71996,"name":"DIVES AKURU SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
+,{"code":71997,"name":"DIVES AKURU SIGN HALANTA","cat":"Mc","comb":9}
+,{"code":71998,"name":"DIVES AKURU VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":71999,"name":"DIVES AKURU PREFIXED NASAL SIGN","cat":"Lo"}
+,{"code":72000,"name":"DIVES AKURU MEDIAL YA","cat":"Mc"}
+,{"code":72001,"name":"DIVES AKURU INITIAL RA","cat":"Lo"}
+,{"code":72002,"name":"DIVES AKURU MEDIAL RA","cat":"Mc"}
+,{"code":72003,"name":"DIVES AKURU SIGN NUKTA","cat":"Mn","comb":7,"bidi":"NSM"}
+,{"code":72004,"name":"DIVES AKURU DOUBLE DANDA","cat":"Po"}
+,{"code":72005,"name":"DIVES AKURU GAP FILLER","cat":"Po"}
+,{"code":72006,"name":"DIVES AKURU END OF TEXT MARK","cat":"Po"}
+,{"code":72016,"name":"DIVES AKURU DIGIT ZERO","cat":"Nd","num":"0"}
+,{"code":72017,"name":"DIVES AKURU DIGIT ONE","cat":"Nd","num":"1"}
+,{"code":72018,"name":"DIVES AKURU DIGIT TWO","cat":"Nd","num":"2"}
+,{"code":72019,"name":"DIVES AKURU DIGIT THREE","cat":"Nd","num":"3"}
+,{"code":72020,"name":"DIVES AKURU DIGIT FOUR","cat":"Nd","num":"4"}
+,{"code":72021,"name":"DIVES AKURU DIGIT FIVE","cat":"Nd","num":"5"}
+,{"code":72022,"name":"DIVES AKURU DIGIT SIX","cat":"Nd","num":"6"}
+,{"code":72023,"name":"DIVES AKURU DIGIT SEVEN","cat":"Nd","num":"7"}
+,{"code":72024,"name":"DIVES AKURU DIGIT EIGHT","cat":"Nd","num":"8"}
+,{"code":72025,"name":"DIVES AKURU DIGIT NINE","cat":"Nd","num":"9"}
 ,{"code":72096,"name":"NANDINAGARI LETTER A","cat":"Lo"}
 ,{"code":72097,"name":"NANDINAGARI LETTER AA","cat":"Lo"}
 ,{"code":72098,"name":"NANDINAGARI LETTER I","cat":"Lo"}
@@ -21085,6 +21274,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":73462,"name":"MAKASAR VOWEL SIGN O","cat":"Mc"}
 ,{"code":73463,"name":"MAKASAR PASSIMBANG","cat":"Po"}
 ,{"code":73464,"name":"MAKASAR END OF SECTION","cat":"Po"}
+,{"code":73648,"name":"LISU LETTER YHA","cat":"Lo"}
 ,{"code":73664,"name":"TAMIL FRACTION ONE THREE-HUNDRED-AND-TWENTIETH","cat":"No","num":"1/320"}
 ,{"code":73665,"name":"TAMIL FRACTION ONE ONE-HUNDRED-AND-SIXTIETH","cat":"No","num":"1/160"}
 ,{"code":73666,"name":"TAMIL FRACTION ONE EIGHTIETH","cat":"No","num":"1/80"}
@@ -25052,6 +25242,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":94177,"name":"NUSHU ITERATION MARK","cat":"Lm"}
 ,{"code":94178,"name":"OLD CHINESE HOOK MARK","cat":"Po","bidi":"ON"}
 ,{"code":94179,"name":"OLD CHINESE ITERATION MARK","cat":"Lm"}
+,{"code":94180,"name":"KHITAN SMALL SCRIPT FILLER","cat":"Mn","bidi":"NSM"}
+,{"code":94192,"name":"VIETNAMESE ALTERNATE READING MARK CA","cat":"Mc","comb":6}
+,{"code":94193,"name":"VIETNAMESE ALTERNATE READING MARK NHAY","cat":"Mc","comb":6}
 ,{"code":94208,"name":"<Tangut Ideograph, First>","cat":"Lo"}
 ,{"code":100343,"name":"<Tangut Ideograph, Last>","cat":"Lo"}
 ,{"code":100352,"name":"TANGUT COMPONENT-001","cat":"Lo"}
@@ -25809,6 +26002,491 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":101104,"name":"TANGUT COMPONENT-753","cat":"Lo"}
 ,{"code":101105,"name":"TANGUT COMPONENT-754","cat":"Lo"}
 ,{"code":101106,"name":"TANGUT COMPONENT-755","cat":"Lo"}
+,{"code":101107,"name":"TANGUT COMPONENT-756","cat":"Lo"}
+,{"code":101108,"name":"TANGUT COMPONENT-757","cat":"Lo"}
+,{"code":101109,"name":"TANGUT COMPONENT-758","cat":"Lo"}
+,{"code":101110,"name":"TANGUT COMPONENT-759","cat":"Lo"}
+,{"code":101111,"name":"TANGUT COMPONENT-760","cat":"Lo"}
+,{"code":101112,"name":"TANGUT COMPONENT-761","cat":"Lo"}
+,{"code":101113,"name":"TANGUT COMPONENT-762","cat":"Lo"}
+,{"code":101114,"name":"TANGUT COMPONENT-763","cat":"Lo"}
+,{"code":101115,"name":"TANGUT COMPONENT-764","cat":"Lo"}
+,{"code":101116,"name":"TANGUT COMPONENT-765","cat":"Lo"}
+,{"code":101117,"name":"TANGUT COMPONENT-766","cat":"Lo"}
+,{"code":101118,"name":"TANGUT COMPONENT-767","cat":"Lo"}
+,{"code":101119,"name":"TANGUT COMPONENT-768","cat":"Lo"}
+,{"code":101120,"name":"KHITAN SMALL SCRIPT CHARACTER-18B00","cat":"Lo"}
+,{"code":101121,"name":"KHITAN SMALL SCRIPT CHARACTER-18B01","cat":"Lo"}
+,{"code":101122,"name":"KHITAN SMALL SCRIPT CHARACTER-18B02","cat":"Lo"}
+,{"code":101123,"name":"KHITAN SMALL SCRIPT CHARACTER-18B03","cat":"Lo"}
+,{"code":101124,"name":"KHITAN SMALL SCRIPT CHARACTER-18B04","cat":"Lo"}
+,{"code":101125,"name":"KHITAN SMALL SCRIPT CHARACTER-18B05","cat":"Lo"}
+,{"code":101126,"name":"KHITAN SMALL SCRIPT CHARACTER-18B06","cat":"Lo"}
+,{"code":101127,"name":"KHITAN SMALL SCRIPT CHARACTER-18B07","cat":"Lo"}
+,{"code":101128,"name":"KHITAN SMALL SCRIPT CHARACTER-18B08","cat":"Lo"}
+,{"code":101129,"name":"KHITAN SMALL SCRIPT CHARACTER-18B09","cat":"Lo"}
+,{"code":101130,"name":"KHITAN SMALL SCRIPT CHARACTER-18B0A","cat":"Lo"}
+,{"code":101131,"name":"KHITAN SMALL SCRIPT CHARACTER-18B0B","cat":"Lo"}
+,{"code":101132,"name":"KHITAN SMALL SCRIPT CHARACTER-18B0C","cat":"Lo"}
+,{"code":101133,"name":"KHITAN SMALL SCRIPT CHARACTER-18B0D","cat":"Lo"}
+,{"code":101134,"name":"KHITAN SMALL SCRIPT CHARACTER-18B0E","cat":"Lo"}
+,{"code":101135,"name":"KHITAN SMALL SCRIPT CHARACTER-18B0F","cat":"Lo"}
+,{"code":101136,"name":"KHITAN SMALL SCRIPT CHARACTER-18B10","cat":"Lo"}
+,{"code":101137,"name":"KHITAN SMALL SCRIPT CHARACTER-18B11","cat":"Lo"}
+,{"code":101138,"name":"KHITAN SMALL SCRIPT CHARACTER-18B12","cat":"Lo"}
+,{"code":101139,"name":"KHITAN SMALL SCRIPT CHARACTER-18B13","cat":"Lo"}
+,{"code":101140,"name":"KHITAN SMALL SCRIPT CHARACTER-18B14","cat":"Lo"}
+,{"code":101141,"name":"KHITAN SMALL SCRIPT CHARACTER-18B15","cat":"Lo"}
+,{"code":101142,"name":"KHITAN SMALL SCRIPT CHARACTER-18B16","cat":"Lo"}
+,{"code":101143,"name":"KHITAN SMALL SCRIPT CHARACTER-18B17","cat":"Lo"}
+,{"code":101144,"name":"KHITAN SMALL SCRIPT CHARACTER-18B18","cat":"Lo"}
+,{"code":101145,"name":"KHITAN SMALL SCRIPT CHARACTER-18B19","cat":"Lo"}
+,{"code":101146,"name":"KHITAN SMALL SCRIPT CHARACTER-18B1A","cat":"Lo"}
+,{"code":101147,"name":"KHITAN SMALL SCRIPT CHARACTER-18B1B","cat":"Lo"}
+,{"code":101148,"name":"KHITAN SMALL SCRIPT CHARACTER-18B1C","cat":"Lo"}
+,{"code":101149,"name":"KHITAN SMALL SCRIPT CHARACTER-18B1D","cat":"Lo"}
+,{"code":101150,"name":"KHITAN SMALL SCRIPT CHARACTER-18B1E","cat":"Lo"}
+,{"code":101151,"name":"KHITAN SMALL SCRIPT CHARACTER-18B1F","cat":"Lo"}
+,{"code":101152,"name":"KHITAN SMALL SCRIPT CHARACTER-18B20","cat":"Lo"}
+,{"code":101153,"name":"KHITAN SMALL SCRIPT CHARACTER-18B21","cat":"Lo"}
+,{"code":101154,"name":"KHITAN SMALL SCRIPT CHARACTER-18B22","cat":"Lo"}
+,{"code":101155,"name":"KHITAN SMALL SCRIPT CHARACTER-18B23","cat":"Lo"}
+,{"code":101156,"name":"KHITAN SMALL SCRIPT CHARACTER-18B24","cat":"Lo"}
+,{"code":101157,"name":"KHITAN SMALL SCRIPT CHARACTER-18B25","cat":"Lo"}
+,{"code":101158,"name":"KHITAN SMALL SCRIPT CHARACTER-18B26","cat":"Lo"}
+,{"code":101159,"name":"KHITAN SMALL SCRIPT CHARACTER-18B27","cat":"Lo"}
+,{"code":101160,"name":"KHITAN SMALL SCRIPT CHARACTER-18B28","cat":"Lo"}
+,{"code":101161,"name":"KHITAN SMALL SCRIPT CHARACTER-18B29","cat":"Lo"}
+,{"code":101162,"name":"KHITAN SMALL SCRIPT CHARACTER-18B2A","cat":"Lo"}
+,{"code":101163,"name":"KHITAN SMALL SCRIPT CHARACTER-18B2B","cat":"Lo"}
+,{"code":101164,"name":"KHITAN SMALL SCRIPT CHARACTER-18B2C","cat":"Lo"}
+,{"code":101165,"name":"KHITAN SMALL SCRIPT CHARACTER-18B2D","cat":"Lo"}
+,{"code":101166,"name":"KHITAN SMALL SCRIPT CHARACTER-18B2E","cat":"Lo"}
+,{"code":101167,"name":"KHITAN SMALL SCRIPT CHARACTER-18B2F","cat":"Lo"}
+,{"code":101168,"name":"KHITAN SMALL SCRIPT CHARACTER-18B30","cat":"Lo"}
+,{"code":101169,"name":"KHITAN SMALL SCRIPT CHARACTER-18B31","cat":"Lo"}
+,{"code":101170,"name":"KHITAN SMALL SCRIPT CHARACTER-18B32","cat":"Lo"}
+,{"code":101171,"name":"KHITAN SMALL SCRIPT CHARACTER-18B33","cat":"Lo"}
+,{"code":101172,"name":"KHITAN SMALL SCRIPT CHARACTER-18B34","cat":"Lo"}
+,{"code":101173,"name":"KHITAN SMALL SCRIPT CHARACTER-18B35","cat":"Lo"}
+,{"code":101174,"name":"KHITAN SMALL SCRIPT CHARACTER-18B36","cat":"Lo"}
+,{"code":101175,"name":"KHITAN SMALL SCRIPT CHARACTER-18B37","cat":"Lo"}
+,{"code":101176,"name":"KHITAN SMALL SCRIPT CHARACTER-18B38","cat":"Lo"}
+,{"code":101177,"name":"KHITAN SMALL SCRIPT CHARACTER-18B39","cat":"Lo"}
+,{"code":101178,"name":"KHITAN SMALL SCRIPT CHARACTER-18B3A","cat":"Lo"}
+,{"code":101179,"name":"KHITAN SMALL SCRIPT CHARACTER-18B3B","cat":"Lo"}
+,{"code":101180,"name":"KHITAN SMALL SCRIPT CHARACTER-18B3C","cat":"Lo"}
+,{"code":101181,"name":"KHITAN SMALL SCRIPT CHARACTER-18B3D","cat":"Lo"}
+,{"code":101182,"name":"KHITAN SMALL SCRIPT CHARACTER-18B3E","cat":"Lo"}
+,{"code":101183,"name":"KHITAN SMALL SCRIPT CHARACTER-18B3F","cat":"Lo"}
+,{"code":101184,"name":"KHITAN SMALL SCRIPT CHARACTER-18B40","cat":"Lo"}
+,{"code":101185,"name":"KHITAN SMALL SCRIPT CHARACTER-18B41","cat":"Lo"}
+,{"code":101186,"name":"KHITAN SMALL SCRIPT CHARACTER-18B42","cat":"Lo"}
+,{"code":101187,"name":"KHITAN SMALL SCRIPT CHARACTER-18B43","cat":"Lo"}
+,{"code":101188,"name":"KHITAN SMALL SCRIPT CHARACTER-18B44","cat":"Lo"}
+,{"code":101189,"name":"KHITAN SMALL SCRIPT CHARACTER-18B45","cat":"Lo"}
+,{"code":101190,"name":"KHITAN SMALL SCRIPT CHARACTER-18B46","cat":"Lo"}
+,{"code":101191,"name":"KHITAN SMALL SCRIPT CHARACTER-18B47","cat":"Lo"}
+,{"code":101192,"name":"KHITAN SMALL SCRIPT CHARACTER-18B48","cat":"Lo"}
+,{"code":101193,"name":"KHITAN SMALL SCRIPT CHARACTER-18B49","cat":"Lo"}
+,{"code":101194,"name":"KHITAN SMALL SCRIPT CHARACTER-18B4A","cat":"Lo"}
+,{"code":101195,"name":"KHITAN SMALL SCRIPT CHARACTER-18B4B","cat":"Lo"}
+,{"code":101196,"name":"KHITAN SMALL SCRIPT CHARACTER-18B4C","cat":"Lo"}
+,{"code":101197,"name":"KHITAN SMALL SCRIPT CHARACTER-18B4D","cat":"Lo"}
+,{"code":101198,"name":"KHITAN SMALL SCRIPT CHARACTER-18B4E","cat":"Lo"}
+,{"code":101199,"name":"KHITAN SMALL SCRIPT CHARACTER-18B4F","cat":"Lo"}
+,{"code":101200,"name":"KHITAN SMALL SCRIPT CHARACTER-18B50","cat":"Lo"}
+,{"code":101201,"name":"KHITAN SMALL SCRIPT CHARACTER-18B51","cat":"Lo"}
+,{"code":101202,"name":"KHITAN SMALL SCRIPT CHARACTER-18B52","cat":"Lo"}
+,{"code":101203,"name":"KHITAN SMALL SCRIPT CHARACTER-18B53","cat":"Lo"}
+,{"code":101204,"name":"KHITAN SMALL SCRIPT CHARACTER-18B54","cat":"Lo"}
+,{"code":101205,"name":"KHITAN SMALL SCRIPT CHARACTER-18B55","cat":"Lo"}
+,{"code":101206,"name":"KHITAN SMALL SCRIPT CHARACTER-18B56","cat":"Lo"}
+,{"code":101207,"name":"KHITAN SMALL SCRIPT CHARACTER-18B57","cat":"Lo"}
+,{"code":101208,"name":"KHITAN SMALL SCRIPT CHARACTER-18B58","cat":"Lo"}
+,{"code":101209,"name":"KHITAN SMALL SCRIPT CHARACTER-18B59","cat":"Lo"}
+,{"code":101210,"name":"KHITAN SMALL SCRIPT CHARACTER-18B5A","cat":"Lo"}
+,{"code":101211,"name":"KHITAN SMALL SCRIPT CHARACTER-18B5B","cat":"Lo"}
+,{"code":101212,"name":"KHITAN SMALL SCRIPT CHARACTER-18B5C","cat":"Lo"}
+,{"code":101213,"name":"KHITAN SMALL SCRIPT CHARACTER-18B5D","cat":"Lo"}
+,{"code":101214,"name":"KHITAN SMALL SCRIPT CHARACTER-18B5E","cat":"Lo"}
+,{"code":101215,"name":"KHITAN SMALL SCRIPT CHARACTER-18B5F","cat":"Lo"}
+,{"code":101216,"name":"KHITAN SMALL SCRIPT CHARACTER-18B60","cat":"Lo"}
+,{"code":101217,"name":"KHITAN SMALL SCRIPT CHARACTER-18B61","cat":"Lo"}
+,{"code":101218,"name":"KHITAN SMALL SCRIPT CHARACTER-18B62","cat":"Lo"}
+,{"code":101219,"name":"KHITAN SMALL SCRIPT CHARACTER-18B63","cat":"Lo"}
+,{"code":101220,"name":"KHITAN SMALL SCRIPT CHARACTER-18B64","cat":"Lo"}
+,{"code":101221,"name":"KHITAN SMALL SCRIPT CHARACTER-18B65","cat":"Lo"}
+,{"code":101222,"name":"KHITAN SMALL SCRIPT CHARACTER-18B66","cat":"Lo"}
+,{"code":101223,"name":"KHITAN SMALL SCRIPT CHARACTER-18B67","cat":"Lo"}
+,{"code":101224,"name":"KHITAN SMALL SCRIPT CHARACTER-18B68","cat":"Lo"}
+,{"code":101225,"name":"KHITAN SMALL SCRIPT CHARACTER-18B69","cat":"Lo"}
+,{"code":101226,"name":"KHITAN SMALL SCRIPT CHARACTER-18B6A","cat":"Lo"}
+,{"code":101227,"name":"KHITAN SMALL SCRIPT CHARACTER-18B6B","cat":"Lo"}
+,{"code":101228,"name":"KHITAN SMALL SCRIPT CHARACTER-18B6C","cat":"Lo"}
+,{"code":101229,"name":"KHITAN SMALL SCRIPT CHARACTER-18B6D","cat":"Lo"}
+,{"code":101230,"name":"KHITAN SMALL SCRIPT CHARACTER-18B6E","cat":"Lo"}
+,{"code":101231,"name":"KHITAN SMALL SCRIPT CHARACTER-18B6F","cat":"Lo"}
+,{"code":101232,"name":"KHITAN SMALL SCRIPT CHARACTER-18B70","cat":"Lo"}
+,{"code":101233,"name":"KHITAN SMALL SCRIPT CHARACTER-18B71","cat":"Lo"}
+,{"code":101234,"name":"KHITAN SMALL SCRIPT CHARACTER-18B72","cat":"Lo"}
+,{"code":101235,"name":"KHITAN SMALL SCRIPT CHARACTER-18B73","cat":"Lo"}
+,{"code":101236,"name":"KHITAN SMALL SCRIPT CHARACTER-18B74","cat":"Lo"}
+,{"code":101237,"name":"KHITAN SMALL SCRIPT CHARACTER-18B75","cat":"Lo"}
+,{"code":101238,"name":"KHITAN SMALL SCRIPT CHARACTER-18B76","cat":"Lo"}
+,{"code":101239,"name":"KHITAN SMALL SCRIPT CHARACTER-18B77","cat":"Lo"}
+,{"code":101240,"name":"KHITAN SMALL SCRIPT CHARACTER-18B78","cat":"Lo"}
+,{"code":101241,"name":"KHITAN SMALL SCRIPT CHARACTER-18B79","cat":"Lo"}
+,{"code":101242,"name":"KHITAN SMALL SCRIPT CHARACTER-18B7A","cat":"Lo"}
+,{"code":101243,"name":"KHITAN SMALL SCRIPT CHARACTER-18B7B","cat":"Lo"}
+,{"code":101244,"name":"KHITAN SMALL SCRIPT CHARACTER-18B7C","cat":"Lo"}
+,{"code":101245,"name":"KHITAN SMALL SCRIPT CHARACTER-18B7D","cat":"Lo"}
+,{"code":101246,"name":"KHITAN SMALL SCRIPT CHARACTER-18B7E","cat":"Lo"}
+,{"code":101247,"name":"KHITAN SMALL SCRIPT CHARACTER-18B7F","cat":"Lo"}
+,{"code":101248,"name":"KHITAN SMALL SCRIPT CHARACTER-18B80","cat":"Lo"}
+,{"code":101249,"name":"KHITAN SMALL SCRIPT CHARACTER-18B81","cat":"Lo"}
+,{"code":101250,"name":"KHITAN SMALL SCRIPT CHARACTER-18B82","cat":"Lo"}
+,{"code":101251,"name":"KHITAN SMALL SCRIPT CHARACTER-18B83","cat":"Lo"}
+,{"code":101252,"name":"KHITAN SMALL SCRIPT CHARACTER-18B84","cat":"Lo"}
+,{"code":101253,"name":"KHITAN SMALL SCRIPT CHARACTER-18B85","cat":"Lo"}
+,{"code":101254,"name":"KHITAN SMALL SCRIPT CHARACTER-18B86","cat":"Lo"}
+,{"code":101255,"name":"KHITAN SMALL SCRIPT CHARACTER-18B87","cat":"Lo"}
+,{"code":101256,"name":"KHITAN SMALL SCRIPT CHARACTER-18B88","cat":"Lo"}
+,{"code":101257,"name":"KHITAN SMALL SCRIPT CHARACTER-18B89","cat":"Lo"}
+,{"code":101258,"name":"KHITAN SMALL SCRIPT CHARACTER-18B8A","cat":"Lo"}
+,{"code":101259,"name":"KHITAN SMALL SCRIPT CHARACTER-18B8B","cat":"Lo"}
+,{"code":101260,"name":"KHITAN SMALL SCRIPT CHARACTER-18B8C","cat":"Lo"}
+,{"code":101261,"name":"KHITAN SMALL SCRIPT CHARACTER-18B8D","cat":"Lo"}
+,{"code":101262,"name":"KHITAN SMALL SCRIPT CHARACTER-18B8E","cat":"Lo"}
+,{"code":101263,"name":"KHITAN SMALL SCRIPT CHARACTER-18B8F","cat":"Lo"}
+,{"code":101264,"name":"KHITAN SMALL SCRIPT CHARACTER-18B90","cat":"Lo"}
+,{"code":101265,"name":"KHITAN SMALL SCRIPT CHARACTER-18B91","cat":"Lo"}
+,{"code":101266,"name":"KHITAN SMALL SCRIPT CHARACTER-18B92","cat":"Lo"}
+,{"code":101267,"name":"KHITAN SMALL SCRIPT CHARACTER-18B93","cat":"Lo"}
+,{"code":101268,"name":"KHITAN SMALL SCRIPT CHARACTER-18B94","cat":"Lo"}
+,{"code":101269,"name":"KHITAN SMALL SCRIPT CHARACTER-18B95","cat":"Lo"}
+,{"code":101270,"name":"KHITAN SMALL SCRIPT CHARACTER-18B96","cat":"Lo"}
+,{"code":101271,"name":"KHITAN SMALL SCRIPT CHARACTER-18B97","cat":"Lo"}
+,{"code":101272,"name":"KHITAN SMALL SCRIPT CHARACTER-18B98","cat":"Lo"}
+,{"code":101273,"name":"KHITAN SMALL SCRIPT CHARACTER-18B99","cat":"Lo"}
+,{"code":101274,"name":"KHITAN SMALL SCRIPT CHARACTER-18B9A","cat":"Lo"}
+,{"code":101275,"name":"KHITAN SMALL SCRIPT CHARACTER-18B9B","cat":"Lo"}
+,{"code":101276,"name":"KHITAN SMALL SCRIPT CHARACTER-18B9C","cat":"Lo"}
+,{"code":101277,"name":"KHITAN SMALL SCRIPT CHARACTER-18B9D","cat":"Lo"}
+,{"code":101278,"name":"KHITAN SMALL SCRIPT CHARACTER-18B9E","cat":"Lo"}
+,{"code":101279,"name":"KHITAN SMALL SCRIPT CHARACTER-18B9F","cat":"Lo"}
+,{"code":101280,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA0","cat":"Lo"}
+,{"code":101281,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA1","cat":"Lo"}
+,{"code":101282,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA2","cat":"Lo"}
+,{"code":101283,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA3","cat":"Lo"}
+,{"code":101284,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA4","cat":"Lo"}
+,{"code":101285,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA5","cat":"Lo"}
+,{"code":101286,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA6","cat":"Lo"}
+,{"code":101287,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA7","cat":"Lo"}
+,{"code":101288,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA8","cat":"Lo"}
+,{"code":101289,"name":"KHITAN SMALL SCRIPT CHARACTER-18BA9","cat":"Lo"}
+,{"code":101290,"name":"KHITAN SMALL SCRIPT CHARACTER-18BAA","cat":"Lo"}
+,{"code":101291,"name":"KHITAN SMALL SCRIPT CHARACTER-18BAB","cat":"Lo"}
+,{"code":101292,"name":"KHITAN SMALL SCRIPT CHARACTER-18BAC","cat":"Lo"}
+,{"code":101293,"name":"KHITAN SMALL SCRIPT CHARACTER-18BAD","cat":"Lo"}
+,{"code":101294,"name":"KHITAN SMALL SCRIPT CHARACTER-18BAE","cat":"Lo"}
+,{"code":101295,"name":"KHITAN SMALL SCRIPT CHARACTER-18BAF","cat":"Lo"}
+,{"code":101296,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB0","cat":"Lo"}
+,{"code":101297,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB1","cat":"Lo"}
+,{"code":101298,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB2","cat":"Lo"}
+,{"code":101299,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB3","cat":"Lo"}
+,{"code":101300,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB4","cat":"Lo"}
+,{"code":101301,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB5","cat":"Lo"}
+,{"code":101302,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB6","cat":"Lo"}
+,{"code":101303,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB7","cat":"Lo"}
+,{"code":101304,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB8","cat":"Lo"}
+,{"code":101305,"name":"KHITAN SMALL SCRIPT CHARACTER-18BB9","cat":"Lo"}
+,{"code":101306,"name":"KHITAN SMALL SCRIPT CHARACTER-18BBA","cat":"Lo"}
+,{"code":101307,"name":"KHITAN SMALL SCRIPT CHARACTER-18BBB","cat":"Lo"}
+,{"code":101308,"name":"KHITAN SMALL SCRIPT CHARACTER-18BBC","cat":"Lo"}
+,{"code":101309,"name":"KHITAN SMALL SCRIPT CHARACTER-18BBD","cat":"Lo"}
+,{"code":101310,"name":"KHITAN SMALL SCRIPT CHARACTER-18BBE","cat":"Lo"}
+,{"code":101311,"name":"KHITAN SMALL SCRIPT CHARACTER-18BBF","cat":"Lo"}
+,{"code":101312,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC0","cat":"Lo"}
+,{"code":101313,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC1","cat":"Lo"}
+,{"code":101314,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC2","cat":"Lo"}
+,{"code":101315,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC3","cat":"Lo"}
+,{"code":101316,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC4","cat":"Lo"}
+,{"code":101317,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC5","cat":"Lo"}
+,{"code":101318,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC6","cat":"Lo"}
+,{"code":101319,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC7","cat":"Lo"}
+,{"code":101320,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC8","cat":"Lo"}
+,{"code":101321,"name":"KHITAN SMALL SCRIPT CHARACTER-18BC9","cat":"Lo"}
+,{"code":101322,"name":"KHITAN SMALL SCRIPT CHARACTER-18BCA","cat":"Lo"}
+,{"code":101323,"name":"KHITAN SMALL SCRIPT CHARACTER-18BCB","cat":"Lo"}
+,{"code":101324,"name":"KHITAN SMALL SCRIPT CHARACTER-18BCC","cat":"Lo"}
+,{"code":101325,"name":"KHITAN SMALL SCRIPT CHARACTER-18BCD","cat":"Lo"}
+,{"code":101326,"name":"KHITAN SMALL SCRIPT CHARACTER-18BCE","cat":"Lo"}
+,{"code":101327,"name":"KHITAN SMALL SCRIPT CHARACTER-18BCF","cat":"Lo"}
+,{"code":101328,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD0","cat":"Lo"}
+,{"code":101329,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD1","cat":"Lo"}
+,{"code":101330,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD2","cat":"Lo"}
+,{"code":101331,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD3","cat":"Lo"}
+,{"code":101332,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD4","cat":"Lo"}
+,{"code":101333,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD5","cat":"Lo"}
+,{"code":101334,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD6","cat":"Lo"}
+,{"code":101335,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD7","cat":"Lo"}
+,{"code":101336,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD8","cat":"Lo"}
+,{"code":101337,"name":"KHITAN SMALL SCRIPT CHARACTER-18BD9","cat":"Lo"}
+,{"code":101338,"name":"KHITAN SMALL SCRIPT CHARACTER-18BDA","cat":"Lo"}
+,{"code":101339,"name":"KHITAN SMALL SCRIPT CHARACTER-18BDB","cat":"Lo"}
+,{"code":101340,"name":"KHITAN SMALL SCRIPT CHARACTER-18BDC","cat":"Lo"}
+,{"code":101341,"name":"KHITAN SMALL SCRIPT CHARACTER-18BDD","cat":"Lo"}
+,{"code":101342,"name":"KHITAN SMALL SCRIPT CHARACTER-18BDE","cat":"Lo"}
+,{"code":101343,"name":"KHITAN SMALL SCRIPT CHARACTER-18BDF","cat":"Lo"}
+,{"code":101344,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE0","cat":"Lo"}
+,{"code":101345,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE1","cat":"Lo"}
+,{"code":101346,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE2","cat":"Lo"}
+,{"code":101347,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE3","cat":"Lo"}
+,{"code":101348,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE4","cat":"Lo"}
+,{"code":101349,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE5","cat":"Lo"}
+,{"code":101350,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE6","cat":"Lo"}
+,{"code":101351,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE7","cat":"Lo"}
+,{"code":101352,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE8","cat":"Lo"}
+,{"code":101353,"name":"KHITAN SMALL SCRIPT CHARACTER-18BE9","cat":"Lo"}
+,{"code":101354,"name":"KHITAN SMALL SCRIPT CHARACTER-18BEA","cat":"Lo"}
+,{"code":101355,"name":"KHITAN SMALL SCRIPT CHARACTER-18BEB","cat":"Lo"}
+,{"code":101356,"name":"KHITAN SMALL SCRIPT CHARACTER-18BEC","cat":"Lo"}
+,{"code":101357,"name":"KHITAN SMALL SCRIPT CHARACTER-18BED","cat":"Lo"}
+,{"code":101358,"name":"KHITAN SMALL SCRIPT CHARACTER-18BEE","cat":"Lo"}
+,{"code":101359,"name":"KHITAN SMALL SCRIPT CHARACTER-18BEF","cat":"Lo"}
+,{"code":101360,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF0","cat":"Lo"}
+,{"code":101361,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF1","cat":"Lo"}
+,{"code":101362,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF2","cat":"Lo"}
+,{"code":101363,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF3","cat":"Lo"}
+,{"code":101364,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF4","cat":"Lo"}
+,{"code":101365,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF5","cat":"Lo"}
+,{"code":101366,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF6","cat":"Lo"}
+,{"code":101367,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF7","cat":"Lo"}
+,{"code":101368,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF8","cat":"Lo"}
+,{"code":101369,"name":"KHITAN SMALL SCRIPT CHARACTER-18BF9","cat":"Lo"}
+,{"code":101370,"name":"KHITAN SMALL SCRIPT CHARACTER-18BFA","cat":"Lo"}
+,{"code":101371,"name":"KHITAN SMALL SCRIPT CHARACTER-18BFB","cat":"Lo"}
+,{"code":101372,"name":"KHITAN SMALL SCRIPT CHARACTER-18BFC","cat":"Lo"}
+,{"code":101373,"name":"KHITAN SMALL SCRIPT CHARACTER-18BFD","cat":"Lo"}
+,{"code":101374,"name":"KHITAN SMALL SCRIPT CHARACTER-18BFE","cat":"Lo"}
+,{"code":101375,"name":"KHITAN SMALL SCRIPT CHARACTER-18BFF","cat":"Lo"}
+,{"code":101376,"name":"KHITAN SMALL SCRIPT CHARACTER-18C00","cat":"Lo"}
+,{"code":101377,"name":"KHITAN SMALL SCRIPT CHARACTER-18C01","cat":"Lo"}
+,{"code":101378,"name":"KHITAN SMALL SCRIPT CHARACTER-18C02","cat":"Lo"}
+,{"code":101379,"name":"KHITAN SMALL SCRIPT CHARACTER-18C03","cat":"Lo"}
+,{"code":101380,"name":"KHITAN SMALL SCRIPT CHARACTER-18C04","cat":"Lo"}
+,{"code":101381,"name":"KHITAN SMALL SCRIPT CHARACTER-18C05","cat":"Lo"}
+,{"code":101382,"name":"KHITAN SMALL SCRIPT CHARACTER-18C06","cat":"Lo"}
+,{"code":101383,"name":"KHITAN SMALL SCRIPT CHARACTER-18C07","cat":"Lo"}
+,{"code":101384,"name":"KHITAN SMALL SCRIPT CHARACTER-18C08","cat":"Lo"}
+,{"code":101385,"name":"KHITAN SMALL SCRIPT CHARACTER-18C09","cat":"Lo"}
+,{"code":101386,"name":"KHITAN SMALL SCRIPT CHARACTER-18C0A","cat":"Lo"}
+,{"code":101387,"name":"KHITAN SMALL SCRIPT CHARACTER-18C0B","cat":"Lo"}
+,{"code":101388,"name":"KHITAN SMALL SCRIPT CHARACTER-18C0C","cat":"Lo"}
+,{"code":101389,"name":"KHITAN SMALL SCRIPT CHARACTER-18C0D","cat":"Lo"}
+,{"code":101390,"name":"KHITAN SMALL SCRIPT CHARACTER-18C0E","cat":"Lo"}
+,{"code":101391,"name":"KHITAN SMALL SCRIPT CHARACTER-18C0F","cat":"Lo"}
+,{"code":101392,"name":"KHITAN SMALL SCRIPT CHARACTER-18C10","cat":"Lo"}
+,{"code":101393,"name":"KHITAN SMALL SCRIPT CHARACTER-18C11","cat":"Lo"}
+,{"code":101394,"name":"KHITAN SMALL SCRIPT CHARACTER-18C12","cat":"Lo"}
+,{"code":101395,"name":"KHITAN SMALL SCRIPT CHARACTER-18C13","cat":"Lo"}
+,{"code":101396,"name":"KHITAN SMALL SCRIPT CHARACTER-18C14","cat":"Lo"}
+,{"code":101397,"name":"KHITAN SMALL SCRIPT CHARACTER-18C15","cat":"Lo"}
+,{"code":101398,"name":"KHITAN SMALL SCRIPT CHARACTER-18C16","cat":"Lo"}
+,{"code":101399,"name":"KHITAN SMALL SCRIPT CHARACTER-18C17","cat":"Lo"}
+,{"code":101400,"name":"KHITAN SMALL SCRIPT CHARACTER-18C18","cat":"Lo"}
+,{"code":101401,"name":"KHITAN SMALL SCRIPT CHARACTER-18C19","cat":"Lo"}
+,{"code":101402,"name":"KHITAN SMALL SCRIPT CHARACTER-18C1A","cat":"Lo"}
+,{"code":101403,"name":"KHITAN SMALL SCRIPT CHARACTER-18C1B","cat":"Lo"}
+,{"code":101404,"name":"KHITAN SMALL SCRIPT CHARACTER-18C1C","cat":"Lo"}
+,{"code":101405,"name":"KHITAN SMALL SCRIPT CHARACTER-18C1D","cat":"Lo"}
+,{"code":101406,"name":"KHITAN SMALL SCRIPT CHARACTER-18C1E","cat":"Lo"}
+,{"code":101407,"name":"KHITAN SMALL SCRIPT CHARACTER-18C1F","cat":"Lo"}
+,{"code":101408,"name":"KHITAN SMALL SCRIPT CHARACTER-18C20","cat":"Lo"}
+,{"code":101409,"name":"KHITAN SMALL SCRIPT CHARACTER-18C21","cat":"Lo"}
+,{"code":101410,"name":"KHITAN SMALL SCRIPT CHARACTER-18C22","cat":"Lo"}
+,{"code":101411,"name":"KHITAN SMALL SCRIPT CHARACTER-18C23","cat":"Lo"}
+,{"code":101412,"name":"KHITAN SMALL SCRIPT CHARACTER-18C24","cat":"Lo"}
+,{"code":101413,"name":"KHITAN SMALL SCRIPT CHARACTER-18C25","cat":"Lo"}
+,{"code":101414,"name":"KHITAN SMALL SCRIPT CHARACTER-18C26","cat":"Lo"}
+,{"code":101415,"name":"KHITAN SMALL SCRIPT CHARACTER-18C27","cat":"Lo"}
+,{"code":101416,"name":"KHITAN SMALL SCRIPT CHARACTER-18C28","cat":"Lo"}
+,{"code":101417,"name":"KHITAN SMALL SCRIPT CHARACTER-18C29","cat":"Lo"}
+,{"code":101418,"name":"KHITAN SMALL SCRIPT CHARACTER-18C2A","cat":"Lo"}
+,{"code":101419,"name":"KHITAN SMALL SCRIPT CHARACTER-18C2B","cat":"Lo"}
+,{"code":101420,"name":"KHITAN SMALL SCRIPT CHARACTER-18C2C","cat":"Lo"}
+,{"code":101421,"name":"KHITAN SMALL SCRIPT CHARACTER-18C2D","cat":"Lo"}
+,{"code":101422,"name":"KHITAN SMALL SCRIPT CHARACTER-18C2E","cat":"Lo"}
+,{"code":101423,"name":"KHITAN SMALL SCRIPT CHARACTER-18C2F","cat":"Lo"}
+,{"code":101424,"name":"KHITAN SMALL SCRIPT CHARACTER-18C30","cat":"Lo"}
+,{"code":101425,"name":"KHITAN SMALL SCRIPT CHARACTER-18C31","cat":"Lo"}
+,{"code":101426,"name":"KHITAN SMALL SCRIPT CHARACTER-18C32","cat":"Lo"}
+,{"code":101427,"name":"KHITAN SMALL SCRIPT CHARACTER-18C33","cat":"Lo"}
+,{"code":101428,"name":"KHITAN SMALL SCRIPT CHARACTER-18C34","cat":"Lo"}
+,{"code":101429,"name":"KHITAN SMALL SCRIPT CHARACTER-18C35","cat":"Lo"}
+,{"code":101430,"name":"KHITAN SMALL SCRIPT CHARACTER-18C36","cat":"Lo"}
+,{"code":101431,"name":"KHITAN SMALL SCRIPT CHARACTER-18C37","cat":"Lo"}
+,{"code":101432,"name":"KHITAN SMALL SCRIPT CHARACTER-18C38","cat":"Lo"}
+,{"code":101433,"name":"KHITAN SMALL SCRIPT CHARACTER-18C39","cat":"Lo"}
+,{"code":101434,"name":"KHITAN SMALL SCRIPT CHARACTER-18C3A","cat":"Lo"}
+,{"code":101435,"name":"KHITAN SMALL SCRIPT CHARACTER-18C3B","cat":"Lo"}
+,{"code":101436,"name":"KHITAN SMALL SCRIPT CHARACTER-18C3C","cat":"Lo"}
+,{"code":101437,"name":"KHITAN SMALL SCRIPT CHARACTER-18C3D","cat":"Lo"}
+,{"code":101438,"name":"KHITAN SMALL SCRIPT CHARACTER-18C3E","cat":"Lo"}
+,{"code":101439,"name":"KHITAN SMALL SCRIPT CHARACTER-18C3F","cat":"Lo"}
+,{"code":101440,"name":"KHITAN SMALL SCRIPT CHARACTER-18C40","cat":"Lo"}
+,{"code":101441,"name":"KHITAN SMALL SCRIPT CHARACTER-18C41","cat":"Lo"}
+,{"code":101442,"name":"KHITAN SMALL SCRIPT CHARACTER-18C42","cat":"Lo"}
+,{"code":101443,"name":"KHITAN SMALL SCRIPT CHARACTER-18C43","cat":"Lo"}
+,{"code":101444,"name":"KHITAN SMALL SCRIPT CHARACTER-18C44","cat":"Lo"}
+,{"code":101445,"name":"KHITAN SMALL SCRIPT CHARACTER-18C45","cat":"Lo"}
+,{"code":101446,"name":"KHITAN SMALL SCRIPT CHARACTER-18C46","cat":"Lo"}
+,{"code":101447,"name":"KHITAN SMALL SCRIPT CHARACTER-18C47","cat":"Lo"}
+,{"code":101448,"name":"KHITAN SMALL SCRIPT CHARACTER-18C48","cat":"Lo"}
+,{"code":101449,"name":"KHITAN SMALL SCRIPT CHARACTER-18C49","cat":"Lo"}
+,{"code":101450,"name":"KHITAN SMALL SCRIPT CHARACTER-18C4A","cat":"Lo"}
+,{"code":101451,"name":"KHITAN SMALL SCRIPT CHARACTER-18C4B","cat":"Lo"}
+,{"code":101452,"name":"KHITAN SMALL SCRIPT CHARACTER-18C4C","cat":"Lo"}
+,{"code":101453,"name":"KHITAN SMALL SCRIPT CHARACTER-18C4D","cat":"Lo"}
+,{"code":101454,"name":"KHITAN SMALL SCRIPT CHARACTER-18C4E","cat":"Lo"}
+,{"code":101455,"name":"KHITAN SMALL SCRIPT CHARACTER-18C4F","cat":"Lo"}
+,{"code":101456,"name":"KHITAN SMALL SCRIPT CHARACTER-18C50","cat":"Lo"}
+,{"code":101457,"name":"KHITAN SMALL SCRIPT CHARACTER-18C51","cat":"Lo"}
+,{"code":101458,"name":"KHITAN SMALL SCRIPT CHARACTER-18C52","cat":"Lo"}
+,{"code":101459,"name":"KHITAN SMALL SCRIPT CHARACTER-18C53","cat":"Lo"}
+,{"code":101460,"name":"KHITAN SMALL SCRIPT CHARACTER-18C54","cat":"Lo"}
+,{"code":101461,"name":"KHITAN SMALL SCRIPT CHARACTER-18C55","cat":"Lo"}
+,{"code":101462,"name":"KHITAN SMALL SCRIPT CHARACTER-18C56","cat":"Lo"}
+,{"code":101463,"name":"KHITAN SMALL SCRIPT CHARACTER-18C57","cat":"Lo"}
+,{"code":101464,"name":"KHITAN SMALL SCRIPT CHARACTER-18C58","cat":"Lo"}
+,{"code":101465,"name":"KHITAN SMALL SCRIPT CHARACTER-18C59","cat":"Lo"}
+,{"code":101466,"name":"KHITAN SMALL SCRIPT CHARACTER-18C5A","cat":"Lo"}
+,{"code":101467,"name":"KHITAN SMALL SCRIPT CHARACTER-18C5B","cat":"Lo"}
+,{"code":101468,"name":"KHITAN SMALL SCRIPT CHARACTER-18C5C","cat":"Lo"}
+,{"code":101469,"name":"KHITAN SMALL SCRIPT CHARACTER-18C5D","cat":"Lo"}
+,{"code":101470,"name":"KHITAN SMALL SCRIPT CHARACTER-18C5E","cat":"Lo"}
+,{"code":101471,"name":"KHITAN SMALL SCRIPT CHARACTER-18C5F","cat":"Lo"}
+,{"code":101472,"name":"KHITAN SMALL SCRIPT CHARACTER-18C60","cat":"Lo"}
+,{"code":101473,"name":"KHITAN SMALL SCRIPT CHARACTER-18C61","cat":"Lo"}
+,{"code":101474,"name":"KHITAN SMALL SCRIPT CHARACTER-18C62","cat":"Lo"}
+,{"code":101475,"name":"KHITAN SMALL SCRIPT CHARACTER-18C63","cat":"Lo"}
+,{"code":101476,"name":"KHITAN SMALL SCRIPT CHARACTER-18C64","cat":"Lo"}
+,{"code":101477,"name":"KHITAN SMALL SCRIPT CHARACTER-18C65","cat":"Lo"}
+,{"code":101478,"name":"KHITAN SMALL SCRIPT CHARACTER-18C66","cat":"Lo"}
+,{"code":101479,"name":"KHITAN SMALL SCRIPT CHARACTER-18C67","cat":"Lo"}
+,{"code":101480,"name":"KHITAN SMALL SCRIPT CHARACTER-18C68","cat":"Lo"}
+,{"code":101481,"name":"KHITAN SMALL SCRIPT CHARACTER-18C69","cat":"Lo"}
+,{"code":101482,"name":"KHITAN SMALL SCRIPT CHARACTER-18C6A","cat":"Lo"}
+,{"code":101483,"name":"KHITAN SMALL SCRIPT CHARACTER-18C6B","cat":"Lo"}
+,{"code":101484,"name":"KHITAN SMALL SCRIPT CHARACTER-18C6C","cat":"Lo"}
+,{"code":101485,"name":"KHITAN SMALL SCRIPT CHARACTER-18C6D","cat":"Lo"}
+,{"code":101486,"name":"KHITAN SMALL SCRIPT CHARACTER-18C6E","cat":"Lo"}
+,{"code":101487,"name":"KHITAN SMALL SCRIPT CHARACTER-18C6F","cat":"Lo"}
+,{"code":101488,"name":"KHITAN SMALL SCRIPT CHARACTER-18C70","cat":"Lo"}
+,{"code":101489,"name":"KHITAN SMALL SCRIPT CHARACTER-18C71","cat":"Lo"}
+,{"code":101490,"name":"KHITAN SMALL SCRIPT CHARACTER-18C72","cat":"Lo"}
+,{"code":101491,"name":"KHITAN SMALL SCRIPT CHARACTER-18C73","cat":"Lo"}
+,{"code":101492,"name":"KHITAN SMALL SCRIPT CHARACTER-18C74","cat":"Lo"}
+,{"code":101493,"name":"KHITAN SMALL SCRIPT CHARACTER-18C75","cat":"Lo"}
+,{"code":101494,"name":"KHITAN SMALL SCRIPT CHARACTER-18C76","cat":"Lo"}
+,{"code":101495,"name":"KHITAN SMALL SCRIPT CHARACTER-18C77","cat":"Lo"}
+,{"code":101496,"name":"KHITAN SMALL SCRIPT CHARACTER-18C78","cat":"Lo"}
+,{"code":101497,"name":"KHITAN SMALL SCRIPT CHARACTER-18C79","cat":"Lo"}
+,{"code":101498,"name":"KHITAN SMALL SCRIPT CHARACTER-18C7A","cat":"Lo"}
+,{"code":101499,"name":"KHITAN SMALL SCRIPT CHARACTER-18C7B","cat":"Lo"}
+,{"code":101500,"name":"KHITAN SMALL SCRIPT CHARACTER-18C7C","cat":"Lo"}
+,{"code":101501,"name":"KHITAN SMALL SCRIPT CHARACTER-18C7D","cat":"Lo"}
+,{"code":101502,"name":"KHITAN SMALL SCRIPT CHARACTER-18C7E","cat":"Lo"}
+,{"code":101503,"name":"KHITAN SMALL SCRIPT CHARACTER-18C7F","cat":"Lo"}
+,{"code":101504,"name":"KHITAN SMALL SCRIPT CHARACTER-18C80","cat":"Lo"}
+,{"code":101505,"name":"KHITAN SMALL SCRIPT CHARACTER-18C81","cat":"Lo"}
+,{"code":101506,"name":"KHITAN SMALL SCRIPT CHARACTER-18C82","cat":"Lo"}
+,{"code":101507,"name":"KHITAN SMALL SCRIPT CHARACTER-18C83","cat":"Lo"}
+,{"code":101508,"name":"KHITAN SMALL SCRIPT CHARACTER-18C84","cat":"Lo"}
+,{"code":101509,"name":"KHITAN SMALL SCRIPT CHARACTER-18C85","cat":"Lo"}
+,{"code":101510,"name":"KHITAN SMALL SCRIPT CHARACTER-18C86","cat":"Lo"}
+,{"code":101511,"name":"KHITAN SMALL SCRIPT CHARACTER-18C87","cat":"Lo"}
+,{"code":101512,"name":"KHITAN SMALL SCRIPT CHARACTER-18C88","cat":"Lo"}
+,{"code":101513,"name":"KHITAN SMALL SCRIPT CHARACTER-18C89","cat":"Lo"}
+,{"code":101514,"name":"KHITAN SMALL SCRIPT CHARACTER-18C8A","cat":"Lo"}
+,{"code":101515,"name":"KHITAN SMALL SCRIPT CHARACTER-18C8B","cat":"Lo"}
+,{"code":101516,"name":"KHITAN SMALL SCRIPT CHARACTER-18C8C","cat":"Lo"}
+,{"code":101517,"name":"KHITAN SMALL SCRIPT CHARACTER-18C8D","cat":"Lo"}
+,{"code":101518,"name":"KHITAN SMALL SCRIPT CHARACTER-18C8E","cat":"Lo"}
+,{"code":101519,"name":"KHITAN SMALL SCRIPT CHARACTER-18C8F","cat":"Lo"}
+,{"code":101520,"name":"KHITAN SMALL SCRIPT CHARACTER-18C90","cat":"Lo"}
+,{"code":101521,"name":"KHITAN SMALL SCRIPT CHARACTER-18C91","cat":"Lo"}
+,{"code":101522,"name":"KHITAN SMALL SCRIPT CHARACTER-18C92","cat":"Lo"}
+,{"code":101523,"name":"KHITAN SMALL SCRIPT CHARACTER-18C93","cat":"Lo"}
+,{"code":101524,"name":"KHITAN SMALL SCRIPT CHARACTER-18C94","cat":"Lo"}
+,{"code":101525,"name":"KHITAN SMALL SCRIPT CHARACTER-18C95","cat":"Lo"}
+,{"code":101526,"name":"KHITAN SMALL SCRIPT CHARACTER-18C96","cat":"Lo"}
+,{"code":101527,"name":"KHITAN SMALL SCRIPT CHARACTER-18C97","cat":"Lo"}
+,{"code":101528,"name":"KHITAN SMALL SCRIPT CHARACTER-18C98","cat":"Lo"}
+,{"code":101529,"name":"KHITAN SMALL SCRIPT CHARACTER-18C99","cat":"Lo"}
+,{"code":101530,"name":"KHITAN SMALL SCRIPT CHARACTER-18C9A","cat":"Lo"}
+,{"code":101531,"name":"KHITAN SMALL SCRIPT CHARACTER-18C9B","cat":"Lo"}
+,{"code":101532,"name":"KHITAN SMALL SCRIPT CHARACTER-18C9C","cat":"Lo"}
+,{"code":101533,"name":"KHITAN SMALL SCRIPT CHARACTER-18C9D","cat":"Lo"}
+,{"code":101534,"name":"KHITAN SMALL SCRIPT CHARACTER-18C9E","cat":"Lo"}
+,{"code":101535,"name":"KHITAN SMALL SCRIPT CHARACTER-18C9F","cat":"Lo"}
+,{"code":101536,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA0","cat":"Lo"}
+,{"code":101537,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA1","cat":"Lo"}
+,{"code":101538,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA2","cat":"Lo"}
+,{"code":101539,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA3","cat":"Lo"}
+,{"code":101540,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA4","cat":"Lo"}
+,{"code":101541,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA5","cat":"Lo"}
+,{"code":101542,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA6","cat":"Lo"}
+,{"code":101543,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA7","cat":"Lo"}
+,{"code":101544,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA8","cat":"Lo"}
+,{"code":101545,"name":"KHITAN SMALL SCRIPT CHARACTER-18CA9","cat":"Lo"}
+,{"code":101546,"name":"KHITAN SMALL SCRIPT CHARACTER-18CAA","cat":"Lo"}
+,{"code":101547,"name":"KHITAN SMALL SCRIPT CHARACTER-18CAB","cat":"Lo"}
+,{"code":101548,"name":"KHITAN SMALL SCRIPT CHARACTER-18CAC","cat":"Lo"}
+,{"code":101549,"name":"KHITAN SMALL SCRIPT CHARACTER-18CAD","cat":"Lo"}
+,{"code":101550,"name":"KHITAN SMALL SCRIPT CHARACTER-18CAE","cat":"Lo"}
+,{"code":101551,"name":"KHITAN SMALL SCRIPT CHARACTER-18CAF","cat":"Lo"}
+,{"code":101552,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB0","cat":"Lo"}
+,{"code":101553,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB1","cat":"Lo"}
+,{"code":101554,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB2","cat":"Lo"}
+,{"code":101555,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB3","cat":"Lo"}
+,{"code":101556,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB4","cat":"Lo"}
+,{"code":101557,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB5","cat":"Lo"}
+,{"code":101558,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB6","cat":"Lo"}
+,{"code":101559,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB7","cat":"Lo"}
+,{"code":101560,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB8","cat":"Lo"}
+,{"code":101561,"name":"KHITAN SMALL SCRIPT CHARACTER-18CB9","cat":"Lo"}
+,{"code":101562,"name":"KHITAN SMALL SCRIPT CHARACTER-18CBA","cat":"Lo"}
+,{"code":101563,"name":"KHITAN SMALL SCRIPT CHARACTER-18CBB","cat":"Lo"}
+,{"code":101564,"name":"KHITAN SMALL SCRIPT CHARACTER-18CBC","cat":"Lo"}
+,{"code":101565,"name":"KHITAN SMALL SCRIPT CHARACTER-18CBD","cat":"Lo"}
+,{"code":101566,"name":"KHITAN SMALL SCRIPT CHARACTER-18CBE","cat":"Lo"}
+,{"code":101567,"name":"KHITAN SMALL SCRIPT CHARACTER-18CBF","cat":"Lo"}
+,{"code":101568,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC0","cat":"Lo"}
+,{"code":101569,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC1","cat":"Lo"}
+,{"code":101570,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC2","cat":"Lo"}
+,{"code":101571,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC3","cat":"Lo"}
+,{"code":101572,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC4","cat":"Lo"}
+,{"code":101573,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC5","cat":"Lo"}
+,{"code":101574,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC6","cat":"Lo"}
+,{"code":101575,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC7","cat":"Lo"}
+,{"code":101576,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC8","cat":"Lo"}
+,{"code":101577,"name":"KHITAN SMALL SCRIPT CHARACTER-18CC9","cat":"Lo"}
+,{"code":101578,"name":"KHITAN SMALL SCRIPT CHARACTER-18CCA","cat":"Lo"}
+,{"code":101579,"name":"KHITAN SMALL SCRIPT CHARACTER-18CCB","cat":"Lo"}
+,{"code":101580,"name":"KHITAN SMALL SCRIPT CHARACTER-18CCC","cat":"Lo"}
+,{"code":101581,"name":"KHITAN SMALL SCRIPT CHARACTER-18CCD","cat":"Lo"}
+,{"code":101582,"name":"KHITAN SMALL SCRIPT CHARACTER-18CCE","cat":"Lo"}
+,{"code":101583,"name":"KHITAN SMALL SCRIPT CHARACTER-18CCF","cat":"Lo"}
+,{"code":101584,"name":"KHITAN SMALL SCRIPT CHARACTER-18CD0","cat":"Lo"}
+,{"code":101585,"name":"KHITAN SMALL SCRIPT CHARACTER-18CD1","cat":"Lo"}
+,{"code":101586,"name":"KHITAN SMALL SCRIPT CHARACTER-18CD2","cat":"Lo"}
+,{"code":101587,"name":"KHITAN SMALL SCRIPT CHARACTER-18CD3","cat":"Lo"}
+,{"code":101588,"name":"KHITAN SMALL SCRIPT CHARACTER-18CD4","cat":"Lo"}
+,{"code":101589,"name":"KHITAN SMALL SCRIPT CHARACTER-18CD5","cat":"Lo"}
+,{"code":101632,"name":"<Tangut Ideograph Supplement, First>","cat":"Lo"}
+,{"code":101640,"name":"<Tangut Ideograph Supplement, Last>","cat":"Lo"}
 ,{"code":110592,"name":"KATAKANA LETTER ARCHAIC E","cat":"Lo"}
 ,{"code":110593,"name":"HIRAGANA LETTER ARCHAIC YE","cat":"Lo"}
 ,{"code":110594,"name":"HENTAIGANA LETTER A-1","cat":"Lo"}
@@ -29973,6 +30651,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":127242,"name":"DIGIT NINE COMMA","cat":"No","bidi":"EN","decomp":[57,44],"decompType":"compat","num":"9"}
 ,{"code":127243,"name":"DINGBAT CIRCLED SANS-SERIF DIGIT ZERO","cat":"No","bidi":"ON","num":"0"}
 ,{"code":127244,"name":"DINGBAT NEGATIVE CIRCLED SANS-SERIF DIGIT ZERO","cat":"No","bidi":"ON","num":"0"}
+,{"code":127245,"name":"CIRCLED ZERO WITH SLASH","cat":"So","bidi":"ON"}
+,{"code":127246,"name":"CIRCLED ANTICLOCKWISE ARROW","cat":"So","bidi":"ON"}
+,{"code":127247,"name":"CIRCLED DOLLAR SIGN WITH OVERLAID BACKSLASH","cat":"So","bidi":"ON"}
 ,{"code":127248,"name":"PARENTHESIZED LATIN CAPITAL LETTER A","cat":"So","decomp":[40,65,41],"decompType":"compat"}
 ,{"code":127249,"name":"PARENTHESIZED LATIN CAPITAL LETTER B","cat":"So","decomp":[40,66,41],"decompType":"compat"}
 ,{"code":127250,"name":"PARENTHESIZED LATIN CAPITAL LETTER C","cat":"So","decomp":[40,67,41],"decompType":"compat"}
@@ -30066,6 +30747,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":127338,"name":"RAISED MC SIGN","cat":"So","bidi":"ON","decomp":[77,67],"decompType":"super"}
 ,{"code":127339,"name":"RAISED MD SIGN","cat":"So","bidi":"ON","decomp":[77,68],"decompType":"super"}
 ,{"code":127340,"name":"RAISED MR SIGN","cat":"So","bidi":"ON","decomp":[77,82],"decompType":"super"}
+,{"code":127341,"name":"CIRCLED CC","cat":"So","bidi":"ON"}
+,{"code":127342,"name":"CIRCLED C WITH OVERLAID BACKSLASH","cat":"So","bidi":"ON"}
+,{"code":127343,"name":"CIRCLED HUMAN FIGURE","cat":"So","bidi":"ON"}
 ,{"code":127344,"name":"NEGATIVE SQUARED LATIN CAPITAL LETTER A","cat":"So"}
 ,{"code":127345,"name":"NEGATIVE SQUARED LATIN CAPITAL LETTER B","cat":"So"}
 ,{"code":127346,"name":"NEGATIVE SQUARED LATIN CAPITAL LETTER C","cat":"So"}
@@ -30127,6 +30811,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":127402,"name":"SQUARED SHV","cat":"So"}
 ,{"code":127403,"name":"SQUARED UHD","cat":"So"}
 ,{"code":127404,"name":"SQUARED VOD","cat":"So"}
+,{"code":127405,"name":"MASK WORK SYMBOL","cat":"So","bidi":"ON"}
 ,{"code":127462,"name":"REGIONAL INDICATOR SYMBOL LETTER A","cat":"So"}
 ,{"code":127463,"name":"REGIONAL INDICATOR SYMBOL LETTER B","cat":"So"}
 ,{"code":127464,"name":"REGIONAL INDICATOR SYMBOL LETTER C","cat":"So"}
@@ -31199,6 +31884,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":128723,"name":"STUPA","cat":"So","bidi":"ON"}
 ,{"code":128724,"name":"PAGODA","cat":"So","bidi":"ON"}
 ,{"code":128725,"name":"HINDU TEMPLE","cat":"So","bidi":"ON"}
+,{"code":128726,"name":"HUT","cat":"So","bidi":"ON"}
+,{"code":128727,"name":"ELEVATOR","cat":"So","bidi":"ON"}
 ,{"code":128736,"name":"HAMMER AND WRENCH","cat":"So","bidi":"ON"}
 ,{"code":128737,"name":"SHIELD","cat":"So","bidi":"ON"}
 ,{"code":128738,"name":"OIL DRUM","cat":"So","bidi":"ON"}
@@ -31223,6 +31910,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":128760,"name":"FLYING SAUCER","cat":"So","bidi":"ON"}
 ,{"code":128761,"name":"SKATEBOARD","cat":"So","bidi":"ON"}
 ,{"code":128762,"name":"AUTO RICKSHAW","cat":"So","bidi":"ON"}
+,{"code":128763,"name":"PICKUP TRUCK","cat":"So","bidi":"ON"}
+,{"code":128764,"name":"ROLLER SKATE","cat":"So","bidi":"ON"}
 ,{"code":128768,"name":"ALCHEMICAL SYMBOL FOR QUINTESSENCE","cat":"So","bidi":"ON"}
 ,{"code":128769,"name":"ALCHEMICAL SYMBOL FOR AIR","cat":"So","bidi":"ON"}
 ,{"code":128770,"name":"ALCHEMICAL SYMBOL FOR FIRE","cat":"So","bidi":"ON"}
@@ -31588,6 +32277,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129195,"name":"RIGHTWARDS FRONT-TILTED SHADOWED WHITE ARROW","cat":"So","bidi":"ON"}
 ,{"code":129196,"name":"WHITE ARROW SHAFT WIDTH ONE","cat":"So","bidi":"ON"}
 ,{"code":129197,"name":"WHITE ARROW SHAFT WIDTH TWO THIRDS","cat":"So","bidi":"ON"}
+,{"code":129200,"name":"ARROW POINTING UPWARDS THEN NORTH WEST","cat":"So","bidi":"ON"}
+,{"code":129201,"name":"ARROW POINTING RIGHTWARDS THEN CURVING SOUTH WEST","cat":"So","bidi":"ON"}
 ,{"code":129280,"name":"CIRCLED CROSS FORMEE WITH FOUR DOTS","cat":"So","bidi":"ON"}
 ,{"code":129281,"name":"CIRCLED CROSS FORMEE WITH TWO DOTS","cat":"So","bidi":"ON"}
 ,{"code":129282,"name":"CIRCLED CROSS FORMEE","cat":"So","bidi":"ON"}
@@ -31600,6 +32291,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129289,"name":"DOWNWARD FACING NOTCHED HOOK","cat":"So","bidi":"ON"}
 ,{"code":129290,"name":"DOWNWARD FACING HOOK WITH DOT","cat":"So","bidi":"ON"}
 ,{"code":129291,"name":"DOWNWARD FACING NOTCHED HOOK WITH DOT","cat":"So","bidi":"ON"}
+,{"code":129292,"name":"PINCHED FINGERS","cat":"So","bidi":"ON"}
 ,{"code":129293,"name":"WHITE HEART","cat":"So","bidi":"ON"}
 ,{"code":129294,"name":"BROWN HEART","cat":"So","bidi":"ON"}
 ,{"code":129295,"name":"PINCHING HAND","cat":"So","bidi":"ON"}
@@ -31701,10 +32393,13 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129391,"name":"BAGEL","cat":"So","bidi":"ON"}
 ,{"code":129392,"name":"SMILING FACE WITH SMILING EYES AND THREE HEARTS","cat":"So","bidi":"ON"}
 ,{"code":129393,"name":"YAWNING FACE","cat":"So","bidi":"ON"}
+,{"code":129394,"name":"SMILING FACE WITH TEAR","cat":"So","bidi":"ON"}
 ,{"code":129395,"name":"FACE WITH PARTY HORN AND PARTY HAT","cat":"So","bidi":"ON"}
 ,{"code":129396,"name":"FACE WITH UNEVEN EYES AND WAVY MOUTH","cat":"So","bidi":"ON"}
 ,{"code":129397,"name":"OVERHEATED FACE","cat":"So","bidi":"ON"}
 ,{"code":129398,"name":"FREEZING FACE","cat":"So","bidi":"ON"}
+,{"code":129399,"name":"NINJA","cat":"So","bidi":"ON"}
+,{"code":129400,"name":"DISGUISED FACE","cat":"So","bidi":"ON"}
 ,{"code":129402,"name":"FACE WITH PLEADING EYES","cat":"So","bidi":"ON"}
 ,{"code":129403,"name":"SARI","cat":"So","bidi":"ON"}
 ,{"code":129404,"name":"LAB COAT","cat":"So","bidi":"ON"}
@@ -31746,12 +32441,17 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129440,"name":"MICROBE","cat":"So","bidi":"ON"}
 ,{"code":129441,"name":"BADGER","cat":"So","bidi":"ON"}
 ,{"code":129442,"name":"SWAN","cat":"So","bidi":"ON"}
+,{"code":129443,"name":"MAMMOTH","cat":"So","bidi":"ON"}
+,{"code":129444,"name":"DODO","cat":"So","bidi":"ON"}
 ,{"code":129445,"name":"SLOTH","cat":"So","bidi":"ON"}
 ,{"code":129446,"name":"OTTER","cat":"So","bidi":"ON"}
 ,{"code":129447,"name":"ORANGUTAN","cat":"So","bidi":"ON"}
 ,{"code":129448,"name":"SKUNK","cat":"So","bidi":"ON"}
 ,{"code":129449,"name":"FLAMINGO","cat":"So","bidi":"ON"}
 ,{"code":129450,"name":"OYSTER","cat":"So","bidi":"ON"}
+,{"code":129451,"name":"BEAVER","cat":"So","bidi":"ON"}
+,{"code":129452,"name":"BISON","cat":"So","bidi":"ON"}
+,{"code":129453,"name":"SEAL","cat":"So","bidi":"ON"}
 ,{"code":129454,"name":"GUIDE DOG","cat":"So","bidi":"ON"}
 ,{"code":129455,"name":"PROBING CANE","cat":"So","bidi":"ON"}
 ,{"code":129456,"name":"EMOJI COMPONENT RED HAIR","cat":"So","bidi":"ON"}
@@ -31781,6 +32481,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129480,"name":"BUTTER","cat":"So","bidi":"ON"}
 ,{"code":129481,"name":"MATE DRINK","cat":"So","bidi":"ON"}
 ,{"code":129482,"name":"ICE CUBE","cat":"So","bidi":"ON"}
+,{"code":129483,"name":"BUBBLE TEA","cat":"So","bidi":"ON"}
 ,{"code":129485,"name":"STANDING PERSON","cat":"So","bidi":"ON"}
 ,{"code":129486,"name":"KNEELING PERSON","cat":"So","bidi":"ON"}
 ,{"code":129487,"name":"DEAF PERSON","cat":"So","bidi":"ON"}
@@ -31934,20 +32635,273 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129649,"name":"ONE-PIECE SWIMSUIT","cat":"So","bidi":"ON"}
 ,{"code":129650,"name":"BRIEFS","cat":"So","bidi":"ON"}
 ,{"code":129651,"name":"SHORTS","cat":"So","bidi":"ON"}
+,{"code":129652,"name":"THONG SANDAL","cat":"So","bidi":"ON"}
 ,{"code":129656,"name":"DROP OF BLOOD","cat":"So","bidi":"ON"}
 ,{"code":129657,"name":"ADHESIVE BANDAGE","cat":"So","bidi":"ON"}
 ,{"code":129658,"name":"STETHOSCOPE","cat":"So","bidi":"ON"}
 ,{"code":129664,"name":"YO-YO","cat":"So","bidi":"ON"}
 ,{"code":129665,"name":"KITE","cat":"So","bidi":"ON"}
 ,{"code":129666,"name":"PARACHUTE","cat":"So","bidi":"ON"}
+,{"code":129667,"name":"BOOMERANG","cat":"So","bidi":"ON"}
+,{"code":129668,"name":"MAGIC WAND","cat":"So","bidi":"ON"}
+,{"code":129669,"name":"PINATA","cat":"So","bidi":"ON"}
+,{"code":129670,"name":"NESTING DOLLS","cat":"So","bidi":"ON"}
 ,{"code":129680,"name":"RINGED PLANET","cat":"So","bidi":"ON"}
 ,{"code":129681,"name":"CHAIR","cat":"So","bidi":"ON"}
 ,{"code":129682,"name":"RAZOR","cat":"So","bidi":"ON"}
 ,{"code":129683,"name":"AXE","cat":"So","bidi":"ON"}
 ,{"code":129684,"name":"DIYA LAMP","cat":"So","bidi":"ON"}
 ,{"code":129685,"name":"BANJO","cat":"So","bidi":"ON"}
+,{"code":129686,"name":"MILITARY HELMET","cat":"So","bidi":"ON"}
+,{"code":129687,"name":"ACCORDION","cat":"So","bidi":"ON"}
+,{"code":129688,"name":"LONG DRUM","cat":"So","bidi":"ON"}
+,{"code":129689,"name":"COIN","cat":"So","bidi":"ON"}
+,{"code":129690,"name":"CARPENTRY SAW","cat":"So","bidi":"ON"}
+,{"code":129691,"name":"SCREWDRIVER","cat":"So","bidi":"ON"}
+,{"code":129692,"name":"LADDER","cat":"So","bidi":"ON"}
+,{"code":129693,"name":"HOOK","cat":"So","bidi":"ON"}
+,{"code":129694,"name":"MIRROR","cat":"So","bidi":"ON"}
+,{"code":129695,"name":"WINDOW","cat":"So","bidi":"ON"}
+,{"code":129696,"name":"PLUNGER","cat":"So","bidi":"ON"}
+,{"code":129697,"name":"SEWING NEEDLE","cat":"So","bidi":"ON"}
+,{"code":129698,"name":"KNOT","cat":"So","bidi":"ON"}
+,{"code":129699,"name":"BUCKET","cat":"So","bidi":"ON"}
+,{"code":129700,"name":"MOUSE TRAP","cat":"So","bidi":"ON"}
+,{"code":129701,"name":"TOOTHBRUSH","cat":"So","bidi":"ON"}
+,{"code":129702,"name":"HEADSTONE","cat":"So","bidi":"ON"}
+,{"code":129703,"name":"PLACARD","cat":"So","bidi":"ON"}
+,{"code":129704,"name":"ROCK","cat":"So","bidi":"ON"}
+,{"code":129712,"name":"FLY","cat":"So","bidi":"ON"}
+,{"code":129713,"name":"WORM","cat":"So","bidi":"ON"}
+,{"code":129714,"name":"BEETLE","cat":"So","bidi":"ON"}
+,{"code":129715,"name":"COCKROACH","cat":"So","bidi":"ON"}
+,{"code":129716,"name":"POTTED PLANT","cat":"So","bidi":"ON"}
+,{"code":129717,"name":"WOOD","cat":"So","bidi":"ON"}
+,{"code":129718,"name":"FEATHER","cat":"So","bidi":"ON"}
+,{"code":129728,"name":"ANATOMICAL HEART","cat":"So","bidi":"ON"}
+,{"code":129729,"name":"LUNGS","cat":"So","bidi":"ON"}
+,{"code":129730,"name":"PEOPLE HUGGING","cat":"So","bidi":"ON"}
+,{"code":129744,"name":"BLUEBERRIES","cat":"So","bidi":"ON"}
+,{"code":129745,"name":"BELL PEPPER","cat":"So","bidi":"ON"}
+,{"code":129746,"name":"OLIVE","cat":"So","bidi":"ON"}
+,{"code":129747,"name":"FLATBREAD","cat":"So","bidi":"ON"}
+,{"code":129748,"name":"TAMALE","cat":"So","bidi":"ON"}
+,{"code":129749,"name":"FONDUE","cat":"So","bidi":"ON"}
+,{"code":129750,"name":"TEAPOT","cat":"So","bidi":"ON"}
+,{"code":129792,"name":"BLOCK SEXTANT-1","cat":"So","bidi":"ON"}
+,{"code":129793,"name":"BLOCK SEXTANT-2","cat":"So","bidi":"ON"}
+,{"code":129794,"name":"BLOCK SEXTANT-12","cat":"So","bidi":"ON"}
+,{"code":129795,"name":"BLOCK SEXTANT-3","cat":"So","bidi":"ON"}
+,{"code":129796,"name":"BLOCK SEXTANT-13","cat":"So","bidi":"ON"}
+,{"code":129797,"name":"BLOCK SEXTANT-23","cat":"So","bidi":"ON"}
+,{"code":129798,"name":"BLOCK SEXTANT-123","cat":"So","bidi":"ON"}
+,{"code":129799,"name":"BLOCK SEXTANT-4","cat":"So","bidi":"ON"}
+,{"code":129800,"name":"BLOCK SEXTANT-14","cat":"So","bidi":"ON"}
+,{"code":129801,"name":"BLOCK SEXTANT-24","cat":"So","bidi":"ON"}
+,{"code":129802,"name":"BLOCK SEXTANT-124","cat":"So","bidi":"ON"}
+,{"code":129803,"name":"BLOCK SEXTANT-34","cat":"So","bidi":"ON"}
+,{"code":129804,"name":"BLOCK SEXTANT-134","cat":"So","bidi":"ON"}
+,{"code":129805,"name":"BLOCK SEXTANT-234","cat":"So","bidi":"ON"}
+,{"code":129806,"name":"BLOCK SEXTANT-1234","cat":"So","bidi":"ON"}
+,{"code":129807,"name":"BLOCK SEXTANT-5","cat":"So","bidi":"ON"}
+,{"code":129808,"name":"BLOCK SEXTANT-15","cat":"So","bidi":"ON"}
+,{"code":129809,"name":"BLOCK SEXTANT-25","cat":"So","bidi":"ON"}
+,{"code":129810,"name":"BLOCK SEXTANT-125","cat":"So","bidi":"ON"}
+,{"code":129811,"name":"BLOCK SEXTANT-35","cat":"So","bidi":"ON"}
+,{"code":129812,"name":"BLOCK SEXTANT-235","cat":"So","bidi":"ON"}
+,{"code":129813,"name":"BLOCK SEXTANT-1235","cat":"So","bidi":"ON"}
+,{"code":129814,"name":"BLOCK SEXTANT-45","cat":"So","bidi":"ON"}
+,{"code":129815,"name":"BLOCK SEXTANT-145","cat":"So","bidi":"ON"}
+,{"code":129816,"name":"BLOCK SEXTANT-245","cat":"So","bidi":"ON"}
+,{"code":129817,"name":"BLOCK SEXTANT-1245","cat":"So","bidi":"ON"}
+,{"code":129818,"name":"BLOCK SEXTANT-345","cat":"So","bidi":"ON"}
+,{"code":129819,"name":"BLOCK SEXTANT-1345","cat":"So","bidi":"ON"}
+,{"code":129820,"name":"BLOCK SEXTANT-2345","cat":"So","bidi":"ON"}
+,{"code":129821,"name":"BLOCK SEXTANT-12345","cat":"So","bidi":"ON"}
+,{"code":129822,"name":"BLOCK SEXTANT-6","cat":"So","bidi":"ON"}
+,{"code":129823,"name":"BLOCK SEXTANT-16","cat":"So","bidi":"ON"}
+,{"code":129824,"name":"BLOCK SEXTANT-26","cat":"So","bidi":"ON"}
+,{"code":129825,"name":"BLOCK SEXTANT-126","cat":"So","bidi":"ON"}
+,{"code":129826,"name":"BLOCK SEXTANT-36","cat":"So","bidi":"ON"}
+,{"code":129827,"name":"BLOCK SEXTANT-136","cat":"So","bidi":"ON"}
+,{"code":129828,"name":"BLOCK SEXTANT-236","cat":"So","bidi":"ON"}
+,{"code":129829,"name":"BLOCK SEXTANT-1236","cat":"So","bidi":"ON"}
+,{"code":129830,"name":"BLOCK SEXTANT-46","cat":"So","bidi":"ON"}
+,{"code":129831,"name":"BLOCK SEXTANT-146","cat":"So","bidi":"ON"}
+,{"code":129832,"name":"BLOCK SEXTANT-1246","cat":"So","bidi":"ON"}
+,{"code":129833,"name":"BLOCK SEXTANT-346","cat":"So","bidi":"ON"}
+,{"code":129834,"name":"BLOCK SEXTANT-1346","cat":"So","bidi":"ON"}
+,{"code":129835,"name":"BLOCK SEXTANT-2346","cat":"So","bidi":"ON"}
+,{"code":129836,"name":"BLOCK SEXTANT-12346","cat":"So","bidi":"ON"}
+,{"code":129837,"name":"BLOCK SEXTANT-56","cat":"So","bidi":"ON"}
+,{"code":129838,"name":"BLOCK SEXTANT-156","cat":"So","bidi":"ON"}
+,{"code":129839,"name":"BLOCK SEXTANT-256","cat":"So","bidi":"ON"}
+,{"code":129840,"name":"BLOCK SEXTANT-1256","cat":"So","bidi":"ON"}
+,{"code":129841,"name":"BLOCK SEXTANT-356","cat":"So","bidi":"ON"}
+,{"code":129842,"name":"BLOCK SEXTANT-1356","cat":"So","bidi":"ON"}
+,{"code":129843,"name":"BLOCK SEXTANT-2356","cat":"So","bidi":"ON"}
+,{"code":129844,"name":"BLOCK SEXTANT-12356","cat":"So","bidi":"ON"}
+,{"code":129845,"name":"BLOCK SEXTANT-456","cat":"So","bidi":"ON"}
+,{"code":129846,"name":"BLOCK SEXTANT-1456","cat":"So","bidi":"ON"}
+,{"code":129847,"name":"BLOCK SEXTANT-2456","cat":"So","bidi":"ON"}
+,{"code":129848,"name":"BLOCK SEXTANT-12456","cat":"So","bidi":"ON"}
+,{"code":129849,"name":"BLOCK SEXTANT-3456","cat":"So","bidi":"ON"}
+,{"code":129850,"name":"BLOCK SEXTANT-13456","cat":"So","bidi":"ON"}
+,{"code":129851,"name":"BLOCK SEXTANT-23456","cat":"So","bidi":"ON"}
+,{"code":129852,"name":"LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129853,"name":"LOWER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129854,"name":"LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129855,"name":"LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129856,"name":"LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129857,"name":"LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129858,"name":"LOWER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129859,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129860,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129861,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129862,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129863,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129864,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129865,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129866,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129867,"name":"LOWER RIGHT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129868,"name":"LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129869,"name":"LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129870,"name":"LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129871,"name":"LOWER LEFT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129872,"name":"LOWER LEFT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129873,"name":"LOWER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129874,"name":"UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129875,"name":"UPPER RIGHT BLOCK DIAGONAL LOWER MIDDLE LEFT TO LOWER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129876,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129877,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129878,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129879,"name":"UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129880,"name":"UPPER LEFT BLOCK DIAGONAL UPPER MIDDLE LEFT TO UPPER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129881,"name":"UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129882,"name":"UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129883,"name":"UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129884,"name":"UPPER LEFT BLOCK DIAGONAL LOWER MIDDLE LEFT TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129885,"name":"UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129886,"name":"UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129887,"name":"UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129888,"name":"UPPER LEFT BLOCK DIAGONAL LOWER LEFT TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129889,"name":"UPPER LEFT BLOCK DIAGONAL LOWER CENTRE TO UPPER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129890,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129891,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO UPPER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129892,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129893,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER LEFT TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129894,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER CENTRE TO LOWER RIGHT","cat":"So","bidi":"ON"}
+,{"code":129895,"name":"UPPER RIGHT BLOCK DIAGONAL UPPER MIDDLE LEFT TO LOWER MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129896,"name":"UPPER AND RIGHT AND LOWER TRIANGULAR THREE QUARTERS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129897,"name":"LEFT AND LOWER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129898,"name":"UPPER AND LEFT AND LOWER TRIANGULAR THREE QUARTERS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129899,"name":"LEFT AND UPPER AND RIGHT TRIANGULAR THREE QUARTERS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129900,"name":"LEFT TRIANGULAR ONE QUARTER BLOCK","cat":"So","bidi":"ON"}
+,{"code":129901,"name":"UPPER TRIANGULAR ONE QUARTER BLOCK","cat":"So","bidi":"ON"}
+,{"code":129902,"name":"RIGHT TRIANGULAR ONE QUARTER BLOCK","cat":"So","bidi":"ON"}
+,{"code":129903,"name":"LOWER TRIANGULAR ONE QUARTER BLOCK","cat":"So","bidi":"ON"}
+,{"code":129904,"name":"VERTICAL ONE EIGHTH BLOCK-2","cat":"So","bidi":"ON"}
+,{"code":129905,"name":"VERTICAL ONE EIGHTH BLOCK-3","cat":"So","bidi":"ON"}
+,{"code":129906,"name":"VERTICAL ONE EIGHTH BLOCK-4","cat":"So","bidi":"ON"}
+,{"code":129907,"name":"VERTICAL ONE EIGHTH BLOCK-5","cat":"So","bidi":"ON"}
+,{"code":129908,"name":"VERTICAL ONE EIGHTH BLOCK-6","cat":"So","bidi":"ON"}
+,{"code":129909,"name":"VERTICAL ONE EIGHTH BLOCK-7","cat":"So","bidi":"ON"}
+,{"code":129910,"name":"HORIZONTAL ONE EIGHTH BLOCK-2","cat":"So","bidi":"ON"}
+,{"code":129911,"name":"HORIZONTAL ONE EIGHTH BLOCK-3","cat":"So","bidi":"ON"}
+,{"code":129912,"name":"HORIZONTAL ONE EIGHTH BLOCK-4","cat":"So","bidi":"ON"}
+,{"code":129913,"name":"HORIZONTAL ONE EIGHTH BLOCK-5","cat":"So","bidi":"ON"}
+,{"code":129914,"name":"HORIZONTAL ONE EIGHTH BLOCK-6","cat":"So","bidi":"ON"}
+,{"code":129915,"name":"HORIZONTAL ONE EIGHTH BLOCK-7","cat":"So","bidi":"ON"}
+,{"code":129916,"name":"LEFT AND LOWER ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129917,"name":"LEFT AND UPPER ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129918,"name":"RIGHT AND UPPER ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129919,"name":"RIGHT AND LOWER ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129920,"name":"UPPER AND LOWER ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129921,"name":"HORIZONTAL ONE EIGHTH BLOCK-1358","cat":"So","bidi":"ON"}
+,{"code":129922,"name":"UPPER ONE QUARTER BLOCK","cat":"So","bidi":"ON"}
+,{"code":129923,"name":"UPPER THREE EIGHTHS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129924,"name":"UPPER FIVE EIGHTHS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129925,"name":"UPPER THREE QUARTERS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129926,"name":"UPPER SEVEN EIGHTHS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129927,"name":"RIGHT ONE QUARTER BLOCK","cat":"So","bidi":"ON"}
+,{"code":129928,"name":"RIGHT THREE EIGHTHS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129929,"name":"RIGHT FIVE EIGHTHS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129930,"name":"RIGHT THREE QUARTERS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129931,"name":"RIGHT SEVEN EIGHTHS BLOCK","cat":"So","bidi":"ON"}
+,{"code":129932,"name":"LEFT HALF MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129933,"name":"RIGHT HALF MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129934,"name":"UPPER HALF MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129935,"name":"LOWER HALF MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129936,"name":"INVERSE MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129937,"name":"UPPER HALF BLOCK AND LOWER HALF INVERSE MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129938,"name":"UPPER HALF INVERSE MEDIUM SHADE AND LOWER HALF BLOCK","cat":"So","bidi":"ON"}
+,{"code":129940,"name":"LEFT HALF INVERSE MEDIUM SHADE AND RIGHT HALF BLOCK","cat":"So","bidi":"ON"}
+,{"code":129941,"name":"CHECKER BOARD FILL","cat":"So","bidi":"ON"}
+,{"code":129942,"name":"INVERSE CHECKER BOARD FILL","cat":"So","bidi":"ON"}
+,{"code":129943,"name":"HEAVY HORIZONTAL FILL","cat":"So","bidi":"ON"}
+,{"code":129944,"name":"UPPER LEFT TO LOWER RIGHT FILL","cat":"So","bidi":"ON"}
+,{"code":129945,"name":"UPPER RIGHT TO LOWER LEFT FILL","cat":"So","bidi":"ON"}
+,{"code":129946,"name":"UPPER AND LOWER TRIANGULAR HALF BLOCK","cat":"So","bidi":"ON"}
+,{"code":129947,"name":"LEFT AND RIGHT TRIANGULAR HALF BLOCK","cat":"So","bidi":"ON"}
+,{"code":129948,"name":"UPPER LEFT TRIANGULAR MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129949,"name":"UPPER RIGHT TRIANGULAR MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129950,"name":"LOWER RIGHT TRIANGULAR MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129951,"name":"LOWER LEFT TRIANGULAR MEDIUM SHADE","cat":"So","bidi":"ON"}
+,{"code":129952,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT","cat":"So","bidi":"ON"}
+,{"code":129953,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129954,"name":"BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129955,"name":"BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129956,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129957,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129958,"name":"BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129959,"name":"BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129960,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT AND MIDDLE RIGHT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129961,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT AND MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129962,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE TO MIDDLE LEFT","cat":"So","bidi":"ON"}
+,{"code":129963,"name":"BOX DRAWINGS LIGHT DIAGONAL UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE TO MIDDLE RIGHT","cat":"So","bidi":"ON"}
+,{"code":129964,"name":"BOX DRAWINGS LIGHT DIAGONAL MIDDLE LEFT TO UPPER CENTRE TO MIDDLE RIGHT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129965,"name":"BOX DRAWINGS LIGHT DIAGONAL MIDDLE RIGHT TO UPPER CENTRE TO MIDDLE LEFT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129966,"name":"BOX DRAWINGS LIGHT DIAGONAL DIAMOND","cat":"So","bidi":"ON"}
+,{"code":129967,"name":"BOX DRAWINGS LIGHT HORIZONTAL WITH VERTICAL STROKE","cat":"So","bidi":"ON"}
+,{"code":129968,"name":"ARROWHEAD-SHAPED POINTER","cat":"So","bidi":"ON"}
+,{"code":129969,"name":"INVERSE CHECK MARK","cat":"So","bidi":"ON"}
+,{"code":129970,"name":"LEFT HALF RUNNING MAN","cat":"So","bidi":"ON"}
+,{"code":129971,"name":"RIGHT HALF RUNNING MAN","cat":"So","bidi":"ON"}
+,{"code":129972,"name":"INVERSE DOWNWARDS ARROW WITH TIP LEFTWARDS","cat":"So","bidi":"ON"}
+,{"code":129973,"name":"LEFTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129974,"name":"RIGHTWARDS ARROW AND UPPER AND LOWER ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129975,"name":"DOWNWARDS ARROW AND RIGHT ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129976,"name":"UPWARDS ARROW AND RIGHT ONE EIGHTH BLOCK","cat":"So","bidi":"ON"}
+,{"code":129977,"name":"LEFT HALF FOLDER","cat":"So","bidi":"ON"}
+,{"code":129978,"name":"RIGHT HALF FOLDER","cat":"So","bidi":"ON"}
+,{"code":129979,"name":"VOIDED GREEK CROSS","cat":"So","bidi":"ON"}
+,{"code":129980,"name":"RIGHT OPEN SQUARED DOT","cat":"So","bidi":"ON"}
+,{"code":129981,"name":"NEGATIVE DIAGONAL CROSS","cat":"So","bidi":"ON"}
+,{"code":129982,"name":"NEGATIVE DIAGONAL MIDDLE RIGHT TO LOWER CENTRE","cat":"So","bidi":"ON"}
+,{"code":129983,"name":"NEGATIVE DIAGONAL DIAMOND","cat":"So","bidi":"ON"}
+,{"code":129984,"name":"WHITE HEAVY SALTIRE WITH ROUNDED CORNERS","cat":"So","bidi":"ON"}
+,{"code":129985,"name":"LEFT THIRD WHITE RIGHT POINTING INDEX","cat":"So","bidi":"ON"}
+,{"code":129986,"name":"MIDDLE THIRD WHITE RIGHT POINTING INDEX","cat":"So","bidi":"ON"}
+,{"code":129987,"name":"RIGHT THIRD WHITE RIGHT POINTING INDEX","cat":"So","bidi":"ON"}
+,{"code":129988,"name":"NEGATIVE SQUARED QUESTION MARK","cat":"So","bidi":"ON"}
+,{"code":129989,"name":"STICK FIGURE","cat":"So","bidi":"ON"}
+,{"code":129990,"name":"STICK FIGURE WITH ARMS RAISED","cat":"So","bidi":"ON"}
+,{"code":129991,"name":"STICK FIGURE LEANING LEFT","cat":"So","bidi":"ON"}
+,{"code":129992,"name":"STICK FIGURE LEANING RIGHT","cat":"So","bidi":"ON"}
+,{"code":129993,"name":"STICK FIGURE WITH DRESS","cat":"So","bidi":"ON"}
+,{"code":129994,"name":"WHITE UP-POINTING CHEVRON","cat":"So","bidi":"ON"}
+,{"code":130032,"name":"SEGMENTED DIGIT ZERO","cat":"Nd","bidi":"EN","decomp":[48],"decompType":"font","num":"0"}
+,{"code":130033,"name":"SEGMENTED DIGIT ONE","cat":"Nd","bidi":"EN","decomp":[49],"decompType":"font","num":"1"}
+,{"code":130034,"name":"SEGMENTED DIGIT TWO","cat":"Nd","bidi":"EN","decomp":[50],"decompType":"font","num":"2"}
+,{"code":130035,"name":"SEGMENTED DIGIT THREE","cat":"Nd","bidi":"EN","decomp":[51],"decompType":"font","num":"3"}
+,{"code":130036,"name":"SEGMENTED DIGIT FOUR","cat":"Nd","bidi":"EN","decomp":[52],"decompType":"font","num":"4"}
+,{"code":130037,"name":"SEGMENTED DIGIT FIVE","cat":"Nd","bidi":"EN","decomp":[53],"decompType":"font","num":"5"}
+,{"code":130038,"name":"SEGMENTED DIGIT SIX","cat":"Nd","bidi":"EN","decomp":[54],"decompType":"font","num":"6"}
+,{"code":130039,"name":"SEGMENTED DIGIT SEVEN","cat":"Nd","bidi":"EN","decomp":[55],"decompType":"font","num":"7"}
+,{"code":130040,"name":"SEGMENTED DIGIT EIGHT","cat":"Nd","bidi":"EN","decomp":[56],"decompType":"font","num":"8"}
+,{"code":130041,"name":"SEGMENTED DIGIT NINE","cat":"Nd","bidi":"EN","decomp":[57],"decompType":"font","num":"9"}
 ,{"code":131072,"name":"<CJK Ideograph Extension B, First>","cat":"Lo"}
-,{"code":173782,"name":"<CJK Ideograph Extension B, Last>","cat":"Lo"}
+,{"code":173789,"name":"<CJK Ideograph Extension B, Last>","cat":"Lo"}
 ,{"code":173824,"name":"<CJK Ideograph Extension C, First>","cat":"Lo"}
 ,{"code":177972,"name":"<CJK Ideograph Extension C, Last>","cat":"Lo"}
 ,{"code":177984,"name":"<CJK Ideograph Extension D, First>","cat":"Lo"}
@@ -32498,6 +33452,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":195099,"name":"CJK COMPATIBILITY IDEOGRAPH-2FA1B","cat":"Lo","decomp":[40726]}
 ,{"code":195100,"name":"CJK COMPATIBILITY IDEOGRAPH-2FA1C","cat":"Lo","decomp":[40763]}
 ,{"code":195101,"name":"CJK COMPATIBILITY IDEOGRAPH-2FA1D","cat":"Lo","decomp":[173568]}
+,{"code":196608,"name":"<CJK Ideograph Extension G, First>","cat":"Lo"}
+,{"code":201546,"name":"<CJK Ideograph Extension G, Last>","cat":"Lo"}
 ,{"code":917505,"name":"LANGUAGE TAG","cat":"Cf","bidi":"BN"}
 ,{"code":917536,"name":"TAG SPACE","cat":"Cf","bidi":"BN"}
 ,{"code":917537,"name":"TAG EXCLAMATION MARK","cat":"Cf","bidi":"BN"}
