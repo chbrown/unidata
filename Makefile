@@ -9,7 +9,7 @@ UnicodeData.js: ucd/UnicodeData.txt
 # Could use http://www.unicode.org/Public/UNIDATA/$@ instead
 ucd/%.txt:
 	mkdir -p $(@D)
-	curl -s https://www.unicode.org/Public/10.0.0/$@ > $@
+	curl -s https://www.unicode.org/Public/11.0.0/$@ > $@
 
 clean:
 	rm -rf ucd/

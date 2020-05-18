@@ -1362,6 +1362,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":1373,"name":"ARMENIAN COMMA","cat":"Po"}
 ,{"code":1374,"name":"ARMENIAN QUESTION MARK","cat":"Po"}
 ,{"code":1375,"name":"ARMENIAN ABBREVIATION MARK","cat":"Po"}
+,{"code":1376,"name":"ARMENIAN SMALL LETTER TURNED AYB","cat":"Ll"}
 ,{"code":1377,"name":"ARMENIAN SMALL LETTER AYB","cat":"Ll","upper":1329,"title":1329}
 ,{"code":1378,"name":"ARMENIAN SMALL LETTER BEN","cat":"Ll","upper":1330,"title":1330}
 ,{"code":1379,"name":"ARMENIAN SMALL LETTER GIM","cat":"Ll","upper":1331,"title":1331}
@@ -1401,6 +1402,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":1413,"name":"ARMENIAN SMALL LETTER OH","cat":"Ll","upper":1365,"title":1365}
 ,{"code":1414,"name":"ARMENIAN SMALL LETTER FEH","cat":"Ll","upper":1366,"title":1366}
 ,{"code":1415,"name":"ARMENIAN SMALL LIGATURE ECH YIWN","cat":"Ll","decomp":[1381,1410],"decompType":"compat"}
+,{"code":1416,"name":"ARMENIAN SMALL LETTER YI WITH STROKE","cat":"Ll"}
 ,{"code":1417,"name":"ARMENIAN FULL STOP","cat":"Po","oldName":"ARMENIAN PERIOD"}
 ,{"code":1418,"name":"ARMENIAN HYPHEN","cat":"Pd","bidi":"ON"}
 ,{"code":1421,"name":"RIGHT-FACING ARMENIAN ETERNITY SIGN","cat":"So","bidi":"ON"}
@@ -1488,6 +1490,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":1512,"name":"HEBREW LETTER RESH","cat":"Lo","bidi":"R"}
 ,{"code":1513,"name":"HEBREW LETTER SHIN","cat":"Lo","bidi":"R"}
 ,{"code":1514,"name":"HEBREW LETTER TAV","cat":"Lo","bidi":"R"}
+,{"code":1519,"name":"HEBREW YOD TRIANGLE","cat":"Lo","bidi":"R"}
 ,{"code":1520,"name":"HEBREW LIGATURE YIDDISH DOUBLE VAV","cat":"Lo","bidi":"R","oldName":"HEBREW LETTER DOUBLE VAV"}
 ,{"code":1521,"name":"HEBREW LIGATURE YIDDISH VAV YOD","cat":"Lo","bidi":"R","oldName":"HEBREW LETTER VAV YOD"}
 ,{"code":1522,"name":"HEBREW LIGATURE YIDDISH DOUBLE YOD","cat":"Lo","bidi":"R","oldName":"HEBREW LETTER DOUBLE YOD"}
@@ -1982,6 +1985,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2040,"name":"NKO COMMA","cat":"Po","bidi":"ON"}
 ,{"code":2041,"name":"NKO EXCLAMATION MARK","cat":"Po","bidi":"ON"}
 ,{"code":2042,"name":"NKO LAJANYALAN","cat":"Lm","bidi":"R"}
+,{"code":2045,"name":"NKO DANTAYALAN","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":2046,"name":"NKO DOROME SIGN","cat":"Sc","bidi":"R"}
+,{"code":2047,"name":"NKO TAMAN SIGN","cat":"Sc","bidi":"R"}
 ,{"code":2048,"name":"SAMARITAN LETTER ALAF","cat":"Lo","bidi":"R"}
 ,{"code":2049,"name":"SAMARITAN LETTER BIT","cat":"Lo","bidi":"R"}
 ,{"code":2050,"name":"SAMARITAN LETTER GAMAN","cat":"Lo","bidi":"R"}
@@ -2112,6 +2118,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2235,"name":"ARABIC LETTER AFRICAN FEH","cat":"Lo","bidi":"AL"}
 ,{"code":2236,"name":"ARABIC LETTER AFRICAN QAF","cat":"Lo","bidi":"AL"}
 ,{"code":2237,"name":"ARABIC LETTER AFRICAN NOON","cat":"Lo","bidi":"AL"}
+,{"code":2259,"name":"ARABIC SMALL LOW WAW","cat":"Mn","comb":220,"bidi":"NSM"}
 ,{"code":2260,"name":"ARABIC SMALL HIGH WORD AR-RUB","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":2261,"name":"ARABIC SMALL HIGH SAD","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":2262,"name":"ARABIC SMALL HIGH AIN","cat":"Mn","comb":230,"bidi":"NSM"}
@@ -2379,6 +2386,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2555,"name":"BENGALI GANDA MARK","cat":"Sc","bidi":"ET"}
 ,{"code":2556,"name":"BENGALI LETTER VEDIC ANUSVARA","cat":"Lo"}
 ,{"code":2557,"name":"BENGALI ABBREVIATION SIGN","cat":"Po"}
+,{"code":2558,"name":"BENGALI SANDHI MARK","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":2561,"name":"GURMUKHI SIGN ADAK BINDI","cat":"Mn","bidi":"NSM"}
 ,{"code":2562,"name":"GURMUKHI SIGN BINDI","cat":"Mn","bidi":"NSM"}
 ,{"code":2563,"name":"GURMUKHI SIGN VISARGA","cat":"Mc"}
@@ -2458,6 +2466,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":2675,"name":"GURMUKHI URA","cat":"Lo"}
 ,{"code":2676,"name":"GURMUKHI EK ONKAR","cat":"Lo"}
 ,{"code":2677,"name":"GURMUKHI SIGN YAKASH","cat":"Mn","bidi":"NSM"}
+,{"code":2678,"name":"GURMUKHI ABBREVIATION SIGN","cat":"Po"}
 ,{"code":2689,"name":"GUJARATI SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":2690,"name":"GUJARATI SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
 ,{"code":2691,"name":"GUJARATI SIGN VISARGA","cat":"Mc"}
@@ -2715,6 +2724,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":3073,"name":"TELUGU SIGN CANDRABINDU","cat":"Mc"}
 ,{"code":3074,"name":"TELUGU SIGN ANUSVARA","cat":"Mc"}
 ,{"code":3075,"name":"TELUGU SIGN VISARGA","cat":"Mc"}
+,{"code":3076,"name":"TELUGU SIGN COMBINING ANUSVARA ABOVE","cat":"Mn","bidi":"NSM"}
 ,{"code":3077,"name":"TELUGU LETTER A","cat":"Lo"}
 ,{"code":3078,"name":"TELUGU LETTER AA","cat":"Lo"}
 ,{"code":3079,"name":"TELUGU LETTER I","cat":"Lo"}
@@ -2811,6 +2821,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":3201,"name":"KANNADA SIGN CANDRABINDU","cat":"Mn","bidi":"NSM"}
 ,{"code":3202,"name":"KANNADA SIGN ANUSVARA","cat":"Mc"}
 ,{"code":3203,"name":"KANNADA SIGN VISARGA","cat":"Mc"}
+,{"code":3204,"name":"KANNADA SIGN SIDDHAM","cat":"Po"}
 ,{"code":3205,"name":"KANNADA LETTER A","cat":"Lo"}
 ,{"code":3206,"name":"KANNADA LETTER AA","cat":"Lo"}
 ,{"code":3207,"name":"KANNADA LETTER I","cat":"Lo"}
@@ -3667,54 +3678,54 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":4293,"name":"GEORGIAN CAPITAL LETTER HOE","cat":"Lu","lower":11557}
 ,{"code":4295,"name":"GEORGIAN CAPITAL LETTER YN","cat":"Lu","lower":11559}
 ,{"code":4301,"name":"GEORGIAN CAPITAL LETTER AEN","cat":"Lu","lower":11565}
-,{"code":4304,"name":"GEORGIAN LETTER AN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER AN"}
-,{"code":4305,"name":"GEORGIAN LETTER BAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER BAN"}
-,{"code":4306,"name":"GEORGIAN LETTER GAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER GAN"}
-,{"code":4307,"name":"GEORGIAN LETTER DON","cat":"Lo","oldName":"GEORGIAN SMALL LETTER DON"}
-,{"code":4308,"name":"GEORGIAN LETTER EN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER EN"}
-,{"code":4309,"name":"GEORGIAN LETTER VIN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER VIN"}
-,{"code":4310,"name":"GEORGIAN LETTER ZEN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER ZEN"}
-,{"code":4311,"name":"GEORGIAN LETTER TAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER TAN"}
-,{"code":4312,"name":"GEORGIAN LETTER IN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER IN"}
-,{"code":4313,"name":"GEORGIAN LETTER KAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER KAN"}
-,{"code":4314,"name":"GEORGIAN LETTER LAS","cat":"Lo","oldName":"GEORGIAN SMALL LETTER LAS"}
-,{"code":4315,"name":"GEORGIAN LETTER MAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER MAN"}
-,{"code":4316,"name":"GEORGIAN LETTER NAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER NAR"}
-,{"code":4317,"name":"GEORGIAN LETTER ON","cat":"Lo","oldName":"GEORGIAN SMALL LETTER ON"}
-,{"code":4318,"name":"GEORGIAN LETTER PAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER PAR"}
-,{"code":4319,"name":"GEORGIAN LETTER ZHAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER ZHAR"}
-,{"code":4320,"name":"GEORGIAN LETTER RAE","cat":"Lo","oldName":"GEORGIAN SMALL LETTER RAE"}
-,{"code":4321,"name":"GEORGIAN LETTER SAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER SAN"}
-,{"code":4322,"name":"GEORGIAN LETTER TAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER TAR"}
-,{"code":4323,"name":"GEORGIAN LETTER UN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER UN"}
-,{"code":4324,"name":"GEORGIAN LETTER PHAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER PHAR"}
-,{"code":4325,"name":"GEORGIAN LETTER KHAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER KHAR"}
-,{"code":4326,"name":"GEORGIAN LETTER GHAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER GHAN"}
-,{"code":4327,"name":"GEORGIAN LETTER QAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER QAR"}
-,{"code":4328,"name":"GEORGIAN LETTER SHIN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER SHIN"}
-,{"code":4329,"name":"GEORGIAN LETTER CHIN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER CHIN"}
-,{"code":4330,"name":"GEORGIAN LETTER CAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER CAN"}
-,{"code":4331,"name":"GEORGIAN LETTER JIL","cat":"Lo","oldName":"GEORGIAN SMALL LETTER JIL"}
-,{"code":4332,"name":"GEORGIAN LETTER CIL","cat":"Lo","oldName":"GEORGIAN SMALL LETTER CIL"}
-,{"code":4333,"name":"GEORGIAN LETTER CHAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER CHAR"}
-,{"code":4334,"name":"GEORGIAN LETTER XAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER XAN"}
-,{"code":4335,"name":"GEORGIAN LETTER JHAN","cat":"Lo","oldName":"GEORGIAN SMALL LETTER JHAN"}
-,{"code":4336,"name":"GEORGIAN LETTER HAE","cat":"Lo","oldName":"GEORGIAN SMALL LETTER HAE"}
-,{"code":4337,"name":"GEORGIAN LETTER HE","cat":"Lo","oldName":"GEORGIAN SMALL LETTER HE"}
-,{"code":4338,"name":"GEORGIAN LETTER HIE","cat":"Lo","oldName":"GEORGIAN SMALL LETTER HIE"}
-,{"code":4339,"name":"GEORGIAN LETTER WE","cat":"Lo","oldName":"GEORGIAN SMALL LETTER WE"}
-,{"code":4340,"name":"GEORGIAN LETTER HAR","cat":"Lo","oldName":"GEORGIAN SMALL LETTER HAR"}
-,{"code":4341,"name":"GEORGIAN LETTER HOE","cat":"Lo","oldName":"GEORGIAN SMALL LETTER HOE"}
-,{"code":4342,"name":"GEORGIAN LETTER FI","cat":"Lo","oldName":"GEORGIAN SMALL LETTER FI"}
-,{"code":4343,"name":"GEORGIAN LETTER YN","cat":"Lo"}
-,{"code":4344,"name":"GEORGIAN LETTER ELIFI","cat":"Lo"}
-,{"code":4345,"name":"GEORGIAN LETTER TURNED GAN","cat":"Lo"}
-,{"code":4346,"name":"GEORGIAN LETTER AIN","cat":"Lo"}
+,{"code":4304,"name":"GEORGIAN LETTER AN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER AN","upper":7312,"title":4304}
+,{"code":4305,"name":"GEORGIAN LETTER BAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER BAN","upper":7313,"title":4305}
+,{"code":4306,"name":"GEORGIAN LETTER GAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER GAN","upper":7314,"title":4306}
+,{"code":4307,"name":"GEORGIAN LETTER DON","cat":"Ll","oldName":"GEORGIAN SMALL LETTER DON","upper":7315,"title":4307}
+,{"code":4308,"name":"GEORGIAN LETTER EN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER EN","upper":7316,"title":4308}
+,{"code":4309,"name":"GEORGIAN LETTER VIN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER VIN","upper":7317,"title":4309}
+,{"code":4310,"name":"GEORGIAN LETTER ZEN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER ZEN","upper":7318,"title":4310}
+,{"code":4311,"name":"GEORGIAN LETTER TAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER TAN","upper":7319,"title":4311}
+,{"code":4312,"name":"GEORGIAN LETTER IN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER IN","upper":7320,"title":4312}
+,{"code":4313,"name":"GEORGIAN LETTER KAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER KAN","upper":7321,"title":4313}
+,{"code":4314,"name":"GEORGIAN LETTER LAS","cat":"Ll","oldName":"GEORGIAN SMALL LETTER LAS","upper":7322,"title":4314}
+,{"code":4315,"name":"GEORGIAN LETTER MAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER MAN","upper":7323,"title":4315}
+,{"code":4316,"name":"GEORGIAN LETTER NAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER NAR","upper":7324,"title":4316}
+,{"code":4317,"name":"GEORGIAN LETTER ON","cat":"Ll","oldName":"GEORGIAN SMALL LETTER ON","upper":7325,"title":4317}
+,{"code":4318,"name":"GEORGIAN LETTER PAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER PAR","upper":7326,"title":4318}
+,{"code":4319,"name":"GEORGIAN LETTER ZHAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER ZHAR","upper":7327,"title":4319}
+,{"code":4320,"name":"GEORGIAN LETTER RAE","cat":"Ll","oldName":"GEORGIAN SMALL LETTER RAE","upper":7328,"title":4320}
+,{"code":4321,"name":"GEORGIAN LETTER SAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER SAN","upper":7329,"title":4321}
+,{"code":4322,"name":"GEORGIAN LETTER TAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER TAR","upper":7330,"title":4322}
+,{"code":4323,"name":"GEORGIAN LETTER UN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER UN","upper":7331,"title":4323}
+,{"code":4324,"name":"GEORGIAN LETTER PHAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER PHAR","upper":7332,"title":4324}
+,{"code":4325,"name":"GEORGIAN LETTER KHAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER KHAR","upper":7333,"title":4325}
+,{"code":4326,"name":"GEORGIAN LETTER GHAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER GHAN","upper":7334,"title":4326}
+,{"code":4327,"name":"GEORGIAN LETTER QAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER QAR","upper":7335,"title":4327}
+,{"code":4328,"name":"GEORGIAN LETTER SHIN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER SHIN","upper":7336,"title":4328}
+,{"code":4329,"name":"GEORGIAN LETTER CHIN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER CHIN","upper":7337,"title":4329}
+,{"code":4330,"name":"GEORGIAN LETTER CAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER CAN","upper":7338,"title":4330}
+,{"code":4331,"name":"GEORGIAN LETTER JIL","cat":"Ll","oldName":"GEORGIAN SMALL LETTER JIL","upper":7339,"title":4331}
+,{"code":4332,"name":"GEORGIAN LETTER CIL","cat":"Ll","oldName":"GEORGIAN SMALL LETTER CIL","upper":7340,"title":4332}
+,{"code":4333,"name":"GEORGIAN LETTER CHAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER CHAR","upper":7341,"title":4333}
+,{"code":4334,"name":"GEORGIAN LETTER XAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER XAN","upper":7342,"title":4334}
+,{"code":4335,"name":"GEORGIAN LETTER JHAN","cat":"Ll","oldName":"GEORGIAN SMALL LETTER JHAN","upper":7343,"title":4335}
+,{"code":4336,"name":"GEORGIAN LETTER HAE","cat":"Ll","oldName":"GEORGIAN SMALL LETTER HAE","upper":7344,"title":4336}
+,{"code":4337,"name":"GEORGIAN LETTER HE","cat":"Ll","oldName":"GEORGIAN SMALL LETTER HE","upper":7345,"title":4337}
+,{"code":4338,"name":"GEORGIAN LETTER HIE","cat":"Ll","oldName":"GEORGIAN SMALL LETTER HIE","upper":7346,"title":4338}
+,{"code":4339,"name":"GEORGIAN LETTER WE","cat":"Ll","oldName":"GEORGIAN SMALL LETTER WE","upper":7347,"title":4339}
+,{"code":4340,"name":"GEORGIAN LETTER HAR","cat":"Ll","oldName":"GEORGIAN SMALL LETTER HAR","upper":7348,"title":4340}
+,{"code":4341,"name":"GEORGIAN LETTER HOE","cat":"Ll","oldName":"GEORGIAN SMALL LETTER HOE","upper":7349,"title":4341}
+,{"code":4342,"name":"GEORGIAN LETTER FI","cat":"Ll","oldName":"GEORGIAN SMALL LETTER FI","upper":7350,"title":4342}
+,{"code":4343,"name":"GEORGIAN LETTER YN","cat":"Ll","upper":7351,"title":4343}
+,{"code":4344,"name":"GEORGIAN LETTER ELIFI","cat":"Ll","upper":7352,"title":4344}
+,{"code":4345,"name":"GEORGIAN LETTER TURNED GAN","cat":"Ll","upper":7353,"title":4345}
+,{"code":4346,"name":"GEORGIAN LETTER AIN","cat":"Ll","upper":7354,"title":4346}
 ,{"code":4347,"name":"GEORGIAN PARAGRAPH SEPARATOR","cat":"Po"}
 ,{"code":4348,"name":"MODIFIER LETTER GEORGIAN NAR","cat":"Lm","decomp":[4316],"decompType":"super"}
-,{"code":4349,"name":"GEORGIAN LETTER AEN","cat":"Lo"}
-,{"code":4350,"name":"GEORGIAN LETTER HARD SIGN","cat":"Lo"}
-,{"code":4351,"name":"GEORGIAN LETTER LABIAL SIGN","cat":"Lo"}
+,{"code":4349,"name":"GEORGIAN LETTER AEN","cat":"Ll","upper":7357,"title":4349}
+,{"code":4350,"name":"GEORGIAN LETTER HARD SIGN","cat":"Ll","upper":7358,"title":4350}
+,{"code":4351,"name":"GEORGIAN LETTER LABIAL SIGN","cat":"Ll","upper":7359,"title":4351}
 ,{"code":4352,"name":"HANGUL CHOSEONG KIYEOK","cat":"Lo"}
 ,{"code":4353,"name":"HANGUL CHOSEONG SSANGKIYEOK","cat":"Lo"}
 ,{"code":4354,"name":"HANGUL CHOSEONG NIEUN","cat":"Lo"}
@@ -5513,6 +5524,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":6261,"name":"MONGOLIAN LETTER MANCHU RA","cat":"Lo"}
 ,{"code":6262,"name":"MONGOLIAN LETTER MANCHU FA","cat":"Lo"}
 ,{"code":6263,"name":"MONGOLIAN LETTER MANCHU ZHA","cat":"Lo"}
+,{"code":6264,"name":"MONGOLIAN LETTER CHA WITH TWO DOTS","cat":"Lo"}
 ,{"code":6272,"name":"MONGOLIAN LETTER ALI GALI ANUSVARA ONE","cat":"Lo"}
 ,{"code":6273,"name":"MONGOLIAN LETTER ALI GALI VISARGA ONE","cat":"Lo"}
 ,{"code":6274,"name":"MONGOLIAN LETTER ALI GALI DAMARU","cat":"Lo"}
@@ -6388,6 +6400,52 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":7302,"name":"CYRILLIC SMALL LETTER TALL HARD SIGN","cat":"Ll","upper":1066,"title":1066}
 ,{"code":7303,"name":"CYRILLIC SMALL LETTER TALL YAT","cat":"Ll","upper":1122,"title":1122}
 ,{"code":7304,"name":"CYRILLIC SMALL LETTER UNBLENDED UK","cat":"Ll","upper":42570,"title":42570}
+,{"code":7312,"name":"GEORGIAN MTAVRULI CAPITAL LETTER AN","cat":"Lu","lower":4304}
+,{"code":7313,"name":"GEORGIAN MTAVRULI CAPITAL LETTER BAN","cat":"Lu","lower":4305}
+,{"code":7314,"name":"GEORGIAN MTAVRULI CAPITAL LETTER GAN","cat":"Lu","lower":4306}
+,{"code":7315,"name":"GEORGIAN MTAVRULI CAPITAL LETTER DON","cat":"Lu","lower":4307}
+,{"code":7316,"name":"GEORGIAN MTAVRULI CAPITAL LETTER EN","cat":"Lu","lower":4308}
+,{"code":7317,"name":"GEORGIAN MTAVRULI CAPITAL LETTER VIN","cat":"Lu","lower":4309}
+,{"code":7318,"name":"GEORGIAN MTAVRULI CAPITAL LETTER ZEN","cat":"Lu","lower":4310}
+,{"code":7319,"name":"GEORGIAN MTAVRULI CAPITAL LETTER TAN","cat":"Lu","lower":4311}
+,{"code":7320,"name":"GEORGIAN MTAVRULI CAPITAL LETTER IN","cat":"Lu","lower":4312}
+,{"code":7321,"name":"GEORGIAN MTAVRULI CAPITAL LETTER KAN","cat":"Lu","lower":4313}
+,{"code":7322,"name":"GEORGIAN MTAVRULI CAPITAL LETTER LAS","cat":"Lu","lower":4314}
+,{"code":7323,"name":"GEORGIAN MTAVRULI CAPITAL LETTER MAN","cat":"Lu","lower":4315}
+,{"code":7324,"name":"GEORGIAN MTAVRULI CAPITAL LETTER NAR","cat":"Lu","lower":4316}
+,{"code":7325,"name":"GEORGIAN MTAVRULI CAPITAL LETTER ON","cat":"Lu","lower":4317}
+,{"code":7326,"name":"GEORGIAN MTAVRULI CAPITAL LETTER PAR","cat":"Lu","lower":4318}
+,{"code":7327,"name":"GEORGIAN MTAVRULI CAPITAL LETTER ZHAR","cat":"Lu","lower":4319}
+,{"code":7328,"name":"GEORGIAN MTAVRULI CAPITAL LETTER RAE","cat":"Lu","lower":4320}
+,{"code":7329,"name":"GEORGIAN MTAVRULI CAPITAL LETTER SAN","cat":"Lu","lower":4321}
+,{"code":7330,"name":"GEORGIAN MTAVRULI CAPITAL LETTER TAR","cat":"Lu","lower":4322}
+,{"code":7331,"name":"GEORGIAN MTAVRULI CAPITAL LETTER UN","cat":"Lu","lower":4323}
+,{"code":7332,"name":"GEORGIAN MTAVRULI CAPITAL LETTER PHAR","cat":"Lu","lower":4324}
+,{"code":7333,"name":"GEORGIAN MTAVRULI CAPITAL LETTER KHAR","cat":"Lu","lower":4325}
+,{"code":7334,"name":"GEORGIAN MTAVRULI CAPITAL LETTER GHAN","cat":"Lu","lower":4326}
+,{"code":7335,"name":"GEORGIAN MTAVRULI CAPITAL LETTER QAR","cat":"Lu","lower":4327}
+,{"code":7336,"name":"GEORGIAN MTAVRULI CAPITAL LETTER SHIN","cat":"Lu","lower":4328}
+,{"code":7337,"name":"GEORGIAN MTAVRULI CAPITAL LETTER CHIN","cat":"Lu","lower":4329}
+,{"code":7338,"name":"GEORGIAN MTAVRULI CAPITAL LETTER CAN","cat":"Lu","lower":4330}
+,{"code":7339,"name":"GEORGIAN MTAVRULI CAPITAL LETTER JIL","cat":"Lu","lower":4331}
+,{"code":7340,"name":"GEORGIAN MTAVRULI CAPITAL LETTER CIL","cat":"Lu","lower":4332}
+,{"code":7341,"name":"GEORGIAN MTAVRULI CAPITAL LETTER CHAR","cat":"Lu","lower":4333}
+,{"code":7342,"name":"GEORGIAN MTAVRULI CAPITAL LETTER XAN","cat":"Lu","lower":4334}
+,{"code":7343,"name":"GEORGIAN MTAVRULI CAPITAL LETTER JHAN","cat":"Lu","lower":4335}
+,{"code":7344,"name":"GEORGIAN MTAVRULI CAPITAL LETTER HAE","cat":"Lu","lower":4336}
+,{"code":7345,"name":"GEORGIAN MTAVRULI CAPITAL LETTER HE","cat":"Lu","lower":4337}
+,{"code":7346,"name":"GEORGIAN MTAVRULI CAPITAL LETTER HIE","cat":"Lu","lower":4338}
+,{"code":7347,"name":"GEORGIAN MTAVRULI CAPITAL LETTER WE","cat":"Lu","lower":4339}
+,{"code":7348,"name":"GEORGIAN MTAVRULI CAPITAL LETTER HAR","cat":"Lu","lower":4340}
+,{"code":7349,"name":"GEORGIAN MTAVRULI CAPITAL LETTER HOE","cat":"Lu","lower":4341}
+,{"code":7350,"name":"GEORGIAN MTAVRULI CAPITAL LETTER FI","cat":"Lu","lower":4342}
+,{"code":7351,"name":"GEORGIAN MTAVRULI CAPITAL LETTER YN","cat":"Lu","lower":4343}
+,{"code":7352,"name":"GEORGIAN MTAVRULI CAPITAL LETTER ELIFI","cat":"Lu","lower":4344}
+,{"code":7353,"name":"GEORGIAN MTAVRULI CAPITAL LETTER TURNED GAN","cat":"Lu","lower":4345}
+,{"code":7354,"name":"GEORGIAN MTAVRULI CAPITAL LETTER AIN","cat":"Lu","lower":4346}
+,{"code":7357,"name":"GEORGIAN MTAVRULI CAPITAL LETTER AEN","cat":"Lu","lower":4349}
+,{"code":7358,"name":"GEORGIAN MTAVRULI CAPITAL LETTER HARD SIGN","cat":"Lu","lower":4350}
+,{"code":7359,"name":"GEORGIAN MTAVRULI CAPITAL LETTER LABIAL SIGN","cat":"Lu","lower":4351}
 ,{"code":7360,"name":"SUNDANESE PUNCTUATION BINDU SURYA","cat":"Po"}
 ,{"code":7361,"name":"SUNDANESE PUNCTUATION BINDU PANGLONG","cat":"Po"}
 ,{"code":7362,"name":"SUNDANESE PUNCTUATION BINDU PURNAMA","cat":"Po"}
@@ -9559,7 +9617,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":10654,"name":"ANGLE WITH S INSIDE","cat":"Sm","bidi":"ON","bidiMirror":true}
 ,{"code":10655,"name":"ACUTE ANGLE","cat":"Sm","bidi":"ON","bidiMirror":true}
 ,{"code":10656,"name":"SPHERICAL ANGLE OPENING LEFT","cat":"Sm","bidi":"ON","bidiMirror":true}
-,{"code":10657,"name":"SPHERICAL ANGLE OPENING UP","cat":"Sm","bidi":"ON","bidiMirror":true}
+,{"code":10657,"name":"SPHERICAL ANGLE OPENING UP","cat":"Sm","bidi":"ON"}
 ,{"code":10658,"name":"TURNED ANGLE","cat":"Sm","bidi":"ON","bidiMirror":true}
 ,{"code":10659,"name":"REVERSED ANGLE","cat":"Sm","bidi":"ON","bidiMirror":true}
 ,{"code":10660,"name":"ANGLE WITH UNDERBAR","cat":"Sm","bidi":"ON","bidiMirror":true}
@@ -10092,6 +10150,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":11191,"name":"RIBBON ARROW RIGHT DOWN","cat":"So","bidi":"ON"}
 ,{"code":11192,"name":"UPWARDS WHITE ARROW FROM BAR WITH HORIZONTAL BAR","cat":"So","bidi":"ON"}
 ,{"code":11193,"name":"UP ARROWHEAD IN A RECTANGLE BOX","cat":"So","bidi":"ON"}
+,{"code":11194,"name":"OVERLAPPING WHITE SQUARES","cat":"So","bidi":"ON"}
+,{"code":11195,"name":"OVERLAPPING WHITE AND BLACK SQUARES","cat":"So","bidi":"ON"}
+,{"code":11196,"name":"OVERLAPPING BLACK SQUARES","cat":"So","bidi":"ON"}
 ,{"code":11197,"name":"BALLOT BOX WITH LIGHT X","cat":"So","bidi":"ON"}
 ,{"code":11198,"name":"CIRCLED X","cat":"So","bidi":"ON"}
 ,{"code":11199,"name":"CIRCLED BOLD X","cat":"So","bidi":"ON"}
@@ -10113,10 +10174,50 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":11216,"name":"SQUARE POSITION INDICATOR","cat":"So","bidi":"ON"}
 ,{"code":11217,"name":"UNCERTAINTY SIGN","cat":"So","bidi":"ON"}
 ,{"code":11218,"name":"GROUP MARK","cat":"So","bidi":"ON"}
+,{"code":11219,"name":"PLUTO FORM TWO","cat":"So","bidi":"ON"}
+,{"code":11220,"name":"PLUTO FORM THREE","cat":"So","bidi":"ON"}
+,{"code":11221,"name":"PLUTO FORM FOUR","cat":"So","bidi":"ON"}
+,{"code":11222,"name":"PLUTO FORM FIVE","cat":"So","bidi":"ON"}
+,{"code":11223,"name":"TRANSPLUTO","cat":"So","bidi":"ON"}
+,{"code":11224,"name":"PROSERPINA","cat":"So","bidi":"ON"}
+,{"code":11225,"name":"ASTRAEA","cat":"So","bidi":"ON"}
+,{"code":11226,"name":"HYGIEA","cat":"So","bidi":"ON"}
+,{"code":11227,"name":"PHOLUS","cat":"So","bidi":"ON"}
+,{"code":11228,"name":"NESSUS","cat":"So","bidi":"ON"}
+,{"code":11229,"name":"WHITE MOON SELENA","cat":"So","bidi":"ON"}
+,{"code":11230,"name":"BLACK DIAMOND ON CROSS","cat":"So","bidi":"ON"}
+,{"code":11231,"name":"TRUE LIGHT MOON ARTA","cat":"So","bidi":"ON"}
+,{"code":11232,"name":"CUPIDO","cat":"So","bidi":"ON"}
+,{"code":11233,"name":"HADES","cat":"So","bidi":"ON"}
+,{"code":11234,"name":"ZEUS","cat":"So","bidi":"ON"}
+,{"code":11235,"name":"KRONOS","cat":"So","bidi":"ON"}
+,{"code":11236,"name":"APOLLON","cat":"So","bidi":"ON"}
+,{"code":11237,"name":"ADMETOS","cat":"So","bidi":"ON"}
+,{"code":11238,"name":"VULCANUS","cat":"So","bidi":"ON"}
+,{"code":11239,"name":"POSEIDON","cat":"So","bidi":"ON"}
+,{"code":11240,"name":"LEFT HALF BLACK STAR","cat":"So","bidi":"ON"}
+,{"code":11241,"name":"RIGHT HALF BLACK STAR","cat":"So","bidi":"ON"}
+,{"code":11242,"name":"STAR WITH LEFT HALF BLACK","cat":"So","bidi":"ON"}
+,{"code":11243,"name":"STAR WITH RIGHT HALF BLACK","cat":"So","bidi":"ON"}
 ,{"code":11244,"name":"LEFTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
 ,{"code":11245,"name":"UPWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
 ,{"code":11246,"name":"RIGHTWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
 ,{"code":11247,"name":"DOWNWARDS TWO-HEADED ARROW WITH TRIANGLE ARROWHEADS","cat":"So","bidi":"ON"}
+,{"code":11248,"name":"ERIS FORM ONE","cat":"So","bidi":"ON"}
+,{"code":11249,"name":"ERIS FORM TWO","cat":"So","bidi":"ON"}
+,{"code":11250,"name":"SEDNA","cat":"So","bidi":"ON"}
+,{"code":11251,"name":"RUSSIAN ASTROLOGICAL SYMBOL VIGINTILE","cat":"So","bidi":"ON"}
+,{"code":11252,"name":"RUSSIAN ASTROLOGICAL SYMBOL NOVILE","cat":"So","bidi":"ON"}
+,{"code":11253,"name":"RUSSIAN ASTROLOGICAL SYMBOL QUINTILE","cat":"So","bidi":"ON"}
+,{"code":11254,"name":"RUSSIAN ASTROLOGICAL SYMBOL BINOVILE","cat":"So","bidi":"ON"}
+,{"code":11255,"name":"RUSSIAN ASTROLOGICAL SYMBOL SENTAGON","cat":"So","bidi":"ON"}
+,{"code":11256,"name":"RUSSIAN ASTROLOGICAL SYMBOL TREDECILE","cat":"So","bidi":"ON"}
+,{"code":11257,"name":"EQUALS SIGN WITH INFINITY BELOW","cat":"So","bidi":"ON"}
+,{"code":11258,"name":"UNITED SYMBOL","cat":"So","bidi":"ON"}
+,{"code":11259,"name":"SEPARATED SYMBOL","cat":"So","bidi":"ON"}
+,{"code":11260,"name":"DOUBLED SYMBOL","cat":"So","bidi":"ON"}
+,{"code":11261,"name":"PASSED SYMBOL","cat":"So","bidi":"ON"}
+,{"code":11262,"name":"REVERSED RIGHT ANGLE","cat":"So","bidi":"ON","bidiMirror":true}
 ,{"code":11264,"name":"GLAGOLITIC CAPITAL LETTER AZU","cat":"Lu","lower":11312}
 ,{"code":11265,"name":"GLAGOLITIC CAPITAL LETTER BUKY","cat":"Lu","lower":11313}
 ,{"code":11266,"name":"GLAGOLITIC CAPITAL LETTER VEDE","cat":"Lu","lower":11314}
@@ -10650,6 +10751,11 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":11847,"name":"LOW KAVYKA","cat":"Po","bidi":"ON"}
 ,{"code":11848,"name":"LOW KAVYKA WITH DOT","cat":"Po","bidi":"ON"}
 ,{"code":11849,"name":"DOUBLE STACKED COMMA","cat":"Po","bidi":"ON"}
+,{"code":11850,"name":"DOTTED SOLIDUS","cat":"Po","bidi":"ON"}
+,{"code":11851,"name":"TRIPLE DAGGER","cat":"Po","bidi":"ON"}
+,{"code":11852,"name":"MEDIEVAL COMMA","cat":"Po","bidi":"ON"}
+,{"code":11853,"name":"PARAGRAPHUS MARK","cat":"Po","bidi":"ON"}
+,{"code":11854,"name":"PUNCTUS ELEVATUS MARK","cat":"Po","bidi":"ON"}
 ,{"code":11904,"name":"CJK RADICAL REPEAT","cat":"So","bidi":"ON"}
 ,{"code":11905,"name":"CJK RADICAL CLIFF","cat":"So","bidi":"ON"}
 ,{"code":11906,"name":"CJK RADICAL SECOND ONE","cat":"So","bidi":"ON"}
@@ -11286,6 +11392,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":12588,"name":"BOPOMOFO LETTER GN","cat":"Lo"}
 ,{"code":12589,"name":"BOPOMOFO LETTER IH","cat":"Lo"}
 ,{"code":12590,"name":"BOPOMOFO LETTER O WITH DOT ABOVE","cat":"Lo"}
+,{"code":12591,"name":"BOPOMOFO LETTER NN","cat":"Lo"}
 ,{"code":12593,"name":"HANGUL LETTER KIYEOK","cat":"Lo","decomp":[4352],"decompType":"compat","oldName":"HANGUL LETTER GIYEOG"}
 ,{"code":12594,"name":"HANGUL LETTER SSANGKIYEOK","cat":"Lo","decomp":[4353],"decompType":"compat","oldName":"HANGUL LETTER SSANG GIYEOG"}
 ,{"code":12595,"name":"HANGUL LETTER KIYEOK-SIOS","cat":"Lo","decomp":[4522],"decompType":"compat","oldName":"HANGUL LETTER GIYEOG SIOS"}
@@ -12052,7 +12159,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":19966,"name":"HEXAGRAM FOR AFTER COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19967,"name":"HEXAGRAM FOR BEFORE COMPLETION","cat":"So","bidi":"ON"}
 ,{"code":19968,"name":"<CJK Ideograph, First>","cat":"Lo"}
-,{"code":40938,"name":"<CJK Ideograph, Last>","cat":"Lo"}
+,{"code":40943,"name":"<CJK Ideograph, Last>","cat":"Lo"}
 ,{"code":40960,"name":"YI SYLLABLE IT","cat":"Lo"}
 ,{"code":40961,"name":"YI SYLLABLE IX","cat":"Lo"}
 ,{"code":40962,"name":"YI SYLLABLE I","cat":"Lo"}
@@ -13980,6 +14087,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":42924,"name":"LATIN CAPITAL LETTER SCRIPT G","cat":"Lu","lower":609}
 ,{"code":42925,"name":"LATIN CAPITAL LETTER L WITH BELT","cat":"Lu","lower":620}
 ,{"code":42926,"name":"LATIN CAPITAL LETTER SMALL CAPITAL I","cat":"Lu","lower":618}
+,{"code":42927,"name":"LATIN LETTER SMALL CAPITAL Q","cat":"Ll"}
 ,{"code":42928,"name":"LATIN CAPITAL LETTER TURNED K","cat":"Lu","lower":670}
 ,{"code":42929,"name":"LATIN CAPITAL LETTER TURNED T","cat":"Lu","lower":647}
 ,{"code":42930,"name":"LATIN CAPITAL LETTER J WITH CROSSED-TAIL","cat":"Lu","lower":669}
@@ -13988,6 +14096,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":42933,"name":"LATIN SMALL LETTER BETA","cat":"Ll","upper":42932,"title":42932}
 ,{"code":42934,"name":"LATIN CAPITAL LETTER OMEGA","cat":"Lu","lower":42935}
 ,{"code":42935,"name":"LATIN SMALL LETTER OMEGA","cat":"Ll","upper":42934,"title":42934}
+,{"code":42936,"name":"LATIN CAPITAL LETTER U WITH STROKE","cat":"Lu","lower":42937}
+,{"code":42937,"name":"LATIN SMALL LETTER U WITH STROKE","cat":"Ll","upper":42936,"title":42936}
 ,{"code":42999,"name":"LATIN EPIGRAPHIC LETTER SIDEWAYS I","cat":"Lo"}
 ,{"code":43000,"name":"MODIFIER LETTER CAPITAL H WITH STROKE","cat":"Lm","decomp":[294],"decompType":"super"}
 ,{"code":43001,"name":"MODIFIER LETTER SMALL LIGATURE OE","cat":"Lm","decomp":[339],"decompType":"super"}
@@ -14219,6 +14329,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":43259,"name":"DEVANAGARI HEADSTROKE","cat":"Lo"}
 ,{"code":43260,"name":"DEVANAGARI SIGN SIDDHAM","cat":"Po"}
 ,{"code":43261,"name":"DEVANAGARI JAIN OM","cat":"Lo"}
+,{"code":43262,"name":"DEVANAGARI LETTER AY","cat":"Lo"}
+,{"code":43263,"name":"DEVANAGARI VOWEL SIGN AY","cat":"Mn","bidi":"NSM"}
 ,{"code":43264,"name":"KAYAH LI DIGIT ZERO","cat":"Nd","num":"0"}
 ,{"code":43265,"name":"KAYAH LI DIGIT ONE","cat":"Nd","num":"1"}
 ,{"code":43266,"name":"KAYAH LI DIGIT TWO","cat":"Nd","num":"2"}
@@ -18363,6 +18475,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":68145,"name":"KHAROSHTHI LETTER HA","cat":"Lo","bidi":"R"}
 ,{"code":68146,"name":"KHAROSHTHI LETTER KKA","cat":"Lo","bidi":"R"}
 ,{"code":68147,"name":"KHAROSHTHI LETTER TTTHA","cat":"Lo","bidi":"R"}
+,{"code":68148,"name":"KHAROSHTHI LETTER TTTA","cat":"Lo","bidi":"R"}
+,{"code":68149,"name":"KHAROSHTHI LETTER VHA","cat":"Lo","bidi":"R"}
 ,{"code":68152,"name":"KHAROSHTHI SIGN BAR ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":68153,"name":"KHAROSHTHI SIGN CAUDA","cat":"Mn","comb":1,"bidi":"NSM"}
 ,{"code":68154,"name":"KHAROSHTHI SIGN DOT BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
@@ -18375,6 +18489,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":68165,"name":"KHAROSHTHI NUMBER TWENTY","cat":"No","bidi":"R","num":"20"}
 ,{"code":68166,"name":"KHAROSHTHI NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
 ,{"code":68167,"name":"KHAROSHTHI NUMBER ONE THOUSAND","cat":"No","bidi":"R","num":"1000"}
+,{"code":68168,"name":"KHAROSHTHI FRACTION ONE HALF","cat":"No","bidi":"R","num":"1/2"}
 ,{"code":68176,"name":"KHAROSHTHI PUNCTUATION DOT","cat":"Po","bidi":"R"}
 ,{"code":68177,"name":"KHAROSHTHI PUNCTUATION SMALL CIRCLE","cat":"Po","bidi":"R"}
 ,{"code":68178,"name":"KHAROSHTHI PUNCTUATION CIRCLE","cat":"Po","bidi":"R"}
@@ -18827,6 +18942,56 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":68861,"name":"OLD HUNGARIAN NUMBER FIFTY","cat":"No","bidi":"R","num":"50"}
 ,{"code":68862,"name":"OLD HUNGARIAN NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
 ,{"code":68863,"name":"OLD HUNGARIAN NUMBER ONE THOUSAND","cat":"No","bidi":"R","num":"1000"}
+,{"code":68864,"name":"HANIFI ROHINGYA LETTER A","cat":"Lo","bidi":"AL"}
+,{"code":68865,"name":"HANIFI ROHINGYA LETTER BA","cat":"Lo","bidi":"AL"}
+,{"code":68866,"name":"HANIFI ROHINGYA LETTER PA","cat":"Lo","bidi":"AL"}
+,{"code":68867,"name":"HANIFI ROHINGYA LETTER TA","cat":"Lo","bidi":"AL"}
+,{"code":68868,"name":"HANIFI ROHINGYA LETTER TTA","cat":"Lo","bidi":"AL"}
+,{"code":68869,"name":"HANIFI ROHINGYA LETTER JA","cat":"Lo","bidi":"AL"}
+,{"code":68870,"name":"HANIFI ROHINGYA LETTER CA","cat":"Lo","bidi":"AL"}
+,{"code":68871,"name":"HANIFI ROHINGYA LETTER HA","cat":"Lo","bidi":"AL"}
+,{"code":68872,"name":"HANIFI ROHINGYA LETTER KHA","cat":"Lo","bidi":"AL"}
+,{"code":68873,"name":"HANIFI ROHINGYA LETTER FA","cat":"Lo","bidi":"AL"}
+,{"code":68874,"name":"HANIFI ROHINGYA LETTER DA","cat":"Lo","bidi":"AL"}
+,{"code":68875,"name":"HANIFI ROHINGYA LETTER DDA","cat":"Lo","bidi":"AL"}
+,{"code":68876,"name":"HANIFI ROHINGYA LETTER RA","cat":"Lo","bidi":"AL"}
+,{"code":68877,"name":"HANIFI ROHINGYA LETTER RRA","cat":"Lo","bidi":"AL"}
+,{"code":68878,"name":"HANIFI ROHINGYA LETTER ZA","cat":"Lo","bidi":"AL"}
+,{"code":68879,"name":"HANIFI ROHINGYA LETTER SA","cat":"Lo","bidi":"AL"}
+,{"code":68880,"name":"HANIFI ROHINGYA LETTER SHA","cat":"Lo","bidi":"AL"}
+,{"code":68881,"name":"HANIFI ROHINGYA LETTER KA","cat":"Lo","bidi":"AL"}
+,{"code":68882,"name":"HANIFI ROHINGYA LETTER GA","cat":"Lo","bidi":"AL"}
+,{"code":68883,"name":"HANIFI ROHINGYA LETTER LA","cat":"Lo","bidi":"AL"}
+,{"code":68884,"name":"HANIFI ROHINGYA LETTER MA","cat":"Lo","bidi":"AL"}
+,{"code":68885,"name":"HANIFI ROHINGYA LETTER NA","cat":"Lo","bidi":"AL"}
+,{"code":68886,"name":"HANIFI ROHINGYA LETTER WA","cat":"Lo","bidi":"AL"}
+,{"code":68887,"name":"HANIFI ROHINGYA LETTER KINNA WA","cat":"Lo","bidi":"AL"}
+,{"code":68888,"name":"HANIFI ROHINGYA LETTER YA","cat":"Lo","bidi":"AL"}
+,{"code":68889,"name":"HANIFI ROHINGYA LETTER KINNA YA","cat":"Lo","bidi":"AL"}
+,{"code":68890,"name":"HANIFI ROHINGYA LETTER NGA","cat":"Lo","bidi":"AL"}
+,{"code":68891,"name":"HANIFI ROHINGYA LETTER NYA","cat":"Lo","bidi":"AL"}
+,{"code":68892,"name":"HANIFI ROHINGYA LETTER VA","cat":"Lo","bidi":"AL"}
+,{"code":68893,"name":"HANIFI ROHINGYA VOWEL A","cat":"Lo","bidi":"AL"}
+,{"code":68894,"name":"HANIFI ROHINGYA VOWEL I","cat":"Lo","bidi":"AL"}
+,{"code":68895,"name":"HANIFI ROHINGYA VOWEL U","cat":"Lo","bidi":"AL"}
+,{"code":68896,"name":"HANIFI ROHINGYA VOWEL E","cat":"Lo","bidi":"AL"}
+,{"code":68897,"name":"HANIFI ROHINGYA VOWEL O","cat":"Lo","bidi":"AL"}
+,{"code":68898,"name":"HANIFI ROHINGYA MARK SAKIN","cat":"Lo","bidi":"AL"}
+,{"code":68899,"name":"HANIFI ROHINGYA MARK NA KHONNA","cat":"Lo","bidi":"AL"}
+,{"code":68900,"name":"HANIFI ROHINGYA SIGN HARBAHAY","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":68901,"name":"HANIFI ROHINGYA SIGN TAHALA","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":68902,"name":"HANIFI ROHINGYA SIGN TANA","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":68903,"name":"HANIFI ROHINGYA SIGN TASSI","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":68912,"name":"HANIFI ROHINGYA DIGIT ZERO","cat":"Nd","bidi":"AN","num":"0"}
+,{"code":68913,"name":"HANIFI ROHINGYA DIGIT ONE","cat":"Nd","bidi":"AN","num":"1"}
+,{"code":68914,"name":"HANIFI ROHINGYA DIGIT TWO","cat":"Nd","bidi":"AN","num":"2"}
+,{"code":68915,"name":"HANIFI ROHINGYA DIGIT THREE","cat":"Nd","bidi":"AN","num":"3"}
+,{"code":68916,"name":"HANIFI ROHINGYA DIGIT FOUR","cat":"Nd","bidi":"AN","num":"4"}
+,{"code":68917,"name":"HANIFI ROHINGYA DIGIT FIVE","cat":"Nd","bidi":"AN","num":"5"}
+,{"code":68918,"name":"HANIFI ROHINGYA DIGIT SIX","cat":"Nd","bidi":"AN","num":"6"}
+,{"code":68919,"name":"HANIFI ROHINGYA DIGIT SEVEN","cat":"Nd","bidi":"AN","num":"7"}
+,{"code":68920,"name":"HANIFI ROHINGYA DIGIT EIGHT","cat":"Nd","bidi":"AN","num":"8"}
+,{"code":68921,"name":"HANIFI ROHINGYA DIGIT NINE","cat":"Nd","bidi":"AN","num":"9"}
 ,{"code":69216,"name":"RUMI DIGIT ONE","cat":"No","bidi":"AN","num":"1"}
 ,{"code":69217,"name":"RUMI DIGIT TWO","cat":"No","bidi":"AN","num":"2"}
 ,{"code":69218,"name":"RUMI DIGIT THREE","cat":"No","bidi":"AN","num":"3"}
@@ -18858,6 +19023,88 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":69244,"name":"RUMI FRACTION ONE QUARTER","cat":"No","bidi":"AN","num":"1/4"}
 ,{"code":69245,"name":"RUMI FRACTION ONE THIRD","cat":"No","bidi":"AN","num":"1/3"}
 ,{"code":69246,"name":"RUMI FRACTION TWO THIRDS","cat":"No","bidi":"AN","num":"2/3"}
+,{"code":69376,"name":"OLD SOGDIAN LETTER ALEPH","cat":"Lo","bidi":"R"}
+,{"code":69377,"name":"OLD SOGDIAN LETTER FINAL ALEPH","cat":"Lo","bidi":"R"}
+,{"code":69378,"name":"OLD SOGDIAN LETTER BETH","cat":"Lo","bidi":"R"}
+,{"code":69379,"name":"OLD SOGDIAN LETTER FINAL BETH","cat":"Lo","bidi":"R"}
+,{"code":69380,"name":"OLD SOGDIAN LETTER GIMEL","cat":"Lo","bidi":"R"}
+,{"code":69381,"name":"OLD SOGDIAN LETTER HE","cat":"Lo","bidi":"R"}
+,{"code":69382,"name":"OLD SOGDIAN LETTER FINAL HE","cat":"Lo","bidi":"R"}
+,{"code":69383,"name":"OLD SOGDIAN LETTER WAW","cat":"Lo","bidi":"R"}
+,{"code":69384,"name":"OLD SOGDIAN LETTER ZAYIN","cat":"Lo","bidi":"R"}
+,{"code":69385,"name":"OLD SOGDIAN LETTER HETH","cat":"Lo","bidi":"R"}
+,{"code":69386,"name":"OLD SOGDIAN LETTER YODH","cat":"Lo","bidi":"R"}
+,{"code":69387,"name":"OLD SOGDIAN LETTER KAPH","cat":"Lo","bidi":"R"}
+,{"code":69388,"name":"OLD SOGDIAN LETTER LAMEDH","cat":"Lo","bidi":"R"}
+,{"code":69389,"name":"OLD SOGDIAN LETTER MEM","cat":"Lo","bidi":"R"}
+,{"code":69390,"name":"OLD SOGDIAN LETTER NUN","cat":"Lo","bidi":"R"}
+,{"code":69391,"name":"OLD SOGDIAN LETTER FINAL NUN","cat":"Lo","bidi":"R"}
+,{"code":69392,"name":"OLD SOGDIAN LETTER FINAL NUN WITH VERTICAL TAIL","cat":"Lo","bidi":"R"}
+,{"code":69393,"name":"OLD SOGDIAN LETTER SAMEKH","cat":"Lo","bidi":"R"}
+,{"code":69394,"name":"OLD SOGDIAN LETTER AYIN","cat":"Lo","bidi":"R"}
+,{"code":69395,"name":"OLD SOGDIAN LETTER ALTERNATE AYIN","cat":"Lo","bidi":"R"}
+,{"code":69396,"name":"OLD SOGDIAN LETTER PE","cat":"Lo","bidi":"R"}
+,{"code":69397,"name":"OLD SOGDIAN LETTER SADHE","cat":"Lo","bidi":"R"}
+,{"code":69398,"name":"OLD SOGDIAN LETTER FINAL SADHE","cat":"Lo","bidi":"R"}
+,{"code":69399,"name":"OLD SOGDIAN LETTER FINAL SADHE WITH VERTICAL TAIL","cat":"Lo","bidi":"R"}
+,{"code":69400,"name":"OLD SOGDIAN LETTER RESH-AYIN-DALETH","cat":"Lo","bidi":"R"}
+,{"code":69401,"name":"OLD SOGDIAN LETTER SHIN","cat":"Lo","bidi":"R"}
+,{"code":69402,"name":"OLD SOGDIAN LETTER TAW","cat":"Lo","bidi":"R"}
+,{"code":69403,"name":"OLD SOGDIAN LETTER FINAL TAW","cat":"Lo","bidi":"R"}
+,{"code":69404,"name":"OLD SOGDIAN LETTER FINAL TAW WITH VERTICAL TAIL","cat":"Lo","bidi":"R"}
+,{"code":69405,"name":"OLD SOGDIAN NUMBER ONE","cat":"No","bidi":"R","num":"1"}
+,{"code":69406,"name":"OLD SOGDIAN NUMBER TWO","cat":"No","bidi":"R","num":"2"}
+,{"code":69407,"name":"OLD SOGDIAN NUMBER THREE","cat":"No","bidi":"R","num":"3"}
+,{"code":69408,"name":"OLD SOGDIAN NUMBER FOUR","cat":"No","bidi":"R","num":"4"}
+,{"code":69409,"name":"OLD SOGDIAN NUMBER FIVE","cat":"No","bidi":"R","num":"5"}
+,{"code":69410,"name":"OLD SOGDIAN NUMBER TEN","cat":"No","bidi":"R","num":"10"}
+,{"code":69411,"name":"OLD SOGDIAN NUMBER TWENTY","cat":"No","bidi":"R","num":"20"}
+,{"code":69412,"name":"OLD SOGDIAN NUMBER THIRTY","cat":"No","bidi":"R","num":"30"}
+,{"code":69413,"name":"OLD SOGDIAN NUMBER ONE HUNDRED","cat":"No","bidi":"R","num":"100"}
+,{"code":69414,"name":"OLD SOGDIAN FRACTION ONE HALF","cat":"No","bidi":"R","num":"1/2"}
+,{"code":69415,"name":"OLD SOGDIAN LIGATURE AYIN-DALETH","cat":"Lo","bidi":"R"}
+,{"code":69424,"name":"SOGDIAN LETTER ALEPH","cat":"Lo","bidi":"AL"}
+,{"code":69425,"name":"SOGDIAN LETTER BETH","cat":"Lo","bidi":"AL"}
+,{"code":69426,"name":"SOGDIAN LETTER GIMEL","cat":"Lo","bidi":"AL"}
+,{"code":69427,"name":"SOGDIAN LETTER HE","cat":"Lo","bidi":"AL"}
+,{"code":69428,"name":"SOGDIAN LETTER WAW","cat":"Lo","bidi":"AL"}
+,{"code":69429,"name":"SOGDIAN LETTER ZAYIN","cat":"Lo","bidi":"AL"}
+,{"code":69430,"name":"SOGDIAN LETTER HETH","cat":"Lo","bidi":"AL"}
+,{"code":69431,"name":"SOGDIAN LETTER YODH","cat":"Lo","bidi":"AL"}
+,{"code":69432,"name":"SOGDIAN LETTER KAPH","cat":"Lo","bidi":"AL"}
+,{"code":69433,"name":"SOGDIAN LETTER LAMEDH","cat":"Lo","bidi":"AL"}
+,{"code":69434,"name":"SOGDIAN LETTER MEM","cat":"Lo","bidi":"AL"}
+,{"code":69435,"name":"SOGDIAN LETTER NUN","cat":"Lo","bidi":"AL"}
+,{"code":69436,"name":"SOGDIAN LETTER SAMEKH","cat":"Lo","bidi":"AL"}
+,{"code":69437,"name":"SOGDIAN LETTER AYIN","cat":"Lo","bidi":"AL"}
+,{"code":69438,"name":"SOGDIAN LETTER PE","cat":"Lo","bidi":"AL"}
+,{"code":69439,"name":"SOGDIAN LETTER SADHE","cat":"Lo","bidi":"AL"}
+,{"code":69440,"name":"SOGDIAN LETTER RESH-AYIN","cat":"Lo","bidi":"AL"}
+,{"code":69441,"name":"SOGDIAN LETTER SHIN","cat":"Lo","bidi":"AL"}
+,{"code":69442,"name":"SOGDIAN LETTER TAW","cat":"Lo","bidi":"AL"}
+,{"code":69443,"name":"SOGDIAN LETTER FETH","cat":"Lo","bidi":"AL"}
+,{"code":69444,"name":"SOGDIAN LETTER LESH","cat":"Lo","bidi":"AL"}
+,{"code":69445,"name":"SOGDIAN INDEPENDENT SHIN","cat":"Lo","bidi":"AL"}
+,{"code":69446,"name":"SOGDIAN COMBINING DOT BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":69447,"name":"SOGDIAN COMBINING TWO DOTS BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":69448,"name":"SOGDIAN COMBINING DOT ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":69449,"name":"SOGDIAN COMBINING TWO DOTS ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":69450,"name":"SOGDIAN COMBINING CURVE ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":69451,"name":"SOGDIAN COMBINING CURVE BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":69452,"name":"SOGDIAN COMBINING HOOK ABOVE","cat":"Mn","comb":230,"bidi":"NSM"}
+,{"code":69453,"name":"SOGDIAN COMBINING HOOK BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":69454,"name":"SOGDIAN COMBINING LONG HOOK BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":69455,"name":"SOGDIAN COMBINING RESH BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":69456,"name":"SOGDIAN COMBINING STROKE BELOW","cat":"Mn","comb":220,"bidi":"NSM"}
+,{"code":69457,"name":"SOGDIAN NUMBER ONE","cat":"No","bidi":"AL","num":"1"}
+,{"code":69458,"name":"SOGDIAN NUMBER TEN","cat":"No","bidi":"AL","num":"10"}
+,{"code":69459,"name":"SOGDIAN NUMBER TWENTY","cat":"No","bidi":"AL","num":"20"}
+,{"code":69460,"name":"SOGDIAN NUMBER ONE HUNDRED","cat":"No","bidi":"AL","num":"100"}
+,{"code":69461,"name":"SOGDIAN PUNCTUATION TWO VERTICAL BARS","cat":"Po","bidi":"AL"}
+,{"code":69462,"name":"SOGDIAN PUNCTUATION TWO VERTICAL BARS WITH DOTS","cat":"Po","bidi":"AL"}
+,{"code":69463,"name":"SOGDIAN PUNCTUATION CIRCLE WITH DOT","cat":"Po","bidi":"AL"}
+,{"code":69464,"name":"SOGDIAN PUNCTUATION TWO CIRCLES WITH DOTS","cat":"Po","bidi":"AL"}
+,{"code":69465,"name":"SOGDIAN PUNCTUATION HALF CIRCLE WITH DOT","cat":"Po","bidi":"AL"}
 ,{"code":69632,"name":"BRAHMI SIGN CANDRABINDU","cat":"Mc"}
 ,{"code":69633,"name":"BRAHMI SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
 ,{"code":69634,"name":"BRAHMI SIGN VISARGA","cat":"Mc"}
@@ -19033,6 +19280,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":69823,"name":"KAITHI DOUBLE SECTION MARK","cat":"Po"}
 ,{"code":69824,"name":"KAITHI DANDA","cat":"Po"}
 ,{"code":69825,"name":"KAITHI DOUBLE DANDA","cat":"Po"}
+,{"code":69837,"name":"KAITHI NUMBER SIGN ABOVE","cat":"Cf"}
 ,{"code":69840,"name":"SORA SOMPENG LETTER SAH","cat":"Lo"}
 ,{"code":69841,"name":"SORA SOMPENG LETTER TAH","cat":"Lo"}
 ,{"code":69842,"name":"SORA SOMPENG LETTER BAH","cat":"Lo"}
@@ -19135,6 +19383,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":69953,"name":"CHAKMA DANDA","cat":"Po"}
 ,{"code":69954,"name":"CHAKMA DOUBLE DANDA","cat":"Po"}
 ,{"code":69955,"name":"CHAKMA QUESTION MARK","cat":"Po"}
+,{"code":69956,"name":"CHAKMA LETTER LHAA","cat":"Lo"}
+,{"code":69957,"name":"CHAKMA VOWEL SIGN AA","cat":"Mc"}
+,{"code":69958,"name":"CHAKMA VOWEL SIGN EI","cat":"Mc"}
 ,{"code":69968,"name":"MAHAJANI LETTER A","cat":"Lo"}
 ,{"code":69969,"name":"MAHAJANI LETTER I","cat":"Lo"}
 ,{"code":69970,"name":"MAHAJANI LETTER U","cat":"Lo"}
@@ -19247,7 +19498,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":70086,"name":"SHARADA DOUBLE DANDA","cat":"Po"}
 ,{"code":70087,"name":"SHARADA ABBREVIATION SIGN","cat":"Po"}
 ,{"code":70088,"name":"SHARADA SEPARATOR","cat":"Po"}
-,{"code":70089,"name":"SHARADA SANDHI MARK","cat":"Po"}
+,{"code":70089,"name":"SHARADA SANDHI MARK","cat":"Mn","bidi":"NSM"}
 ,{"code":70090,"name":"SHARADA SIGN NUKTA","cat":"Mn","comb":7,"bidi":"NSM"}
 ,{"code":70091,"name":"SHARADA VOWEL MODIFIER MARK","cat":"Mn","bidi":"NSM"}
 ,{"code":70092,"name":"SHARADA EXTRA SHORT VOWEL MARK","cat":"Mn","bidi":"NSM"}
@@ -19507,6 +19758,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":70455,"name":"GRANTHA LETTER SSA","cat":"Lo"}
 ,{"code":70456,"name":"GRANTHA LETTER SA","cat":"Lo"}
 ,{"code":70457,"name":"GRANTHA LETTER HA","cat":"Lo"}
+,{"code":70459,"name":"COMBINING BINDU BELOW","cat":"Mn","comb":7,"bidi":"NSM"}
 ,{"code":70460,"name":"GRANTHA SIGN NUKTA","cat":"Mn","comb":7,"bidi":"NSM"}
 ,{"code":70461,"name":"GRANTHA SIGN AVAGRAHA","cat":"Lo"}
 ,{"code":70462,"name":"GRANTHA VOWEL SIGN AA","cat":"Mc"}
@@ -19634,6 +19886,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":70745,"name":"NEWA DIGIT NINE","cat":"Nd","num":"9"}
 ,{"code":70747,"name":"NEWA PLACEHOLDER MARK","cat":"Po"}
 ,{"code":70749,"name":"NEWA INSERTION SIGN","cat":"Po"}
+,{"code":70750,"name":"NEWA SANDHI MARK","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":70784,"name":"TIRHUTA ANJI","cat":"Lo"}
 ,{"code":70785,"name":"TIRHUTA LETTER A","cat":"Lo"}
 ,{"code":70786,"name":"TIRHUTA LETTER AA","cat":"Lo"}
@@ -19992,6 +20245,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":71447,"name":"AHOM LETTER GHA","cat":"Lo"}
 ,{"code":71448,"name":"AHOM LETTER BHA","cat":"Lo"}
 ,{"code":71449,"name":"AHOM LETTER JHA","cat":"Lo"}
+,{"code":71450,"name":"AHOM LETTER ALTERNATE BA","cat":"Lo"}
 ,{"code":71453,"name":"AHOM CONSONANT SIGN MEDIAL LA","cat":"Mn","bidi":"NSM"}
 ,{"code":71454,"name":"AHOM CONSONANT SIGN MEDIAL RA","cat":"Mn","bidi":"NSM"}
 ,{"code":71455,"name":"AHOM CONSONANT SIGN MEDIAL LIGATING RA","cat":"Mn","bidi":"NSM"}
@@ -20023,6 +20277,66 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":71485,"name":"AHOM SIGN SECTION","cat":"Po"}
 ,{"code":71486,"name":"AHOM SIGN RULAI","cat":"Po"}
 ,{"code":71487,"name":"AHOM SYMBOL VI","cat":"So"}
+,{"code":71680,"name":"DOGRA LETTER A","cat":"Lo"}
+,{"code":71681,"name":"DOGRA LETTER AA","cat":"Lo"}
+,{"code":71682,"name":"DOGRA LETTER I","cat":"Lo"}
+,{"code":71683,"name":"DOGRA LETTER II","cat":"Lo"}
+,{"code":71684,"name":"DOGRA LETTER U","cat":"Lo"}
+,{"code":71685,"name":"DOGRA LETTER UU","cat":"Lo"}
+,{"code":71686,"name":"DOGRA LETTER E","cat":"Lo"}
+,{"code":71687,"name":"DOGRA LETTER AI","cat":"Lo"}
+,{"code":71688,"name":"DOGRA LETTER O","cat":"Lo"}
+,{"code":71689,"name":"DOGRA LETTER AU","cat":"Lo"}
+,{"code":71690,"name":"DOGRA LETTER KA","cat":"Lo"}
+,{"code":71691,"name":"DOGRA LETTER KHA","cat":"Lo"}
+,{"code":71692,"name":"DOGRA LETTER GA","cat":"Lo"}
+,{"code":71693,"name":"DOGRA LETTER GHA","cat":"Lo"}
+,{"code":71694,"name":"DOGRA LETTER NGA","cat":"Lo"}
+,{"code":71695,"name":"DOGRA LETTER CA","cat":"Lo"}
+,{"code":71696,"name":"DOGRA LETTER CHA","cat":"Lo"}
+,{"code":71697,"name":"DOGRA LETTER JA","cat":"Lo"}
+,{"code":71698,"name":"DOGRA LETTER JHA","cat":"Lo"}
+,{"code":71699,"name":"DOGRA LETTER NYA","cat":"Lo"}
+,{"code":71700,"name":"DOGRA LETTER TTA","cat":"Lo"}
+,{"code":71701,"name":"DOGRA LETTER TTHA","cat":"Lo"}
+,{"code":71702,"name":"DOGRA LETTER DDA","cat":"Lo"}
+,{"code":71703,"name":"DOGRA LETTER DDHA","cat":"Lo"}
+,{"code":71704,"name":"DOGRA LETTER NNA","cat":"Lo"}
+,{"code":71705,"name":"DOGRA LETTER TA","cat":"Lo"}
+,{"code":71706,"name":"DOGRA LETTER THA","cat":"Lo"}
+,{"code":71707,"name":"DOGRA LETTER DA","cat":"Lo"}
+,{"code":71708,"name":"DOGRA LETTER DHA","cat":"Lo"}
+,{"code":71709,"name":"DOGRA LETTER NA","cat":"Lo"}
+,{"code":71710,"name":"DOGRA LETTER PA","cat":"Lo"}
+,{"code":71711,"name":"DOGRA LETTER PHA","cat":"Lo"}
+,{"code":71712,"name":"DOGRA LETTER BA","cat":"Lo"}
+,{"code":71713,"name":"DOGRA LETTER BHA","cat":"Lo"}
+,{"code":71714,"name":"DOGRA LETTER MA","cat":"Lo"}
+,{"code":71715,"name":"DOGRA LETTER YA","cat":"Lo"}
+,{"code":71716,"name":"DOGRA LETTER RA","cat":"Lo"}
+,{"code":71717,"name":"DOGRA LETTER LA","cat":"Lo"}
+,{"code":71718,"name":"DOGRA LETTER VA","cat":"Lo"}
+,{"code":71719,"name":"DOGRA LETTER SHA","cat":"Lo"}
+,{"code":71720,"name":"DOGRA LETTER SSA","cat":"Lo"}
+,{"code":71721,"name":"DOGRA LETTER SA","cat":"Lo"}
+,{"code":71722,"name":"DOGRA LETTER HA","cat":"Lo"}
+,{"code":71723,"name":"DOGRA LETTER RRA","cat":"Lo"}
+,{"code":71724,"name":"DOGRA VOWEL SIGN AA","cat":"Mc"}
+,{"code":71725,"name":"DOGRA VOWEL SIGN I","cat":"Mc"}
+,{"code":71726,"name":"DOGRA VOWEL SIGN II","cat":"Mc"}
+,{"code":71727,"name":"DOGRA VOWEL SIGN U","cat":"Mn","bidi":"NSM"}
+,{"code":71728,"name":"DOGRA VOWEL SIGN UU","cat":"Mn","bidi":"NSM"}
+,{"code":71729,"name":"DOGRA VOWEL SIGN VOCALIC R","cat":"Mn","bidi":"NSM"}
+,{"code":71730,"name":"DOGRA VOWEL SIGN VOCALIC RR","cat":"Mn","bidi":"NSM"}
+,{"code":71731,"name":"DOGRA VOWEL SIGN E","cat":"Mn","bidi":"NSM"}
+,{"code":71732,"name":"DOGRA VOWEL SIGN AI","cat":"Mn","bidi":"NSM"}
+,{"code":71733,"name":"DOGRA VOWEL SIGN O","cat":"Mn","bidi":"NSM"}
+,{"code":71734,"name":"DOGRA VOWEL SIGN AU","cat":"Mn","bidi":"NSM"}
+,{"code":71735,"name":"DOGRA SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
+,{"code":71736,"name":"DOGRA SIGN VISARGA","cat":"Mc"}
+,{"code":71737,"name":"DOGRA SIGN VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":71738,"name":"DOGRA SIGN NUKTA","cat":"Mn","comb":7,"bidi":"NSM"}
+,{"code":71739,"name":"DOGRA ABBREVIATION SIGN","cat":"Po"}
 ,{"code":71840,"name":"WARANG CITI CAPITAL LETTER NGAA","cat":"Lu","lower":71872}
 ,{"code":71841,"name":"WARANG CITI CAPITAL LETTER A","cat":"Lu","lower":71873}
 ,{"code":71842,"name":"WARANG CITI CAPITAL LETTER WI","cat":"Lu","lower":71874}
@@ -20114,8 +20428,8 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":72196,"name":"ZANABAZAR SQUARE VOWEL SIGN E","cat":"Mn","bidi":"NSM"}
 ,{"code":72197,"name":"ZANABAZAR SQUARE VOWEL SIGN OE","cat":"Mn","bidi":"NSM"}
 ,{"code":72198,"name":"ZANABAZAR SQUARE VOWEL SIGN O","cat":"Mn","bidi":"NSM"}
-,{"code":72199,"name":"ZANABAZAR SQUARE VOWEL SIGN AI","cat":"Mc"}
-,{"code":72200,"name":"ZANABAZAR SQUARE VOWEL SIGN AU","cat":"Mc"}
+,{"code":72199,"name":"ZANABAZAR SQUARE VOWEL SIGN AI","cat":"Mn"}
+,{"code":72200,"name":"ZANABAZAR SQUARE VOWEL SIGN AU","cat":"Mn"}
 ,{"code":72201,"name":"ZANABAZAR SQUARE VOWEL SIGN REVERSED I","cat":"Mn","bidi":"NSM"}
 ,{"code":72202,"name":"ZANABAZAR SQUARE VOWEL LENGTH MARK","cat":"Mn","bidi":"NSM"}
 ,{"code":72203,"name":"ZANABAZAR SQUARE LETTER KA","cat":"Lo"}
@@ -20254,6 +20568,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":72346,"name":"SOYOMBO MARK TSHEG","cat":"Po"}
 ,{"code":72347,"name":"SOYOMBO MARK SHAD","cat":"Po"}
 ,{"code":72348,"name":"SOYOMBO MARK DOUBLE SHAD","cat":"Po"}
+,{"code":72349,"name":"SOYOMBO MARK PLUTA","cat":"Lo"}
 ,{"code":72350,"name":"SOYOMBO HEAD MARK WITH MOON AND SUN AND TRIPLE FLAME","cat":"Po"}
 ,{"code":72351,"name":"SOYOMBO HEAD MARK WITH MOON AND SUN AND FLAME","cat":"Po"}
 ,{"code":72352,"name":"SOYOMBO HEAD MARK WITH MOON AND SUN","cat":"Po"}
@@ -20556,6 +20871,94 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":73047,"name":"MASARAM GONDI DIGIT SEVEN","cat":"Nd","num":"7"}
 ,{"code":73048,"name":"MASARAM GONDI DIGIT EIGHT","cat":"Nd","num":"8"}
 ,{"code":73049,"name":"MASARAM GONDI DIGIT NINE","cat":"Nd","num":"9"}
+,{"code":73056,"name":"GUNJALA GONDI LETTER A","cat":"Lo"}
+,{"code":73057,"name":"GUNJALA GONDI LETTER AA","cat":"Lo"}
+,{"code":73058,"name":"GUNJALA GONDI LETTER I","cat":"Lo"}
+,{"code":73059,"name":"GUNJALA GONDI LETTER II","cat":"Lo"}
+,{"code":73060,"name":"GUNJALA GONDI LETTER U","cat":"Lo"}
+,{"code":73061,"name":"GUNJALA GONDI LETTER UU","cat":"Lo"}
+,{"code":73063,"name":"GUNJALA GONDI LETTER EE","cat":"Lo"}
+,{"code":73064,"name":"GUNJALA GONDI LETTER AI","cat":"Lo"}
+,{"code":73066,"name":"GUNJALA GONDI LETTER OO","cat":"Lo"}
+,{"code":73067,"name":"GUNJALA GONDI LETTER AU","cat":"Lo"}
+,{"code":73068,"name":"GUNJALA GONDI LETTER YA","cat":"Lo"}
+,{"code":73069,"name":"GUNJALA GONDI LETTER VA","cat":"Lo"}
+,{"code":73070,"name":"GUNJALA GONDI LETTER BA","cat":"Lo"}
+,{"code":73071,"name":"GUNJALA GONDI LETTER BHA","cat":"Lo"}
+,{"code":73072,"name":"GUNJALA GONDI LETTER MA","cat":"Lo"}
+,{"code":73073,"name":"GUNJALA GONDI LETTER KA","cat":"Lo"}
+,{"code":73074,"name":"GUNJALA GONDI LETTER KHA","cat":"Lo"}
+,{"code":73075,"name":"GUNJALA GONDI LETTER TA","cat":"Lo"}
+,{"code":73076,"name":"GUNJALA GONDI LETTER THA","cat":"Lo"}
+,{"code":73077,"name":"GUNJALA GONDI LETTER LA","cat":"Lo"}
+,{"code":73078,"name":"GUNJALA GONDI LETTER GA","cat":"Lo"}
+,{"code":73079,"name":"GUNJALA GONDI LETTER GHA","cat":"Lo"}
+,{"code":73080,"name":"GUNJALA GONDI LETTER DA","cat":"Lo"}
+,{"code":73081,"name":"GUNJALA GONDI LETTER DHA","cat":"Lo"}
+,{"code":73082,"name":"GUNJALA GONDI LETTER NA","cat":"Lo"}
+,{"code":73083,"name":"GUNJALA GONDI LETTER CA","cat":"Lo"}
+,{"code":73084,"name":"GUNJALA GONDI LETTER CHA","cat":"Lo"}
+,{"code":73085,"name":"GUNJALA GONDI LETTER TTA","cat":"Lo"}
+,{"code":73086,"name":"GUNJALA GONDI LETTER TTHA","cat":"Lo"}
+,{"code":73087,"name":"GUNJALA GONDI LETTER LLA","cat":"Lo"}
+,{"code":73088,"name":"GUNJALA GONDI LETTER JA","cat":"Lo"}
+,{"code":73089,"name":"GUNJALA GONDI LETTER JHA","cat":"Lo"}
+,{"code":73090,"name":"GUNJALA GONDI LETTER DDA","cat":"Lo"}
+,{"code":73091,"name":"GUNJALA GONDI LETTER DDHA","cat":"Lo"}
+,{"code":73092,"name":"GUNJALA GONDI LETTER NGA","cat":"Lo"}
+,{"code":73093,"name":"GUNJALA GONDI LETTER PA","cat":"Lo"}
+,{"code":73094,"name":"GUNJALA GONDI LETTER PHA","cat":"Lo"}
+,{"code":73095,"name":"GUNJALA GONDI LETTER HA","cat":"Lo"}
+,{"code":73096,"name":"GUNJALA GONDI LETTER RA","cat":"Lo"}
+,{"code":73097,"name":"GUNJALA GONDI LETTER SA","cat":"Lo"}
+,{"code":73098,"name":"GUNJALA GONDI VOWEL SIGN AA","cat":"Mc"}
+,{"code":73099,"name":"GUNJALA GONDI VOWEL SIGN I","cat":"Mc"}
+,{"code":73100,"name":"GUNJALA GONDI VOWEL SIGN II","cat":"Mc"}
+,{"code":73101,"name":"GUNJALA GONDI VOWEL SIGN U","cat":"Mc"}
+,{"code":73102,"name":"GUNJALA GONDI VOWEL SIGN UU","cat":"Mc"}
+,{"code":73104,"name":"GUNJALA GONDI VOWEL SIGN EE","cat":"Mn","bidi":"NSM"}
+,{"code":73105,"name":"GUNJALA GONDI VOWEL SIGN AI","cat":"Mn","bidi":"NSM"}
+,{"code":73107,"name":"GUNJALA GONDI VOWEL SIGN OO","cat":"Mc"}
+,{"code":73108,"name":"GUNJALA GONDI VOWEL SIGN AU","cat":"Mc"}
+,{"code":73109,"name":"GUNJALA GONDI SIGN ANUSVARA","cat":"Mn","bidi":"NSM"}
+,{"code":73110,"name":"GUNJALA GONDI SIGN VISARGA","cat":"Mc"}
+,{"code":73111,"name":"GUNJALA GONDI VIRAMA","cat":"Mn","comb":9,"bidi":"NSM"}
+,{"code":73112,"name":"GUNJALA GONDI OM","cat":"Lo"}
+,{"code":73120,"name":"GUNJALA GONDI DIGIT ZERO","cat":"Nd","num":"0"}
+,{"code":73121,"name":"GUNJALA GONDI DIGIT ONE","cat":"Nd","num":"1"}
+,{"code":73122,"name":"GUNJALA GONDI DIGIT TWO","cat":"Nd","num":"2"}
+,{"code":73123,"name":"GUNJALA GONDI DIGIT THREE","cat":"Nd","num":"3"}
+,{"code":73124,"name":"GUNJALA GONDI DIGIT FOUR","cat":"Nd","num":"4"}
+,{"code":73125,"name":"GUNJALA GONDI DIGIT FIVE","cat":"Nd","num":"5"}
+,{"code":73126,"name":"GUNJALA GONDI DIGIT SIX","cat":"Nd","num":"6"}
+,{"code":73127,"name":"GUNJALA GONDI DIGIT SEVEN","cat":"Nd","num":"7"}
+,{"code":73128,"name":"GUNJALA GONDI DIGIT EIGHT","cat":"Nd","num":"8"}
+,{"code":73129,"name":"GUNJALA GONDI DIGIT NINE","cat":"Nd","num":"9"}
+,{"code":73440,"name":"MAKASAR LETTER KA","cat":"Lo"}
+,{"code":73441,"name":"MAKASAR LETTER GA","cat":"Lo"}
+,{"code":73442,"name":"MAKASAR LETTER NGA","cat":"Lo"}
+,{"code":73443,"name":"MAKASAR LETTER PA","cat":"Lo"}
+,{"code":73444,"name":"MAKASAR LETTER BA","cat":"Lo"}
+,{"code":73445,"name":"MAKASAR LETTER MA","cat":"Lo"}
+,{"code":73446,"name":"MAKASAR LETTER TA","cat":"Lo"}
+,{"code":73447,"name":"MAKASAR LETTER DA","cat":"Lo"}
+,{"code":73448,"name":"MAKASAR LETTER NA","cat":"Lo"}
+,{"code":73449,"name":"MAKASAR LETTER CA","cat":"Lo"}
+,{"code":73450,"name":"MAKASAR LETTER JA","cat":"Lo"}
+,{"code":73451,"name":"MAKASAR LETTER NYA","cat":"Lo"}
+,{"code":73452,"name":"MAKASAR LETTER YA","cat":"Lo"}
+,{"code":73453,"name":"MAKASAR LETTER RA","cat":"Lo"}
+,{"code":73454,"name":"MAKASAR LETTER LA","cat":"Lo"}
+,{"code":73455,"name":"MAKASAR LETTER VA","cat":"Lo"}
+,{"code":73456,"name":"MAKASAR LETTER SA","cat":"Lo"}
+,{"code":73457,"name":"MAKASAR LETTER A","cat":"Lo"}
+,{"code":73458,"name":"MAKASAR ANGKA","cat":"Lo"}
+,{"code":73459,"name":"MAKASAR VOWEL SIGN I","cat":"Mn","bidi":"NSM"}
+,{"code":73460,"name":"MAKASAR VOWEL SIGN U","cat":"Mn","bidi":"NSM"}
+,{"code":73461,"name":"MAKASAR VOWEL SIGN E","cat":"Mc"}
+,{"code":73462,"name":"MAKASAR VOWEL SIGN O","cat":"Mc"}
+,{"code":73463,"name":"MAKASAR PASSIMBANG","cat":"Po"}
+,{"code":73464,"name":"MAKASAR END OF SECTION","cat":"Po"}
 ,{"code":73728,"name":"CUNEIFORM SIGN A","cat":"Lo"}
 ,{"code":73729,"name":"CUNEIFORM SIGN A TIMES A","cat":"Lo"}
 ,{"code":73730,"name":"CUNEIFORM SIGN A TIMES BAD","cat":"Lo"}
@@ -24219,6 +24622,97 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":93069,"name":"PAHAWH HMONG CLAN SIGN TSWB","cat":"Lo"}
 ,{"code":93070,"name":"PAHAWH HMONG CLAN SIGN KWM","cat":"Lo"}
 ,{"code":93071,"name":"PAHAWH HMONG CLAN SIGN VWJ","cat":"Lo"}
+,{"code":93760,"name":"MEDEFAIDRIN CAPITAL LETTER M","cat":"Lu","lower":93792}
+,{"code":93761,"name":"MEDEFAIDRIN CAPITAL LETTER S","cat":"Lu","lower":93793}
+,{"code":93762,"name":"MEDEFAIDRIN CAPITAL LETTER V","cat":"Lu","lower":93794}
+,{"code":93763,"name":"MEDEFAIDRIN CAPITAL LETTER W","cat":"Lu","lower":93795}
+,{"code":93764,"name":"MEDEFAIDRIN CAPITAL LETTER ATIU","cat":"Lu","lower":93796}
+,{"code":93765,"name":"MEDEFAIDRIN CAPITAL LETTER Z","cat":"Lu","lower":93797}
+,{"code":93766,"name":"MEDEFAIDRIN CAPITAL LETTER KP","cat":"Lu","lower":93798}
+,{"code":93767,"name":"MEDEFAIDRIN CAPITAL LETTER P","cat":"Lu","lower":93799}
+,{"code":93768,"name":"MEDEFAIDRIN CAPITAL LETTER T","cat":"Lu","lower":93800}
+,{"code":93769,"name":"MEDEFAIDRIN CAPITAL LETTER G","cat":"Lu","lower":93801}
+,{"code":93770,"name":"MEDEFAIDRIN CAPITAL LETTER F","cat":"Lu","lower":93802}
+,{"code":93771,"name":"MEDEFAIDRIN CAPITAL LETTER I","cat":"Lu","lower":93803}
+,{"code":93772,"name":"MEDEFAIDRIN CAPITAL LETTER K","cat":"Lu","lower":93804}
+,{"code":93773,"name":"MEDEFAIDRIN CAPITAL LETTER A","cat":"Lu","lower":93805}
+,{"code":93774,"name":"MEDEFAIDRIN CAPITAL LETTER J","cat":"Lu","lower":93806}
+,{"code":93775,"name":"MEDEFAIDRIN CAPITAL LETTER E","cat":"Lu","lower":93807}
+,{"code":93776,"name":"MEDEFAIDRIN CAPITAL LETTER B","cat":"Lu","lower":93808}
+,{"code":93777,"name":"MEDEFAIDRIN CAPITAL LETTER C","cat":"Lu","lower":93809}
+,{"code":93778,"name":"MEDEFAIDRIN CAPITAL LETTER U","cat":"Lu","lower":93810}
+,{"code":93779,"name":"MEDEFAIDRIN CAPITAL LETTER YU","cat":"Lu","lower":93811}
+,{"code":93780,"name":"MEDEFAIDRIN CAPITAL LETTER L","cat":"Lu","lower":93812}
+,{"code":93781,"name":"MEDEFAIDRIN CAPITAL LETTER Q","cat":"Lu","lower":93813}
+,{"code":93782,"name":"MEDEFAIDRIN CAPITAL LETTER HP","cat":"Lu","lower":93814}
+,{"code":93783,"name":"MEDEFAIDRIN CAPITAL LETTER NY","cat":"Lu","lower":93815}
+,{"code":93784,"name":"MEDEFAIDRIN CAPITAL LETTER X","cat":"Lu","lower":93816}
+,{"code":93785,"name":"MEDEFAIDRIN CAPITAL LETTER D","cat":"Lu","lower":93817}
+,{"code":93786,"name":"MEDEFAIDRIN CAPITAL LETTER OE","cat":"Lu","lower":93818}
+,{"code":93787,"name":"MEDEFAIDRIN CAPITAL LETTER N","cat":"Lu","lower":93819}
+,{"code":93788,"name":"MEDEFAIDRIN CAPITAL LETTER R","cat":"Lu","lower":93820}
+,{"code":93789,"name":"MEDEFAIDRIN CAPITAL LETTER O","cat":"Lu","lower":93821}
+,{"code":93790,"name":"MEDEFAIDRIN CAPITAL LETTER AI","cat":"Lu","lower":93822}
+,{"code":93791,"name":"MEDEFAIDRIN CAPITAL LETTER Y","cat":"Lu","lower":93823}
+,{"code":93792,"name":"MEDEFAIDRIN SMALL LETTER M","cat":"Ll","upper":93760,"title":93760}
+,{"code":93793,"name":"MEDEFAIDRIN SMALL LETTER S","cat":"Ll","upper":93761,"title":93761}
+,{"code":93794,"name":"MEDEFAIDRIN SMALL LETTER V","cat":"Ll","upper":93762,"title":93762}
+,{"code":93795,"name":"MEDEFAIDRIN SMALL LETTER W","cat":"Ll","upper":93763,"title":93763}
+,{"code":93796,"name":"MEDEFAIDRIN SMALL LETTER ATIU","cat":"Ll","upper":93764,"title":93764}
+,{"code":93797,"name":"MEDEFAIDRIN SMALL LETTER Z","cat":"Ll","upper":93765,"title":93765}
+,{"code":93798,"name":"MEDEFAIDRIN SMALL LETTER KP","cat":"Ll","upper":93766,"title":93766}
+,{"code":93799,"name":"MEDEFAIDRIN SMALL LETTER P","cat":"Ll","upper":93767,"title":93767}
+,{"code":93800,"name":"MEDEFAIDRIN SMALL LETTER T","cat":"Ll","upper":93768,"title":93768}
+,{"code":93801,"name":"MEDEFAIDRIN SMALL LETTER G","cat":"Ll","upper":93769,"title":93769}
+,{"code":93802,"name":"MEDEFAIDRIN SMALL LETTER F","cat":"Ll","upper":93770,"title":93770}
+,{"code":93803,"name":"MEDEFAIDRIN SMALL LETTER I","cat":"Ll","upper":93771,"title":93771}
+,{"code":93804,"name":"MEDEFAIDRIN SMALL LETTER K","cat":"Ll","upper":93772,"title":93772}
+,{"code":93805,"name":"MEDEFAIDRIN SMALL LETTER A","cat":"Ll","upper":93773,"title":93773}
+,{"code":93806,"name":"MEDEFAIDRIN SMALL LETTER J","cat":"Ll","upper":93774,"title":93774}
+,{"code":93807,"name":"MEDEFAIDRIN SMALL LETTER E","cat":"Ll","upper":93775,"title":93775}
+,{"code":93808,"name":"MEDEFAIDRIN SMALL LETTER B","cat":"Ll","upper":93776,"title":93776}
+,{"code":93809,"name":"MEDEFAIDRIN SMALL LETTER C","cat":"Ll","upper":93777,"title":93777}
+,{"code":93810,"name":"MEDEFAIDRIN SMALL LETTER U","cat":"Ll","upper":93778,"title":93778}
+,{"code":93811,"name":"MEDEFAIDRIN SMALL LETTER YU","cat":"Ll","upper":93779,"title":93779}
+,{"code":93812,"name":"MEDEFAIDRIN SMALL LETTER L","cat":"Ll","upper":93780,"title":93780}
+,{"code":93813,"name":"MEDEFAIDRIN SMALL LETTER Q","cat":"Ll","upper":93781,"title":93781}
+,{"code":93814,"name":"MEDEFAIDRIN SMALL LETTER HP","cat":"Ll","upper":93782,"title":93782}
+,{"code":93815,"name":"MEDEFAIDRIN SMALL LETTER NY","cat":"Ll","upper":93783,"title":93783}
+,{"code":93816,"name":"MEDEFAIDRIN SMALL LETTER X","cat":"Ll","upper":93784,"title":93784}
+,{"code":93817,"name":"MEDEFAIDRIN SMALL LETTER D","cat":"Ll","upper":93785,"title":93785}
+,{"code":93818,"name":"MEDEFAIDRIN SMALL LETTER OE","cat":"Ll","upper":93786,"title":93786}
+,{"code":93819,"name":"MEDEFAIDRIN SMALL LETTER N","cat":"Ll","upper":93787,"title":93787}
+,{"code":93820,"name":"MEDEFAIDRIN SMALL LETTER R","cat":"Ll","upper":93788,"title":93788}
+,{"code":93821,"name":"MEDEFAIDRIN SMALL LETTER O","cat":"Ll","upper":93789,"title":93789}
+,{"code":93822,"name":"MEDEFAIDRIN SMALL LETTER AI","cat":"Ll","upper":93790,"title":93790}
+,{"code":93823,"name":"MEDEFAIDRIN SMALL LETTER Y","cat":"Ll","upper":93791,"title":93791}
+,{"code":93824,"name":"MEDEFAIDRIN DIGIT ZERO","cat":"No","num":"0"}
+,{"code":93825,"name":"MEDEFAIDRIN DIGIT ONE","cat":"No","num":"1"}
+,{"code":93826,"name":"MEDEFAIDRIN DIGIT TWO","cat":"No","num":"2"}
+,{"code":93827,"name":"MEDEFAIDRIN DIGIT THREE","cat":"No","num":"3"}
+,{"code":93828,"name":"MEDEFAIDRIN DIGIT FOUR","cat":"No","num":"4"}
+,{"code":93829,"name":"MEDEFAIDRIN DIGIT FIVE","cat":"No","num":"5"}
+,{"code":93830,"name":"MEDEFAIDRIN DIGIT SIX","cat":"No","num":"6"}
+,{"code":93831,"name":"MEDEFAIDRIN DIGIT SEVEN","cat":"No","num":"7"}
+,{"code":93832,"name":"MEDEFAIDRIN DIGIT EIGHT","cat":"No","num":"8"}
+,{"code":93833,"name":"MEDEFAIDRIN DIGIT NINE","cat":"No","num":"9"}
+,{"code":93834,"name":"MEDEFAIDRIN NUMBER TEN","cat":"No","num":"10"}
+,{"code":93835,"name":"MEDEFAIDRIN NUMBER ELEVEN","cat":"No","num":"11"}
+,{"code":93836,"name":"MEDEFAIDRIN NUMBER TWELVE","cat":"No","num":"12"}
+,{"code":93837,"name":"MEDEFAIDRIN NUMBER THIRTEEN","cat":"No","num":"13"}
+,{"code":93838,"name":"MEDEFAIDRIN NUMBER FOURTEEN","cat":"No","num":"14"}
+,{"code":93839,"name":"MEDEFAIDRIN NUMBER FIFTEEN","cat":"No","num":"15"}
+,{"code":93840,"name":"MEDEFAIDRIN NUMBER SIXTEEN","cat":"No","num":"16"}
+,{"code":93841,"name":"MEDEFAIDRIN NUMBER SEVENTEEN","cat":"No","num":"17"}
+,{"code":93842,"name":"MEDEFAIDRIN NUMBER EIGHTEEN","cat":"No","num":"18"}
+,{"code":93843,"name":"MEDEFAIDRIN NUMBER NINETEEN","cat":"No","num":"19"}
+,{"code":93844,"name":"MEDEFAIDRIN DIGIT ONE ALTERNATE FORM","cat":"No","num":"1"}
+,{"code":93845,"name":"MEDEFAIDRIN DIGIT TWO ALTERNATE FORM","cat":"No","num":"2"}
+,{"code":93846,"name":"MEDEFAIDRIN DIGIT THREE ALTERNATE FORM","cat":"No","num":"3"}
+,{"code":93847,"name":"MEDEFAIDRIN COMMA","cat":"Po"}
+,{"code":93848,"name":"MEDEFAIDRIN FULL STOP","cat":"Po"}
+,{"code":93849,"name":"MEDEFAIDRIN SYMBOL AIVA","cat":"Po"}
+,{"code":93850,"name":"MEDEFAIDRIN EXCLAMATION OH","cat":"Po"}
 ,{"code":93952,"name":"MIAO LETTER PA","cat":"Lo"}
 ,{"code":93953,"name":"MIAO LETTER BA","cat":"Lo"}
 ,{"code":93954,"name":"MIAO LETTER YI PA","cat":"Lo"}
@@ -24355,7 +24849,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":94176,"name":"TANGUT ITERATION MARK","cat":"Lm"}
 ,{"code":94177,"name":"NUSHU ITERATION MARK","cat":"Lm"}
 ,{"code":94208,"name":"<Tangut Ideograph, First>","cat":"Lo"}
-,{"code":100332,"name":"<Tangut Ideograph, Last>","cat":"Lo"}
+,{"code":100337,"name":"<Tangut Ideograph, Last>","cat":"Lo"}
 ,{"code":100352,"name":"TANGUT COMPONENT-001","cat":"Lo"}
 ,{"code":100353,"name":"TANGUT COMPONENT-002","cat":"Lo"}
 ,{"code":100354,"name":"TANGUT COMPONENT-003","cat":"Lo"}
@@ -26488,6 +26982,26 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":119363,"name":"COMBINING GREEK MUSICAL TETRASEME","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":119364,"name":"COMBINING GREEK MUSICAL PENTASEME","cat":"Mn","comb":230,"bidi":"NSM"}
 ,{"code":119365,"name":"GREEK MUSICAL LEIMMA","cat":"So","bidi":"ON"}
+,{"code":119520,"name":"MAYAN NUMERAL ZERO","cat":"No","num":"0"}
+,{"code":119521,"name":"MAYAN NUMERAL ONE","cat":"No","num":"1"}
+,{"code":119522,"name":"MAYAN NUMERAL TWO","cat":"No","num":"2"}
+,{"code":119523,"name":"MAYAN NUMERAL THREE","cat":"No","num":"3"}
+,{"code":119524,"name":"MAYAN NUMERAL FOUR","cat":"No","num":"4"}
+,{"code":119525,"name":"MAYAN NUMERAL FIVE","cat":"No","num":"5"}
+,{"code":119526,"name":"MAYAN NUMERAL SIX","cat":"No","num":"6"}
+,{"code":119527,"name":"MAYAN NUMERAL SEVEN","cat":"No","num":"7"}
+,{"code":119528,"name":"MAYAN NUMERAL EIGHT","cat":"No","num":"8"}
+,{"code":119529,"name":"MAYAN NUMERAL NINE","cat":"No","num":"9"}
+,{"code":119530,"name":"MAYAN NUMERAL TEN","cat":"No","num":"10"}
+,{"code":119531,"name":"MAYAN NUMERAL ELEVEN","cat":"No","num":"11"}
+,{"code":119532,"name":"MAYAN NUMERAL TWELVE","cat":"No","num":"12"}
+,{"code":119533,"name":"MAYAN NUMERAL THIRTEEN","cat":"No","num":"13"}
+,{"code":119534,"name":"MAYAN NUMERAL FOURTEEN","cat":"No","num":"14"}
+,{"code":119535,"name":"MAYAN NUMERAL FIFTEEN","cat":"No","num":"15"}
+,{"code":119536,"name":"MAYAN NUMERAL SIXTEEN","cat":"No","num":"16"}
+,{"code":119537,"name":"MAYAN NUMERAL SEVENTEEN","cat":"No","num":"17"}
+,{"code":119538,"name":"MAYAN NUMERAL EIGHTEEN","cat":"No","num":"18"}
+,{"code":119539,"name":"MAYAN NUMERAL NINETEEN","cat":"No","num":"19"}
 ,{"code":119552,"name":"MONOGRAM FOR EARTH","cat":"So","bidi":"ON"}
 ,{"code":119553,"name":"DIGRAM FOR HEAVENLY EARTH","cat":"So","bidi":"ON"}
 ,{"code":119554,"name":"DIGRAM FOR HUMAN EARTH","cat":"So","bidi":"ON"}
@@ -26593,6 +27107,13 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":119663,"name":"COUNTING ROD TENS DIGIT SEVEN","cat":"No","num":"70"}
 ,{"code":119664,"name":"COUNTING ROD TENS DIGIT EIGHT","cat":"No","num":"80"}
 ,{"code":119665,"name":"COUNTING ROD TENS DIGIT NINE","cat":"No","num":"90"}
+,{"code":119666,"name":"IDEOGRAPHIC TALLY MARK ONE","cat":"No","num":"1"}
+,{"code":119667,"name":"IDEOGRAPHIC TALLY MARK TWO","cat":"No","num":"2"}
+,{"code":119668,"name":"IDEOGRAPHIC TALLY MARK THREE","cat":"No","num":"3"}
+,{"code":119669,"name":"IDEOGRAPHIC TALLY MARK FOUR","cat":"No","num":"4"}
+,{"code":119670,"name":"IDEOGRAPHIC TALLY MARK FIVE","cat":"No","num":"5"}
+,{"code":119671,"name":"TALLY MARK ONE","cat":"No","num":"1"}
+,{"code":119672,"name":"TALLY MARK FIVE","cat":"No","num":"5"}
 ,{"code":119808,"name":"MATHEMATICAL BOLD CAPITAL A","cat":"Lu","decomp":[65],"decompType":"font"}
 ,{"code":119809,"name":"MATHEMATICAL BOLD CAPITAL B","cat":"Lu","decomp":[66],"decompType":"font"}
 ,{"code":119810,"name":"MATHEMATICAL BOLD CAPITAL C","cat":"Lu","decomp":[67],"decompType":"font"}
@@ -28599,6 +29120,74 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":125273,"name":"ADLAM DIGIT NINE","cat":"Nd","bidi":"R","num":"9"}
 ,{"code":125278,"name":"ADLAM INITIAL EXCLAMATION MARK","cat":"Po","bidi":"R"}
 ,{"code":125279,"name":"ADLAM INITIAL QUESTION MARK","cat":"Po","bidi":"R"}
+,{"code":126065,"name":"INDIC SIYAQ NUMBER ONE","cat":"No","bidi":"AL","num":"1"}
+,{"code":126066,"name":"INDIC SIYAQ NUMBER TWO","cat":"No","bidi":"AL","num":"2"}
+,{"code":126067,"name":"INDIC SIYAQ NUMBER THREE","cat":"No","bidi":"AL","num":"3"}
+,{"code":126068,"name":"INDIC SIYAQ NUMBER FOUR","cat":"No","bidi":"AL","num":"4"}
+,{"code":126069,"name":"INDIC SIYAQ NUMBER FIVE","cat":"No","bidi":"AL","num":"5"}
+,{"code":126070,"name":"INDIC SIYAQ NUMBER SIX","cat":"No","bidi":"AL","num":"6"}
+,{"code":126071,"name":"INDIC SIYAQ NUMBER SEVEN","cat":"No","bidi":"AL","num":"7"}
+,{"code":126072,"name":"INDIC SIYAQ NUMBER EIGHT","cat":"No","bidi":"AL","num":"8"}
+,{"code":126073,"name":"INDIC SIYAQ NUMBER NINE","cat":"No","bidi":"AL","num":"9"}
+,{"code":126074,"name":"INDIC SIYAQ NUMBER TEN","cat":"No","bidi":"AL","num":"10"}
+,{"code":126075,"name":"INDIC SIYAQ NUMBER TWENTY","cat":"No","bidi":"AL","num":"20"}
+,{"code":126076,"name":"INDIC SIYAQ NUMBER THIRTY","cat":"No","bidi":"AL","num":"30"}
+,{"code":126077,"name":"INDIC SIYAQ NUMBER FORTY","cat":"No","bidi":"AL","num":"40"}
+,{"code":126078,"name":"INDIC SIYAQ NUMBER FIFTY","cat":"No","bidi":"AL","num":"50"}
+,{"code":126079,"name":"INDIC SIYAQ NUMBER SIXTY","cat":"No","bidi":"AL","num":"60"}
+,{"code":126080,"name":"INDIC SIYAQ NUMBER SEVENTY","cat":"No","bidi":"AL","num":"70"}
+,{"code":126081,"name":"INDIC SIYAQ NUMBER EIGHTY","cat":"No","bidi":"AL","num":"80"}
+,{"code":126082,"name":"INDIC SIYAQ NUMBER NINETY","cat":"No","bidi":"AL","num":"90"}
+,{"code":126083,"name":"INDIC SIYAQ NUMBER ONE HUNDRED","cat":"No","bidi":"AL","num":"100"}
+,{"code":126084,"name":"INDIC SIYAQ NUMBER TWO HUNDRED","cat":"No","bidi":"AL","num":"200"}
+,{"code":126085,"name":"INDIC SIYAQ NUMBER THREE HUNDRED","cat":"No","bidi":"AL","num":"300"}
+,{"code":126086,"name":"INDIC SIYAQ NUMBER FOUR HUNDRED","cat":"No","bidi":"AL","num":"400"}
+,{"code":126087,"name":"INDIC SIYAQ NUMBER FIVE HUNDRED","cat":"No","bidi":"AL","num":"500"}
+,{"code":126088,"name":"INDIC SIYAQ NUMBER SIX HUNDRED","cat":"No","bidi":"AL","num":"600"}
+,{"code":126089,"name":"INDIC SIYAQ NUMBER SEVEN HUNDRED","cat":"No","bidi":"AL","num":"700"}
+,{"code":126090,"name":"INDIC SIYAQ NUMBER EIGHT HUNDRED","cat":"No","bidi":"AL","num":"800"}
+,{"code":126091,"name":"INDIC SIYAQ NUMBER NINE HUNDRED","cat":"No","bidi":"AL","num":"900"}
+,{"code":126092,"name":"INDIC SIYAQ NUMBER ONE THOUSAND","cat":"No","bidi":"AL","num":"1000"}
+,{"code":126093,"name":"INDIC SIYAQ NUMBER TWO THOUSAND","cat":"No","bidi":"AL","num":"2000"}
+,{"code":126094,"name":"INDIC SIYAQ NUMBER THREE THOUSAND","cat":"No","bidi":"AL","num":"3000"}
+,{"code":126095,"name":"INDIC SIYAQ NUMBER FOUR THOUSAND","cat":"No","bidi":"AL","num":"4000"}
+,{"code":126096,"name":"INDIC SIYAQ NUMBER FIVE THOUSAND","cat":"No","bidi":"AL","num":"5000"}
+,{"code":126097,"name":"INDIC SIYAQ NUMBER SIX THOUSAND","cat":"No","bidi":"AL","num":"6000"}
+,{"code":126098,"name":"INDIC SIYAQ NUMBER SEVEN THOUSAND","cat":"No","bidi":"AL","num":"7000"}
+,{"code":126099,"name":"INDIC SIYAQ NUMBER EIGHT THOUSAND","cat":"No","bidi":"AL","num":"8000"}
+,{"code":126100,"name":"INDIC SIYAQ NUMBER NINE THOUSAND","cat":"No","bidi":"AL","num":"9000"}
+,{"code":126101,"name":"INDIC SIYAQ NUMBER TEN THOUSAND","cat":"No","bidi":"AL","num":"10000"}
+,{"code":126102,"name":"INDIC SIYAQ NUMBER TWENTY THOUSAND","cat":"No","bidi":"AL","num":"20000"}
+,{"code":126103,"name":"INDIC SIYAQ NUMBER THIRTY THOUSAND","cat":"No","bidi":"AL","num":"30000"}
+,{"code":126104,"name":"INDIC SIYAQ NUMBER FORTY THOUSAND","cat":"No","bidi":"AL","num":"40000"}
+,{"code":126105,"name":"INDIC SIYAQ NUMBER FIFTY THOUSAND","cat":"No","bidi":"AL","num":"50000"}
+,{"code":126106,"name":"INDIC SIYAQ NUMBER SIXTY THOUSAND","cat":"No","bidi":"AL","num":"60000"}
+,{"code":126107,"name":"INDIC SIYAQ NUMBER SEVENTY THOUSAND","cat":"No","bidi":"AL","num":"70000"}
+,{"code":126108,"name":"INDIC SIYAQ NUMBER EIGHTY THOUSAND","cat":"No","bidi":"AL","num":"80000"}
+,{"code":126109,"name":"INDIC SIYAQ NUMBER NINETY THOUSAND","cat":"No","bidi":"AL","num":"90000"}
+,{"code":126110,"name":"INDIC SIYAQ NUMBER LAKH","cat":"No","bidi":"AL","num":"100000"}
+,{"code":126111,"name":"INDIC SIYAQ NUMBER LAKHAN","cat":"No","bidi":"AL","num":"200000"}
+,{"code":126112,"name":"INDIC SIYAQ LAKH MARK","cat":"No","bidi":"AL","num":"100000"}
+,{"code":126113,"name":"INDIC SIYAQ NUMBER KAROR","cat":"No","bidi":"AL","num":"10000000"}
+,{"code":126114,"name":"INDIC SIYAQ NUMBER KARORAN","cat":"No","bidi":"AL","num":"20000000"}
+,{"code":126115,"name":"INDIC SIYAQ NUMBER PREFIXED ONE","cat":"No","bidi":"AL","num":"1"}
+,{"code":126116,"name":"INDIC SIYAQ NUMBER PREFIXED TWO","cat":"No","bidi":"AL","num":"2"}
+,{"code":126117,"name":"INDIC SIYAQ NUMBER PREFIXED THREE","cat":"No","bidi":"AL","num":"3"}
+,{"code":126118,"name":"INDIC SIYAQ NUMBER PREFIXED FOUR","cat":"No","bidi":"AL","num":"4"}
+,{"code":126119,"name":"INDIC SIYAQ NUMBER PREFIXED FIVE","cat":"No","bidi":"AL","num":"5"}
+,{"code":126120,"name":"INDIC SIYAQ NUMBER PREFIXED SIX","cat":"No","bidi":"AL","num":"6"}
+,{"code":126121,"name":"INDIC SIYAQ NUMBER PREFIXED SEVEN","cat":"No","bidi":"AL","num":"7"}
+,{"code":126122,"name":"INDIC SIYAQ NUMBER PREFIXED EIGHT","cat":"No","bidi":"AL","num":"8"}
+,{"code":126123,"name":"INDIC SIYAQ NUMBER PREFIXED NINE","cat":"No","bidi":"AL","num":"9"}
+,{"code":126124,"name":"INDIC SIYAQ PLACEHOLDER","cat":"So","bidi":"AL"}
+,{"code":126125,"name":"INDIC SIYAQ FRACTION ONE QUARTER","cat":"No","bidi":"AL","num":"1/4"}
+,{"code":126126,"name":"INDIC SIYAQ FRACTION ONE HALF","cat":"No","bidi":"AL","num":"1/2"}
+,{"code":126127,"name":"INDIC SIYAQ FRACTION THREE QUARTERS","cat":"No","bidi":"AL","num":"3/4"}
+,{"code":126128,"name":"INDIC SIYAQ RUPEE MARK","cat":"Sc","bidi":"AL"}
+,{"code":126129,"name":"INDIC SIYAQ NUMBER ALTERNATE ONE","cat":"No","bidi":"AL","num":"1"}
+,{"code":126130,"name":"INDIC SIYAQ NUMBER ALTERNATE TWO","cat":"No","bidi":"AL","num":"2"}
+,{"code":126131,"name":"INDIC SIYAQ NUMBER ALTERNATE TEN THOUSAND","cat":"No","bidi":"AL","num":"10000"}
+,{"code":126132,"name":"INDIC SIYAQ ALTERNATE LAKH MARK","cat":"No","bidi":"AL","num":"100000"}
 ,{"code":126464,"name":"ARABIC MATHEMATICAL ALEF","cat":"Lo","bidi":"AL","decomp":[1575],"decompType":"font"}
 ,{"code":126465,"name":"ARABIC MATHEMATICAL BEH","cat":"Lo","bidi":"AL","decomp":[1576],"decompType":"font"}
 ,{"code":126466,"name":"ARABIC MATHEMATICAL JEEM","cat":"Lo","bidi":"AL","decomp":[1580],"decompType":"font"}
@@ -29012,6 +29601,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":127276,"name":"CIRCLED ITALIC LATIN CAPITAL LETTER R","cat":"So","decomp":[82],"decompType":"circle"}
 ,{"code":127277,"name":"CIRCLED CD","cat":"So","decomp":[67,68],"decompType":"circle"}
 ,{"code":127278,"name":"CIRCLED WZ","cat":"So","decomp":[87,90],"decompType":"circle"}
+,{"code":127279,"name":"COPYLEFT SYMBOL","cat":"So","bidi":"ON"}
 ,{"code":127280,"name":"SQUARED LATIN CAPITAL LETTER A","cat":"So","decomp":[65],"decompType":"square"}
 ,{"code":127281,"name":"SQUARED LATIN CAPITAL LETTER B","cat":"So","decomp":[66],"decompType":"square"}
 ,{"code":127282,"name":"SQUARED LATIN CAPITAL LETTER C","cat":"So","decomp":[67],"decompType":"square"}
@@ -30226,6 +30816,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":128758,"name":"CANOE","cat":"So","bidi":"ON"}
 ,{"code":128759,"name":"SLED","cat":"So","bidi":"ON"}
 ,{"code":128760,"name":"FLYING SAUCER","cat":"So","bidi":"ON"}
+,{"code":128761,"name":"SKATEBOARD","cat":"So","bidi":"ON"}
 ,{"code":128768,"name":"ALCHEMICAL SYMBOL FOR QUINTESSENCE","cat":"So","bidi":"ON"}
 ,{"code":128769,"name":"ALCHEMICAL SYMBOL FOR AIR","cat":"So","bidi":"ON"}
 ,{"code":128770,"name":"ALCHEMICAL SYMBOL FOR FIRE","cat":"So","bidi":"ON"}
@@ -30427,6 +31018,10 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":128978,"name":"LIGHT TWELVE POINTED BLACK STAR","cat":"So","bidi":"ON"}
 ,{"code":128979,"name":"HEAVY TWELVE POINTED BLACK STAR","cat":"So","bidi":"ON"}
 ,{"code":128980,"name":"HEAVY TWELVE POINTED PINWHEEL STAR","cat":"So","bidi":"ON"}
+,{"code":128981,"name":"CIRCLED TRIANGLE","cat":"So","bidi":"ON"}
+,{"code":128982,"name":"NEGATIVE CIRCLED TRIANGLE","cat":"So","bidi":"ON"}
+,{"code":128983,"name":"CIRCLED SQUARE","cat":"So","bidi":"ON"}
+,{"code":128984,"name":"NEGATIVE CIRCLED SQUARE","cat":"So","bidi":"ON"}
 ,{"code":129024,"name":"LEFTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD","cat":"So","bidi":"ON"}
 ,{"code":129025,"name":"UPWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD","cat":"So","bidi":"ON"}
 ,{"code":129026,"name":"RIGHTWARDS ARROW WITH SMALL TRIANGLE ARROWHEAD","cat":"So","bidi":"ON"}
@@ -30647,6 +31242,9 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129354,"name":"BOXING GLOVE","cat":"So","bidi":"ON"}
 ,{"code":129355,"name":"MARTIAL ARTS UNIFORM","cat":"So","bidi":"ON"}
 ,{"code":129356,"name":"CURLING STONE","cat":"So","bidi":"ON"}
+,{"code":129357,"name":"LACROSSE STICK AND BALL","cat":"So","bidi":"ON"}
+,{"code":129358,"name":"SOFTBALL","cat":"So","bidi":"ON"}
+,{"code":129359,"name":"FLYING DISC","cat":"So","bidi":"ON"}
 ,{"code":129360,"name":"CROISSANT","cat":"So","bidi":"ON"}
 ,{"code":129361,"name":"AVOCADO","cat":"So","bidi":"ON"}
 ,{"code":129362,"name":"CUCUMBER","cat":"So","bidi":"ON"}
@@ -30675,6 +31273,20 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129385,"name":"CUT OF MEAT","cat":"So","bidi":"ON"}
 ,{"code":129386,"name":"SANDWICH","cat":"So","bidi":"ON"}
 ,{"code":129387,"name":"CANNED FOOD","cat":"So","bidi":"ON"}
+,{"code":129388,"name":"LEAFY GREEN","cat":"So","bidi":"ON"}
+,{"code":129389,"name":"MANGO","cat":"So","bidi":"ON"}
+,{"code":129390,"name":"MOON CAKE","cat":"So","bidi":"ON"}
+,{"code":129391,"name":"BAGEL","cat":"So","bidi":"ON"}
+,{"code":129392,"name":"SMILING FACE WITH SMILING EYES AND THREE HEARTS","cat":"So","bidi":"ON"}
+,{"code":129395,"name":"FACE WITH PARTY HORN AND PARTY HAT","cat":"So","bidi":"ON"}
+,{"code":129396,"name":"FACE WITH UNEVEN EYES AND WAVY MOUTH","cat":"So","bidi":"ON"}
+,{"code":129397,"name":"OVERHEATED FACE","cat":"So","bidi":"ON"}
+,{"code":129398,"name":"FREEZING FACE","cat":"So","bidi":"ON"}
+,{"code":129402,"name":"FACE WITH PLEADING EYES","cat":"So","bidi":"ON"}
+,{"code":129404,"name":"LAB COAT","cat":"So","bidi":"ON"}
+,{"code":129405,"name":"GOGGLES","cat":"So","bidi":"ON"}
+,{"code":129406,"name":"HIKING BOOT","cat":"So","bidi":"ON"}
+,{"code":129407,"name":"FLAT SHOE","cat":"So","bidi":"ON"}
 ,{"code":129408,"name":"CRAB","cat":"So","bidi":"ON"}
 ,{"code":129409,"name":"LION FACE","cat":"So","bidi":"ON"}
 ,{"code":129410,"name":"SCORPION","cat":"So","bidi":"ON"}
@@ -30699,7 +31311,30 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129429,"name":"SAUROPOD","cat":"So","bidi":"ON"}
 ,{"code":129430,"name":"T-REX","cat":"So","bidi":"ON"}
 ,{"code":129431,"name":"CRICKET","cat":"So","bidi":"ON"}
+,{"code":129432,"name":"KANGAROO","cat":"So","bidi":"ON"}
+,{"code":129433,"name":"LLAMA","cat":"So","bidi":"ON"}
+,{"code":129434,"name":"PEACOCK","cat":"So","bidi":"ON"}
+,{"code":129435,"name":"HIPPOPOTAMUS","cat":"So","bidi":"ON"}
+,{"code":129436,"name":"PARROT","cat":"So","bidi":"ON"}
+,{"code":129437,"name":"RACCOON","cat":"So","bidi":"ON"}
+,{"code":129438,"name":"LOBSTER","cat":"So","bidi":"ON"}
+,{"code":129439,"name":"MOSQUITO","cat":"So","bidi":"ON"}
+,{"code":129440,"name":"MICROBE","cat":"So","bidi":"ON"}
+,{"code":129441,"name":"BADGER","cat":"So","bidi":"ON"}
+,{"code":129442,"name":"SWAN","cat":"So","bidi":"ON"}
+,{"code":129456,"name":"EMOJI COMPONENT RED HAIR","cat":"So","bidi":"ON"}
+,{"code":129457,"name":"EMOJI COMPONENT CURLY HAIR","cat":"So","bidi":"ON"}
+,{"code":129458,"name":"EMOJI COMPONENT BALD","cat":"So","bidi":"ON"}
+,{"code":129459,"name":"EMOJI COMPONENT WHITE HAIR","cat":"So","bidi":"ON"}
+,{"code":129460,"name":"BONE","cat":"So","bidi":"ON"}
+,{"code":129461,"name":"LEG","cat":"So","bidi":"ON"}
+,{"code":129462,"name":"FOOT","cat":"So","bidi":"ON"}
+,{"code":129463,"name":"TOOTH","cat":"So","bidi":"ON"}
+,{"code":129464,"name":"SUPERHERO","cat":"So","bidi":"ON"}
+,{"code":129465,"name":"SUPERVILLAIN","cat":"So","bidi":"ON"}
 ,{"code":129472,"name":"CHEESE WEDGE","cat":"So","bidi":"ON"}
+,{"code":129473,"name":"CUPCAKE","cat":"So","bidi":"ON"}
+,{"code":129474,"name":"SALT SHAKER","cat":"So","bidi":"ON"}
 ,{"code":129488,"name":"FACE WITH MONOCLE","cat":"So","bidi":"ON"}
 ,{"code":129489,"name":"ADULT","cat":"So","bidi":"ON"}
 ,{"code":129490,"name":"CHILD","cat":"So","bidi":"ON"}
@@ -30723,6 +31358,45 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":129508,"name":"GLOVES","cat":"So","bidi":"ON"}
 ,{"code":129509,"name":"COAT","cat":"So","bidi":"ON"}
 ,{"code":129510,"name":"SOCKS","cat":"So","bidi":"ON"}
+,{"code":129511,"name":"RED GIFT ENVELOPE","cat":"So","bidi":"ON"}
+,{"code":129512,"name":"FIRECRACKER","cat":"So","bidi":"ON"}
+,{"code":129513,"name":"JIGSAW PUZZLE PIECE","cat":"So","bidi":"ON"}
+,{"code":129514,"name":"TEST TUBE","cat":"So","bidi":"ON"}
+,{"code":129515,"name":"PETRI DISH","cat":"So","bidi":"ON"}
+,{"code":129516,"name":"DNA DOUBLE HELIX","cat":"So","bidi":"ON"}
+,{"code":129517,"name":"COMPASS","cat":"So","bidi":"ON"}
+,{"code":129518,"name":"ABACUS","cat":"So","bidi":"ON"}
+,{"code":129519,"name":"FIRE EXTINGUISHER","cat":"So","bidi":"ON"}
+,{"code":129520,"name":"TOOLBOX","cat":"So","bidi":"ON"}
+,{"code":129521,"name":"BRICK","cat":"So","bidi":"ON"}
+,{"code":129522,"name":"MAGNET","cat":"So","bidi":"ON"}
+,{"code":129523,"name":"LUGGAGE","cat":"So","bidi":"ON"}
+,{"code":129524,"name":"LOTION BOTTLE","cat":"So","bidi":"ON"}
+,{"code":129525,"name":"SPOOL OF THREAD","cat":"So","bidi":"ON"}
+,{"code":129526,"name":"BALL OF YARN","cat":"So","bidi":"ON"}
+,{"code":129527,"name":"SAFETY PIN","cat":"So","bidi":"ON"}
+,{"code":129528,"name":"TEDDY BEAR","cat":"So","bidi":"ON"}
+,{"code":129529,"name":"BROOM","cat":"So","bidi":"ON"}
+,{"code":129530,"name":"BASKET","cat":"So","bidi":"ON"}
+,{"code":129531,"name":"ROLL OF PAPER","cat":"So","bidi":"ON"}
+,{"code":129532,"name":"BAR OF SOAP","cat":"So","bidi":"ON"}
+,{"code":129533,"name":"SPONGE","cat":"So","bidi":"ON"}
+,{"code":129534,"name":"RECEIPT","cat":"So","bidi":"ON"}
+,{"code":129535,"name":"NAZAR AMULET","cat":"So","bidi":"ON"}
+,{"code":129632,"name":"XIANGQI RED GENERAL","cat":"So","bidi":"ON"}
+,{"code":129633,"name":"XIANGQI RED MANDARIN","cat":"So","bidi":"ON"}
+,{"code":129634,"name":"XIANGQI RED ELEPHANT","cat":"So","bidi":"ON"}
+,{"code":129635,"name":"XIANGQI RED HORSE","cat":"So","bidi":"ON"}
+,{"code":129636,"name":"XIANGQI RED CHARIOT","cat":"So","bidi":"ON"}
+,{"code":129637,"name":"XIANGQI RED CANNON","cat":"So","bidi":"ON"}
+,{"code":129638,"name":"XIANGQI RED SOLDIER","cat":"So","bidi":"ON"}
+,{"code":129639,"name":"XIANGQI BLACK GENERAL","cat":"So","bidi":"ON"}
+,{"code":129640,"name":"XIANGQI BLACK MANDARIN","cat":"So","bidi":"ON"}
+,{"code":129641,"name":"XIANGQI BLACK ELEPHANT","cat":"So","bidi":"ON"}
+,{"code":129642,"name":"XIANGQI BLACK HORSE","cat":"So","bidi":"ON"}
+,{"code":129643,"name":"XIANGQI BLACK CHARIOT","cat":"So","bidi":"ON"}
+,{"code":129644,"name":"XIANGQI BLACK CANNON","cat":"So","bidi":"ON"}
+,{"code":129645,"name":"XIANGQI BLACK SOLDIER","cat":"So","bidi":"ON"}
 ,{"code":131072,"name":"<CJK Ideograph Extension B, First>","cat":"Lo"}
 ,{"code":173782,"name":"<CJK Ideograph Extension B, Last>","cat":"Lo"}
 ,{"code":173824,"name":"<CJK Ideograph Extension C, First>","cat":"Lo"}
