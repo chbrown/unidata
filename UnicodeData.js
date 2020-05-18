@@ -11856,6 +11856,7 @@ module.exports = [{"code":0,"name":"<control>","cat":"Cc","bidi":"BN","oldName":
 ,{"code":13052,"name":"CIRCLED KATAKANA WI","cat":"So","decomp":[12528],"decompType":"circle"}
 ,{"code":13053,"name":"CIRCLED KATAKANA WE","cat":"So","decomp":[12529],"decompType":"circle"}
 ,{"code":13054,"name":"CIRCLED KATAKANA WO","cat":"So","decomp":[12530],"decompType":"circle"}
+,{"code":13055,"name":"SQUARE ERA NAME REIWA","cat":"So","decomp":[20196,21644],"decompType":"square"}
 ,{"code":13056,"name":"SQUARE APAATO","cat":"So","decomp":[12450,12497,12540,12488],"decompType":"square","oldName":"SQUARED APAATO"}
 ,{"code":13057,"name":"SQUARE ARUHUA","cat":"So","decomp":[12450,12523,12501,12449],"decompType":"square","oldName":"SQUARED ARUHUA"}
 ,{"code":13058,"name":"SQUARE ANPEA","cat":"So","decomp":[12450,12531,12506,12450],"decompType":"square","oldName":"SQUARED ANPEA"}
