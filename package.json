@@ -17,10 +17,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "latest",
-    "typescript": "^2.7.1"
+    "typescript": "^3.9.2"
   },
   "scripts": {
     "prepare": "tsc -d",
-    "clean": "tsc -d --listEmittedFiles | sed 's/^TSFILE: //' | xargs rm -v"
+    "clean": "tsc --build --clean"
   }
 }
