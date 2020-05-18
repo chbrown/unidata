@@ -205,6 +205,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Rumi Numeral Symbols","startCode":69216,"endCode":69247}
 ,{"blockName":"Old Sogdian","startCode":69376,"endCode":69423}
 ,{"blockName":"Sogdian","startCode":69424,"endCode":69487}
+,{"blockName":"Elymaic","startCode":69600,"endCode":69631}
 ,{"blockName":"Brahmi","startCode":69632,"endCode":69759}
 ,{"blockName":"Kaithi","startCode":69760,"endCode":69839}
 ,{"blockName":"Sora Sompeng","startCode":69840,"endCode":69887}
@@ -225,6 +226,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Ahom","startCode":71424,"endCode":71487}
 ,{"blockName":"Dogra","startCode":71680,"endCode":71759}
 ,{"blockName":"Warang Citi","startCode":71840,"endCode":71935}
+,{"blockName":"Nandinagari","startCode":72096,"endCode":72191}
 ,{"blockName":"Zanabazar Square","startCode":72192,"endCode":72271}
 ,{"blockName":"Soyombo","startCode":72272,"endCode":72367}
 ,{"blockName":"Pau Cin Hau","startCode":72384,"endCode":72447}
@@ -233,10 +235,12 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Masaram Gondi","startCode":72960,"endCode":73055}
 ,{"blockName":"Gunjala Gondi","startCode":73056,"endCode":73135}
 ,{"blockName":"Makasar","startCode":73440,"endCode":73471}
+,{"blockName":"Tamil Supplement","startCode":73664,"endCode":73727}
 ,{"blockName":"Cuneiform","startCode":73728,"endCode":74751}
 ,{"blockName":"Cuneiform Numbers and Punctuation","startCode":74752,"endCode":74879}
 ,{"blockName":"Early Dynastic Cuneiform","startCode":74880,"endCode":75087}
 ,{"blockName":"Egyptian Hieroglyphs","startCode":77824,"endCode":78895}
+,{"blockName":"Egyptian Hieroglyph Format Controls","startCode":78896,"endCode":78911}
 ,{"blockName":"Anatolian Hieroglyphs","startCode":82944,"endCode":83583}
 ,{"blockName":"Bamum Supplement","startCode":92160,"endCode":92735}
 ,{"blockName":"Mro","startCode":92736,"endCode":92783}
@@ -249,6 +253,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Tangut Components","startCode":100352,"endCode":101119}
 ,{"blockName":"Kana Supplement","startCode":110592,"endCode":110847}
 ,{"blockName":"Kana Extended-A","startCode":110848,"endCode":110895}
+,{"blockName":"Small Kana Extension","startCode":110896,"endCode":110959}
 ,{"blockName":"Nushu","startCode":110960,"endCode":111359}
 ,{"blockName":"Duployan","startCode":113664,"endCode":113823}
 ,{"blockName":"Shorthand Format Controls","startCode":113824,"endCode":113839}
@@ -261,9 +266,12 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Mathematical Alphanumeric Symbols","startCode":119808,"endCode":120831}
 ,{"blockName":"Sutton SignWriting","startCode":120832,"endCode":121519}
 ,{"blockName":"Glagolitic Supplement","startCode":122880,"endCode":122927}
+,{"blockName":"Nyiakeng Puachue Hmong","startCode":123136,"endCode":123215}
+,{"blockName":"Wancho","startCode":123584,"endCode":123647}
 ,{"blockName":"Mende Kikakui","startCode":124928,"endCode":125151}
 ,{"blockName":"Adlam","startCode":125184,"endCode":125279}
 ,{"blockName":"Indic Siyaq Numbers","startCode":126064,"endCode":126143}
+,{"blockName":"Ottoman Siyaq Numbers","startCode":126208,"endCode":126287}
 ,{"blockName":"Arabic Mathematical Alphabetic Symbols","startCode":126464,"endCode":126719}
 ,{"blockName":"Mahjong Tiles","startCode":126976,"endCode":127023}
 ,{"blockName":"Domino Tiles","startCode":127024,"endCode":127135}
@@ -279,6 +287,7 @@ module.exports = [{"blockName":"Basic Latin","startCode":0,"endCode":127}
 ,{"blockName":"Supplemental Arrows-C","startCode":129024,"endCode":129279}
 ,{"blockName":"Supplemental Symbols and Pictographs","startCode":129280,"endCode":129535}
 ,{"blockName":"Chess Symbols","startCode":129536,"endCode":129647}
+,{"blockName":"Symbols and Pictographs Extended-A","startCode":129648,"endCode":129791}
 ,{"blockName":"CJK Unified Ideographs Extension B","startCode":131072,"endCode":173791}
 ,{"blockName":"CJK Unified Ideographs Extension C","startCode":173824,"endCode":177983}
 ,{"blockName":"CJK Unified Ideographs Extension D","startCode":177984,"endCode":178207}
