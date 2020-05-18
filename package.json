@@ -9,11 +9,8 @@
   ],
   "version": "13.0.0",
   "homepage": "https://github.com/chbrown/unidata",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chbrown/unidata.git"
-  },
-  "author": "Christopher Brown <io@henrian.com> (http://henrian.com)",
+  "repository": "github:chbrown/unidata",
+  "author": "Christopher Brown <io@henrian.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "latest",
